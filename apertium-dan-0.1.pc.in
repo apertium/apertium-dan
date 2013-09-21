@@ -3,5 +3,5 @@ exec_prefix=${prefix}
 libdir=@libdir@
 
 Name: apertium-dan
-Description: Finite-state morphological transducer and constraint grammar for Armenian 
+Description: Finite-state morphological transducer and constraint grammar for Danish 
 Version: @VERSION@
