@@ -1,10 +1,10 @@
 ###############################################################################
-## Makefile for apertium-hye
+## Makefile for apertium-dan
 ###############################################################################
 
 RELEASE=0.1
 VERSION=0.1.0
-LANG1=hye
+LANG1=dan
 BASENAME=apertium-$(LANG1)
 
 TARGETS_COMMON = $(LANG1).automorf.bin $(LANG1).autogen.bin \
@@ -38,16 +38,16 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
 ## Installation stuff
 ###############################################################################
 #
-#   apertium_hye_libdir: This is where the compiled binaries go
-#   apertium_hye_srcdir: This is where the source files go
+#   apertium_dan_libdir: This is where the compiled binaries go
+#   apertium_dan_srcdir: This is where the source files go
 
 modes: modes.xml
 	apertium-gen-modes modes.xml
 
-apertium_hyedir=$(prefix)/lib/apertium/$(BASENAME)/
-apertium_hye_srcdir=$(prefix)/share/apertium/$(BASENAME)/
+apertium_dandir=$(prefix)/lib/apertium/$(BASENAME)/
+apertium_dan_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_hye_DATA=$(LANG1).automorf.bin $(LANG1).autogen.bin \
+apertium_dan_DATA=$(LANG1).automorf.bin $(LANG1).autogen.bin \
 		    $(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
 		    $(LANG1).rlx.bin modes
 
@@ -55,8 +55,8 @@ pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = $(BASENAME)-$(RELEASE).pc
 
 install-data-local:
-	if [ ! -d $(DESTDIR)$(apertium_hye_srcdir) ]; then mkdir -p $(DESTDIR)$(apertium_hye_srcdir); fi
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_hye_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_hye_srcdir)
+	if [ ! -d $(DESTDIR)$(apertium_dan_srcdir) ]; then mkdir -p $(DESTDIR)$(apertium_dan_srcdir); fi
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_dan_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_dan_srcdir)
 
 CLEANFILES = -r $(TARGETS_COMMON) .deps/
