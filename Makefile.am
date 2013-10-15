@@ -56,7 +56,7 @@ apertium_dan_DATA=$(LANG1).automorf.bin $(LANG1).autogen.bin \
 		    $(LANG1).rlx.bin
 
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = $(BASENAME)-$(RELEASE).pc
+pkgconfig_DATA = $(BASENAME).pc
 
 # Modes are not installed since they're all just "debug modes". All
 # modes are created by this goal.
