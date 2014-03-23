@@ -11,4 +11,5 @@
 /apertium-dan.pc.in -text
 /autogen.sh -text
 /configure.ac -text
+/dan-nor.prob -text
 /modes.xml -text
