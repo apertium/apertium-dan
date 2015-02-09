@@ -9,7 +9,9 @@
 /apertium-dan.dan.dix -text
 /apertium-dan.dan.rlx -text
 /apertium-dan.pc.in -text
+/apertium-dan.post-dan.dix -text
 /autogen.sh -text
 /configure.ac -text
 /dan.prob -text
+dev/dan-swe.prob -text
 /modes.xml -text
