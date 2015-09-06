@@ -31313,7 +31313,9 @@
 <e lm="Esso">            <i>Esso</i><par n="Ibsen__np"/></e>
 <e lm="Findus">          <i>Findus</i><par n="Findus__np"/></e>
 <e lm="Beatles">         <i>Beatles</i><par n="Findus__np"/></e>
-<e lm="Louis">           <i>Louis</i><par n="Findus__np"/></e>
+<e lm="Louis">           <i>Louis</i><par n="Jens__np"/></e>
+<e lm="Louis d'or">    <i>Louis<b/>d'or</i><par n="Jens__np"/></e>
+<e lm="d'or">    <i>d'or</i><par n="Wikipedia__np"/></e>
 <e lm="Machines">        <i>Machines</i><par n="Findus__np"/></e>
 <e lm="Matteus">         <i>Matteus</i><par n="Jens__np"/></e>
 <e lm="Veritas">         <i>Veritas</i><par n="Findus__np"/></e>
