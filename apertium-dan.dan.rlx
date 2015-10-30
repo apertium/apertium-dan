@@ -1,4 +1,4 @@
-# -*- cg-pre-pipe: "apertium -d . dan-nno-morph|cg-conv -a 2>/dev/null" -*-
+# -*- cg-pre-pipe: "apertium -d . dan-morph|cg-conv -a 2>/dev/null" -*-
 
 SOFT-DELIMITERS = "<,>" cm ;
 DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>" ssingular ;
@@ -287,7 +287,7 @@ LIST ambiguous-part = "kante"  "vide"  "råde" "via"  "vække"  "svare"  "stole"
 LIST ambiguous-verb =  ("ansætte"  vblex past) ("få"  vblex inf) ("stemme"  vblex pres) ("vide"  vblex pres) ("gange"  pres)  ("plane"  pres) ("stede"  pres) ("nå"  pres) ("sige"  past) ("fare"  past) ("se"  past) ("helle"  pres) ("dy"  pres) ("unde" vblex pres) ("dage"  pres) ("grade"  pres) ("tro"  adj)  ("skalle"  imp) ("kurve"  pres) ("iblande"  vblex past) ("forfatte"  vblex pres) ;
 LIST fem = f (adj def) ;
 LIST fem-definite = (f def) ;
-LIST ut-det = (det f) ;
+LIST ut-det = (det ut) ;
 LIST fem-singular = (f sg) (mf sg) (adj def) (f indeclinable) (np) ;
 LIST plural = pl ;
 LIST plural-adj = (adj pl) (adj pprs) ;
@@ -778,7 +778,7 @@ CONSTRAINTS
 
      "<for>"   SELECT:10003   (pr) IF
        (-1 preposition)
-
+;
 #  "For fire dage siden"
 
 
@@ -1631,6 +1631,8 @@ CONSTRAINTS
 #  at jeg tar sjansen på å slette noun ..."
 
 
+
+
   "<ham>"   REMOVE:3573   (n) IF
 	(NOT *-1 ut-det)
 	(NOT -1 %skifte/bytte%)
@@ -1668,23 +1670,21 @@ CONSTRAINTS
 
  "<disse>"   REMOVE:10009   (n)
      (NOT -1 %en%)
-
 #only n reading is "en disse"
-
 ;
+
 
  "<bør>"   REMOVE:10032   (n)
      (NOT -1 %en%)
-
+;
 #only n reading is "en bør"
 
 
 
-;
 
  "<måtte>"   REMOVE:10025   (n)
      (NOT -1 %det%)
-
+;
 
 #only n reading is "en/denne/den måtte"
 
@@ -6944,7 +6944,7 @@ CONSTRAINTS
 
  REMOVE:2047 (cnjsub) IF
 	(1 comma/end-of-sentence)
-
+;
 #  "Hun hadde fået ham tilbage, ligesom,/. "
 
  REMOVE:2049 (cnjsub) IF
@@ -7880,6 +7880,13 @@ CONSTRAINTS
 #  "kh feb 2004: Bare i samme/næste nu."
 
 
+
+"<have>"   REMOVE (n) IF
+	(NOT -1 det)
+;
+# Much too common as a verb
+
+
 # sec 4
 #CONSTRAINTS
 ## select ndomain heur
@@ -8665,7 +8672,7 @@ REMOVE:10002 noun IF
      (0 %for%)
      (1 noun/adj/det)
      (1 pron)
-
+;
 
 
 #give mig piller
@@ -8698,4 +8705,20 @@ REMOVE:gen-noun-sentence-border gen-noun IF
 ;
 # «dine glass.» -- _veldig_ heuristisk! men me har alt for mange genitivfeil...
 
-LIST uvanleg = ("områ" vblex) ;
+REMOVE:en-bid indefinite-singular-neuter-noun IF
+	(0 indefinite-singular-ut-noun)
+ 	(NOT 0 ambiguous-ut-noun)
+	(NOT 0 pres/past)
+ 	(NOT 0 adj)
+ 	(NOT -1 comma/konj)
+	(**-1CO ut-det LINK NOT 0 nr2-det)
+;
+
+REMOVE:et-bid indefinite-singular-neuter-noun IF
+	(0 indefinite-singular-neuter-noun)
+ 	(NOT 0 ambiguous-neuter-noun)
+	(NOT 0 pres/past)
+ 	(NOT 0 adj)
+ 	(NOT -1 comma/konj)
+	(**-1CO neuter-det LINK NOT 0 nr2-det)
+;
