@@ -1714,11 +1714,14 @@ CONSTRAINTS
 ;
 
 
- "<skal>"   REMOVE:10014   (n)
+ "<Skal>"   REMOVE:Skal   (n)
+     (NOT -1 %en%)
+;
+ "<skal>"   REMOVE:skal   (n)
      (NOT -1 %en%)
 
-# only n reading "en skal"
 ;
+# only n reading "en skal"
 
 
 
@@ -8721,4 +8724,8 @@ REMOVE:et-bid indefinite-singular-neuter-noun IF
  	(NOT 0 adj)
  	(NOT -1 comma/konj)
 	(**-1CO neuter-det LINK NOT 0 nr2-det)
+;
+
+REMOVE:sKal noun + ("skal"i)
+     (NOT -1 %en%)
 ;
