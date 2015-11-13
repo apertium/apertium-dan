@@ -22,12 +22,15 @@
     <sdef n="mf"  c="Masculine / feminine"/>
     <sdef n="clb"   c="Possible clause boundary"/>
    <sdef n="pstv"  c="-s verbs"/>
+
     <sdef n="top"   c="Toponym"/>
     <sdef n="ant"   c="Anthroponym"/>
     <sdef n="cog"   c="Cognomen"/>
+    <sdef n="org"  c="Organisation"/>
+    <sdef n="al"  c="Altres / misc proper nouns"/>
+
     <sdef n="apos"   c="apostrophe"/>
     <sdef n="emph"   c="emphatic"/>
-    <sdef n="al"  c=""/>
     <sdef n="sp"  c="Singular and plural"/>
     <sdef n="du"  c="dual"/>
     <sdef n="sg"  c="Singular"/>
@@ -1383,26 +1386,36 @@
 
 
 <!-- Proper nouns -->
-<!-- Transfer assumes that these never have number. -->
+<!-- Transfer assumes that these never have number! -->
+<pardef n="Eva__np">
+  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="f"/></r></p><par n="S__case"/></e>
+</pardef>
 <pardef n="Doris__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="f"/></r></p><par n="apos__case"/></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="f"/></r></p><par n="apos__case"/></e>
 </pardef>
 <pardef n="Jo__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="m"/></r></p><par n="S__case"/></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/></r></p><par n="S__case"/></e>
 </pardef>
 <pardef n="Jens__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="m"/></r></p><par n="apos__case"/></e>
-</pardef>
-<pardef n="Lagtinget__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="nt"/></r></p><par n="S__case"/></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/></r></p><par n="apos__case"/></e>
 </pardef>
 <pardef n="Ibsen__np">
-  <e>       <p><l></l>          <r><s n="np"/></r></p><par n="S__case"/></e>
+  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/></r></p><par n="S__case"/></e>
+</pardef>
+<pardef n="d'or__np">
+  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="sg"/></r></p><par n="S__case"/></e>
 </pardef>
 
-<pardef n="Findus__np">
-  <e>       <p><l></l>          <r><s n="np"/></r></p><par n="apos__case"/></e>
+<pardef n="Wikipedia__np">
+  <e>       <p><l></l>          <r><s n="np"/><s n="org"/></r></p><par n="S__case"/></e>
 </pardef>
+<pardef n="Findus__np">
+  <e>       <p><l></l>          <r><s n="np"/><s n="org"/></r></p><par n="apos__case"/></e>
+</pardef>
+<pardef n="Lagtinget__np">
+  <e>       <p><l></l>          <r><s n="np"/><s n="org"/><s n="nt"/></r></p><par n="S__case"/></e>
+</pardef>
+
 
 <pardef n="Andøen__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="f"/></r></p><par n="S__case"/></e>
@@ -1433,34 +1446,6 @@
 
 
 
-
-<pardef n="Danmark__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="sg"/></r></p><par n="S__case"/></e>
-</pardef>
-
-<pardef n="Schweiz__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="sg"/></r></p><par n="apos__case"/></e>
-</pardef>
-
-<pardef n="Eva__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p><par n="S__case"/></e>
-</pardef>
-
-<pardef n="Trond__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p><par n="S__case"/></e>
-</pardef>
-
-<pardef n="Anders__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p><par n="apos__case"/></e>
-</pardef>
-
-<pardef n="Magnusson__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="cog"/><s n="mf"/><s n="sg"/></r></p><par n="S__case"/></e>
-</pardef>
-
-<pardef n="Wikipedia__np">
-  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="sg"/></r></p><par n="S__case"/></e>
-</pardef>
 
 
     <!-- Interjections -->
@@ -30141,8 +30126,6 @@
 
     <!-- Proper nouns -->
 
-<e lm="Wikipedia">       <i>Wikipedia</i><par n="Ibsen__np"/></e>
-<e lm="Wikimedia">       <i>Wikimedia</i><par n="Ibsen__np"/></e>
 <!-- Last names -->
 <e lm="Aanonsen">        <i>Aanonsen</i><par n="Ibsen__np"/></e>
 <e lm="Lada">        <i>Lada</i><par n="Ibsen__np"/></e>
@@ -31023,265 +31006,269 @@
 <e lm="Ånonson">         <i>Ånonson</i><par n="Ibsen__np"/></e>
 <e lm="Ånonssen">        <i>Ånonssen</i><par n="Ibsen__np"/></e>
 <e lm="Ånonsson">        <i>Ånonsson</i><par n="Ibsen__np"/></e>
+
 <!-- Acronyms -->
-<e lm="AF">              <i>AF</i><par n="Ibsen__np"/></e>
+<e lm="AF">              <i>AF</i><par n="Wikipedia__np"/></e>
 <e lm="AIX">             <i>AIX</i><par n="Findus__np"/></e>
-<e lm="AKAN">            <i>AKAN</i><par n="Ibsen__np"/></e>
-<e lm="AKP">             <i>AKP</i><par n="Ibsen__np"/></e>
-<e lm="AKP-ml">          <i>AKP-ml</i><par n="Ibsen__np"/></e>
-<e lm="AMO">             <i>AMO</i><par n="Ibsen__np"/></e>
-<e lm="ANC">             <i>ANC</i><par n="Ibsen__np"/></e>
-<e lm="ANSA">            <i>ANSA</i><par n="Ibsen__np"/></e>
-<e lm="AOF">             <i>AOF</i><par n="Ibsen__np"/></e>
-<e lm="ASEA">            <i>ASEA</i><par n="Ibsen__np"/></e>
-<e lm="AUF">             <i>AUF</i><par n="Ibsen__np"/></e>
-<e lm="AUL">             <i>AUL</i><par n="Ibsen__np"/></e>
-<e lm="BBC">             <i>BBC</i><par n="Ibsen__np"/></e>
-<e lm="BRD">             <i>BRD</i><par n="Ibsen__np"/></e>
-<e lm="BUL">             <i>BUL</i><par n="Ibsen__np"/></e>
-<e lm="CIA">             <i>CIA</i><par n="Ibsen__np"/></e>
-<e lm="COCOM">           <i>COCOM</i><par n="Ibsen__np"/></e>
-<e lm="COMECON">         <i>COMECON</i><par n="Ibsen__np"/></e>
+<e lm="AKAN">            <i>AKAN</i><par n="Wikipedia__np"/></e>
+<e lm="AKP">             <i>AKP</i><par n="Wikipedia__np"/></e>
+<e lm="AKP-ml">          <i>AKP-ml</i><par n="Wikipedia__np"/></e>
+<e lm="AMO">             <i>AMO</i><par n="Wikipedia__np"/></e>
+<e lm="ANC">             <i>ANC</i><par n="Wikipedia__np"/></e>
+<e lm="ANSA">            <i>ANSA</i><par n="Wikipedia__np"/></e>
+<e lm="AOF">             <i>AOF</i><par n="Wikipedia__np"/></e>
+<e lm="ASEA">            <i>ASEA</i><par n="Wikipedia__np"/></e>
+<e lm="AUF">             <i>AUF</i><par n="Wikipedia__np"/></e>
+<e lm="AUL">             <i>AUL</i><par n="Wikipedia__np"/></e>
+<e lm="BBC">             <i>BBC</i><par n="Wikipedia__np"/></e>
+<e lm="BRD">             <i>BRD</i><par n="Wikipedia__np"/></e>
+<e lm="BUL">             <i>BUL</i><par n="Wikipedia__np"/></e>
+<e lm="CIA">             <i>CIA</i><par n="Wikipedia__np"/></e>
+<e lm="COCOM">           <i>COCOM</i><par n="Wikipedia__np"/></e>
+<e lm="COMECON">         <i>COMECON</i><par n="Wikipedia__np"/></e>
 <e lm="DBS">             <i>DBS</i><par n="Findus__np"/></e>
-<e lm="DDR">             <i>DDR</i><par n="Ibsen__np"/></e>
-<e lm="DNL">             <i>DNL</i><par n="Ibsen__np"/></e>
-<e lm="EEC">             <i>EEC</i><par n="Ibsen__np"/></e>
-<e lm="EFTA">            <i>EFTA</i><par n="Ibsen__np"/></e>
-<e lm="ENØK">            <i>ENØK</i><par n="Ibsen__np"/></e>
-<e lm="EF">              <i>EF</i><par n="Ibsen__np"/></e>
-<e lm="FN">              <i>FN</i><par n="Ibsen__np"/></e>
+<e lm="DDR">             <i>DDR</i><par n="Wikipedia__np"/></e>
+<e lm="DNL">             <i>DNL</i><par n="Wikipedia__np"/></e>
+<e lm="EEC">             <i>EEC</i><par n="Wikipedia__np"/></e>
+<e lm="EFTA">            <i>EFTA</i><par n="Wikipedia__np"/></e>
+<e lm="ENØK">            <i>ENØK</i><par n="Wikipedia__np"/></e>
+<e lm="EF">              <i>EF</i><par n="Wikipedia__np"/></e>
+<e lm="FN">              <i>FN</i><par n="Wikipedia__np"/></e>
 <e lm="EØS">             <i>EØS</i><par n="Findus__np"/></e>
-<e lm="FAD">             <i>FAD</i><par n="Ibsen__np"/></e>
-<e lm="FAFO">            <i>FAFO</i><par n="Ibsen__np"/></e>
-<e lm="FBI">             <i>FBI</i><par n="Ibsen__np"/></e>
-<e lm="FIFA">            <i>FIFA</i><par n="Ibsen__np"/></e>
+<e lm="FAD">             <i>FAD</i><par n="Wikipedia__np"/></e>
+<e lm="FAFO">            <i>FAFO</i><par n="Wikipedia__np"/></e>
+<e lm="FBI">             <i>FBI</i><par n="Wikipedia__np"/></e>
+<e lm="FIFA">            <i>FIFA</i><par n="Wikipedia__np"/></e>
 <e lm="FIS">             <i>FIS</i><par n="Findus__np"/></e>
-<e lm="FLN">             <i>FLN</i><par n="Ibsen__np"/></e>
-<e lm="FOU">             <i>FOU</i><par n="Ibsen__np"/></e>
-<e lm="GATT">            <i>GATT</i><par n="Ibsen__np"/></e>
-<e lm="HVPU">            <i>HVPU</i><par n="Ibsen__np"/></e>
-<e lm="IBM">             <i>IBM</i><par n="Ibsen__np"/></e>
-<e lm="IEA">             <i>IEA</i><par n="Ibsen__np"/></e>
-<e lm="IKEA">            <i>IKEA</i><par n="Ibsen__np"/></e>
-<e lm="ILO">             <i>ILO</i><par n="Ibsen__np"/></e>
-<e lm="IOC">             <i>IOC</i><par n="Ibsen__np"/></e>
-<e lm="IOGT">            <i>IOGT</i><par n="Ibsen__np"/></e>
-<e lm="IRA">             <i>IRA</i><par n="Ibsen__np"/></e>
+<e lm="FLN">             <i>FLN</i><par n="Wikipedia__np"/></e>
+<e lm="FOU">             <i>FOU</i><par n="Wikipedia__np"/></e>
+<e lm="GATT">            <i>GATT</i><par n="Wikipedia__np"/></e>
+<e lm="HVPU">            <i>HVPU</i><par n="Wikipedia__np"/></e>
+<e lm="IBM">             <i>IBM</i><par n="Wikipedia__np"/></e>
+<e lm="IEA">             <i>IEA</i><par n="Wikipedia__np"/></e>
+<e lm="IKEA">            <i>IKEA</i><par n="Wikipedia__np"/></e>
+<e lm="ILO">             <i>ILO</i><par n="Wikipedia__np"/></e>
+<e lm="IOC">             <i>IOC</i><par n="Wikipedia__np"/></e>
+<e lm="IOGT">            <i>IOGT</i><par n="Wikipedia__np"/></e>
+<e lm="IRA">             <i>IRA</i><par n="Wikipedia__np"/></e>
 <e lm="ISS">             <i>ISS</i><par n="Findus__np"/></e>
-<e lm="KFUK">            <i>KFUK</i><par n="Ibsen__np"/></e>
-<e lm="KFUM">            <i>KFUM</i><par n="Ibsen__np"/></e>
-<e lm="KGB">             <i>KGB</i><par n="Ibsen__np"/></e>
+<e lm="KFUK">            <i>KFUK</i><par n="Wikipedia__np"/></e>
+<e lm="KFUM">            <i>KFUM</i><par n="Wikipedia__np"/></e>
+<e lm="KGB">             <i>KGB</i><par n="Wikipedia__np"/></e>
 <e lm="KRIPOS">          <i>KRIPOS</i><par n="Findus__np"/></e>
-<e lm="KSSE">            <i>KSSE</i><par n="Ibsen__np"/></e>
-<e lm="KUD">             <i>KUD</i><par n="Ibsen__np"/></e>
-<e lm="LO">              <i>LO</i><par n="Ibsen__np"/></e>
-<e lm="LOOC">            <i>LOOC</i><par n="Ibsen__np"/></e>
-<e lm="LSK">             <i>LSK</i><par n="Ibsen__np"/></e>
-<e lm="MMI">             <i>MMI</i><par n="Ibsen__np"/></e>
-<e lm="NAF">             <i>NAF</i><par n="Ibsen__np"/></e>
-<e lm="NASA">            <i>NASA</i><par n="Ibsen__np"/></e>
-<e lm="NAVF">            <i>NAVF</i><par n="Ibsen__np"/></e>
-<e lm="NEMKO">           <i>NEMKO</i><par n="Ibsen__np"/></e>
-<e lm="NHH">             <i>NHH</i><par n="Ibsen__np"/></e>
-<e lm="NHO">             <i>NHO</i><par n="Ibsen__np"/></e>
-<e lm="NIF">             <i>NIF</i><par n="Ibsen__np"/></e>
-<e lm="NIH">             <i>NIH</i><par n="Ibsen__np"/></e>
-<e lm="NIVA">            <i>NIVA</i><par n="Ibsen__np"/></e>
-<e lm="NKL">             <i>NKL</i><par n="Ibsen__np"/></e>
-<e lm="NKP">             <i>NKP</i><par n="Ibsen__np"/></e>
-<e lm="NORAD">           <i>NORAD</i><par n="Ibsen__np"/></e>
-<e lm="NORTRA">          <i>NORTRA</i><par n="Ibsen__np"/></e>
-<e lm="NRK">             <i>NRK</i><par n="Ibsen__np"/></e>
-<e lm="NSB">             <i>NSB</i><par n="Ibsen__np"/></e>
-<e lm="NTB">             <i>NTB</i><par n="Ibsen__np"/></e>
-<e lm="NTH">             <i>NTH</i><par n="Ibsen__np"/></e>
-<e lm="NTNF">            <i>NTNF</i><par n="Ibsen__np"/></e>
-<e lm="NVE">             <i>NVE</i><par n="Ibsen__np"/></e>
-<e lm="OAU">             <i>OAU</i><par n="Ibsen__np"/></e>
+<e lm="KSSE">            <i>KSSE</i><par n="Wikipedia__np"/></e>
+<e lm="KUD">             <i>KUD</i><par n="Wikipedia__np"/></e>
+<e lm="LO">              <i>LO</i><par n="Wikipedia__np"/></e>
+<e lm="LOOC">            <i>LOOC</i><par n="Wikipedia__np"/></e>
+<e lm="LSK">             <i>LSK</i><par n="Wikipedia__np"/></e>
+<e lm="MMI">             <i>MMI</i><par n="Wikipedia__np"/></e>
+<e lm="NAF">             <i>NAF</i><par n="Wikipedia__np"/></e>
+<e lm="NASA">            <i>NASA</i><par n="Wikipedia__np"/></e>
+<e lm="NAVF">            <i>NAVF</i><par n="Wikipedia__np"/></e>
+<e lm="NEMKO">           <i>NEMKO</i><par n="Wikipedia__np"/></e>
+<e lm="NHH">             <i>NHH</i><par n="Wikipedia__np"/></e>
+<e lm="NHO">             <i>NHO</i><par n="Wikipedia__np"/></e>
+<e lm="NIF">             <i>NIF</i><par n="Wikipedia__np"/></e>
+<e lm="NIH">             <i>NIH</i><par n="Wikipedia__np"/></e>
+<e lm="NIVA">            <i>NIVA</i><par n="Wikipedia__np"/></e>
+<e lm="NKL">             <i>NKL</i><par n="Wikipedia__np"/></e>
+<e lm="NKP">             <i>NKP</i><par n="Wikipedia__np"/></e>
+<e lm="NORAD">           <i>NORAD</i><par n="Wikipedia__np"/></e>
+<e lm="NORTRA">          <i>NORTRA</i><par n="Wikipedia__np"/></e>
+<e lm="NRK">             <i>NRK</i><par n="Wikipedia__np"/></e>
+<e lm="NSB">             <i>NSB</i><par n="Wikipedia__np"/></e>
+<e lm="NTB">             <i>NTB</i><par n="Wikipedia__np"/></e>
+<e lm="NTH">             <i>NTH</i><par n="Wikipedia__np"/></e>
+<e lm="NTNF">            <i>NTNF</i><par n="Wikipedia__np"/></e>
+<e lm="NVE">             <i>NVE</i><par n="Wikipedia__np"/></e>
+<e lm="OAU">             <i>OAU</i><par n="Wikipedia__np"/></e>
 <e lm="OBOS">            <i>OBOS</i><par n="Findus__np"/></e>
-<e lm="OECD">            <i>OECD</i><par n="Ibsen__np"/></e>
-<e lm="OPEC">            <i>OPEC</i><par n="Ibsen__np"/></e>
-<e lm="OSI">             <i>OSI</i><par n="Ibsen__np"/></e>
-<e lm="PLO">             <i>PLO</i><par n="Ibsen__np"/></e>
-<e lm="RBK">             <i>RBK</i><par n="Ibsen__np"/></e>
-<e lm="RIMI">            <i>RIMI</i><par n="Ibsen__np"/></e>
-<e lm="RVO">             <i>RVO</i><par n="Ibsen__np"/></e>
-<e lm="SALT">            <i>SALT</i><par n="Ibsen__np"/></e>
-<e lm="SALT">            <i>SALT</i><par n="Ibsen__np"/></e>
-<e lm="II">              <i>II</i><par n="Ibsen__np"/></e>
-<e lm="SALT">            <i>SALT</i><par n="Ibsen__np"/></e>
-<e lm="III">             <i>III</i><par n="Ibsen__np"/></e>
+<e lm="OECD">            <i>OECD</i><par n="Wikipedia__np"/></e>
+<e lm="OPEC">            <i>OPEC</i><par n="Wikipedia__np"/></e>
+<e lm="OSI">             <i>OSI</i><par n="Wikipedia__np"/></e>
+<e lm="PLO">             <i>PLO</i><par n="Wikipedia__np"/></e>
+<e lm="RBK">             <i>RBK</i><par n="Wikipedia__np"/></e>
+<e lm="RIMI">            <i>RIMI</i><par n="Wikipedia__np"/></e>
+<e lm="RVO">             <i>RVO</i><par n="Wikipedia__np"/></e>
+<e lm="SALT">            <i>SALT</i><par n="Wikipedia__np"/></e>
+<e lm="SALT">            <i>SALT</i><par n="Wikipedia__np"/></e>
+<e lm="II">              <i>II</i><par n="Wikipedia__np"/></e>
+<e lm="SALT">            <i>SALT</i><par n="Wikipedia__np"/></e>
+<e lm="III">             <i>III</i><par n="Wikipedia__np"/></e>
 <e lm="SAS">             <i>SAS</i><par n="Findus__np"/></e>
-<e lm="SFT">             <i>SFT</i><par n="Ibsen__np"/></e>
-<e lm="SINTEF">          <i>SINTEF</i><par n="Ibsen__np"/></e>
+<e lm="SFT">             <i>SFT</i><par n="Wikipedia__np"/></e>
+<e lm="SINTEF">          <i>SINTEF</i><par n="Wikipedia__np"/></e>
 <e lm="SMS">             <i>SMS</i><par n="Findus__np"/></e>
-<e lm="SPD">             <i>SPD</i><par n="Ibsen__np"/></e>
-<e lm="SV">              <i>SV</i><par n="Ibsen__np"/></e>
+<e lm="SPD">             <i>SPD</i><par n="Wikipedia__np"/></e>
+<e lm="SV">              <i>SV</i><par n="Wikipedia__np"/></e>
 <e lm="TASS">            <i>TASS</i><par n="Findus__np"/></e>
-<e lm="TBK">             <i>TBK</i><par n="Ibsen__np"/></e>
-<e lm="TV">              <i>TV</i><par n="Ibsen__np"/></e>
-<e lm="TV1">             <i>TV1</i><par n="Ibsen__np"/></e>
-<e lm="TV2">             <i>TV2</i><par n="Ibsen__np"/></e>
-<e lm="TV3">             <i>TV3</i><par n="Ibsen__np"/></e>
-<e lm="TV4">             <i>TV4</i><par n="Ibsen__np"/></e>
-<e lm="TVNorge">         <i>TVNorge</i><par n="Ibsen__np"/></e>
-<e lm="UB">              <i>UB</i><par n="Ibsen__np"/></e>
-<e lm="UD">              <i>UD</i><par n="Ibsen__np"/></e>
-<e lm="UEFA">            <i>UEFA</i><par n="Ibsen__np"/></e>
-<e lm="UNESCO">          <i>UNESCO</i><par n="Ibsen__np"/></e>
-<e lm="UNI">             <i>UNI</i><par n="Ibsen__np"/></e>
-<e lm="UNICEF">          <i>UNICEF</i><par n="Ibsen__np"/></e>
+<e lm="TBK">             <i>TBK</i><par n="Wikipedia__np"/></e>
+<e lm="TV">              <i>TV</i><par n="Wikipedia__np"/></e>
+<e lm="TV1">             <i>TV1</i><par n="Wikipedia__np"/></e>
+<e lm="TV2">             <i>TV2</i><par n="Wikipedia__np"/></e>
+<e lm="TV3">             <i>TV3</i><par n="Wikipedia__np"/></e>
+<e lm="TV4">             <i>TV4</i><par n="Wikipedia__np"/></e>
+<e lm="TVNorge">         <i>TVNorge</i><par n="Wikipedia__np"/></e>
+<e lm="UB">              <i>UB</i><par n="Wikipedia__np"/></e>
+<e lm="UD">              <i>UD</i><par n="Wikipedia__np"/></e>
+<e lm="UEFA">            <i>UEFA</i><par n="Wikipedia__np"/></e>
+<e lm="UNESCO">          <i>UNESCO</i><par n="Wikipedia__np"/></e>
+<e lm="UNI">             <i>UNI</i><par n="Wikipedia__np"/></e>
+<e lm="UNICEF">          <i>UNICEF</i><par n="Wikipedia__np"/></e>
 <e lm="UNIX">            <i>UNIX</i><par n="Findus__np"/></e>
-<e lm="UP">              <i>UP</i><par n="Ibsen__np"/></e>
-<e lm="VG">              <i>VG</i><par n="Ibsen__np"/></e>
-<e lm="VHF">             <i>VHF</i><par n="Ibsen__np"/></e>
+<e lm="UP">              <i>UP</i><par n="Wikipedia__np"/></e>
+<e lm="VG">              <i>VG</i><par n="Wikipedia__np"/></e>
+<e lm="VHF">             <i>VHF</i><par n="Wikipedia__np"/></e>
 <e lm="VHS">             <i>VHS</i><par n="Findus__np"/></e>
-<e lm="VIF">             <i>VIF</i><par n="Ibsen__np"/></e>
+<e lm="VIF">             <i>VIF</i><par n="Wikipedia__np"/></e>
 <e lm="YS">              <i>YS</i><par n="Findus__np"/></e>
-<e lm="ÅSV">             <i>ÅSV</i><par n="Ibsen__np"/></e>
+<e lm="ÅSV">             <i>ÅSV</i><par n="Wikipedia__np"/></e>
 <!-- /acronyms -->
-<e lm="Albertville-OL">  <i>Albertville-OL</i><par n="Ibsen__np"/></e>
-<e lm="Barcelona-OL">    <i>Barcelona-OL</i><par n="Ibsen__np"/></e>
-<e lm="Grenoble-OL">     <i>Grenoble-OL</i><par n="Ibsen__np"/></e>
-<e lm="Lillehammer-OL">  <i>Lillehammer-OL</i><par n="Ibsen__np"/></e>
-<e lm="DnB">             <i>DnB</i><par n="Ibsen__np"/></e>
-<e lm="DnC">             <i>DnC</i><par n="Ibsen__np"/></e>
+
+<e lm="Albertville-OL">  <i>Albertville-OL</i><par n="Wikipedia__np"/></e>
+<e lm="Barcelona-OL">    <i>Barcelona-OL</i><par n="Wikipedia__np"/></e>
+<e lm="Grenoble-OL">     <i>Grenoble-OL</i><par n="Wikipedia__np"/></e>
+<e lm="Lillehammer-OL">  <i>Lillehammer-OL</i><par n="Wikipedia__np"/></e>
+<e lm="DnB">             <i>DnB</i><par n="Wikipedia__np"/></e>
+<e lm="DnC">             <i>DnC</i><par n="Wikipedia__np"/></e>
 <e lm="Juss-Buss">       <i>Juss-Buss</i><par n="Findus__np"/></e>
-<e lm="McKinley">        <i>McKinley</i><par n="Ibsen__np"/></e>
-<e lm="UiO">             <i>UiO</i><par n="Ibsen__np"/></e>
-<e lm="Storebrand-Uni">  <i>Storebrand-Uni</i><par n="Ibsen__np"/></e>
-<e lm="Søndags-VG">      <i>Søndags-VG</i><par n="Ibsen__np"/></e>
-<e lm="WordPerfect">     <i>WordPerfect</i><par n="Ibsen__np"/></e>
-<e lm="barne-TV">        <i>barne-TV</i><par n="Ibsen__np"/></e>
-<e lm="a-ha">            <i>a-ha</i><par n="Ibsen__np"/></e>
-<e lm="de">              <i>de</i><par n="Ibsen__np"/></e>
-<e lm="milorg">          <i>milorg</i><par n="Ibsen__np"/></e>
-<e lm="togliatti">       <i>togliatti</i><par n="Ibsen__np"/></e>
+<e lm="McKinley">        <i>McKinley</i><par n="Wikipedia__np"/></e>
+<e lm="UiO">             <i>UiO</i><par n="Wikipedia__np"/></e>
+<e lm="Storebrand-Uni">  <i>Storebrand-Uni</i><par n="Wikipedia__np"/></e>
+<e lm="Søndags-VG">      <i>Søndags-VG</i><par n="Wikipedia__np"/></e>
+<e lm="WordPerfect">     <i>WordPerfect</i><par n="Wikipedia__np"/></e>
+<e lm="barne-TV">        <i>barne-TV</i><par n="Wikipedia__np"/></e>
+<e lm="a-ha">            <i>a-ha</i><par n="Wikipedia__np"/></e>
+<e lm="de">              <i>de</i><par n="d'or__np"/></e>
+<e lm="milorg">          <i>milorg</i><par n="Wikipedia__np"/></e>
+<e lm="togliatti">       <i>togliatti</i><par n="Wikipedia__np"/></e>
+<e lm="Wikipedia">       <i>Wikipedia</i><par n="Wikipedia__np"/></e>
+<e lm="Wikimedia">       <i>Wikimedia</i><par n="Wikipedia__np"/></e>
 
 <e lm="Ben">             <i>Ben</i><par n="Jo__np"/></e>
 <e lm="Big">             <i>Big</i><par n="Ibsen__np"/></e>
-<e lm="Bodyshop">        <i>Bodyshop</i><par n="Ibsen__np"/></e>
-<e lm="Boeing">          <i>Boeing</i><par n="Ibsen__np"/></e>
-<e lm="Cabernet">        <i>Cabernet</i><par n="Ibsen__np"/></e>
+<e lm="Bodyshop">        <i>Bodyshop</i><par n="Wikipedia__np"/></e>
+<e lm="Boeing">          <i>Boeing</i><par n="Wikipedia__np"/></e>
+<e lm="Cabernet">        <i>Cabernet</i><par n="Wikipedia__np"/></e>
 <e lm="Chomsky">         <i>Chomsky</i><par n="Ibsen__np"/></e>
 <e lm="Chopin">          <i>Chopin</i><par n="Ibsen__np"/></e>
-<e lm="Citroën">         <i>Citroën</i><par n="Ibsen__np"/></e>
-<e lm="Company">         <i>Company</i><par n="Ibsen__np"/></e>
-<e lm="Creditbank">      <i>Creditbank</i><par n="Ibsen__np"/></e>
+<e lm="Citroën">         <i>Citroën</i><par n="Wikipedia__np"/></e>
+<e lm="Company">         <i>Company</i><par n="Wikipedia__np"/></e>
+<e lm="Creditbank">      <i>Creditbank</i><par n="Wikipedia__np"/></e>
 <e lm="Darwin">          <i>Darwin</i><par n="Ibsen__np"/></e>
-<e lm="Disney">          <i>Disney</i><par n="Ibsen__np"/></e>
-<e lm="Dyno">            <i>Dyno</i><par n="Ibsen__np"/></e>
-<e lm="Europadomstolen"> <i>Europadomstolen</i><par n="Ibsen__np"/></e>
-<e lm="Europaparlamentet"><i>Europaparlamentet</i><par n="Ibsen__np"/></e>
-<e lm="Eurovisjon">      <i>Eurovisjon</i><par n="Ibsen__np"/></e>
-<e lm="Fantomet">        <i>Fantomet</i><par n="Ibsen__np"/></e>
-<e lm="Ferrari">         <i>Ferrari</i><par n="Ibsen__np"/></e>
-<e lm="Fiat">            <i>Fiat</i><par n="Ibsen__np"/></e>
-<e lm="Flow">            <i>Flow</i><par n="Ibsen__np"/></e>
+<e lm="Disney">          <i>Disney</i><par n="Wikipedia__np"/></e>
+<e lm="Dyno">            <i>Dyno</i><par n="Wikipedia__np"/></e>
+<e lm="Europadomstolen"> <i>Europadomstolen</i><par n="Wikipedia__np"/></e>
+<e lm="Europaparlamentet"><i>Europaparlamentet</i><par n="Wikipedia__np"/></e>
+<e lm="Eurovisjon">      <i>Eurovisjon</i><par n="Wikipedia__np"/></e>
+<e lm="Fantomet">        <i>Fantomet</i><par n="Wikipedia__np"/></e>
+<e lm="Ferrari">         <i>Ferrari</i><par n="Wikipedia__np"/></e>
+<e lm="Fiat">            <i>Fiat</i><par n="Wikipedia__np"/></e>
+<e lm="Flow">            <i>Flow</i><par n="Wikipedia__np"/></e>
 <e lm="Foods">           <i>Foods</i><par n="Findus__np"/></e>
-<e lm="Ford">            <i>Ford</i><par n="Ibsen__np"/></e>
-<e lm="Fortran">         <i>Fortran</i><par n="Ibsen__np"/></e>
-<e lm="Freia">           <i>Freia</i><par n="Ibsen__np"/></e>
+<e lm="Ford">            <i>Ford</i><par n="Wikipedia__np"/></e>
+<e lm="Fortran">         <i>Fortran</i><par n="Wikipedia__np"/></e>
+<e lm="Freia">           <i>Freia</i><par n="Wikipedia__np"/></e>
 <e lm="Freud">           <i>Freud</i><par n="Ibsen__np"/></e>
-<e lm="Frionor">         <i>Frionor</i><par n="Ibsen__np"/></e>
-<e lm="Geophysical">     <i>Geophysical</i><par n="Ibsen__np"/></e>
-<e lm="Gestapo">         <i>Gestapo</i><par n="Ibsen__np"/></e>
-<e lm="Gjensidige">      <i>Gjensidige</i><par n="Ibsen__np"/></e>
-<e lm="Greenpeace">      <i>Greenpeace</i><par n="Ibsen__np"/></e>
-<e lm="Gud">             <i>Gud</i><par n="Ibsen__np"/></e>
+<e lm="Frionor">         <i>Frionor</i><par n="Wikipedia__np"/></e>
+<e lm="Geophysical">     <i>Geophysical</i><par n="Wikipedia__np"/></e>
+<e lm="Gestapo">         <i>Gestapo</i><par n="Wikipedia__np"/></e>
+<e lm="Gjensidige">      <i>Gjensidige</i><par n="Wikipedia__np"/></e>
+<e lm="Greenpeace">      <i>Greenpeace</i><par n="Wikipedia__np"/></e>
+<e lm="Gud">             <i>Gud</i><par n="Jo__np"/></e>
 <e lm="Göbbels">         <i>Göbbels</i><par n="Findus__np"/></e>
-<e lm="Harley">          <i>Harley</i><par n="Ibsen__np"/></e>
+<e lm="Harley">          <i>Harley</i><par n="Wikipedia__np"/></e>
 <e lm="Hitchcock">       <i>Hitchcock</i><par n="Ibsen__np"/></e>
 <e lm="Hitler">          <i>Hitler</i><par n="Ibsen__np"/></e>
 <e lm="Honecker">        <i>Honecker</i><par n="Ibsen__np"/></e>
-<e lm="Humanioradagene"> <i>Humanioradagene</i><par n="Ibsen__np"/></e>
+<e lm="Humanioradagene"> <i>Humanioradagene</i><par n="Wikipedia__np"/></e>
 <e lm="Hvidekrist">      <i>Hvidekrist</i><par n="Ibsen__np"/></e>
-<e lm="Høyre">           <i>Høyre</i><par n="Ibsen__np"/></e>
-<e lm="Inc">             <i>Inc</i><par n="Ibsen__np"/></e>
+<e lm="Høyre">           <i>Høyre</i><par n="Wikipedia__np"/></e>
+<e lm="Inc">             <i>Inc</i><par n="d'or__np"/></e>
 <e lm="Inge">            <i>Inge</i><par n="Jo__np"/></e>
 <e lm="Inge">            <i>Inge</i><par n="Eva__np"/></e>
-<e lm="Ingeniørnytt">    <i>Ingeniørnytt</i><par n="Ibsen__np"/></e>
+<e lm="Ingeniørnytt">    <i>Ingeniørnytt</i><par n="Wikipedia__np"/></e>
 <e lm="International">   <i>International</i><par n="Ibsen__np"/></e>
-<e lm="Interpol">        <i>Interpol</i><par n="Ibsen__np"/></e>
-<e lm="Interrail">       <i>Interrail</i><par n="Ibsen__np"/></e>
-<e lm="Investa">         <i>Investa</i><par n="Ibsen__np"/></e>
-<e lm="Jaguar">          <i>Jaguar</i><par n="Ibsen__np"/></e>
-<e lm="Jernia">          <i>Jernia</i><par n="Ibsen__np"/></e>
-<e lm="Kabelfabrik">     <i>Kabelfabrik</i><par n="Ibsen__np"/></e>
-<e lm="Komintern">       <i>Komintern</i><par n="Ibsen__np"/></e>
+<e lm="Interpol">        <i>Interpol</i><par n="Wikipedia__np"/></e>
+<e lm="Interrail">       <i>Interrail</i><par n="Wikipedia__np"/></e>
+<e lm="Investa">         <i>Investa</i><par n="Wikipedia__np"/></e>
+<e lm="Jaguar">          <i>Jaguar</i><par n="Wikipedia__np"/></e>
+<e lm="Jernia">          <i>Jernia</i><par n="Wikipedia__np"/></e>
+<e lm="Kabelfabrik">     <i>Kabelfabrik</i><par n="Wikipedia__np"/></e>
+<e lm="Komintern">       <i>Komintern</i><par n="Wikipedia__np"/></e>
 <e lm="Krishna">         <i>Krishna</i><par n="Ibsen__np"/></e>
-<e lm="Køfri">           <i>Køfri</i><par n="Ibsen__np"/></e>
-<e lm="Lada">            <i>Lada</i><par n="Ibsen__np"/></e>
+<e lm="Køfri">           <i>Køfri</i><par n="Wikipedia__np"/></e>
+<e lm="Lada">            <i>Lada</i><par n="Wikipedia__np"/></e>
 <e lm="Marx">            <i>Marx</i><par n="Findus__np"/></e>
-<e lm="Mercedes">        <i>Mercedes</i><par n="Findus__np"/></e>
-<e lm="Michelin">        <i>Michelin</i><par n="Ibsen__np"/></e>
-<e lm="Mossad">          <i>Mossad</i><par n="Ibsen__np"/></e>
+<e lm="Mercedes">        <i>Mercedes</i><par n="Wikipedia__np"/></e>
+<e lm="Michelin">        <i>Michelin</i><par n="Wikipedia__np"/></e>
+<e lm="Mossad">          <i>Mossad</i><par n="Wikipedia__np"/></e>
 <e lm="Munch">           <i>Munch</i><par n="Ibsen__np"/></e>
 <e lm="Mørch">           <i>Mørch</i><par n="Ibsen__np"/></e>
-<e lm="National">        <i>National</i><par n="Ibsen__np"/></e>
-<e lm="Nestlé">          <i>Nestlé</i><par n="Ibsen__np"/></e>
-<e lm="Nokia">           <i>Nokia</i><par n="Ibsen__np"/></e>
-<e lm="Norcem">          <i>Norcem</i><par n="Ibsen__np"/></e>
-<e lm="Norol">           <i>Norol</i><par n="Ibsen__np"/></e>
-<e lm="Norpipe">         <i>Norpipe</i><par n="Ibsen__np"/></e>
-<e lm="Norsildmel">      <i>Norsildmel</i><par n="Ibsen__np"/></e>
+<e lm="National">        <i>National</i><par n="d'or__np"/></e>
+<e lm="Nestlé">          <i>Nestlé</i><par n="Wikipedia__np"/></e>
+<e lm="Nokia">           <i>Nokia</i><par n="Wikipedia__np"/></e>
+<e lm="Norcem">          <i>Norcem</i><par n="Wikipedia__np"/></e>
+<e lm="Norol">           <i>Norol</i><par n="Wikipedia__np"/></e>
+<e lm="Norpipe">         <i>Norpipe</i><par n="Wikipedia__np"/></e>
+<e lm="Norsildmel">      <i>Norsildmel</i><par n="Wikipedia__np"/></e>
 <e lm="Odysseus">        <i>Odysseus</i><par n="Jens__np"/></e>
 <e lm="Odyssevs">        <i>Odyssevs</i><par n="Jens__np"/></e>
-<e lm="Oil">             <i>Oil</i><par n="Ibsen__np"/></e>
+<e lm="Oil">             <i>Oil</i><par n="d'or__np"/></e>
 <e lm="Olden">           <i>Olden</i><par n="Ibsen__np"/></e>
 <e lm="Opel">            <i>Opel</i><par n="Ibsen__np"/></e>
 <e lm="Orkla">           <i>Orkla</i><par n="Ibsen__np"/></e>
-<e lm="Porsche">         <i>Porsche</i><par n="Ibsen__np"/></e>
-<e lm="Pravda">          <i>Pravda</i><par n="Ibsen__np"/></e>
-<e lm="Prix">            <i>Prix</i><par n="Findus__np"/></e>
-<e lm="Rikstoto">        <i>Rikstoto</i><par n="Ibsen__np"/></e>
+<e lm="Porsche">         <i>Porsche</i><par n="Wikipedia__np"/></e>
+<e lm="Pravda">          <i>Pravda</i><par n="Wikipedia__np"/></e>
+<e lm="Prix">            <i>Prix</i><par n="Wikipedia__np"/></e>
+<e lm="Rikstoto">        <i>Rikstoto</i><par n="Wikipedia__np"/></e>
 <e lm="Rocky">           <i>Rocky</i><par n="Jo__np"/></e>
-<e lm="Rolex">           <i>Rolex</i><par n="Findus__np"/></e>
-<e lm="SS">              <i>SS</i><par n="Findus__np"/></e>
-<e lm="Saab">            <i>Saab</i><par n="Ibsen__np"/></e>
+<e lm="Rolex">           <i>Rolex</i><par n="Wikipedia__np"/></e>
+<e lm="SS">              <i>SS</i><par n="Wikipedia__np"/></e>
+<e lm="Saab">            <i>Saab</i><par n="Wikipedia__np"/></e>
 <e lm="Satan">           <i>Satan</i><par n="Jo__np"/></e>
-<e lm="Scania">          <i>Scania</i><par n="Ibsen__np"/></e>
-<e lm="Scanvest">        <i>Scanvest</i><par n="Ibsen__np"/></e>
+<e lm="Scania">          <i>Scania</i><par n="Wikipedia__np"/></e>
+<e lm="Scanvest">        <i>Scanvest</i><par n="Wikipedia__np"/></e>
 <e lm="Scott">           <i>Scott</i><par n="Ibsen__np"/></e>
 <e lm="Seat">            <i>Seat</i><par n="Ibsen__np"/></e>
 <e lm="Seato">           <i>Seato</i><par n="Ibsen__np"/></e>
-<e lm="Securitas">       <i>Securitas</i><par n="Findus__np"/></e>
-<e lm="Servisystem">     <i>Servisystem</i><par n="Ibsen__np"/></e>
-<e lm="Sfo">             <i>Sfo</i><par n="Ibsen__np"/></e>
+<e lm="Securitas">       <i>Securitas</i><par n="Wikipedia__np"/></e>
+<e lm="Servisystem">     <i>Servisystem</i><par n="Wikipedia__np"/></e>
+<e lm="Sfo">             <i>Sfo</i><par n="Wikipedia__np"/></e>
 <e lm="Shakespeare">     <i>Shakespeare</i><par n="Ibsen__np"/></e>
-<e lm="Shell">           <i>Shell</i><par n="Ibsen__np"/></e>
+<e lm="Shell">           <i>Shell</i><par n="Wikipedia__np"/></e>
 <e lm="Siemens">         <i>Siemens</i><par n="Findus__np"/></e>
 <e lm="Simula">          <i>Simula</i><par n="Ibsen__np"/></e>
 <e lm="Sioux">           <i>Sioux</i><par n="Findus__np"/></e>
 <e lm="Sisyfos">         <i>Sisyfos</i><par n="Jens__np"/></e>
-<e lm="Skandia">         <i>Skandia</i><par n="Ibsen__np"/></e>
-<e lm="Skoda">           <i>Skoda</i><par n="Ibsen__np"/></e>
-<e lm="Sleipner">        <i>Sleipner</i><par n="Ibsen__np"/></e>
+<e lm="Skandia">         <i>Skandia</i><par n="Wikipedia__np"/></e>
+<e lm="Skoda">           <i>Skoda</i><par n="Wikipedia__np"/></e>
+<e lm="Sleipner">        <i>Sleipner</i><par n="Wikipedia__np"/></e>
 <e lm="Smith">           <i>Smith</i><par n="Ibsen__np"/></e>
 <e lm="Sofokles">        <i>Sofokles</i><par n="Jens__np"/></e>
-<e lm="Statoil">         <i>Statoil</i><par n="Ibsen__np"/></e>
-<e lm="Statkraft">       <i>Statkraft</i><par n="Ibsen__np"/></e>
-<e lm="Superior">        <i>Superior</i><par n="Ibsen__np"/></e>
-<e lm="Sylte">           <i>Sylte</i><par n="Ibsen__np"/></e>
-<e lm="Sølvguttene">     <i>Sølvguttene</i><par n="Ibsen__np"/></e>
-<e lm="Tau">             <i>Tau</i><par n="Ibsen__np"/></e>
-<e lm="Thon">            <i>Thon</i><par n="Ibsen__np"/></e>
-<e lm="Unifil">          <i>Unifil</i><par n="Ibsen__np"/></e>
-<e lm="Universitas">     <i>Universitas</i><par n="Findus__np"/></e>
-<e lm="Vårherre">        <i>Vårherre</i><par n="Ibsen__np"/></e>
-<e lm="Værksted">        <i>Værksted</i><par n="Ibsen__np"/></e>
-<e lm="Wahl">            <i>Wahl</i><par n="Ibsen__np"/></e>
+<e lm="Statoil">         <i>Statoil</i><par n="Wikipedia__np"/></e>
+<e lm="Statkraft">       <i>Statkraft</i><par n="Wikipedia__np"/></e>
+<e lm="Superior">        <i>Superior</i><par n="Wikipedia__np"/></e>
+<e lm="Sylte">           <i>Sylte</i><par n="Wikipedia__np"/></e>
+<e lm="Sølvguttene">     <i>Sølvguttene</i><par n="Wikipedia__np"/></e>
+<e lm="Tau">             <i>Tau</i><par n="Wikipedia__np"/></e>
+<e lm="Thon">            <i>Thon</i><par n="Wikipedia__np"/></e>
+<e lm="Unifil">          <i>Unifil</i><par n="Wikipedia__np"/></e>
+<e lm="Universitas">     <i>Universitas</i><par n="Wikipedia__np"/></e>
+<e lm="Vårherre">        <i>Vårherre</i><par n="d'or__np"/></e>
+<e lm="Værksted">        <i>Værksted</i><par n="Wikipedia__np"/></e>
+<e lm="Wahl">            <i>Wahl</i><par n="Wikipedia__np"/></e>
 <e lm="Zeus">            <i>Zeus</i><par n="Jens__np"/></e>
 <e lm="Zevs">            <i>Zevs</i><par n="Jens__np"/></e>
-<e lm="de">              <i>de</i><par n="Ibsen__np"/></e>
+<e lm="de">              <i>de</i><par n="d'or__np"/></e>
 <e lm="Hegel">           <i>Hegel</i><par n="Ibsen__np"/></e>
 <e lm="Lenin">           <i>Lenin</i><par n="Ibsen__np"/></e>
-<e lm="Esso">            <i>Esso</i><par n="Ibsen__np"/></e>
+<e lm="Esso">            <i>Esso</i><par n="Wikipedia__np"/></e>
 <e lm="Findus">          <i>Findus</i><par n="Findus__np"/></e>
 <e lm="Beatles">         <i>Beatles</i><par n="Findus__np"/></e>
 <e lm="Louis">           <i>Louis</i><par n="Jens__np"/></e>
 <e lm="Louis d'or">    <i>Louis<b/>d'or</i><par n="Jens__np"/></e>
-<e lm="d'or">    <i>d'or</i><par n="Wikipedia__np"/></e>
+<e lm="d'or">    <i>d'or</i><par n="d'or__np"/></e>
 <e lm="Machines">        <i>Machines</i><par n="Findus__np"/></e>
 <e lm="Matteus">         <i>Matteus</i><par n="Jens__np"/></e>
 <e lm="Veritas">         <i>Veritas</i><par n="Findus__np"/></e>
@@ -46994,7 +46981,7 @@
 <e lm="Čohkadoggejávri"> <i>Čohkadoggejávri</i><par n="Norge__np"/></e>
 
 <e lm="Magdalena">       <i>Magdalena</i><par n="Eva__np"/></e>
-<e lm="Statens Veivesen">     <i>Statens Veivesen</i><par n="Lagtinget__np"/></e>
+<e lm="Statens Veivesen">     <i>Statens<b/>Veivesen</i><par n="Lagtinget__np"/></e>
 <e lm="Veivesenet">     <i>Veivesenet</i><par n="Lagtinget__np"/></e>
 <e lm="ABC-teatret">     <i>ABC-teatret</i><par n="Lagtinget__np"/></e>
 <e lm="Arbeiderpartiet">     <i>Arbeiderpartiet</i><par n="Lagtinget__np"/></e>
@@ -51783,187 +51770,188 @@
 <e lm="Queen">           <i>Queen</i><par n="Eva__np"/></e>
 <e lm="Sophie">          <i>Sophie</i><par n="Eva__np"/></e>
 
-<e lm="History">         <i>History</i><par n="Ibsen__np"/></e>
-<e lm="Academy">         <i>Academy</i><par n="Ibsen__np"/></e>
-<e lm="Act">             <i>Act</i><par n="Ibsen__np"/></e>
-<e lm="Alice">           <i>Alice</i><par n="Eva__np"/></e>
-<e lm="Annie">           <i>Annie</i><par n="Eva__np"/></e>
-<e lm="Apple">           <i>Apple</i><par n="Ibsen__np"/></e>
-<e lm="Armstrong">       <i>Armstrong</i><par n="Ibsen__np"/></e>
-<e lm="Army">            <i>Army</i><par n="Ibsen__np"/></e>
-<e lm="Association">     <i>Association</i><par n="Ibsen__np"/></e>
-<e lm="Athletic">        <i>Athletic</i><par n="Ibsen__np"/></e>
-<e lm="Award">           <i>Award</i><par n="Ibsen__np"/></e>
-<e lm="Axel">            <i>Axel</i><par n="Jo__np"/></e>
-<e lm="Bang">            <i>Bang</i><par n="Ibsen__np"/></e>
-<e lm="Barbara">         <i>Barbara</i><par n="Ibsen__np"/></e>
-<e lm="Bell">            <i>Bell</i><par n="Ibsen__np"/></e>
-<e lm="Billboard">       <i>Billboard</i><par n="Ibsen__np"/></e>
-<e lm="Bismarck">        <i>Bismarck</i><par n="Ibsen__np"/></e>
-<e lm="Boleyn">          <i>Boleyn</i><par n="Ibsen__np"/></e>
-<e lm="Bolton">          <i>Bolton</i><par n="Ibsen__np"/></e>
-<e lm="Bond">            <i>Bond</i><par n="Ibsen__np"/></e>
-<e lm="Boone">           <i>Boone</i><par n="Ibsen__np"/></e>
-<e lm="Booth">           <i>Booth</i><par n="Ibsen__np"/></e>
-<e lm="British">         <i>British</i><par n="Ibsen__np"/></e>
-<e lm="Brubeck">         <i>Brubeck</i><par n="Ibsen__np"/></e>
-<e lm="Burgund">         <i>Burgund</i><par n="Ibsen__np"/></e>
-<e lm="Böhmen">          <i>Böhmen</i><par n="Ibsen__np"/></e>
-<e lm="Campbell">        <i>Campbell</i><par n="Ibsen__np"/></e>
-<e lm="Cappelen">        <i>Cappelen</i><par n="Ibsen__np"/></e>
-<e lm="Catarina">        <i>Catarina</i><par n="Eva__np"/></e>
-<e lm="Celtic">          <i>Celtic</i><par n="Ibsen__np"/></e>
-<e lm="Championship">    <i>Championship</i><par n="Ibsen__np"/></e>
-<e lm="Charlotte">       <i>Charlotte</i><par n="Eva__np"/></e>
-<e lm="Christina">       <i>Christina</i><par n="Eva__np"/></e>
+<e lm="Young">           <i>Young</i><par n="Ibsen__np"/></e>
+<e lm="Wood">            <i>Wood</i><par n="Ibsen__np"/></e>
+<e lm="Wilson">          <i>Wilson</i><par n="Ibsen__np"/></e>
+<e lm="Wright">          <i>Wright</i><par n="Ibsen__np"/></e>
+<e lm="Wagner">          <i>Wagner</i><par n="Ibsen__np"/></e>
+<e lm="Voldemort">       <i>Voldemort</i><par n="Ibsen__np"/></e>
+<e lm="Unhammer">        <i>Unhammer</i><par n="Ibsen__np"/></e>
+<e lm="Trosterud">       <i>Trosterud</i><par n="Ibsen__np"/></e>
+<e lm="Tolkien">         <i>Tolkien</i><par n="Ibsen__np"/></e>
+<e lm="Sverdrup">        <i>Sverdrup</i><par n="Ibsen__np"/></e>
+<e lm="Norman">          <i>Norman</i><par n="Ibsen__np"/></e>
+<e lm="Naruto">          <i>Naruto</i><par n="Ibsen__np"/></e>
+<e lm="Mussolini">       <i>Mussolini</i><par n="Ibsen__np"/></e>
+<e lm="Murray">          <i>Murray</i><par n="Ibsen__np"/></e>
+<e lm="Mozart">          <i>Mozart</i><par n="Ibsen__np"/></e>
+<e lm="Moore">           <i>Moore</i><par n="Ibsen__np"/></e>
+<e lm="Moon">            <i>Moon</i><par n="Ibsen__np"/></e>
+<e lm="Monroe">          <i>Monroe</i><par n="Ibsen__np"/></e>
+<e lm="Ming">            <i>Ming</i><par n="Ibsen__np"/></e>
+<e lm="Milton">          <i>Milton</i><par n="Ibsen__np"/></e>
+<e lm="McCartney">       <i>McCartney</i><par n="Ibsen__np"/></e>
+<e lm="Masal">           <i>Masal</i><par n="Ibsen__np"/></e>
+<e lm="Marshall">        <i>Marshall</i><par n="Ibsen__np"/></e>
+<e lm="Maranh">          <i>Maranh</i><par n="Ibsen__np"/></e>
+<e lm="Maobadi">         <i>Maobadi</i><par n="Ibsen__np"/></e>
+<e lm="Locke">           <i>Locke</i><par n="Ibsen__np"/></e>
+<e lm="Lincoln">         <i>Lincoln</i><par n="Ibsen__np"/></e>
+<e lm="Lennon">          <i>Lennon</i><par n="Ibsen__np"/></e>
+<e lm="Jefferson">       <i>Jefferson</i><par n="Ibsen__np"/></e>
+<e lm="Jackson">         <i>Jackson</i><par n="Ibsen__np"/></e>
+<e lm="Ferguson">        <i>Ferguson</i><par n="Ibsen__np"/></e>
+<e lm="Dante">           <i>Dante</i><par n="Ibsen__np"/></e>
+<e lm="Clinton">         <i>Clinton</i><par n="Ibsen__np"/></e>
 <e lm="Church">          <i>Church</i><par n="Ibsen__np"/></e>
 <e lm="Churchill">       <i>Churchill</i><par n="Ibsen__np"/></e>
-<e lm="Clinton">         <i>Clinton</i><par n="Ibsen__np"/></e>
-<e lm="Club">            <i>Club</i><par n="Ibsen__np"/></e>
-<e lm="Cooper">          <i>Cooper</i><par n="Ibsen__np"/></e>
-<e lm="Corporation">     <i>Corporation</i><par n="Ibsen__np"/></e>
-<e lm="Council">         <i>Council</i><par n="Ibsen__np"/></e>
-<e lm="Dante">           <i>Dante</i><par n="Ibsen__np"/></e>
-<e lm="Day">             <i>Day</i><par n="Ibsen__np"/></e>
-<e lm="Deutsche">        <i>Deutsche</i><par n="Ibsen__np"/></e>
-<e lm="Dr">              <i>Dr</i><par n="Ibsen__np"/></e>
-<e lm="Duffman">         <i>Duffman</i><par n="Ibsen__np"/></e>
-<e lm="Dáil">            <i>Dáil</i><par n="Ibsen__np"/></e>
-<e lm="Dáil Éireann">    <i>Dáil<b/>Éireann</i><par n="Ibsen__np"/></e>
-<e lm="European">        <i>European</i><par n="Ibsen__np"/></e>
-<e lm="Eurovision">      <i>Eurovision</i><par n="Ibsen__np"/></e>
-<e lm="Fame">            <i>Fame</i><par n="Ibsen__np"/></e>
-<e lm="Fantasy">         <i>Fantasy</i><par n="Ibsen__np"/></e>
-<e lm="Ferguson">        <i>Ferguson</i><par n="Ibsen__np"/></e>
-<e lm="First">           <i>First</i><par n="Ibsen__np"/></e>
-<e lm="Flag">            <i>Flag</i><par n="Ibsen__np"/></e>
-<e lm="Foundation">      <i>Foundation</i><par n="Ibsen__np"/></e>
-<e lm="Fran">            <i>Fran</i><par n="Ibsen__np"/></e>
-<e lm="France">          <i>France</i><par n="Ibsen__np"/></e>
-<e lm="Frp">             <i>Frp</i><par n="Ibsen__np"/></e>
-<e lm="Fv">              <i>Fv</i><par n="Ibsen__np"/></e>
-<e lm="GWh">             <i>GWh</i><par n="Ibsen__np"/></e>
-<e lm="Galtvort">        <i>Galtvort</i><par n="Ibsen__np"/></e>
-<e lm="Globe">           <i>Globe</i><par n="Ibsen__np"/></e>
-<e lm="Golden">          <i>Golden</i><par n="Ibsen__np"/></e>
-<e lm="Gondor">          <i>Gondor</i><par n="Ibsen__np"/></e>
-<e lm="Google">          <i>Google</i><par n="Ibsen__np"/></e>
-<e lm="Grammy">          <i>Grammy</i><par n="Ibsen__np"/></e>
-<e lm="Gulldahl">        <i>Gulldahl</i><par n="Ibsen__np"/></e>
-<e lm="High">            <i>High</i><par n="Ibsen__np"/></e>
-<e lm="Hong">            <i>Hong</i><par n="Ibsen__np"/></e>
-<e lm="Hotel">           <i>Hotel</i><par n="Ibsen__np"/></e>
-<e lm="Institute">       <i>Institute</i><par n="Ibsen__np"/></e>
-<e lm="Intel">           <i>Intel</i><par n="Ibsen__np"/></e>
-<e lm="Internet">        <i>Internet</i><par n="Ibsen__np"/></e>
-<e lm="Irish">           <i>Irish</i><par n="Ibsen__np"/></e>
-<e lm="Jackson">         <i>Jackson</i><par n="Ibsen__np"/></e>
+<e lm="Brubeck">         <i>Brubeck</i><par n="Ibsen__np"/></e>
+<e lm="Bond">            <i>Bond</i><par n="Ibsen__np"/></e>
+<e lm="Bolton">          <i>Bolton</i><par n="Ibsen__np"/></e>
+<e lm="Boleyn">          <i>Boleyn</i><par n="Ibsen__np"/></e>
+<e lm="Armstrong">       <i>Armstrong</i><par n="Ibsen__np"/></e>
+
+<e lm="History">         <i>History</i><par n="Wikipedia__np"/></e>
+<e lm="Academy">         <i>Academy</i><par n="Wikipedia__np"/></e>
+<e lm="Act">             <i>Act</i><par n="Wikipedia__np"/></e>
+<e lm="Apple">           <i>Apple</i><par n="Wikipedia__np"/></e>
+<e lm="Army">            <i>Army</i><par n="Wikipedia__np"/></e>
+<e lm="Association">     <i>Association</i><par n="Wikipedia__np"/></e>
+<e lm="Athletic">        <i>Athletic</i><par n="Wikipedia__np"/></e>
+<e lm="Award">           <i>Award</i><par n="Wikipedia__np"/></e>
+<e lm="Bang">            <i>Bang</i><par n="Wikipedia__np"/></e>
+<e lm="Barbara">         <i>Barbara</i><par n="Wikipedia__np"/></e>
+<e lm="Bell">            <i>Bell</i><par n="Wikipedia__np"/></e>
+<e lm="Billboard">       <i>Billboard</i><par n="Wikipedia__np"/></e>
+<e lm="Bismarck">        <i>Bismarck</i><par n="Wikipedia__np"/></e>
+<e lm="Boone">           <i>Boone</i><par n="Wikipedia__np"/></e>
+<e lm="Booth">           <i>Booth</i><par n="Wikipedia__np"/></e>
+<e lm="British">         <i>British</i><par n="Wikipedia__np"/></e>
+<e lm="Burgund">         <i>Burgund</i><par n="Wikipedia__np"/></e>
+<e lm="Böhmen">          <i>Böhmen</i><par n="Wikipedia__np"/></e>
+<e lm="Campbell">        <i>Campbell</i><par n="Wikipedia__np"/></e>
+<e lm="Cappelen">        <i>Cappelen</i><par n="Wikipedia__np"/></e>
+<e lm="Celtic">          <i>Celtic</i><par n="Wikipedia__np"/></e>
+<e lm="Championship">    <i>Championship</i><par n="Wikipedia__np"/></e>
+<e lm="Club">            <i>Club</i><par n="Wikipedia__np"/></e>
+<e lm="Cooper">          <i>Cooper</i><par n="Wikipedia__np"/></e>
+<e lm="Corporation">     <i>Corporation</i><par n="Wikipedia__np"/></e>
+<e lm="Council">         <i>Council</i><par n="Wikipedia__np"/></e>
+<e lm="Day">             <i>Day</i><par n="Wikipedia__np"/></e>
+<e lm="Deutsche">        <i>Deutsche</i><par n="Wikipedia__np"/></e>
+<e lm="Dr">              <i>Dr</i><par n="d'or__np"/></e>
+<e lm="Duffman">         <i>Duffman</i><par n="Wikipedia__np"/></e>
+<e lm="Dáil">            <i>Dáil</i><par n="Wikipedia__np"/></e>
+<e lm="Dáil Éireann">    <i>Dáil<b/>Éireann</i><par n="Wikipedia__np"/></e>
+<e lm="European">        <i>European</i><par n="Wikipedia__np"/></e>
+<e lm="Eurovision">      <i>Eurovision</i><par n="Wikipedia__np"/></e>
+<e lm="Fame">            <i>Fame</i><par n="Wikipedia__np"/></e>
+<e lm="Fantasy">         <i>Fantasy</i><par n="Wikipedia__np"/></e>
+<e lm="First">           <i>First</i><par n="Wikipedia__np"/></e>
+<e lm="Flag">            <i>Flag</i><par n="Wikipedia__np"/></e>
+<e lm="Foundation">      <i>Foundation</i><par n="Wikipedia__np"/></e>
+<e lm="Fran">            <i>Fran</i><par n="Jo__np"/></e>
+<e lm="France">          <i>France</i><par n="Wikipedia__np"/></e>
+<e lm="Frp">             <i>Frp</i><par n="Wikipedia__np"/></e>
+<e lm="Fv">              <i>Fv</i><par n="Wikipedia__np"/></e>
+<e lm="GWh">             <i>GWh</i><par n="Wikipedia__np"/></e>
+<e lm="Galtvort">        <i>Galtvort</i><par n="Wikipedia__np"/></e>
+<e lm="Globe">           <i>Globe</i><par n="Wikipedia__np"/></e>
+<e lm="Golden">          <i>Golden</i><par n="Wikipedia__np"/></e>
+<e lm="Gondor">          <i>Gondor</i><par n="Wikipedia__np"/></e>
+<e lm="Google">          <i>Google</i><par n="Wikipedia__np"/></e>
+<e lm="Grammy">          <i>Grammy</i><par n="Wikipedia__np"/></e>
+<e lm="Gulldahl">        <i>Gulldahl</i><par n="Wikipedia__np"/></e>
+<e lm="High">            <i>High</i><par n="Wikipedia__np"/></e>
+<e lm="Hong">            <i>Hong</i><par n="Wikipedia__np"/></e>
+<e lm="Hotel">           <i>Hotel</i><par n="Wikipedia__np"/></e>
+<e lm="Institute">       <i>Institute</i><par n="Wikipedia__np"/></e>
+<e lm="Intel">           <i>Intel</i><par n="Wikipedia__np"/></e>
+<e lm="Internet">        <i>Internet</i><par n="d'or__np"/></e>
+<e lm="Irish">           <i>Irish</i><par n="d'or__np"/></e>
+<e lm="Jr">              <i>Jr</i><par n="d'or__np"/></e>
+<e lm="Koirala">         <i>Koirala</i><par n="Wikipedia__np"/></e>
+<e lm="KrF">             <i>KrF</i><par n="Wikipedia__np"/></e>
+<e lm="Law">             <i>Law</i><par n="Wikipedia__np"/></e>
+<e lm="Life">            <i>Life</i><par n="Wikipedia__np"/></e>
+<e lm="Little">          <i>Little</i><par n="d'or__np"/></e>
+<e lm="Ltd">             <i>Ltd</i><par n="d'or__np"/></e>
+<e lm="Mac">             <i>Mac</i><par n="d'or__np"/></e>
+<e lm="Magazine">        <i>Magazine</i><par n="Wikipedia__np"/></e>
+<e lm="Metallica">       <i>Metallica</i><par n="Wikipedia__np"/></e>
+<e lm="Metropolitan">    <i>Metropolitan</i><par n="d'or__np"/></e>
+<e lm="Microsoft">       <i>Microsoft</i><par n="Wikipedia__np"/></e>
+<e lm="Music">           <i>Music</i><par n="Wikipedia__np"/></e>
+<e lm="Nationale">       <i>Nationale</i><par n="Wikipedia__np"/></e>
+<e lm="Nauru">           <i>Nauru</i><par n="Wikipedia__np"/></e>
+<e lm="Navy">            <i>Navy</i><par n="Wikipedia__np"/></e>
+<e lm="Nintendo">        <i>Nintendo</i><par n="Wikipedia__np"/></e>
+<e lm="Nobel">           <i>Nobel</i><par n="Wikipedia__np"/></e>
+<e lm="Norwegian">       <i>Norwegian</i><par n="Wikipedia__np"/></e>
+<e lm="Office">          <i>Office</i><par n="Wikipedia__np"/></e>
+<e lm="Open">            <i>Open</i><par n="Wikipedia__np"/></e>
+<e lm="Orchestra">       <i>Orchestra</i><par n="Wikipedia__np"/></e>
+<e lm="Palace">          <i>Palace</i><par n="Wikipedia__np"/></e>
+<e lm="Police">          <i>Police</i><par n="Wikipedia__np"/></e>
+<e lm="Prachanda">       <i>Prachanda</i><par n="Wikipedia__np"/></e>
+<e lm="Public">          <i>Public</i><par n="Wikipedia__np"/></e>
+<e lm="Qing">            <i>Qing</i><par n="Wikipedia__np"/></e>
+<e lm="Research">        <i>Research</i><par n="Wikipedia__np"/></e>
+<e lm="Robinson">        <i>Robinson</i><par n="Wikipedia__np"/></e>
+<e lm="Roosevelt">       <i>Roosevelt</i><par n="Wikipedia__np"/></e>
+<e lm="Royal">           <i>Royal</i><par n="Wikipedia__np"/></e>
+<e lm="Rv">              <i>Rv</i><par n="Wikipedia__np"/></e>
+<e lm="Sachsen">         <i>Sachsen</i><par n="Wikipedia__np"/></e>
+<e lm="Sam">             <i>Sam</i><par n="Wikipedia__np"/></e>
+<e lm="School">          <i>School</i><par n="Wikipedia__np"/></e>
+<e lm="Shah">            <i>Shah</i><par n="Wikipedia__np"/></e>
+<e lm="Sheffield">       <i>Sheffield</i><par n="Wikipedia__np"/></e>
+<e lm="Singh">           <i>Singh</i><par n="Wikipedia__np"/></e>
+<e lm="Society">         <i>Society</i><par n="Wikipedia__np"/></e>
+<e lm="Solberg">         <i>Solberg</i><par n="Wikipedia__np"/></e>
+<e lm="Song">            <i>Song</i><par n="Wikipedia__np"/></e>
+<e lm="Sp">              <i>Sp</i><par n="Wikipedia__np"/></e>
+<e lm="Space">           <i>Space</i><par n="Wikipedia__np"/></e>
+<e lm="Special">         <i>Special</i><par n="Wikipedia__np"/></e>
+<e lm="St">              <i>St</i><par n="Wikipedia__np"/></e>
+<e lm="Stabæk">          <i>Stabæk</i><par n="Wikipedia__np"/></e>
+<e lm="Stone">           <i>Stone</i><par n="Wikipedia__np"/></e>
+<e lm="Sullivan">        <i>Sullivan</i><par n="Wikipedia__np"/></e>
+<e lm="Sun">             <i>Sun</i><par n="Wikipedia__np"/></e>
+<e lm="Taliban">         <i>Taliban</i><par n="Wikipedia__np"/></e>
+<e lm="Tarai">           <i>Tarai</i><par n="Wikipedia__np"/></e>
+<e lm="Taylor">          <i>Taylor</i><par n="Wikipedia__np"/></e>
+<e lm="Telenor">         <i>Telenor</i><par n="Wikipedia__np"/></e>
+<e lm="Th">              <i>Th</i><par n="Wikipedia__np"/></e>
+<e lm="Theater">         <i>Theater</i><par n="Wikipedia__np"/></e>
+<e lm="Theatre">         <i>Theatre</i><par n="Wikipedia__np"/></e>
+<e lm="Thompson">        <i>Thompson</i><par n="Wikipedia__np"/></e>
+<e lm="Tidende">         <i>Tidende</i><par n="d'or__np"/></e>
+<e lm="Tour">            <i>Tour</i><par n="Wikipedia__np"/></e>
+<e lm="Tower">           <i>Tower</i><par n="Wikipedia__np"/></e>
+<e lm="Trek">            <i>Trek</i><par n="Wikipedia__np"/></e>
+<e lm="United">          <i>United</i><par n="Wikipedia__np"/></e>
+<e lm="University">      <i>University</i><par n="Wikipedia__np"/></e>
+<e lm="Universität">     <i>Universität</i><par n="Wikipedia__np"/></e>
+<e lm="WaA">             <i>WaA</i><par n="Wikipedia__np"/></e>
+<e lm="Walk">            <i>Walk</i><par n="Wikipedia__np"/></e>
+<e lm="War">             <i>War</i><par n="Wikipedia__np"/></e>
+<e lm="We">              <i>We</i><par n="Wikipedia__np"/></e>
+<e lm="Wessel">          <i>Wessel</i><par n="Wikipedia__np"/></e>
+<e lm="The Who">         <i>The<b/>Who</i><par n="Wikipedia__np"/></e>
+<e lm="World">           <i>World</i><par n="Wikipedia__np"/></e>
+
+<e lm="Alice">           <i>Alice</i><par n="Eva__np"/></e>
+<e lm="Annie">           <i>Annie</i><par n="Eva__np"/></e>
+<e lm="Axel">            <i>Axel</i><par n="Jo__np"/></e>
+<e lm="Catarina">        <i>Catarina</i><par n="Eva__np"/></e>
+<e lm="Charlotte">       <i>Charlotte</i><par n="Eva__np"/></e>
+<e lm="Christina">       <i>Christina</i><par n="Eva__np"/></e>
 <e lm="Jean">            <i>Jean</i><par n="Jo__np"/></e>
-<e lm="Jefferson">       <i>Jefferson</i><par n="Ibsen__np"/></e>
 <e lm="Joe">             <i>Joe</i><par n="Jo__np"/></e>
-<e lm="Jr">              <i>Jr</i><par n="Ibsen__np"/></e>
 <e lm="Kent">            <i>Kent</i><par n="Jo__np"/></e>
-<e lm="Koirala">         <i>Koirala</i><par n="Ibsen__np"/></e>
-<e lm="KrF">             <i>KrF</i><par n="Ibsen__np"/></e>
-<e lm="Law">             <i>Law</i><par n="Ibsen__np"/></e>
-<e lm="Lennon">          <i>Lennon</i><par n="Ibsen__np"/></e>
-<e lm="Life">            <i>Life</i><par n="Ibsen__np"/></e>
-<e lm="Lincoln">         <i>Lincoln</i><par n="Ibsen__np"/></e>
-<e lm="Little">          <i>Little</i><par n="Ibsen__np"/></e>
-<e lm="Locke">           <i>Locke</i><par n="Ibsen__np"/></e>
-<e lm="Ltd">             <i>Ltd</i><par n="Ibsen__np"/></e>
-<e lm="Mac">             <i>Mac</i><par n="Ibsen__np"/></e>
-<e lm="Magazine">        <i>Magazine</i><par n="Ibsen__np"/></e>
-<e lm="Maobadi">         <i>Maobadi</i><par n="Ibsen__np"/></e>
-<e lm="Maranh">          <i>Maranh</i><par n="Ibsen__np"/></e>
-<e lm="Marshall">        <i>Marshall</i><par n="Ibsen__np"/></e>
-<e lm="Masal">           <i>Masal</i><par n="Ibsen__np"/></e>
-<e lm="McCartney">       <i>McCartney</i><par n="Ibsen__np"/></e>
-<e lm="Metallica">       <i>Metallica</i><par n="Ibsen__np"/></e>
-<e lm="Metropolitan">    <i>Metropolitan</i><par n="Ibsen__np"/></e>
-<e lm="Microsoft">       <i>Microsoft</i><par n="Ibsen__np"/></e>
-<e lm="Milton">          <i>Milton</i><par n="Ibsen__np"/></e>
-<e lm="Ming">            <i>Ming</i><par n="Ibsen__np"/></e>
-<e lm="Monroe">          <i>Monroe</i><par n="Ibsen__np"/></e>
-<e lm="Moon">            <i>Moon</i><par n="Ibsen__np"/></e>
-<e lm="Moore">           <i>Moore</i><par n="Ibsen__np"/></e>
-<e lm="Mozart">          <i>Mozart</i><par n="Ibsen__np"/></e>
-<e lm="Murray">          <i>Murray</i><par n="Ibsen__np"/></e>
-<e lm="Music">           <i>Music</i><par n="Ibsen__np"/></e>
-<e lm="Mussolini">       <i>Mussolini</i><par n="Ibsen__np"/></e>
-<e lm="Naruto">          <i>Naruto</i><par n="Ibsen__np"/></e>
-<e lm="Nationale">       <i>Nationale</i><par n="Ibsen__np"/></e>
-<e lm="Nauru">           <i>Nauru</i><par n="Ibsen__np"/></e>
-<e lm="Navy">            <i>Navy</i><par n="Ibsen__np"/></e>
-<e lm="Nintendo">        <i>Nintendo</i><par n="Ibsen__np"/></e>
-<e lm="Nobel">           <i>Nobel</i><par n="Ibsen__np"/></e>
-<e lm="Norman">          <i>Norman</i><par n="Ibsen__np"/></e>
-<e lm="Norwegian">       <i>Norwegian</i><par n="Ibsen__np"/></e>
-<e lm="Office">          <i>Office</i><par n="Ibsen__np"/></e>
 <e lm="Oliver">          <i>Oliver</i><par n="Jo__np"/></e>
-<e lm="Open">            <i>Open</i><par n="Ibsen__np"/></e>
-<e lm="Orchestra">       <i>Orchestra</i><par n="Ibsen__np"/></e>
-<e lm="Palace">          <i>Palace</i><par n="Ibsen__np"/></e>
-<e lm="Police">          <i>Police</i><par n="Ibsen__np"/></e>
-<e lm="Prachanda">       <i>Prachanda</i><par n="Ibsen__np"/></e>
-<e lm="Public">          <i>Public</i><par n="Ibsen__np"/></e>
-<e lm="Qing">            <i>Qing</i><par n="Ibsen__np"/></e>
-<e lm="Research">        <i>Research</i><par n="Ibsen__np"/></e>
-<e lm="Robinson">        <i>Robinson</i><par n="Ibsen__np"/></e>
-<e lm="Roosevelt">       <i>Roosevelt</i><par n="Ibsen__np"/></e>
-<e lm="Royal">           <i>Royal</i><par n="Ibsen__np"/></e>
-<e lm="Rv">              <i>Rv</i><par n="Ibsen__np"/></e>
-<e lm="Sachsen">         <i>Sachsen</i><par n="Ibsen__np"/></e>
-<e lm="Sam">             <i>Sam</i><par n="Ibsen__np"/></e>
-<e lm="School">          <i>School</i><par n="Ibsen__np"/></e>
-<e lm="Shah">            <i>Shah</i><par n="Ibsen__np"/></e>
-<e lm="Sheffield">       <i>Sheffield</i><par n="Ibsen__np"/></e>
-<e lm="Singh">           <i>Singh</i><par n="Ibsen__np"/></e>
-<e lm="Society">         <i>Society</i><par n="Ibsen__np"/></e>
-<e lm="Solberg">         <i>Solberg</i><par n="Ibsen__np"/></e>
-<e lm="Song">            <i>Song</i><par n="Ibsen__np"/></e>
-<e lm="Sp">              <i>Sp</i><par n="Ibsen__np"/></e>
-<e lm="Space">           <i>Space</i><par n="Ibsen__np"/></e>
-<e lm="Special">         <i>Special</i><par n="Ibsen__np"/></e>
-<e lm="St">              <i>St</i><par n="Ibsen__np"/></e>
-<e lm="Stabæk">          <i>Stabæk</i><par n="Ibsen__np"/></e>
-<e lm="Stone">           <i>Stone</i><par n="Ibsen__np"/></e>
-<e lm="Sullivan">        <i>Sullivan</i><par n="Ibsen__np"/></e>
-<e lm="Sun">             <i>Sun</i><par n="Ibsen__np"/></e>
-<e lm="Sverdrup">        <i>Sverdrup</i><par n="Ibsen__np"/></e>
-<e lm="Taliban">         <i>Taliban</i><par n="Ibsen__np"/></e>
-<e lm="Tarai">           <i>Tarai</i><par n="Ibsen__np"/></e>
-<e lm="Taylor">          <i>Taylor</i><par n="Ibsen__np"/></e>
-<e lm="Telenor">         <i>Telenor</i><par n="Ibsen__np"/></e>
-<e lm="Th">              <i>Th</i><par n="Ibsen__np"/></e>
-<e lm="Theater">         <i>Theater</i><par n="Ibsen__np"/></e>
-<e lm="Theatre">         <i>Theatre</i><par n="Ibsen__np"/></e>
-<e lm="Thompson">        <i>Thompson</i><par n="Ibsen__np"/></e>
-<e lm="Tidende">         <i>Tidende</i><par n="Ibsen__np"/></e>
-<e lm="Tolkien">         <i>Tolkien</i><par n="Ibsen__np"/></e>
-<e lm="Tour">            <i>Tour</i><par n="Ibsen__np"/></e>
-<e lm="Tower">           <i>Tower</i><par n="Ibsen__np"/></e>
-<e lm="Trek">            <i>Trek</i><par n="Ibsen__np"/></e>
-<e lm="Trosterud">       <i>Trosterud</i><par n="Ibsen__np"/></e>
-<e lm="Unhammer">        <i>Unhammer</i><par n="Ibsen__np"/></e>
-<e lm="United">          <i>United</i><par n="Ibsen__np"/></e>
-<e lm="University">      <i>University</i><par n="Ibsen__np"/></e>
-<e lm="Universität">     <i>Universität</i><par n="Ibsen__np"/></e>
 <e lm="Urban">           <i>Urban</i><par n="Jo__np"/></e>
-<e lm="Voldemort">       <i>Voldemort</i><par n="Ibsen__np"/></e>
-<e lm="WaA">             <i>WaA</i><par n="Ibsen__np"/></e>
-<e lm="Wagner">          <i>Wagner</i><par n="Ibsen__np"/></e>
-<e lm="Walk">            <i>Walk</i><par n="Ibsen__np"/></e>
-<e lm="War">             <i>War</i><par n="Ibsen__np"/></e>
-<e lm="We">              <i>We</i><par n="Ibsen__np"/></e>
-<e lm="Wessel">          <i>Wessel</i><par n="Ibsen__np"/></e>
-<e lm="The Who">         <i>The<b/>Who</i><par n="Ibsen__np"/></e>
-<e lm="Wikimedia">       <i>Wikimedia</i><par n="Ibsen__np"/></e>
-<e lm="Wilson">          <i>Wilson</i><par n="Ibsen__np"/></e>
-<e lm="Wood">            <i>Wood</i><par n="Ibsen__np"/></e>
-<e lm="World">           <i>World</i><par n="Ibsen__np"/></e>
-<e lm="Wright">          <i>Wright</i><par n="Ibsen__np"/></e>
-<e lm="Young">           <i>Young</i><par n="Ibsen__np"/></e>
 <e lm="Zhou">            <i>Zhou</i><par n="Jo__np"/></e>
 
 <e lm="Nationaltheatret"><i>Nationaltheatret</i><par n="Lagtinget__np"/></e>
@@ -52116,7 +52104,7 @@
 <e lm="Ravnastua">   <i>Ravnastua</i><par n="Norge__np"/></e>
 <e lm="Råvaneset">   <i>Råvaneset</i><par n="Norge__np"/></e>
 <e lm="Sirma">   <i>Sirma</i><par n="Norge__np"/></e>
-<e lm="skoverøen">   <i>skoverøen</i><par n="Norge__np"/></e>
+<e lm="Skoverøen">   <i>Skoverøen</i><par n="Norge__np"/></e>
 <e lm="Steinfjeldet">   <i>Steinfjeldet</i><par n="Norge__np"/></e>
 <e lm="Storfjorden">   <i>Storfjorden</i><par n="Norge__np"/></e>
 <e lm="Sydnorge">   <i>Sydnorge</i><par n="Norge__np"/></e>
@@ -52135,318 +52123,6 @@
 
 
 
-<!--
-
-
-<e lm="Ada">             <i>Ada</i><par n="Eva__np"/></e>
-<e lm="Mary">            <i>Mary</i><par n="Eva__np"/></e>
-<e lm="Afrika">          <i>Afrika</i><par n="Danmark__np"/></e>
-<e lm="Amerika">         <i>Amerika</i><par n="Danmark__np"/></e>
-<e lm="Anders">          <i>Anders</i><par n="Anders__np"/></e>
-<e lm="Jonas">           <i>Jonas</i><par n="Anders__np"/></e>
-<e lm="Frederik">        <i>Frederik</i><par n="Trond__np"/></e>
-<e lm="Thomas">          <i>Thomas</i><par n="Anders__np"/></e>
-<e lm="Mark">            <i>Mark</i><par n="Trond__np"/></e>
-<e lm="Andersson">       <i>Andersson</i><par n="Magnusson__np"/></e>
-<e lm="Armenien">        <i>Armenien</i><par n="Danmark__np"/></e>
-<e lm="Asien">           <i>Asien</i><par n="Danmark__np"/></e>
-<e lm="Australien">      <i>Australien</i><par n="Danmark__np"/></e>
-<e lm="Barcelona">       <i>Barcelona</i><par n="Danmark__np"/></e>
-<e lm="Belgien">         <i>Belgien</i><par n="Danmark__np"/></e>
-<e lm="Berlin">          <i>Berlin</i><par n="Danmark__np"/></e>
-<e lm="Bulgarien">       <i>Bulgarien</i><par n="Danmark__np"/></e>
-<e lm="Canada">          <i>Canada</i><par n="Danmark__np"/></e>
-<e lm="Carl">            <i>Carl</i><par n="Trond__np"/></e>
-<e lm="Carlsson">        <i>Carlsson</i><par n="Magnusson__np"/></e>
-<e lm="Christian">       <i>Christian</i><par n="Trond__np"/></e>
-<e lm="Daniel">          <i>Daniel</i><par n="Trond__np"/></e>
-<e lm="Danmark">         <i>Danmark</i><par n="Danmark__np"/></e>
-<e lm="David">           <i>David</i><par n="Trond__np"/></e>
-<e lm="EU">              <i>EU</i><par n="Danmark__np"/></e>
-<e lm="England">         <i>England</i><par n="Danmark__np"/></e>
-<e lm="Ericsson">        <i>Ericsson</i><par n="Magnusson__np"/></e>
-
-<e lm="Johansson">       <i>Johansson</i><par n="Magnusson__np"/></e>
-<e lm="Persson">         <i>Persson</i><par n="Magnusson__np"/></e>
-<e lm="Olsson">          <i>Olsson</i><par n="Magnusson__np"/></e>
-<e lm="Thuresson">       <i>Thuresson</i><par n="Magnusson__np"/></e>
-<e lm="Karlsson">        <i>Karlsson</i><par n="Magnusson__np"/></e>
-<e lm="Hansson">         <i>Hansson</i><par n="Magnusson__np"/></e>
-<e lm="Pettersson">      <i>Pettersson</i><par n="Magnusson__np"/></e>
-<e lm="Jonsson">         <i>Jonsson</i><par n="Magnusson__np"/></e>
-<e lm="Bengtsson">       <i>Bengtsson</i><par n="Magnusson__np"/></e>
-<e lm="Jönsson">         <i>Jönsson</i><par n="Magnusson__np"/></e>
-<e lm="Jansson">         <i>Jansson</i><par n="Magnusson__np"/></e>
-<e lm="Danielsson">      <i>Danielsson</i><par n="Magnusson__np"/></e>
-<e lm="Gustafsson">      <i>Gustafsson</i><par n="Magnusson__np"/></e>
-<e lm="Knutsson">        <i>Knutsson</i><par n="Magnusson__np"/></e>
-<e lm="Axelsson">        <i>Axelsson</i><par n="Magnusson__np"/></e>
-<e lm="Månsson">         <i>Månsson</i><par n="Magnusson__np"/></e>
-<e lm="Petersson">       <i>Petersson</i><par n="Magnusson__np"/></e>
-<e lm="Håkansson">       <i>Håkansson</i><par n="Magnusson__np"/></e>
-<e lm="Fredriksson">     <i>Fredriksson</i><par n="Magnusson__np"/></e>
-<e lm="Mattsson">        <i>Mattsson</i><par n="Magnusson__np"/></e>
-<e lm="Henriksson">      <i>Henriksson</i><par n="Magnusson__np"/></e>
-<e lm="Isaksson">        <i>Isaksson</i><par n="Magnusson__np"/></e>
-<e lm="Johnsson">        <i>Johnsson</i><par n="Magnusson__np"/></e>
-<e lm="Göransson">       <i>Göransson</i><par n="Magnusson__np"/></e>
-<e lm="Jacobsson">       <i>Jacobsson</i><par n="Magnusson__np"/></e>
-<e lm="Ohlsson">         <i>Ohlsson</i><par n="Magnusson__np"/></e>
-<e lm="Augustsson">      <i>Augustsson</i><par n="Magnusson__np"/></e>
-<e lm="Mårtensson">      <i>Mårtensson</i><par n="Magnusson__np"/></e>
-<e lm="Åkesson">         <i>Åkesson</i><par n="Magnusson__np"/></e>
-<e lm="Samuelsson">      <i>Samuelsson</i><par n="Magnusson__np"/></e>
-<e lm="Hermansson">      <i>Hermansson</i><par n="Magnusson__np"/></e>
-<e lm="Arvidsson">       <i>Arvidsson</i><par n="Magnusson__np"/></e>
-<e lm="Philipsson">      <i>Philipsson</i><par n="Magnusson__np"/></e>
-<e lm="Simonsson">       <i>Simonsson</i><par n="Magnusson__np"/></e>
-<e lm="Gabrielsson">     <i>Gabrielsson</i><par n="Magnusson__np"/></e>
-<e lm="Gunnarsson">      <i>Gunnarsson</i><par n="Magnusson__np"/></e>
-<e lm="Abrahamsson">     <i>Abrahamsson</i><par n="Magnusson__np"/></e>
-<e lm="Torstensson">     <i>Torstensson</i><par n="Magnusson__np"/></e>
-<e lm="Paulsson">        <i>Paulsson</i><par n="Magnusson__np"/></e>
-<e lm="Claesson">        <i>Claesson</i><par n="Magnusson__np"/></e>
-<e lm="Jakobsson">       <i>Jakobsson</i><par n="Magnusson__np"/></e>
-<e lm="Börjesson">       <i>Börjesson</i><par n="Magnusson__np"/></e>
-<e lm="Alfredsson">      <i>Alfredsson</i><par n="Magnusson__np"/></e>
-<e lm="Stensson">        <i>Stensson</i><par n="Magnusson__np"/></e>
-<e lm="Andréasson">      <i>Andréasson</i><par n="Magnusson__np"/></e>
-<e lm="Sturlasson">      <i>Sturlasson</i><par n="Magnusson__np"/></e>
-<e lm="Birgersson">      <i>Birgersson</i><par n="Magnusson__np"/></e>
-<e lm="Thorsson">        <i>Thorsson</i><par n="Magnusson__np"/></e>
-<e lm="Jonasson">        <i>Jonasson</i><par n="Magnusson__np"/></e>
-<e lm="Elofsson">        <i>Elofsson</i><par n="Magnusson__np"/></e>
-<e lm="Bosson">          <i>Bosson</i><par n="Magnusson__np"/></e>
-<e lm="Aronsson">        <i>Aronsson</i><par n="Magnusson__np"/></e>
-<e lm="Pedersson">       <i>Pedersson</i><par n="Magnusson__np"/></e>
-<e lm="Martinsson">      <i>Martinsson</i><par n="Magnusson__np"/></e>
-<e lm="Josefsson">       <i>Josefsson</i><par n="Magnusson__np"/></e>
-<e lm="Erik">            <i>Erik</i><par n="Trond__np"/></e>
-<e lm="Eriksson">        <i>Eriksson</i><par n="Magnusson__np"/></e>
-<e lm="Estland">         <i>Estland</i><par n="Danmark__np"/></e>
-<e lm="Europa">          <i>Europa</i><par n="Danmark__np"/></e>
-<e lm="Eva">             <i>Eva</i><par n="Eva__np"/></e>
-<e lm="Finland">         <i>Finland</i><par n="Danmark__np"/></e>
-<e lm="Frankrig">        <i>Frankrig</i><par n="Danmark__np"/></e>
-<e lm="Fredrik">         <i>Fredrik</i><par n="Trond__np"/></e>
-<e lm="Grækenland">      <i>Grækenland</i><par n="Danmark__np"/></e>
-<e lm="Gustaf">          <i>Gustaf</i><par n="Trond__np"/></e>
-<e lm="Gustav">          <i>Gustav</i><par n="Trond__np"/></e>
-<e lm="Gustavsson">      <i>Gustavsson</i><par n="Magnusson__np"/></e>
-<e lm="Bergström">       <i>Bergström</i><par n="Magnusson__np"/></e>
-<e lm="Eliasson">        <i>Eliasson</i><par n="Magnusson__np"/></e>
-<e lm="Hedman">          <i>Hedman</i><par n="Magnusson__np"/></e>
-<e lm="Gøteborg">        <i>Gøteborg</i><par n="Danmark__np"/></e>
-<e lm="Ålborg">          <i>Ålborg</i><par n="Danmark__np"/></e>
-<e lm="Garborg">         <i>Garborg</i><par n="Danmark__np"/></e>
-<e lm="Helsingborg">     <i>Helsingborg</i><par n="Danmark__np"/></e>
-<e lm="Kalundborg">      <i>Kalundborg</i><par n="Danmark__np"/></e>
-<e lm="Oscarsborg">      <i>Oscarsborg</i><par n="Danmark__np"/></e>
-<e lm="Rosenborg">       <i>Rosenborg</i><par n="Danmark__np"/></e>
-<e lm="Sarpsborg">       <i>Sarpsborg</i><par n="Danmark__np"/></e>
-<e lm="Trelleborg">      <i>Trelleborg</i><par n="Danmark__np"/></e>
-<e lm="Uleåborg">        <i>Uleåborg</i><par n="Danmark__np"/></e>
-<e lm="Viborg">          <i>Viborg</i><par n="Danmark__np"/></e>
-<e lm="Mallorca">        <i>Mallorca</i><par n="Danmark__np"/></e>
-
-<e lm="Harry">           <i>Harry</i><par n="Trond__np"/></e>
-<e lm="Henrik">          <i>Henrik</i><par n="Trond__np"/></e>
-<e lm="Holland">         <i>Holland</i><par n="Danmark__np"/></e>
-<e lm="Nederlandene">    <i>Nederlandene</i><par n="Danmark__np"/></e>
-<e lm="Indien">          <i>Indien</i><par n="Danmark__np"/></e>
-<e lm="Irland">          <i>Irland</i><par n="Danmark__np"/></e>
-<e lm="Island">          <i>Island</i><par n="Danmark__np"/></e>
-<e lm="Italien">         <i>Italien</i><par n="Danmark__np"/></e>
-<e lm="Jacob">           <i>Jacob</i><par n="Trond__np"/></e>
-<e lm="James">           <i>James</i><par n="Anders__np"/></e>
-<e lm="Japan">           <i>Japan</i><par n="Danmark__np"/></e>
-<e lm="Johan">           <i>Johan</i><par n="Trond__np"/></e>
-<e lm="John">            <i>John</i><par n="Trond__np"/></e>
-<e lm="Karl">            <i>Karl</i><par n="Trond__np"/></e>
-<e lm="Kina">            <i>Kina</i><par n="Danmark__np"/></e>
-<e lm="Kålle">           <i>Kålle</i><par n="Trond__np"/></e>
-<e lm="Larsson">         <i>Larsson</i><par n="Magnusson__np"/></e>
-<e lm="Letland">         <i>Letland</i><par n="Danmark__np"/></e>
-<e lm="London">          <i>London</i><par n="Danmark__np"/></e>
-<e lm="Magnusson">       <i>Magnusson</i><par n="Magnusson__np"/></e>
-<e lm="Malmø">           <i>Malmø</i><par n="Danmark__np"/></e>
-<e lm="Maria">           <i>Maria</i><par n="Eva__np"/></e>
-<e lm="Madeleine">       <i>Madeleine</i><par n="Eva__np"/></e>
-<e lm="Martin">          <i>Martin</i><par n="Trond__np"/></e>
-<e lm="Mikael">          <i>Mikael</i><par n="Trond__np"/></e>
-<e lm="New York">        <i>New York</i><par n="Danmark__np"/></e>
-<e lm="Nilsson">         <i>Nilsson</i><par n="Magnusson__np"/></e>
-<e lm="Norden">          <i>Norden</i><par n="Danmark__np"/></e>
-<e lm="Norge">           <i>Norge</i><par n="Danmark__np"/></e>
-<e lm="Wien">            <i>Wien</i><par n="Danmark__np"/></e>
-<e lm="København">       <i>København</i><par n="Danmark__np"/></e>
-<e lm="São Paulo">       <i>São Paulo</i><par n="Danmark__np"/></e>
-<e lm="Odense">          <i>Odense</i><par n="Danmark__np"/></e>
-<e lm="Århus">           <i>Århus</i><par n="Schweiz__np"/></e>
-<e lm="Olof">            <i>Olof</i><par n="Trond__np"/></e>
-<e lm="Olofsson">        <i>Olofsson</i><par n="Magnusson__np"/></e>
-<e lm="Paris">           <i>Paris</i><par n="Schweiz__np"/></e>
-<e lm="Peter">           <i>Peter</i><par n="Trond__np"/></e>
-<e lm="Polen">           <i>Polen</i><par n="Danmark__np"/></e>
-<e lm="Robert">          <i>Robert</i><par n="Trond__np"/></e>
-<e lm="Rusland">         <i>Rusland</i><par n="Danmark__np"/></e>
-<e lm="Schweiz">         <i>Schweiz</i><par n="Schweiz__np"/></e>
-<e lm="Skandinavien">    <i>Skandinavien</i><par n="Danmark__np"/></e>
-<e lm="Skåne">           <i>Skåne</i><par n="Danmark__np"/></e>
-<e lm="Slovenien">       <i>Slovenien</i><par n="Danmark__np"/></e>
-<e lm="Sovjetunionen">   <i>Sovjetunionen</i><par n="Danmark__np"/></e>
-<e lm="Spanien">         <i>Spanien</i><par n="Danmark__np"/></e>
-
-<e lm="Afghanistan">     <i>Afghanistan</i><par n="Danmark__np"/></e>
-<e lm="Albanien">        <i>Albanien</i><par n="Danmark__np"/></e>
-<e lm="Algeriet">        <i>Algeriet</i><par n="Danmark__np"/></e>
-<e lm="Andorra">         <i>Andorra</i><par n="Danmark__np"/></e>
-<e lm="Angola">          <i>Angola</i><par n="Danmark__np"/></e>
-<e lm="Argentina">       <i>Argentina</i><par n="Danmark__np"/></e>
-<e lm="Aserbajdsjan">    <i>Aserbajdsjan</i><par n="Danmark__np"/></e>
-<e lm="Bahamas">         <i>Bahamas</i><par n="Schweiz__np"/></e>
-<e lm="Bahrain">         <i>Bahrain</i><par n="Danmark__np"/></e>
-<e lm="Bangladesh">      <i>Bangladesh</i><par n="Danmark__np"/></e>
-<e lm="Barbados">        <i>Barbados</i><par n="Schweiz__np"/></e>
-<e lm="Belize">          <i>Belize</i><par n="Danmark__np"/></e>
-<e lm="Benin">           <i>Benin</i><par n="Danmark__np"/></e>
-<e lm="Bhutan">          <i>Bhutan</i><par n="Danmark__np"/></e>
-<e lm="Bolivia">         <i>Bolivia</i><par n="Danmark__np"/></e>
-<e lm="Botswana">        <i>Botswana</i><par n="Danmark__np"/></e>
-<e lm="Brasilien">       <i>Brasilien</i><par n="Danmark__np"/></e>
-<e lm="Brunei">          <i>Brunei</i><par n="Danmark__np"/></e>
-<e lm="Burundi">         <i>Burundi</i><par n="Danmark__np"/></e>
-<e lm="Chile">           <i>Chile</i><par n="Danmark__np"/></e>
-<e lm="Colombia">        <i>Colombia</i><par n="Danmark__np"/></e>
-<e lm="Cypern">          <i>Cypern</i><par n="Danmark__np"/></e>
-<e lm="Djibouti">        <i>Djibouti</i><par n="Danmark__np"/></e>
-<e lm="Dominica">        <i>Dominica</i><par n="Danmark__np"/></e>
-<e lm="Ecuador">         <i>Ecuador</i><par n="Danmark__np"/></e>
-<e lm="Egypten">         <i>Egypten</i><par n="Danmark__np"/></e>
-<e lm="Ækvatorialguinea"><i>Ækvatorialguinea</i><par n="Danmark__np"/></e>
-<e lm="Elfenbenskysten"> <i>Elfenbenskysten</i><par n="Danmark__np"/></e>
-<e lm="Eritrea">         <i>Eritrea</i><par n="Danmark__np"/></e>
-<e lm="Etiopien">        <i>Etiopien</i><par n="Danmark__np"/></e>
-<e lm="Filippinerne">    <i>Filippinerne</i><par n="Danmark__np"/></e>
-<e lm="Gambia">          <i>Gambia</i><par n="Danmark__np"/></e>
-<e lm="Georgien">        <i>Georgien</i><par n="Danmark__np"/></e>
-<e lm="Ghana">           <i>Ghana</i><par n="Danmark__np"/></e>
-<e lm="Grenada">         <i>Grenada</i><par n="Danmark__np"/></e>
-<e lm="Guatemala">       <i>Guatemala</i><par n="Danmark__np"/></e>
-<e lm="Guinea">          <i>Guinea</i><par n="Danmark__np"/></e>
-<e lm="Guyana">          <i>Guyana</i><par n="Danmark__np"/></e>
-<e lm="Haiti">           <i>Haiti</i><par n="Danmark__np"/></e>
-<e lm="Honduras">        <i>Honduras</i><par n="Schweiz__np"/></e>
-<e lm="Indonesien">      <i>Indonesien</i><par n="Danmark__np"/></e>
-<e lm="Irak">            <i>Irak</i><par n="Danmark__np"/></e>
-<e lm="Iran">            <i>Iran</i><par n="Danmark__np"/></e>
-<e lm="Israel">          <i>Israel</i><par n="Danmark__np"/></e>
-<e lm="Jamaica">         <i>Jamaica</i><par n="Danmark__np"/></e>
-<e lm="Yemen">           <i>Yemen</i><par n="Danmark__np"/></e>
-<e lm="Jordan">          <i>Jordan</i><par n="Danmark__np"/></e>
-<e lm="Cambodja">        <i>Cambodja</i><par n="Danmark__np"/></e>
-<e lm="Cameroun">        <i>Cameroun</i><par n="Danmark__np"/></e>
-<e lm="Kasakhstan">      <i>Kasakhstan</i><par n="Danmark__np"/></e>
-<e lm="Kenya">           <i>Kenya</i><par n="Danmark__np"/></e>
-<e lm="Kiribati">        <i>Kiribati</i><par n="Danmark__np"/></e>
-<e lm="Comorerne">       <i>Comorerne</i><par n="Danmark__np"/></e>
-<e lm="Congo">           <i>Congo</i><par n="Danmark__np"/></e>
-<e lm="Korea">           <i>Korea</i><par n="Danmark__np"/></e>
-<e lm="Kosovo">          <i>Kosovo</i><par n="Danmark__np"/></e>
-<e lm="Kroatien">        <i>Kroatien</i><par n="Danmark__np"/></e>
-<e lm="Cuba">            <i>Cuba</i><par n="Danmark__np"/></e>
-<e lm="Kuwait">          <i>Kuwait</i><par n="Danmark__np"/></e>
-<e lm="Lesotho">         <i>Lesotho</i><par n="Danmark__np"/></e>
-<e lm="Libanon">         <i>Libanon</i><par n="Danmark__np"/></e>
-<e lm="Liberia">         <i>Liberia</i><par n="Danmark__np"/></e>
-<e lm="Liechtenstein">   <i>Liechtenstein</i><par n="Danmark__np"/></e>
-<e lm="Litauen">         <i>Litauen</i><par n="Danmark__np"/></e>
-<e lm="Luxembourg">      <i>Luxembourg</i><par n="Danmark__np"/></e>
-<e lm="Madagaskar">      <i>Madagaskar</i><par n="Danmark__np"/></e>
-<e lm="Makedonien">      <i>Makedonien</i><par n="Danmark__np"/></e>
-<e lm="Malawi">          <i>Malawi</i><par n="Danmark__np"/></e>
-<e lm="Malaysia">        <i>Malaysia</i><par n="Danmark__np"/></e>
-<e lm="Maldiverne">      <i>Maldiverne</i><par n="Danmark__np"/></e>
-<e lm="Mali">            <i>Mali</i><par n="Danmark__np"/></e>
-<e lm="Malta">           <i>Malta</i><par n="Danmark__np"/></e>
-<e lm="Marokko">         <i>Marokko</i><par n="Danmark__np"/></e>
-<e lm="Marshalløerne">   <i>Marshalløerne</i><par n="Danmark__np"/></e>
-<e lm="Mauretanien">     <i>Mauretanien</i><par n="Danmark__np"/></e>
-<e lm="Mauritius">       <i>Mauritius</i><par n="Schweiz__np"/></e>
-<e lm="Mozambique">      <i>Mozambique</i><par n="Danmark__np"/></e>
-<e lm="Moldova">         <i>Moldova</i><par n="Danmark__np"/></e>
-<e lm="Monaco">          <i>Monaco</i><par n="Danmark__np"/></e>
-<e lm="Mongoliet">       <i>Mongoliet</i><par n="Danmark__np"/></e>
-<e lm="Montenegro">      <i>Montenegro</i><par n="Danmark__np"/></e>
-<e lm="Burma">           <i>Burma</i><par n="Danmark__np"/></e>
-<e lm="Namibia">         <i>Namibia</i><par n="Danmark__np"/></e>
-<e lm="Nauru">           <i>Nauru</i><par n="Danmark__np"/></e>
-<e lm="Nepal">           <i>Nepal</i><par n="Danmark__np"/></e>
-<e lm="Nicaragua">       <i>Nicaragua</i><par n="Danmark__np"/></e>
-<e lm="Niger">           <i>Niger</i><par n="Danmark__np"/></e>
-<e lm="Nigeria">         <i>Nigeria</i><par n="Danmark__np"/></e>
-<e lm="Oman">            <i>Oman</i><par n="Danmark__np"/></e>
-<e lm="Østtimor">        <i>Østtimor</i><par n="Danmark__np"/></e>
-<e lm="Pakistan">        <i>Pakistan</i><par n="Danmark__np"/></e>
-<e lm="Palau">           <i>Palau</i><par n="Danmark__np"/></e>
-<e lm="Panama">          <i>Panama</i><par n="Danmark__np"/></e>
-<e lm="Paraguay">        <i>Paraguay</i><par n="Danmark__np"/></e>
-<e lm="Peru">            <i>Peru</i><par n="Danmark__np"/></e>
-<e lm="Qatar">           <i>Qatar</i><par n="Danmark__np"/></e>
-<e lm="Rumænien">        <i>Rumænien</i><par n="Danmark__np"/></e>
-<e lm="Rwanda">          <i>Rwanda</i><par n="Danmark__np"/></e>
-<e lm="Salomonøerne">    <i>Salomonøerne</i><par n="Danmark__np"/></e>
-<e lm="Samoa">           <i>Samoa</i><par n="Danmark__np"/></e>
-<e lm="Saudi-Arabien">   <i>Saudi-Arabien</i><par n="Danmark__np"/></e>
-<e lm="Senegal">         <i>Senegal</i><par n="Danmark__np"/></e>
-<e lm="Serbien">         <i>Serbien</i><par n="Danmark__np"/></e>
-<e lm="Seychellerne">    <i>Seychellerne</i><par n="Danmark__np"/></e>
-<e lm="Singapore">       <i>Singapore</i><par n="Danmark__np"/></e>
-<e lm="Somalia">         <i>Somalia</i><par n="Danmark__np"/></e>
-<e lm="Sudan">           <i>Sudan</i><par n="Danmark__np"/></e>
-<e lm="Surinam">         <i>Surinam</i><par n="Danmark__np"/></e>
-<e lm="Swaziland">       <i>Swaziland</i><par n="Danmark__np"/></e>
-<e lm="Sydafrika">       <i>Sydafrika</i><par n="Danmark__np"/></e>
-<e lm="Tadsjikistan">    <i>Tadsjikistan</i><par n="Danmark__np"/></e>
-<e lm="Tanzania">        <i>Tanzania</i><par n="Danmark__np"/></e>
-<e lm="Tchad">           <i>Tchad</i><par n="Danmark__np"/></e>
-<e lm="Thailand">        <i>Thailand</i><par n="Danmark__np"/></e>
-<e lm="Tonga">           <i>Tonga</i><par n="Danmark__np"/></e>
-<e lm="Tunesien">        <i>Tunesien</i><par n="Danmark__np"/></e>
-<e lm="Tuvalu">          <i>Tuvalu</i><par n="Danmark__np"/></e>
-<e lm="Uganda">          <i>Uganda</i><par n="Danmark__np"/></e>
-<e lm="Uruguay">         <i>Uruguay</i><par n="Danmark__np"/></e>
-<e lm="Usbekistan">      <i>Usbekistan</i><par n="Danmark__np"/></e>
-<e lm="Venezuela">       <i>Venezuela</i><par n="Danmark__np"/></e>
-<e lm="Vietnam">         <i>Vietnam</i><par n="Danmark__np"/></e>
-<e lm="Hviderusland">    <i>Hviderusland</i><par n="Danmark__np"/></e>
-<e lm="Zambia">          <i>Zambia</i><par n="Danmark__np"/></e>
-<e lm="Zimbabwe">        <i>Zimbabwe</i><par n="Danmark__np"/></e>
-
-
-<e lm="Stockholm">       <i>Stockholm</i><par n="Danmark__np"/></e>
-<e lm="Storbritannien">  <i>Storbritannien</i><par n="Danmark__np"/></e>
-<e lm="Svensson">        <i>Svensson</i><par n="Magnusson__np"/></e>
-<e lm="Sverige">         <i>Sverige</i><par n="Danmark__np"/></e>
-<e lm="Trond">           <i>Trond</i><par n="Trond__np"/></e>
-<e lm="Tyrkiet">         <i>Tyrkiet</i><par n="Danmark__np"/></e>
-<e lm="Tyskland">        <i>Tyskland</i><par n="Danmark__np"/></e>
-<e lm="Turkmenistan">    <i>Turkmenistan</i><par n="Danmark__np"/></e>
-<e lm="USA">             <i>USA</i><par n="Danmark__np"/></e>
-<e lm="Ukraine">         <i>Ukraine</i><par n="Danmark__np"/></e>
-<e lm="Ungarn">          <i>Ungarn</i><par n="Danmark__np"/></e>
-<e lm="Uppsala">         <i>Uppsala</i><par n="Danmark__np"/></e>
-<e lm="Moskva">          <i>Moskva</i><par n="Danmark__np"/></e>
-<e lm="Wikimedia">       <i>Wikimedia</i><par n="Wikipedia__np"/></e>
-<e lm="Wikipedia">       <i>Wikipedia</i><par n="Wikipedia__np"/></e>
-<e lm="Wiktionary">      <i>Wiktionary</i><par n="Wikipedia__np"/></e>
-<e lm="Wilhelmsson">     <i>Wilhelmsson</i><par n="Magnusson__np"/></e>
-<e lm="York">            <i>York</i><par n="Danmark__np"/></e>
-<e lm="internet">        <i>internet</i><par n="Danmark__np"/></e>
-<e lm="internettet">     <i>internettet</i><par n="Danmark__np"/></e>
-<e lm="Østrig">          <i>Østrig</i><par n="Danmark__np"/></e>
-
--->
 
 
 
@@ -58547,21 +58223,18 @@
 
     <!-- Proper nouns -->
 
-<e lm="Dagens Nyheter" a="PT"><i>Dagens Nyheter</i><par n="Danmark__np"/></e>
-<e lm="Svenska Dagbladet" a="PT"><i>Svenska Dagbladet</i><par n="Danmark__np"/></e>
+<e lm="Dagens Nyheter" a="PT"><i>Dagens<b/>Nyheter</i><par n="Ibsen__np"/></e>
+<e lm="Svenska Dagbladet" a="PT"><i>Svenska<b/>Dagbladet</i><par n="Lagtinget__np"/></e>
 
-<e lm="EF" a="PT">       <i>EF</i><par n="Danmark__np"/></e>
-<e lm="USSR" a="PT">     <i>USSR</i><par n="Danmark__np"/></e>
-<e lm="ØMU" a="PT">      <i>ØMU</i><par n="Danmark__np"/></e>
+<e lm="EF" a="PT">       <i>EF</i><par n="Norge__np"/></e>
+<e lm="USSR" a="PT">     <i>USSR</i><par n="Norge__np"/></e>
+<e lm="ØMU" a="PT">      <i>ØMU</i><par n="Norge__np"/></e>
 
-<e lm="Middelhavet" a="PT"><i>Middelhavet</i><par n="Danmark__np"/></e>
-<e lm="Atlanten" a="PT"> <i>Atlanten</i><par n="Danmark__np"/></e>
-<e lm="Østersøen" a="PT"><i>Østersøen</i><par n="Danmark__np"/></e>
-<e lm="Skagerack" a="PT"><i>Skagerack</i><par n="Danmark__np"/></e>
-<e lm="Kattegat" a="PT"><i>Kattegat</i><par n="Danmark__np"/></e>
-<e lm="Strömstad" a="PT"><i>Strömstad</i><par n="Danmark__np"/></e>
-<e lm="Koster" a="PT">   <i>Koster</i><par n="Danmark__np"/></e>
-<e lm="Oslo" a="PT">     <i>Oslo</i><par n="Danmark__np"/></e>
+<e lm="Atlanten" a="PT"> <i>Atlanten</i><par n="Osen__np"/></e>
+<e lm="Skagerack" a="PT"><i>Skagerack</i><par n="Norge__np"/></e>
+<e lm="Kattegat" a="PT"><i>Kattegat</i><par n="Norge__np"/></e>
+<e lm="Strömstad" a="PT"><i>Strömstad</i><par n="Norge__np"/></e>
+<e lm="Koster" a="PT">   <i>Koster</i><par n="Norge__np"/></e>
 
 
 <!--ACRONYMS-->
