@@ -4369,7 +4369,7 @@
   <e>       <p><l>iver</l>      <r>ive<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
   <e>       <p><l>ives</l>      <r>ive<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>ev</l>        <r>ive<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
-  <e>       <p><l>ev</l>    <r>ive<s n="vblex"/><s n="past"/><s n="pasv"/></r></p></e>  <!-- underskrevedes -->
+  <e>       <p><l>evedes</l>    <r>ive<s n="vblex"/><s n="past"/><s n="pasv"/></r></p></e>  <!-- underskrevedes -->
   <e>       <p><l>evet</l>      <r>ive<s n="vblex"/><s n="pp"/></r></p></e>
   <e>       <p><l>ivende</l>    <r>ive<s n="adj"/><s n="pprs"/></r></p></e>
   <e>       <p><l>evet</l>         <r>ive<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
@@ -4387,7 +4387,7 @@
   <e>       <p><l>iber</l>      <r>ibe<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
   <e>       <p><l>ibes</l>      <r>ibe<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>eb</l>        <r>ibe<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
-  <e>       <p><l>eb</l>    <r>ibe<s n="vblex"/><s n="past"/><s n="pasv"/></r></p></e>  <!-- underskrevedes -->
+  <e>       <p><l>ebedes</l>    <r>ibe<s n="vblex"/><s n="past"/><s n="pasv"/></r></p></e>  <!-- underskrevedes -->
   <e>       <p><l>ebet</l>      <r>ibe<s n="vblex"/><s n="pp"/></r></p></e>
   <e>       <p><l>ibende</l>    <r>ibe<s n="adj"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ebet</l>         <r>ibe<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
