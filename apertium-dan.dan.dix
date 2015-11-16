@@ -21,7 +21,7 @@
     <sdef n="f"   c="Feminine"/>
     <sdef n="mf"  c="Masculine / feminine"/>
     <sdef n="clb"   c="Possible clause boundary"/>
-   <sdef n="pstv"  c="-s verbs"/>
+    <sdef n="pstv"  c="-s verbs"/> <!-- TODO: should go on verbs like findes etc. -->
 
     <sdef n="top"   c="Toponym"/>
     <sdef n="ant"   c="Anthroponym"/>
