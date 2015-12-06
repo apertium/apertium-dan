@@ -1004,9 +1004,7 @@
 <pardef n="/mange__adj">
   <e>       <p><l>mange</l>     <r>mange<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>mange</l>     <r>mange<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="def"/></r></p></e>
-  <e>       <p><l>flere</l>     <r>mange<s n="adj"/><s n="sint"/><s n="comp"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>flere</l>     <r>mange<s n="adj"/><s n="sint"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
-  <e>       <p><l>flere</l>     <r>mange<s n="adj"/><s n="sint"/><s n="comp"/><s n="un"/><s n="pl"/><s n="def"/></r></p></e>
   <e>       <p><l>flest</l>     <r>mange<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>flest</l>     <r>mange<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
   <e>       <p><l>fleste</l>    <r>mange<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="pl"/><s n="def"/></r></p></e>
