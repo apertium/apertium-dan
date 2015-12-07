@@ -27509,6 +27509,8 @@
 <e lm="fattig">                    <i>fattig</i><par n="lykkelig__adj"/></e>
 <e lm="feberfri">                  <i>feberfri</i><par n="rund__adj"/></e>
 <e lm="fej">                       <i>fej</i><par n="rund__adj"/></e>
+<e lm="sej">                       <i>sej</i><par n="rund__adj"/></e>
+<e lm="cool">                       <i>cool</i><par n="rund__adj"/></e>
 <e lm="forkert">                   <i>forkert</i><par n="stolt__adj"/></e>
 <e lm="fejlfri">                   <i>fejlfri</i><par n="rund__adj"/></e>
 <e lm="fejlslået">                 <i>fejlslåe</i><par n="øve/t__adj"/></e>
@@ -28956,6 +28958,21 @@
 <e lm="øvre">                      <i>øv</i><par n="øv/re__adj"/></e>
 <e lm="øvrig">                     <i>øvrig</i><par n="lykkelig__adj"/></e>
 <e lm="øjeblikkelig">              <i>øjeblikkelig</i><par n="lykkelig__adj"/></e>
+<e lm="fløjtende" a="PT"><i>fløjtende</i><par n="amerikansk__adj"/></e>
+<e lm="forholdsord" a="PT"><i>forholdsord</i><par n="amerikansk__adj"/></e>
+<e lm="miljøvenlig" a="PT"><i>miljøvenlig</i><par n="amerikansk__adj"/></e>
+<e lm="nystarted" a="PT"><i>nystarted</i><par n="amerikansk__adj"/></e>
+<e lm="nyvasket" a="PT"> <i>nyvasket</i><par n="amerikansk__adj"/></e>
+<e lm="nyligt bygget" a="PT"><i>nyligt bygget</i><par n="amerikansk__adj"/></e>
+<e lm="nyligt" a="PT">   <i>nyligt</i><par n="amerikansk__adj"/></e>
+<e lm="bygget" a="PT">   <i>bygge</i><par n="øve/t__adj"/></e>
+<e lm="morsom">          <i>morsom</i><par n="ensom__adj"/></e>
+<e lm="snigende" a="PT"> <i>snigende</i><par n="amerikansk__adj"/></e>
+<e lm="springende" a="PT"><i>springende</i><par n="amerikansk__adj"/></e>
+<e lm="dødtræt">         <i>dødtræt</i><par n="træt__adj"/></e>
+
+<e lm="levende" a="DAINF"><i>levende</i><par n="absolut__adj"/></e>
+
      <!-- /adjectives -->
 
     <!-- particles -->
@@ -58166,20 +58183,6 @@
 
 <!--<e lm="at">              <i>a?t</i><par n="alt_imens__cnjadv"/></e>-->
 
-<e lm="fløjtende" a="PT"><i>fløjtende</i><par n="amerikansk__adj"/></e>
-<e lm="forholdsord" a="PT"><i>forholdsord</i><par n="amerikansk__adj"/></e>
-<e lm="miljøvenlig" a="PT"><i>miljøvenlig</i><par n="amerikansk__adj"/></e>
-<e lm="nystarted" a="PT"><i>nystarted</i><par n="amerikansk__adj"/></e>
-<e lm="nyvasket" a="PT"> <i>nyvasket</i><par n="amerikansk__adj"/></e>
-<e lm="nyligt bygget" a="PT"><i>nyligt bygget</i><par n="amerikansk__adj"/></e>
-<e lm="nyligt" a="PT">   <i>nyligt</i><par n="amerikansk__adj"/></e>
-<e lm="bygget" a="PT">   <i>bygge</i><par n="øve/t__adj"/></e>
-<e lm="morsom">          <i>morsom</i><par n="ensom__adj"/></e>
-<e lm="snigende" a="PT"> <i>snigende</i><par n="amerikansk__adj"/></e>
-<e lm="springende" a="PT"><i>springende</i><par n="amerikansk__adj"/></e>
-<e lm="dødtræt">         <i>dødtræt</i><par n="træt__adj"/></e>
-
-<e lm="levende" a="DAINF"><i>levende</i><par n="absolut__adj"/></e>
 <e lm="automatisk" a="PT"><i>automatisk</i><par n="ikke__adv"/></e>
 <e lm="fint" a="PT">     <i>fint</i><par n="ikke__adv"/></e>
 <e lm="forskellige" a="PT"><i>forskellige</i><par n="ikke__adv"/></e>
