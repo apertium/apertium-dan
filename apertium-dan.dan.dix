@@ -398,7 +398,7 @@
 
   <e>       <p><l></l>          <r><s n="adj"/><s n="sint"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>t</l>         <r><s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>e</l>         <r><s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="def"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
   <e>       <p><l>e</l>         <r><s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sg"/><s n="def"/></r></p></e>
     <e>       <p><l>ste</l>     <r><s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
   <e>       <p><l>st</l>      <r><s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
@@ -993,7 +993,6 @@
 
 <pardef n="/mange__adj">
   <e>       <p><l>mange</l>     <r>mange<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
-  <e>       <p><l>mange</l>     <r>mange<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="def"/></r></p></e>
   <e>       <p><l>flere</l>     <r>mange<s n="adj"/><s n="sint"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
   <e>       <p><l>flest</l>     <r>mange<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>flest</l>     <r>mange<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
