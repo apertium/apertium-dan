@@ -3624,9 +3624,9 @@
 <pardef n="/selvstændig__n" c="autoconcord:ut,sgpl"> <!-- Utrum; special! -->
   <e>       <p><l>selvstændig</l><r>selvstændig<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/><s n="nom"/></r></p></e>
   <e>       <p><l>selvstændiges</l><r>selvstændig<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/><s n="gen"/></r></p></e>
-  <e>       <p><l>den selvstændige</l><r>selvstændig<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>den<b/>selvstændige</l><r>selvstændig<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l>selvstændige</l><r>selvstændig<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>de selvstændige</l><r>selvstændig<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>de<b/>selvstændige</l><r>selvstændig<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
 
 <pardef n="NTmid/del__n">
@@ -6687,12 +6687,12 @@
           group prn
       ****************************** -->
 
-<e lm="sig selv">             <i></i><par n="/sig_selv__prn"/></e>
+<e lm="sig selv">        <par n="/sig_selv__prn"/></e>
 <e lm="hvad">            <i>hvad</i><par n="hvad__prn"/></e>
 <e lm="hvem">            <i>hvem</i><par n="hvad__prn"/></e>
-<e lm="jeg">             <i></i><par n="/jeg__prn"/></e>
-<e lm="vi">              <i></i><par n="/vi__prn"/></e>
-<e lm="I">               <i></i><par n="/I__prn"/></e>
+<e lm="jeg">             <par n="/jeg__prn"/></e>
+<e lm="vi">              <par n="/vi__prn"/></e>
+<e lm="I">               <par n="/I__prn"/></e>
 <e lm="al">              <i>al</i><par n="al/__prn"/></e>
 <e lm="allesammen">      <i>allesammen</i><par n="alting/__prn"/></e>
 <e lm="alting">          <i>alting</i><par n="alting/__prn"/></e>
@@ -6715,13 +6715,13 @@
 <e lm="hvilken">         <i>hvilke</i><par n="hvilke/n__prn"/></e>
 <e lm="ingen">           <i>in</i><par n="in/gen__prn"/></e>
 <e lm="ingenting">       <i>ingenting</i><par n="ingenting__prn"/></e>
-<e lm="man">             <i></i><par n="/man__prn"/></e>
+<e lm="man">             <par n="/man__prn"/></e>
 <e lm="mange">           <i>mang</i><par n="mang/e__prn"/></e>
 <e lm="nogen">           <i>nog</i><par n="nog/en__prn"/></e>
 <e lm="samme">           <i>samme</i><par n="samme__prn"/></e>
 <e lm="selv">            <i>selv</i><par n="selv__prn"/></e>
 <e lm="sig">             <i>sig</i><par n="sig__prn"/></e>
-<e lm="som">             <i></i><par n="/som__prn"/></e>
+<e lm="som">             <par n="/som__prn"/></e>
 <e lm="sådan">           <i>sådan</i><par n="ingenting__prn"/></e>
 <e lm="egen">            <i>eg</i><par n="eg/en__prn"/></e>
 
@@ -6786,7 +6786,7 @@
     <!-- *Nouns -->
 
 
-<e lm="alphabet">               <i></i><par n="alphabet__n"/></e>
+<e lm="alphabet">               <par n="alphabet__n"/></e>
 <e lm="8-årig">          <i>8-årig</i><par n="årig__n"/></e>
 <e lm="abbed">           <i>abbed</i><par n="ateist__n"/></e>
 <e lm="pr">           <i>pr</i><par n="ateist__n"/></e>
@@ -7127,7 +7127,7 @@
 <e lm="anbefaling">      <i>anbefaling</i><par n="ateist__n"/></e>
 <e lm="anciennitet">               <i>anciennitet</i><par n="aften_\s__n"/></e>
 <e lm="anciennitet">     <i>anciennitet</i><par n="ateist__n"/></e>
-<e lm="and">             <i></i><par n="/and__n"/></e>
+<e lm="and">             <par n="/and__n"/></e>
 <e lm="andagt">                    <i>andagt</i><par n="art__n"/></e>
 <e lm="andagt">          <i>andagt</i><par n="ateist__n"/></e>
 <e lm="andel">           <i>andel</i><par n="bold__n"/></e>
@@ -13885,7 +13885,7 @@
 <e lm="selvmål">                    <i>selvmål</i><par n="slag__n"/></e>
 <e lm="selvmål">         <i>selvmål</i><par n="år__n"/></e>
 <e lm="selvportræt">     <i>selvportræt</i><par n="portræt__n"/></e>
-<e lm="selvstændig">     <i></i><par n="/selvstændig__n"/></e>
+<e lm="selvstændig">     <par n="/selvstændig__n"/></e>
 <e lm="selvtillid">      <i>selvtillid</i><par n="ateist__n"/></e>
 <e lm="semifinale">      <i>semifinale</i><par n="abe__n"/></e>
 <e lm="senat">           <i>senat</i><par n="alibi__n"/></e>
@@ -26890,12 +26890,12 @@
 <e lm="nær">             <i>nær</i><par n="nær__adj"/></e>
 <e lm="øvrig">           <i>øvrig</i><par n="øvrig__adj"/></e>
 <e lm="færdig">          <i>færdig</i><par n="lykkelig__adj"/></e>
-<e lm="gammel">          <i></i><par n="/gammel__adj"/></e>
+<e lm="gammel">          <par n="/gammel__adj"/></e>
 <!--<e lm="år gammel">        <i>år </i><par n="/gammel__adj"/></e>-->
-<e lm="god">             <i></i><par n="/god__adj"/></e>
-<e lm="lille">           <i></i><par n="/lille__adj"/></e>
-<e lm="stor">            <i></i><par n="/stor__adj"/></e>
-<e lm="ung">             <i></i><par n="/ung__adj"/></e>
+<e lm="god">             <par n="/god__adj"/></e>
+<e lm="lille">           <par n="/lille__adj"/></e>
+<e lm="stor">            <par n="/stor__adj"/></e>
+<e lm="ung">             <par n="/ung__adj"/></e>
 <e lm="egen">            <i>eg</i><par n="eg/en__adj"/></e>
 <e lm="absolut">         <i>absolut</i><par n="absolut__adj"/></e>
 <e lm="afhængig">        <i>afhængig</i><par n="aktiv__adj"/></e>
@@ -27196,7 +27196,7 @@
 <e lm="hed">             <i>hed</i><par n="rund__adj"/></e>
 <e lm="høj">             <i>høj</i><par n="rund__adj"/></e>
 <e lm="blød">            <i>blød</i><par n="rund__adj"/></e>
-<e lm="mange">           <i></i><par n="/mange__adj"/></e>
+<e lm="mange">           <par n="/mange__adj"/></e>
 
 
 
@@ -27404,7 +27404,7 @@
 <e lm="dyrekær">                   <i>dyrekær</i><par n="rund__adj"/></e>
 <e lm="dyrkbar">                   <i>dyrkbar</i><par n="rund__adj"/></e>
 <e lm="dyster">                    <i>dyst</i><par n="munt/er__adj"/></e>
-<e lm="dårlig">                    <i></i><par n="/dårlig__adj"/></e>
+<e lm="dårlig">                    <par n="/dårlig__adj"/></e>
 
 <e lm="død">                       <i>død</i><par n="rund__adj"/></e>
 <e lm="døddrukken">                <i>døddruk</i><par n="druk/ken__adj"/></e>
@@ -27691,7 +27691,7 @@
 <e lm="glædelig">                  <i>glædelig</i><par n="lykkelig__adj"/></e>
 <e lm="global">                    <i>global</i><par n="rund__adj"/></e>
 <e lm="glutenfri">                 <i>glutenfri</i><par n="rund__adj"/></e>
-<e lm="god">                       <i></i><par n="/god__adj"/></e>
+<e lm="god">                       <par n="/god__adj"/></e>
 <e lm="godvillig">                 <i>godvillig</i><par n="lykkelig__adj"/></e>
 <e lm="gold">                      <i>gold</i><par n="rund__adj"/></e>
 <e lm="grammatisk">                <i>grammatisk</i><par n="glad__adj"/></e>
@@ -29195,7 +29195,7 @@
 <e lm="ofte">            <i>ofte</i><par n="ikke__adv"/></e>
 <e lm="oftere">            <i>oftere</i><par n="ikke__adv"/></e>
 <e lm="oftest">            <i>oftest</i><par n="ikke__adv"/></e>
-<e lm="vel">             <i></i><par n="ikke__adv"/></e>
+<e lm="vel">             <i>vel</i><par n="ikke__adv"/></e>
 <e lm="også">            <i>også</i><par n="ikke__adv"/></e>
 <e lm="omkring">         <i>omkring</i><par n="ikke__adv"/></e>
 <e lm="op">              <i>op</i><par n="ikke__adv"/></e>
@@ -52118,8 +52118,7 @@
 
     <!-- Verbs  *V-->
 
-<!--<e lm="være">            <i></i><par n="/være__vblex"/></e>-->
-<e lm="være ligeglad">   <i></i><par n="/være__vbser"/><p><l>ligeglad</l><r><g> ligeglad</g></r></p></e>
+<e lm="være ligeglad">   <par n="/være__vbser"/><p><l><b/>ligeglad</l><r><g><b/>ligeglad</g></r></p></e>
 <e lm="abandonnere">        <i>abandonner</i><par n="mal/e__vblex"/></e>
 <e lm="abbreviere">         <i>abbrevier</i><par n="mal/e__vblex"/></e>
 <e lm="abdicere">           <i>abdicer</i><par n="mal/e__vblex"/></e>
@@ -57691,7 +57690,7 @@
 <e lm="ånde">               <i>ånd</i><par n="mal/e__vblex"/></e>
 <e lm="årelade">            <i>årel</i><par n="l/ade__vblex"/></e>
 <e lm="årsdebutere">        <i>årsdebuter</i><par n="mal/e__vblex"/></e>
-<e lm="æde">                <i></i><par n="/æde__vblex"/></e>
+<e lm="æde">                <par n="/æde__vblex"/></e>
 <e lm="ægge">               <i>æg</i><par n="tyg/ge__vblex"/></e>
 <e lm="ægte">               <i>ægt</i><par n="mal/e__vblex"/></e>
 <e lm="ægtevie">            <i>ægtevi</i><par n="mal/e__vblex"/></e>
@@ -57744,7 +57743,7 @@
     <!-- ******************************
           group(s) with only one element
       ****************************** -->
-<e lm="være">            <i></i><par n="/være__vbser"/></e>
+<e lm="være">            <par n="/være__vbser"/></e>
 <e lm="have">            <i>ha</i><par n="ha/ve__vbhaver"/></e>
 
 
