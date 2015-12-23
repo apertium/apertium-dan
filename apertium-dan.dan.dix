@@ -873,10 +873,10 @@
   <e>       <p><l>dre</l>       <r>dre<s n="adj"/><s n="sint"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
   <e>       <p><l>derste</l>    <r>dre<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
   <e>       <p><l>derst</l>     <r>dre<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
-    <e>       <p><l>dre</l>          <r>dre<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-    <e>       <p><l>dre</l>          <r>dre<s n="adj"/><s n="sint"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>dre</l>          <r>dre<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
-  <e>       <p><l>dre</l>          <r>dre<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>dre</l>       <r>dre<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>dre</l>       <r>dre<s n="adj"/><s n="sint"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>dre</l>       <r>dre<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e>       <p><l>dre</l>       <r>dre<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
   <e>       <p><l>derste</l>    <r>dre<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
   <e>       <p><l>derst</l>     <r>dre<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
 </pardef>
@@ -1007,10 +1007,13 @@
 <pardef n="/mange__adj">
   <e>       <p><l>mange</l>     <r>mange<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>flere</l>     <r>mange<s n="adj"/><s n="sint"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
-  <e>       <p><l>flest</l>     <r>mange<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>flest</l>     <r>mange<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
-  <e>       <p><l>fleste</l>    <r>mange<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="pl"/><s n="def"/></r></p></e>
   <e>       <p><l>fleste</l>    <r>mange<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <!-- fill out pardef to avoid generation errors: -->
+  <e r="RL"><p><l>mange</l>     <r>mange<s n="adj"/><s n="sint"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e r="RL"><p><l>mange</l>     <r>mange<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e r="RL"><p><l>mange</l>     <r>mange<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+  <e r="RL"><p><l>mange</l>     <r>mange<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
 <pardef n="m/eget__adj">
@@ -26911,7 +26914,6 @@
 <e lm="fuldstændig">     <i>fuldstændig</i><par n="aktiv__adj"/></e>
 <e lm="tør">             <i>tør</i><par n="tør__adj"/></e>
 <e lm="styg">            <i>styg</i><par n="styg__adj"/></e>
-<e lm="unik">            <i>unik</i><par n="unik__adj"/></e>
 <e lm="vis">             <i>vis</i><par n="vis__adj"/></e>
 <e lm="usand">           <i>usand</i><par n="aktiv__adj"/></e>
 <e lm="sand">            <i>sand</i><par n="aktiv__adj"/></e>
