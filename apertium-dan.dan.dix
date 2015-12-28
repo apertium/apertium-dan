@@ -3601,11 +3601,12 @@
 
 <pardef n="afghansk__n" c="autoconcord:nt,sgpl"> <!-- Neuter; ~ / ~e / # / #; uncountable -->
   <!-- Mostly for noun forms of adjectives for languages -->
-  <e>       <p><l></l>       <r><s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
-  <e>       <p><l>e</l>      <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
-  <e>       <p><l></l>       <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
-  <e>       <p><l></l>       <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
-  <e r="RL"> <p><l></l>      <r><s n="n"/><s n="nt"/><s n="sp"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/><par n="cp-R"/></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+  <e r="RL"><p><l></l>          <r><s n="n"/><s n="ut"/><s n="sp"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+  <e r="RL"><p><l></l>          <r><s n="n"/><s n="nt"/><s n="sp"/></r></p><par n="S__case"/><par n="cp-R"/></e>
 </pardef>
 
 <pardef n="årig__n" c="autoconcord:ut,sgpl"> <!-- Utrum; ~ / ~e / ~e / ~e -->
@@ -12183,7 +12184,7 @@
 <e lm="lastbil">         <i>lastbil</i><par n="ateist__n"/></e>
 <e lm="rutebil">         <i>rutebil</i><par n="ateist__n"/></e>
 <e lm="lastning">        <i>lastning</i><par n="ateist__n"/></e>
-<e lm="latin">           <i>latin</i><par n="ateist__n"/></e>
+<e lm="latin">           <i>latin</i><par n="afghansk__n"/></e>
 <e lm="latinskole">      <i>latinskole</i><par n="abe__n"/></e>
 <e r="LR" lm="lav">             <i>lav</i><par n="år__n"/></e>
 <e lm="lava">            <i>lava</i><par n="ateist__n"/></e>
@@ -13704,7 +13705,7 @@
 <e lm="roman">           <i>roman</i><par n="ateist__n"/></e>
 <e lm="debutroman">           <i>debutroman</i><par n="ateist__n"/></e>
 <e lm="romance">         <i>romance</i><par n="abe__n"/></e>
-<e lm="romani">          <i>romani</i><par n="ateist__n"/></e>
+<e lm="romani">          <i>romani</i><par n="afghansk__n"/></e>
 <e lm="romani">          <i>romani</i><par n="afghansk__n"/></e>
 <e lm="indisk">          <i>indisk</i><par n="afghansk__n"/></e>
 <e lm="latin">          <i>latin</i><par n="afghansk__n"/></e>
@@ -14884,7 +14885,7 @@
 <e lm="testamente">      <i>testamente</i><par n="æble__n"/></e>
 <e lm="teste">           <i>teste</i><par n="abe__n"/></e>
 <e lm="testpilot">       <i>testpilot</i><par n="ateist__n"/></e>
-<e lm="thai">            <i>thai</i><par n="ateist__n"/></e>
+<e lm="thai">            <i>thai</i><par n="afghansk__n"/></e>
 <e lm="tid">             <i>tid</i><par n="ateist__n"/></e>
 <e lm="tidevand">        <i>tidevand</i><par n="år__n"/></e>
 <e lm="tidsperiode">     <i>tidsperiode</i><par n="abe__n"/></e>
@@ -15487,7 +15488,7 @@
 <e lm="versemål">        <i>versemål</i><par n="år__n"/></e>
 <e lm="version">         <i>version</i><par n="ateist__n"/></e>
 <e lm="vertikale">       <i>vertikale</i><par n="abe__n"/></e>
-<e lm="vest">            <i>vest</i><par n="bold__n"/></e>
+<e lm="vest">            <i>vest</i><par n="afghansk__n"/></e>
 <e r="LR" lm="redningsvest">            <i>redningsvest</i><par n="bold__n"/></e>
 <e lm="vestenvind">      <i>vestenvind</i><par n="bold__n"/></e>
 <e lm="vesttysk">        <i>vesttysk</i><par n="afghansk__n"/></e>
@@ -16532,7 +16533,7 @@
 <e lm="nok">                      <i>nok</i><par n="drik__n"/></e>
 <e lm="none">                      <i>none</i><par n="hygiejne__n"/></e>
 <e lm="nor">                       <i>nor</i><par n="slag_no-cp__n"/></e>
-<e r="LR" lm="nord">                      <i>nord</i><par n="vals__n"/></e>
+<e r="LR" lm="nord">                      <i>nord</i><par n="afghansk__n"/></e>
 <e lm="norden">                    <i>norden</i><par n="syd__n"/></e>
 <e lm="nordland">                  <i>nordland</i><par n="slag__n"/></e>
 <e r="LR" lm="nordlandshest">             <i>nordlandshest</i><par n="aften__n"/></e>
@@ -18148,7 +18149,7 @@
 <e lm="øverstkommanderende">       <i>øverstkommanderende</i><par n="rejsende__n"/></e>
 <e lm="øgård">                    <i>øgård</i><par n="aften__n"/></e>
 <e lm="øgruppe">                  <i>øgrupp</i><par n="enk/e__n"/></e>
-<e r="LR" lm="nordvest">        <i>nordvest</i><par n="syd__n"/></e>
+<e r="LR" lm="nordvest">        <i>nordvest</i><par n="afghansk__n"/></e>
 
 
 <e lm="a-dur"><i>a-dur</i><par n="aften__n"/></e>
@@ -18248,7 +18249,7 @@
 <e lm="alabast"><i>alabast</i><par n="aften__n"/></e>
 <e lm="alarmsignal"><i>alarmsignal</i><par n="firma__n"/></e>
 <e lm="alarmtilstand"><i>alarmtilstand</i><par n="aften__n"/></e>
-<e lm="albansk"><i>albansk</i><par n="ost__n"/></e>
+<e lm="albansk"><i>albansk</i><par n="afghansk__n"/></e>
 <e lm="albatros"><i>albatros</i><par n="mis__n"/></e>
 <e lm="albinisme"><i>albinisme</i><par n="hygiejne__n"/></e>
 <e lm="albino"><i>albino</i><par n="aften__n"/></e>
@@ -18324,7 +18325,7 @@
 <e lm="amerikafeber"><i>amerikafeber</i><par n="aften__n"/></e>
 <e lm="amerikanisme"><i>amerikanisme</i><par n="hygiejne__n"/></e>
 <e lm="amerikanist"><i>amerikanist</i><par n="aften__n"/></e>
-<e lm="amerikansk"><i>amerikansk</i><par n="ost__n"/></e>
+<e lm="amerikansk"><i>amerikansk</i><par n="afghansk__n"/></e>
 <e lm="amfibium"><i>amfibi</i><par n="podi/um__n"/></e>
 <e lm="amfiteater"><i>amfiteat</i><par n="cent/er__n"/></e>
 <e lm="amid"><i>amid</i><par n="firma__n"/></e>
@@ -18360,7 +18361,7 @@
 <e lm="anemone"><i>anemone</i><par n="hygiejne__n"/></e>
 <e lm="anæstesilæge"><i>anæstesilæge</i><par n="hygiejne__n"/></e>
 <e lm="anæstesisygeplejer"><i>anæstesisygeplejer</i><par n="spiller__n"/></e>
-<e lm="angelsaksisk"><i>angelsaksisk</i><par n="ost__n"/></e>
+<e lm="angelsaksisk"><i>angelsaksisk</i><par n="afghansk__n"/></e>
 <e lm="angiveri"><i>angiveri</i><par n="firma__n"/></e>
 <e lm="angorakanin"><i>angorakanin</i><par n="aften__n"/></e>
 <e lm="byttefrist"><i>byttefrist</i><par n="aften__n"/></e>
@@ -18495,7 +18496,7 @@
 <e lm="armatur"><i>armatur</i><par n="aften__n"/></e>
 <e lm="armbind"><i>armbind</i><par n="slag__n"/></e>
 <e lm="armbåndsur"><i>armbåndsur</i><par n="slag__n"/></e>
-<e lm="armensk"><i>armensk</i><par n="ost__n"/></e>
+<e lm="armensk"><i>armensk</i><par n="afghansk__n"/></e>
 <e lm="armeringsjern"><i>armeringsjern</i><par n="slag__n"/></e>
 <e lm="armeringsnet"><i>armeringsnet</i><par n="sæt__n"/></e>
 <e lm="armeringsstål"><i>armeringsstål</i><par n="slag__n"/></e>
@@ -19594,7 +19595,7 @@
 <e lm="danseskole"><i>danseskole</i><par n="hygiejne__n"/></e>
 <e lm="dansetræning"><i>dansetræning</i><par n="art_\s__n"/></e>
 <e lm="dansning"><i>dansning</i><par n="art_\s__n"/></e>
-<e lm="dansk-norsk"><i>dansk-norsk</i><par n="ost__n"/></e>
+<e lm="dansk-norsk"><i>dansk-norsk</i><par n="afghansk__n"/></e>
 <e lm="danskekonge"><i>danskekonge</i><par n="hygiejne__n"/></e>
 <e lm="dart"><i>dart</i><par n="aften__n"/></e>
 <e lm="darwinisme"><i>darwinisme</i><par n="hygiejne__n"/></e>
@@ -20139,7 +20140,7 @@
 <e lm="eske"><i>esk</i><par n="enk/e__n"/></e>
 <e lm="eskortefartøj"><i>eskortefartøj</i><par n="firma__n"/></e>
 <e lm="espalier"><i>espalier</i><par n="firma__n"/></e>
-<e lm="esperanto"><i>esperanto</i><par n="ost__n"/></e>
+<e lm="esperanto"><i>esperanto</i><par n="afghansk__n"/></e>
 <e lm="esprit"><i>esprit</i><par n="aften__n"/></e>
 <e lm="essayist"><i>essayist</i><par n="aften__n"/></e>
 <e lm="æstet"><i>æstet</i><par n="aften__n"/></e>
@@ -20299,7 +20300,7 @@
 <e lm="farmakologi"><i>farmakologi</i><par n="aften__n"/></e>
 <e lm="fædrearv"><i>fædrearv</i><par n="aften__n"/></e>
 <e lm="fædregård"><i>fædregård</i><par n="aften__n"/></e>
-<e lm="farsi"><i>farsi</i><par n="ost__n"/></e>
+<e lm="farsi"><i>farsi</i><par n="afghansk__n"/></e>
 <e lm="farskab"><i>farskab</i><par n="år__n"/></e>
 <e lm="farvand"><i>farvand</i><par n="hus__n"/></e>
 <e lm="fasan"><i>fasan</i><par n="aften__n"/></e>
@@ -20466,7 +20467,7 @@
 
 <e lm="finke"><i>finke</i><par n="abe__n"/></e>
 <e lm="finkultur"><i>finkultur</i><par n="aften__n"/></e>
-<e lm="finlandssvensk"><i>finlandssvensk</i><par n="ost__n"/></e>
+<e lm="finlandssvensk"><i>finlandssvensk</i><par n="afghansk__n"/></e>
 <e lm="finlandssvensker"><i>finlandssvensker</i><par n="spiller__n"/></e>
 <e lm="finder"><i>finder</i><par n="spiller__n"/></e>
 <e lm="finnmarking"><i>finnmarking</i><par n="aften__n"/></e>
@@ -20574,7 +20575,7 @@
 <e lm="flamenco"><i>flamenco</i><par n="aften__n"/></e>
 <e lm="flamingo"><i>flamingo</i><par n="aften__n"/></e>
 <e lm="flammehav"><i>flammehav</i><par n="hus__n"/></e>
-<e lm="flamsk"><i>flamsk</i><par n="ost__n"/></e>
+<e lm="flamsk"><i>flamsk</i><par n="afghansk__n"/></e>
 <e lm="flanør"><i>flanør</i><par n="aften__n"/></e>
 <e lm="flash"><i>flash</i><par n="år__n"/></e>
 <e lm="flashback"><i>flashback</i><par n="pint__n"/></e>
@@ -21167,7 +21168,7 @@
 <e lm="geranium"><i>gerani</i><par n="podi/um__n"/></e>
 <e lm="geriatri"><i>geriatri</i><par n="aften__n"/></e>
 <e lm="guerillastyrke"><i>guerillastyrke</i><par n="hygiejne__n"/></e>
-<e lm="germansk"><i>germansk</i><par n="ost__n"/></e>
+<e lm="germansk"><i>germansk</i><par n="afghansk__n"/></e>
 <e lm="gesims"><i>gesims</i><par n="aften__n"/></e>
 <e lm="gesjæft"><i>gesjæft</i><par n="aften__n"/></e>
 <e lm="gestapist"><i>gestapist</i><par n="aften__n"/></e>
@@ -21285,7 +21286,7 @@
 <e lm="gorgonzola"><i>gorgonzola</i><par n="aften__n"/></e>
 <e lm="gorilla"><i>gorilla</i><par n="aften__n"/></e>
 <e lm="gotik"><i>gotik</i><par n="paryk__n"/></e>
-<e lm="gotisk"><i>gotisk</i><par n="ost__n"/></e>
+<e lm="gotisk"><i>gotisk</i><par n="afghansk__n"/></e>
 <e lm="gourmand"><i>gourmand</i><par n="aften__n"/></e>
 <e lm="grab"><i>grab</i><par n="klub__n"/></e>
 <e lm="grafit"><i>grafit</i><par n="salut__n"/></e>
@@ -21420,7 +21421,7 @@
 <e lm="gråzone"><i>gråzon</i><par n="enk/e__n"/></e>
 <e lm="grøftekant"><i>grøftekant</i><par n="aften__n"/></e>
 <e lm="grønlandshval"><i>grønlandshval</i><par n="aften__n"/></e>
-<e lm="grønlandsk"><i>grønlandsk</i><par n="ost__n"/></e>
+<e lm="grønlandsk"><i>grønlandsk</i><par n="afghansk__n"/></e>
 <e lm="grønlandssæl"><i>grønlandssæl</i><par n="aften__n"/></e>
 <e lm="grønkål"><i>grønkål</i><par n="aften__n"/></e>
 <e lm="grønskolling"><i>grønskolling</i><par n="aften__n"/></e>
@@ -21472,7 +21473,7 @@
 <e lm="gydning"><i>gydning</i><par n="art_\s__n"/></e>
 <e lm="gåstol"><i>gåstol</i><par n="bold__n"/></e>
 <e lm="gåseunge"><i>gåseunge</i><par n="hygiejne__n"/></e>
-<e lm="gælisk"><i>gælisk</i><par n="ost__n"/></e>
+<e lm="gælisk"><i>gælisk</i><par n="afghansk__n"/></e>
 <e lm="habit"><i>habit</i><par n="salut__n"/></e>
 <e lm="habitus"><i>habitus</i><par n="aften__n"/></e>
 <e lm="hacienda"><i>hacienda</i><par n="aften__n"/></e>
@@ -21607,7 +21608,7 @@
 <e lm="havstykke"><i>havstykk</i><par n="mød/e__n"/></e>
 <e lm="havvind"><i>havvind</i><par n="bold__n"/></e>
 <e lm="havål"><i>havål</i><par n="aften__n"/></e>
-<e lm="hebraisk"><i>hebraisk</i><par n="ost__n"/></e>
+<e lm="hebraisk"><i>hebraisk</i><par n="afghansk__n"/></e>
 <e lm="hedenskab"><i>hedenskab</i><par n="år__n"/></e>
 <e lm="hedmarking"><i>hedmarking</i><par n="aften__n"/></e>
 <e lm="hedning"><i>hedning</i><par n="aften__n"/></e>
@@ -21708,7 +21709,7 @@
 <e lm="himmelrum"><i>himmelrum</i><par n="lam__n"/></e>
 <e lm="himmelstrøg"><i>himmelstrøg</i><par n="slag__n"/></e>
 <e lm="forhindringsløb"><i>forhindringsløb</i><par n="slag__n"/></e>
-<e lm="hindi"><i>hindi</i><par n="ost__n"/></e>
+<e lm="hindi"><i>hindi</i><par n="afghansk__n"/></e>
 <e lm="hippie"><i>hippie</i><par n="hygiejne__n"/></e>
 <e lm="hippodrom"><i>hippodrom</i><par n="aften__n"/></e>
 <e lm="hirse"><i>hirse</i><par n="hygiejne__n"/></e>
@@ -22046,7 +22047,7 @@
 <e lm="indignation"><i>indignation</i><par n="aften_\s__n"/></e>
 <e lm="indigo"><i>indigo</i><par n="aften__n"/></e>
 <e lm="indicium"><i>indici</i><par n="podi/um__n"/></e>
-<e lm="indisk"><i>indisk</i><par n="ost__n"/></e>
+<e lm="indisk"><i>indisk</i><par n="afghansk__n"/></e>
 <e lm="individuation"><i>individuation</i><par n="aften_\s__n"/></e>
 <e lm="indoeuropæisk"><i>indoeuropæisk</i><par n="ost__n"/></e>
 <e lm="indolog"><i>indolog</i><par n="aften__n"/></e>
@@ -22280,7 +22281,7 @@
 <e lm="jesuit"><i>jesuit</i><par n="salut__n"/></e>
 <e lm="jesuitorden"><i>jesuitorden</i><par n="aften__n"/></e>
 <e lm="jetmotor"><i>jetmotor</i><par n="aften__n"/></e>
-<e lm="jiddisch"><i>jiddisch</i><par n="ost__n"/></e>
+<e lm="jiddisch"><i>jiddisch</i><par n="afghansk__n"/></e>
 <e lm="jiu-jitsu"><i>jiu-jitsu</i><par n="aften__n"/></e>
 <e lm="jive"><i>jive</i><par n="hygiejne__n"/></e>
 <e lm="jockey"><i>jockey</i><par n="aften__n"/></e>
@@ -22359,7 +22360,7 @@
 <e lm="bjergtrold"><i>bjergtrold</i><par n="bold__n"/></e>
 <e lm="juveler"><i>juveler</i><par n="aften__n"/></e>
 <e lm="grønskolling"><i>grønskolling</i><par n="aften__n"/></e>
-<e lm="jysk"><i>jysk</i><par n="ost__n"/></e>
+<e lm="jysk"><i>jysk</i><par n="afghansk__n"/></e>
 <e lm="jærbo"><i>jærbo</i><par n="aften__n"/></e>
 <e lm="jødefolk"><i>jødefolk</i><par n="slag__n"/></e>
 <e lm="jøssing"><i>jøssing</i><par n="aften__n"/></e>
@@ -22540,7 +22541,7 @@
 <e lm="kastrat"><i>kastrat</i><par n="aften__n"/></e>
 <e lm="kasus"><i>kasus</i><par n="øl__n"/></e>
 <e lm="katakombe"><i>katakombe</i><par n="hygiejne__n"/></e>
-<e lm="katalansk"><i>katalansk</i><par n="ost__n"/></e>
+<e lm="katalansk"><i>katalansk</i><par n="afghansk__n"/></e>
 <e lm="katamaran"><i>katamaran</i><par n="aften__n"/></e>
 <e lm="katapult"><i>katapult</i><par n="aften__n"/></e>
 <e lm="katapultsæde"><i>katapultsæd</i><par n="mød/e__n"/></e>
@@ -22570,7 +22571,7 @@
 <e lm="målmandsreserve"><i>målmandsreserve</i><par n="hygiejne__n"/></e>
 <e lm="målmandsbommert"><i>målmandsbommert</i><par n="aften__n"/></e>
 <e lm="kefir"><i>kefir</i><par n="aften__n"/></e>
-<e lm="keltisk"><i>keltisk</i><par n="ost__n"/></e>
+<e lm="keltisk"><i>keltisk</i><par n="afghansk__n"/></e>
 <e lm="kæmnerkontor"><i>kæmnerkontor</i><par n="firma__n"/></e>
 <e lm="kænguru"><i>kænguru</i><par n="aften__n"/></e>
 <e lm="kennelklub"><i>kennelklub</i><par n="klub__n"/></e>
@@ -23145,7 +23146,7 @@
 <e lm="kremation"><i>kremation</i><par n="aften_\s__n"/></e>
 <e lm="krematorium"><i>krematori</i><par n="podi/um__n"/></e>
 <e lm="kreol"><i>kreol</i><par n="aften__n"/></e>
-<e lm="kreolsk"><i>kreolsk</i><par n="aften__n"/></e>
+<e lm="kreolsk"><i>kreolsk</i><par n="afghansk__n"/></e>
 <e lm="kreosot"><i>kreosot</i><par n="aften__n"/></e>
 <e lm="krebsepest"><i>krebsepest</i><par n="art__n"/></e>
 <e lm="krigsbytte"><i>krigsbytt</i><par n="mød/e__n"/></e>
@@ -23322,14 +23323,14 @@
 <e lm="kvartfinalist"><i>kvartfinalist</i><par n="aften__n"/></e>
 <e lm="kvarts"><i>kvarts</i><par n="aften__n"/></e>
 <e lm="kvasividenskab"><i>kvasividenskab</i><par n="aften__n"/></e>
-<e lm="kvast"><i>kvast</i><par n="ost__n"/></e>
+<e lm="kvast"><i>kvast</i><par n="afghansk__n"/></e>
 <e lm="kvæde"><i>kvæde</i><par n="abe__n"/></e>
 <e lm="kvæk"><i>kvæk</i><par n="stik__n"/></e>
 <e lm="aftenhimmel"><i>aftenhim</i><par n="him/mel__n"/></e>
 <e lm="aftenkursus"><i>aftenkurs</i><par n="kurs/us__n"/></e>
 <e lm="aftenskole"><i>aftenskole</i><par n="hygiejne__n"/></e>
 <e lm="aftentur"><i>aftentur</i><par n="bold__n"/></e>
-<e lm="kvensk"><i>kvensk</i><par n="ost__n"/></e>
+<e lm="kvensk"><i>kvensk</i><par n="afghansk__n"/></e>
 <e lm="kværnsten"><i>kværnsten</i><par n="sko__n"/></e>
 <e lm="kviksand"><i>kviksand</i><par n="år__n"/></e>
 <e lm="kvile"><i>kvil</i><par n="enk/e__n"/></e>
@@ -23922,7 +23923,7 @@
 <e lm="manufaktur"><i>manufaktur</i><par n="aften__n"/></e>
 <e lm="manufakturhandel"><i>manufakturhand</i><par n="cirk/el__n"/></e>
 <e lm="maoisme"><i>maoisme</i><par n="hygiejne__n"/></e>
-<e lm="maori"><i>maori</i><par n="ost__n"/></e>
+<e lm="maori"><i>maori</i><par n="afghansk__n"/></e>
 <e lm="maratonmøde"><i>maratonmød</i><par n="mød/e__n"/></e>
 <e lm="søbakke"><i>søbakke</i><par n="hygiejne__n"/></e>
 <e lm="marekat"><i>marekat</i><par n="kat__n"/></e>
@@ -24562,7 +24563,7 @@
 <e lm="neodym"><i>neodym</i><par n="slag__n"/></e>
 <e lm="neonlys"><i>neonlys</i><par n="slag__n"/></e>
 <e lm="neonreklame"><i>neonreklame</i><par n="hygiejne__n"/></e>
-<e lm="nepali"><i>nepali</i><par n="ost__n"/></e>
+<e lm="nepali"><i>nepali</i><par n="afghansk__n"/></e>
 <e lm="nepotisme"><i>nepotisme</i><par n="hygiejne__n"/></e>
 <e lm="nervegas"><i>nervegas</i><par n="mis__n"/></e>
 <e lm="nervekrig"><i>nervekrig</i><par n="bold__n"/></e>
@@ -24602,7 +24603,7 @@
 <e lm="nonnekloster"><i>nonneklost</i><par n="cent/er__n"/></e>
 <e lm="nonneorden"><i>nonneorden</i><par n="aften__n"/></e>
 <e lm="nonsens"><i>nonsens</i><par n="slag__n"/></e>
-<e lm="nord"><i>nord</i><par n="ost__n"/></e>
+<e lm="nord"><i>nord</i><par n="afghansk__n"/></e>
 <e lm="nordensvind"><i>nordensvind</i><par n="bold__n"/></e>
 <e lm="nordende"><i>nordende</i><par n="hygiejne__n"/></e>
 <e lm="nordfjording"><i>nordfjording</i><par n="aften__n"/></e>
@@ -24610,13 +24611,13 @@
 <e lm="nordlandsbåd"><i>nordlandsbåd</i><par n="bold__n"/></e>
 <e lm="nordlandsdialekt"><i>nordlandsdialekt</i><par n="aften__n"/></e>
 <e lm="nordmøring"><i>nordmøring</i><par n="bold__n"/></e>
-<e lm="nordnorsk"><i>nordnorsk</i><par n="ost__n"/></e>
+<e lm="nordnorsk"><i>nordnorsk</i><par n="afghansk__n"/></e>
 <e lm="nordside"><i>nordsid</i><par n="enk/e__n"/></e>
 <e lm="nordsøolie"><i>nordsøoli</i><par n="enk/e__n"/></e>
 <e lm="nordstat"><i>nordstat</i><par n="aften__n"/></e>
 <e lm="nordtrønder"><i>nordtrønder</i><par n="spiller__n"/></e>
-<e lm="nordvest"><i>nordvest</i><par n="ost__n"/></e>
-<e lm="nordøst"><i>nordøst</i><par n="ost__n"/></e>
+<e lm="nordvest"><i>nordvest</i><par n="afghansk__n"/></e>
+<e lm="nordøst"><i>nordøst</i><par n="afghansk__n"/></e>
 <e lm="norgesglas"><i>norgesglas</i><par n="glas__n"/></e>
 <e lm="normalarbejdsdag"><i>normalarbejdsdag</i><par n="bold__n"/></e>
 <e lm="normalbakke"><i>normalbakke</i><par n="hygiejne__n"/></e>
@@ -24627,8 +24628,8 @@
 <e lm="normaltilstand"><i>normaltilstand</i><par n="bold__n"/></e>
 <e lm="normalår"><i>normalår</i><par n="slag__n"/></e>
 <e lm="norne"><i>norne</i><par n="abe__n"/></e>
-<e lm="norsk-dansk"><i>norsk-dansk</i><par n="ost__n"/></e>
-<e lm="norsk-svensk"><i>norsk-svensk</i><par n="ost__n"/></e>
+<e lm="norsk-dansk"><i>norsk-dansk</i><par n="afghansk__n"/></e>
+<e lm="norsk-svensk"><i>norsk-svensk</i><par n="afghansk__n"/></e>
 <e lm="norskdom"><i>norskdom</i><par n="bom_\s__n"/></e>
 <e lm="not"><i>not</i><par n="aften__n"/></e>
 <e lm="notabene"><i>notaben</i><par n="mød/e__n"/></e>
@@ -24660,7 +24661,7 @@
 <e lm="nyland"><i>nyland</i><par n="hus__n"/></e>
 <e lm="nymåne"><i>nymåne</i><par n="hygiejne__n"/></e>
 <e lm="nynazisme"><i>nynazisme</i><par n="hygiejne__n"/></e>
-<e lm="nynorsk"><i>nynorsk</i><par n="ost__n"/></e>
+<e lm="nynorsk"><i>nynorsk</i><par n="afghansk__n"/></e>
 <e lm="nyord"><i>nyord</i><par n="slag__n"/></e>
 <e lm="nyresygdom"><i>nyresygdom</i><par n="bom_\s__n"/></e>
 <e lm="nyresten"><i>nyresten</i><par n="sko__n"/></e>
@@ -25111,7 +25112,7 @@
 <e lm="peroxid"><i>peroxid</i><par n="firma__n"/></e>
 <e lm="oxid"><i>oxid</i><par n="firma__n"/></e>
 <e lm="persille"><i>persill</i><par n="enk/e__n"/></e>
-<e lm="persisk"><i>persisk</i><par n="ost__n"/></e>
+<e lm="persisk"><i>persisk</i><par n="afghansk__n"/></e>
 <e lm="personaleunion"><i>personaleunion</i><par n="aften__n"/></e>
 <e lm="personregister"><i>personregist</i><par n="cent/er__n"/></e>
 <e lm="persontog"><i>persontog</i><par n="skib__n"/></e>
@@ -25822,7 +25823,7 @@
 <e lm="rollemønster"><i>rollemønst</i><par n="cent/er__n"/></e>
 <e lm="romanfigur"><i>romanfigur</i><par n="aften__n"/></e>
 <e lm="romanforfatter"><i>romanforfatter</i><par n="spiller__n"/></e>
-<e lm="romani"><i>romani</i><par n="ost__n"/></e>
+<e lm="romani"><i>romani</i><par n="afghansk__n"/></e>
 <e lm="rombe"><i>rombe</i><par n="hygiejne__n"/></e>
 <e lm="romeriking"><i>romeriking</i><par n="aften__n"/></e>
 <e lm="rumfartøj"><i>rumfartøj</i><par n="firma__n"/></e>
@@ -25990,14 +25991,14 @@
 <e lm="samfundsstruktur"><i>samfundsstruktur</i><par n="bold__n"/></e>
 <e lm="samfundssystem"><i>samfundssystem</i><par n="firma__n"/></e>
 
-<e lm="samisk"><i>samisk</i><par n="ost__n"/></e>
+<e lm="samisk"><i>samisk</i><par n="afghansk__n"/></e>
 <e lm="samklang"><i>samklang</i><par n="aften__n"/></e>
 <e lm="samleobjekt"><i>samleobjekt</i><par n="firma__n"/></e>
 <e lm="samlevej"><i>samlevej</i><par n="bold__n"/></e>
 <e lm="samlingsmærke"><i>samlingsmærk</i><par n="mød/e__n"/></e>
 <e lm="samlingsplads"><i>samlingsplads</i><par n="aften__n"/></e>
 <e lm="samløb"><i>samløb</i><par n="slag__n"/></e>
-<e lm="samnorsk"><i>samnorsk</i><par n="slag__n"/></e>
+<e lm="samnorsk"><i>samnorsk</i><par n="afghansk__n"/></e>
 <e lm="samojede"><i>samojede</i><par n="abe__n"/></e>
 <e lm="fagforeningssammenslutning"><i>fagforeningssammenslutning</i><par n="aften_\s__n"/></e>
 <e lm="samovar"><i>samovar</i><par n="aften__n"/></e>
@@ -26597,7 +26598,7 @@
 <e lm="skolebarn"><i>skoleb</i><par n="b/arn__n"/></e>
 <e lm="skolevej"><i>skolevej</i><par n="bold__n"/></e>
 <e lm="skorpion"><i>skorpion</i><par n="aften__n"/></e>
-<e lm="skotsk"><i>skotsk</i><par n="ost__n"/></e>
+<e lm="skotsk"><i>skotsk</i><par n="afghansk__n"/></e>
 <e lm="skot"><i>skot</i><par n="portræt__n"/></e>
 <e lm="skotte"><i>skotte</i><par n="hygiejne__n"/></e>
 <e lm="skotøj"><i>skotøj</i><par n="slag__n"/></e>
