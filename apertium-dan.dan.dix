@@ -54177,8 +54177,8 @@
 <e lm="gylpe">              <i>gylp</i><par n="mal/e__vblex"/></e>
 <e lm="gymnasticere">       <i>gymnasticer</i><par n="mal/e__vblex"/></e>
 <e lm="gynge">              <i>gyng</i><par n="mal/e__vblex"/></e>
-<e lm="gå ned">             <i>gå<b/>ned</i><par n="nå__vblex"/></e>
 <e lm="gå">                 <i>g</i><par n="f/å__vblex"/></e>
+<e lm="gå ned">             <i>g</i><par n="f/å__vblex"/><p><l><b/>ned</l><r><g><b/>ned</g></r></p></e>
 <e lm="gælde">              <i>g</i><par n="g/ælde__vblex"/></e>
 <e lm="gænge">              <i>gæng</i><par n="mal/e__vblex"/></e>
 <e lm="gærde">              <i>gærd</i><par n="mal/e__vblex"/></e>
