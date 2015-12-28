@@ -23568,6 +23568,7 @@
 <e lm="ligestilling"><i>ligestilling</i><par n="art_\s__n"/></e>
 <e lm="ligestrøm"><i>ligestrøm</i><par n="bom__n"/></e>
 <e lm="ligevægt"><i>ligevægt</i><par n="art__n"/></e>
+<e lm="dødvægt"><i>dødvægt</i><par n="art__n"/></e>
 <e lm="lighus"><i>lighus</i><par n="hus__n"/></e>
 <e lm="ligklæde"><i>ligklæd</i><par n="mød/e__n"/></e>
 <e lm="ligning"><i>ligning</i><par n="art_\s__n"/></e>
@@ -42809,7 +42810,7 @@
 <e lm="Wiel">   <i>Wiel</i><par n="Ibsen__np"/></e>
 <e lm="Wiencke">   <i>Wiencke</i><par n="Ibsen__np"/></e>
 <e lm="Wiener">   <i>Wiener</i><par n="Ibsen__np"/></e>
-<e lm="Wienkongressen">   <i>Wienkongressen</i><par n="Ibsen__np"/></e>
+<e lm="Wienkongressen">   <i>Wienkongressen</i><par n="Wikipedia__np"/></e>
 <e lm="Wiers">   <i>Wiers</i><par n="Findus__np"/></e>
 <e lm="Wiesener">   <i>Wiesener</i><par n="Ibsen__np"/></e>
 <e lm="Wieser">   <i>Wieser</i><par n="Ibsen__np"/></e>
