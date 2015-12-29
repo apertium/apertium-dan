@@ -29494,6 +29494,7 @@
 <e lm="idag">             <i>idag</i><par n="ikke__adv"/></e>
 <e lm="ifjor">            <i>ifjor</i><par n="ikke__adv"/></e>
 <e lm="igang">            <i>igang</i><par n="ikke__adv"/></e>
+<e lm="igangværende">            <i>igangværende</i><par n="ikke__adv"/></e>
 <e lm="igår">        <i>igår</i><par n="ikke__adv"/></e>
 <e lm="ihjel">            <i>ihjel</i><par n="ikke__adv"/></e>
 <e lm="i aften">           <i>i<b/>aften</i><par n="ikke__adv"/></e>
@@ -45685,6 +45686,7 @@
 <e lm="Vesuv">           <i>Vesuv</i><par n="Norge__np"/></e>
 <e lm="Vevelstad">       <i>Vevelstad</i><par n="Norge__np"/></e>
 <e lm="Viborg">          <i>Viborg</i><par n="Norge__np"/></e>
+<e lm="Amtskreds">          <i>Amtskreds</i><par n="Norge__np"/></e>
 <e lm="Vichy">           <i>Vichy</i><par n="Norge__np"/></e>
 <e lm="Victoriafallene"> <i>Victoriafallene</i><par n="Norge__np"/></e>
 <e lm="Vietnam">         <i>Vietnam</i><par n="Norge__np"/></e>
