@@ -2008,15 +2008,16 @@
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
 </pardef>
 <pardef n="syd__n">
-   <e r="RL">       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="sp"/></r></p><par n="no-cp\Ø\S__case"/></e>
+  <e r="RL"><p><l></l>          <r><s n="n"/><s n="nt"/><s n="sp"/></r></p><par n="no-cp\Ø\S__case"/></e>
+  <e r="RL"><p><l>en</l>        <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="no-cp\Ø\S__case"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="no-cp\Ø\S__case"/></e>
-  <e>       <p><l>ene</l>          <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="no-cp\Ø\S__case"/></e>
-  <e>       <p><l>e</l>          <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="no-cp\Ø\S__case"/></e>
-
-     <e r="RL">       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sp"/></r></p><par n="no-cp\Ø\S__case"/></e>
+  <e>       <p><l>ene</l>       <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="no-cp\Ø\S__case"/></e>
+  <e>       <p><l>e</l>         <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="no-cp\Ø\S__case"/></e>
+  <e r="RL"><p><l></l>          <r><s n="n"/><s n="ut"/><s n="sp"/></r></p><par n="no-cp\Ø\S__case"/></e>
+  <e r="RL"><p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="no-cp\Ø\S__case"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="no-cp\Ø\S__case"/></e>
-  <e>       <p><l>ene</l>          <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="no-cp\Ø\S__case"/></e>
-  <e>       <p><l>e</l>          <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="no-cp\Ø\S__case"/></e>
+  <e>       <p><l>ene</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="no-cp\Ø\S__case"/></e>
+  <e>       <p><l>e</l>         <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="no-cp\Ø\S__case"/></e>
 </pardef>
 
 <pardef n="gentlem/an__n">
@@ -2684,8 +2685,6 @@
 
 <pardef n="bold__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~en / ~e / ~ene -->
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
-
-
   <e r="RL">       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sp"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
   <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l>e</l>         <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
@@ -3164,7 +3163,7 @@
 
 <pardef n="væg__n" c="autoconcord:ut,sgpl"> <!-- Neuter; ~ / ~get / ~ / ~gene -->
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
-  <e>       <p><l>ge</l>          <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>ge</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
   <e>       <p><l>gen</l>       <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l>gene</l>      <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
 </pardef>
@@ -3623,10 +3622,10 @@
 </pardef>
 
 <pardef n="NTmid/del__n">
-  <e>       <p><l>dlerne</l>     <r>del<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>lerne</l>      <r>del<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>ler</l>      <r>del<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
-  <e>       <p><l>dlet</l>     <r>del<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e r="LR"><p><l>dlerne</l>    <r>del<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>lerne</l>     <r>del<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>ler</l>       <r>del<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>dlet</l>      <r>del<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="S__case"/></e>
   <e>       <p><l>del</l>       <r>del<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
 </pardef>
 <pardef n="ryg__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~gen / ~ge / ~gene -->
@@ -12145,7 +12144,6 @@
 <e lm="landbrugsskole">  <i>landbrugsskole</i><par n="abe__n"/></e>
 <e lm="landejendom">     <i>landejendom</i><par n="strøm__n"/></e>
 <e lm="landeplage">      <i>landeplage</i><par n="abe__n"/></e>
-<e r="LR" lm="landevej">        <i>landevej</i><par n="bold__n"/></e>
 <e lm="hjemvej">        <i>hjemvej</i><par n="bold__n"/></e>
 <e lm="landing">         <i>landing</i><par n="ateist__n"/></e>
 <e lm="landingsbane">    <i>landingsbane</i><par n="abe__n"/></e>
@@ -12301,6 +12299,7 @@
 <e lm="luftangreb">      <i>luftangreb</i><par n="år__n"/></e>
 <e lm="luftballon">      <i>luftballon</i><par n="ateist__n"/></e>
 <e lm="luftfart">        <i>luftfart</i><par n="ateist__n"/></e>
+<e lm="lufthavn">                  <i>lufthavn</i><par n="vals__n"/></e>
 <e r="LR" lm="lufthavn">        <i>lufthavn</i><par n="bold__n"/></e>
 <e lm="lufttryk">        <i>lufttryk</i><par n="stik__n"/></e>
 <e lm="luftværn">        <i>luftværn</i><par n="år__n"/></e>
@@ -12346,7 +12345,6 @@
 <e lm="låsning">         <i>låsning</i><par n="ateist__n"/></e>
 <e lm="læbestift" a="PT"><i>læbestift</i><par n="skib__n"/></e>
 <e lm="læder">           <i>læder</i><par n="blod__n"/></e>
-<e r="LR" lm="læg">             <i>læg</i><par n="ateist__n"/></e>
 <e lm="læge">            <i>læge</i><par n="abe__n"/></e>
 <e lm="lægeplante">      <i>lægeplante</i><par n="abe__n"/></e>
 <e lm="læhegn">          <i>læhegn</i><par n="år__n"/></e>
@@ -12536,7 +12534,7 @@
 <e lm="metode">          <i>metode</i><par n="abe__n"/></e>
 <e lm="metro">           <i>metro</i><par n="ateist__n"/></e>
 <e lm="middag">          <i>middag</i><par n="bold__n"/></e>
-<e r="LR" lm="middel">          <i>mid</i><par n="NTmid/del__n"/></e>
+<e lm="middel">          <i>mid</i><par n="NTmid/del__n"/></e>
 <e lm="middelalder">     <i>middelald</i><par n="ag/er__n"/></e>
 <e lm="middelklasse">    <i>middelklasse</i><par n="abe__n"/></e>
 <e lm="middeltemperatur"><i>middeltemperatur</i><par n="ateist__n"/></e>
@@ -12551,9 +12549,6 @@
 <e lm="migræne">         <i>migræne</i><par n="abe__n"/></e>
 <e lm="mikrofon">        <i>mikrofon</i><par n="ateist__n"/></e>
 <e lm="mikroskop">       <i>mikroskop</i><par n="alibi__n"/></e>
-<e r="LR" lm="mil">             <i>mil</i><par n="alibi__n"/></e>
-<e lm="mil">             <i>mil</i><par n="ateist__n"/></e>
-<e lm="mil">             <i>mil</i><par n="bold__n"/></e>
 <e lm="mil">             <i>mil</i><par n="sko__n"/></e>
 <e lm="mile">            <i>mile</i><par n="abe__n"/></e>
 <e lm="milepæl">         <i>milepæl</i><par n="bold__n"/></e>
@@ -12651,7 +12646,6 @@
 <e lm="morskab">         <i>morskab</i><par n="ateist__n"/></e>
 <e lm="morter" a="DAINF"><i>morter</i><par n="ateist__n"/></e>
 <e lm="mos">             <i>mos</i><par n="residens__n"/></e>
-<e r="LR" lm="mose">            <i>mose</i><par n="abe__n"/></e>
 <e lm="moske">           <i>moske</i><par n="ateist__n"/></e>
 <e r="LR" lm="moské">           <i>moské</i><par n="ateist__n"/></e>
 <e r="LR" lm="most">            <i>most</i><par n="ateist__n"/></e>
@@ -12679,7 +12673,6 @@
 <e lm="munk">            <i>munk</i><par n="bold__n"/></e>
 <e lm="mur">             <i>mur</i><par n="bold__n"/></e>
 <e lm="murer">           <i>murer</i><par n="spiller__n"/></e>
-<e lm="mose">         <i>mose</i><par n="sko__n"/></e>
 <e lm="mus">             <i>mus</i><par n="boks__n"/></e>
 <e lm="mus">             <i>mus</i><par n="laks__n"/></e>
 <e lm="museum">          <i>muse</i><par n="verb/um__n"/></e>
@@ -13963,7 +13956,6 @@
 <e lm="signatur">        <i>signatur</i><par n="ateist__n"/></e>
 <e lm="signet">          <i>signet</i><par n="ateist__n"/></e>
 <e lm="signum">          <i>signum</i><par n="program__n"/></e>
-<e r="LR" lm="sigt">            <i>sigt</i><par n="ateist__n"/></e>
 <e lm="sigte">           <i>sigte</i><par n="abe__n"/></e>
 <e lm="sigtelse">        <i>sigtelse</i><par n="abe__n"/></e>
 <e lm="sigøjner">        <i>sigøjner</i><par n="spiller__n"/></e>
@@ -16018,7 +16010,6 @@
 <e lm="landbrugsminister">         <i>landbrugsminist</i><par n="minist/er__n"/></e>
 <e lm="landbrugsprodukt">          <i>landbrugsprodukt</i><par n="firma__n"/></e>
 <e lm="landegrænse">               <i>landegræns</i><par n="enk/e__n"/></e>
-<e lm="landevej">                  <i>landevej</i><par n="aften__n"/></e>
 <e lm="landing">                   <i>landing</i><par n="art_\s__n"/></e>
 <e lm="landområde">                <i>landområd</i><par n="mød/e__n"/></e>
 <e lm="konfliktområde">                <i>konfliktområd</i><par n="mød/e__n"/></e>
@@ -16058,6 +16049,7 @@
 <e lm="legeme">                    <i>legem</i><par n="mød/e__n"/></e>
 <e lm="lægemiddel">                <i>lægemid</i><par n="av-mid/del__n"/></e>
 <e lm="lægecenter">                <i>lægecent</i><par n="ank/er__n"/></e>
+<e r="LR" lm="læg">             <i>læg</i><par n="ateist__n"/></e>
 <e lm="læg">                      <i>læg</i><par n="væg__n"/></e>
 <e lm="legitimation">              <i>legitimation</i><par n="aften_\s__n"/></e>
 <e lm="legitimitet">               <i>legitimitet</i><par n="aften_\s__n"/></e>
@@ -16141,7 +16133,6 @@
 <e lm="lp">                   <i>lp</i><par n="aften__n"/></e>
 <e lm="ludo">                      <i>ludo</i><par n="aften__n"/></e>
 <e lm="luftforsvar">               <i>luftforsvar</i><par n="slag__n"/></e>
-<e lm="lufthavn">                  <i>lufthavn</i><par n="vals__n"/></e>
 <e lm="luftrum">                   <i>luftrum</i><par n="lam__n"/></e>
 <e lm="styrerum">                   <i>styrerum</i><par n="lam__n"/></e>
 <e lm="luftkastel">                 <i>luftkastel</i><par n="metal__n"/></e>
@@ -17241,7 +17232,8 @@
 <e lm="sigma">                     <i>sigma</i><par n="aften__n"/></e>
 <e lm="signatur">                  <i>signatur</i><par n="aften__n"/></e>
 <e lm="sikring">                   <i>sikring</i><par n="art_\s__n"/></e>
-<e lm="sigt">                      <i>sigt</i><par n="art__n"/></e>
+<e lm="sigt"><i>sigt</i><par n="bold__n"/></e>
+<e r="LR" lm="sigt">            <i>sigt</i><par n="ateist__n"/></e>
 <e lm="sigte">                     <i>sigt</i><par n="mød/e__n"/></e>
 <e lm="sigtemål">                  <i>sigtemål</i><par n="slag__n"/></e>
 <e lm="simulator">                 <i>simulator</i><par n="aften__n"/></e>
@@ -23426,6 +23418,7 @@
 <e lm="landdistrikt"><i>landdistrikt</i><par n="firma__n"/></e>
 <e lm="landdyr"><i>landdyr</i><par n="slag__n"/></e>
 <e lm="landegrænse"><i>landegrens</i><par n="enk/e__n"/></e>
+<e r="LR" lm="landevej"> <i>landevej</i><par n="aften__n"/></e>
 <e lm="landevej"><i>landevej</i><par n="bold__n"/></e>
 <e lm="landevejsridt"><i>landevejsridt</i><par n="sæt__n"/></e>
 <e lm="landgang"><i>landgang</i><par n="bold__n"/></e>
@@ -23715,7 +23708,6 @@
 <e lm="luftfartøj"><i>luftfartøj</i><par n="firma__n"/></e>
 <e lm="luftfilter"><i>luftfilt</i><par n="cent/er__n"/></e>
 <e lm="luftgevær"><i>luftgevær</i><par n="firma__n"/></e>
-<e lm="lufthavn"><i>lufthavn</i><par n="art__n"/></e>
 <e lm="luftkamp"><i>luftkamp</i><par n="bold__n"/></e>
 <e lm="airconditionanlæg"><i>airconditionanlæg</i><par n="æg__n"/></e>
 <e lm="luftkrig"><i>luftkrig</i><par n="bold__n"/></e>
@@ -26242,7 +26234,6 @@
 <e lm="sikringsdom"><i>sikringsdom</i><par n="bom_\s__n"/></e>
 <e lm="sikringskost"><i>sikringskost</i><par n="bold__n"/></e>
 <e lm="sikringsskab"><i>sikringsskab</i><par n="slag__n"/></e>
-<e lm="sigt"><i>sigt</i><par n="bold__n"/></e>
 <e lm="sigtepunkt"><i>sigtepunkt</i><par n="firma__n"/></e>
 <e lm="sildefiskeri"><i>sildefiskeri</i><par n="alibi__n"/></e>
 <e lm="sildemel"><i>sildemel</i><par n="slag__n"/></e>
