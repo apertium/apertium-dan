@@ -1,12 +1,15 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-dan], [0.1.0], [francis.tyers@gmail.com])
-AM_INIT_AUTOMAKE([apertium-dan], [0.1.0], no-define)
+AC_INIT([apertium-dan], [0.2.0], [francis.tyers@gmail.com])
+AM_INIT_AUTOMAKE([apertium-dan], [0.2.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 
-m4_define([required_apertium_version], [3.3.0])
-PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
+m4_define([required_apertium_version], [3.4.0])
+m4_define([required_lttolbox_version], [3.3.1])
+
+PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version)
+PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= required_lttolbox_version)
 
 AC_PATH_PROG([LTPRINT], [lt-print], [false], [$PATH$PATH_SEPARATOR$with_lt_print/bin])
 AS_IF([test x$LTPRINT = xfalse], [AC_MSG_ERROR([You don't have lt-print installed])])
