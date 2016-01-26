@@ -177,6 +177,7 @@ LIST <<< = <<< ;
 LIST <adj> = adj ;
 LIST <adv> = adv ;
 LIST cnjsub = cnjsub ;
+LIST pp = pp ;
 LIST <perf-part> = (adj pp) ;
 LIST <pres-part> = pprs ;
 LIST >>> = >>> ;
@@ -5827,6 +5828,13 @@ SELECT:2335 (vblex) IF
 # *L PRON NOT *L noun: Sikrer mod skjult
 # relativsætning: som stjernestoffet vi så"
 #      :group 73
+
+
+SELECT:Tysklands-væpnede-styrker (pp pl) IF
+	(-1 noun-gen)
+        (0C pp OR past)
+	(1 plural-noun)
+;
 
  SELECT:3044 (adj pl) IF
 	(NOT 0 det)
