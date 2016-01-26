@@ -8737,3 +8737,12 @@ REMOVE:et-bid indefinite-singular-neuter-noun IF
 REMOVE:sKal noun + ("skal"i)
      (NOT -1 %en%)
 ;
+
+SELECT:at-stoppe part
+        (1 inf)
+;
+SELECT:at-stoppe part
+        (1 adv)
+        (2 inf)
+;
+REMOVE:at-det part;
