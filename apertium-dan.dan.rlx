@@ -5,6 +5,14 @@ DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>" ss
 
 #PARENTHESES = ("<$(>" "$<)>") ("<$[>" "<$]>") ("<${>" "<$}>") ;
 
+LIST GENDER = nt ut;
+LIST NUMBER = sg pl;
+
+LIST sg = sg ;
+LIST pl = pl ;
+LIST ut = ut ;
+LIST nt = nt ;
+
 LIST -ende = ".*ende"r  ;
 LIST %al% = "al" ;
 LIST %al%-det = "al" det qnt ;
@@ -495,8 +503,8 @@ LIST sentence-border = "hvorledes"  "hvorfor"  "hvordan"  "hvor"  "hvad"  "$--" 
 LIST sentence-border-u-sbu = "hvorledes"  "hvorfor"  "hvordan"  "hvor"  "hvad"  "$--" "--" "$-" "-" >>> <<< ("$:" clb) (":" clb) ("$;" clb) (";" clb) (clb cnjcoo) (clb cm) ;
 LIST sentence-border-u-hyphen = "hvorledes"  "hvorfor"  "hvordan"  "hvor"  "hvad"  cnjsub @sbu >>> <<< ("$:" clb) (":" clb) ("$;" clb) (";" clb) (clb cnjcoo) (clb cm) ;
 LIST sentence-border/parenthesis-begin = "hvorledes"  "hvorfor"  "hvordan"  "hvor"  "hvad"  "$--" "--" "$-" "-" lpar cnjsub @sbu >>> <<< ("$:" clb) (":" clb) ("$;" clb) (";" clb) (clb cnjcoo) (clb cm) ;
-LIST sentence-border/verb = "hvorledes"  "hvorfor"  "hvordan"  "hvor"  "hvad"  "$--" "--" "$-" "-" vblex vbser vbhaver vaux vbmod cnjsub @sbu >>> <<< ("$:" clb) (":" clb) ("$;" clb) (";" clb) (clb cnjcoo) (clb cm) ;
-LIST full-stop/ellipsis = ("." clb) ("$." clb) (".." clb) ("$.." clb) ("..." clb) ("$..." clb) ;
+LIST sentence-border/verb = "hvorledes"  "hvorfor"  "hvordan"  "hvor"  "hvad"  "--" "-" vblex vbser vbhaver vaux vbmod cnjsub @sbu >>> <<< ":" ";" (clb cnjcoo) (clb cm) ;
+LIST full-stop/ellipsis = "." ".." "..." ;
 LIST sentence-adverb = "øjensynlig" "og" "vistnok"  "ventelig"  "sædvanligvis"  "unægtelig"  "uheldigvis"  "tydeligvis"  "trolig"  "tilfældigvis"  "sågar"  "sluttelig"  "simpelthen"  "sandsynligvis"  "sandelig"  "sagtens"  "rimeligvis" "også"  "ofte"  "nødvendigvis"  "næsten"  "næppe"  "nemlig"  "naturligvis"  "muligvis"  "lykkeligvis"  "ligesom"  "klogelig"  "måske"  "jo"  "jamen"  "især"  "imidlertid"  "ikke"  "heldigvis"  "gudskelov"  "glædeligvis"  "følgelig"  "fortrinsvis"  "forresten"  "fornuftigvis"  "formodentlig"  "forhåbentligvis"  "ellers"  "eksempelvis"  "dog"  "desværre"  "desuden"  "beklageligvis"  "bare"  "antagelig"  "antagelig"  "altså"  "altid"  "aldrig" ("hænde"  adv) ("nok"  adv) ("nu"  adv) ("så"  adv) ("da"  adv) ;
 LIST communication-verb = "tilføje"  "tænke"  "svare"  "sukke"  "spørge"  "skrive"  "sige"  "råbe"  "mumle"  "mene"  "hyle"  "hviske"  "fortsætte"  "fortælle"  "antage"  "advare"  ;
 LIST sikre-navn = "rune"  "helle"  "dag"  "bjørn"  "arne"  (np m) (np f) ;
@@ -3562,6 +3570,15 @@ SELECT:2963 (adj nt ind sg) IF
 #NOT 0 nr2-det: en sådan dårlig film
 # KBU: «en fuldstændig<adj, ikke adv> syntaktisk træstruktur»
 
+
+SELECT:den-nye-plan det-dem + $$NUMBER + $$GENDER IF
+        (1 adj-definite LINK 0C adj)
+        (2 noun + $$GENDER + $$NUMBER)
+;
+SELECT:den-10.april det-dem + ut + sg IF
+        (1 det-quantifier + pl)
+        (2 full-stop/ellipsis)
+;
 
  SELECT:2772 (det pl) IF
 	(1 adj-sup-indefinite)
@@ -7903,6 +7920,7 @@ CONSTRAINTS
 ## select ndomain heur
 
 # 050908 Not 1 sbu
+
 
  SELECT:1735 (cnjsub) IF
 	(-1 konj)
