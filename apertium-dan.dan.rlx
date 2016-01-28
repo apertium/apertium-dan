@@ -13,6 +13,8 @@ LIST pl = pl ;
 LIST ut = ut ;
 LIST nt = nt ;
 
+SET pre-np-head = (*) - (gen) - (adj);
+
 LIST -ende = ".*ende"r  ;
 LIST %al% = "al" ;
 LIST %al%-det = "al" det qnt ;
@@ -540,7 +542,7 @@ LIST noun/pron/%al% = n np prn ("al"  det qnt) ;
 LIST noun/pron/%al%/%mange% = n np prn ("al"  det qnt) ("mange"  det) ;
 LIST noun/pron/preposition = n np prn pr ;
 LIST sup = sup ;
-LIST number = "1" (det qnt pl) ("en"  det qnt) ("én" det qnt) "pi" ;
+LIST number-qnt = "1" (det qnt pl) ("en"  det qnt) ("én" det qnt) "pi" ;
 LIST number-noun = "tusind"  "trillion"  "titusind"  "mrd." "million"  "milliard"  "mill." "kvadrillion"  "hundrede"  "halvmillion"  "billion"  "billiard" "pi" ;
 LIST punctuation = cm <ellipsis> <kolon> lpar rpar <semi> <hyphen> ;
 LIST timeadv = "tidlig"  "sen" "nu"  "længe"  "igen"  "før"  "efter"  "da"  ("snar"  nt ind sg) ;
@@ -741,7 +743,7 @@ CONSTRAINTS
 
   "<en>"   SELECT:3690   (det) IF
 	(-1 %gange%)
-	(-2 number)
+	(-2 number-qnt)
 ;
 #  "en gange en"
 
@@ -877,8 +879,8 @@ CONSTRAINTS
 
 
   "<gange>"   SELECT:3593   (vblex pres) IF
-	(1 number)
-	(-1 number)
+	(1 number-qnt)
+	(-1 number-qnt)
 ;
 #  "en gange en er to!"
 
@@ -995,6 +997,11 @@ CONSTRAINTS
 #  "København kontra Uppsala
 # NOT LR0 ADVERBIALnoun: København kontra mange gange"
 
+
+"<led>"   SELECT:som-led-i singular-noun IF
+        (-1 ("<som>"))
+        (1 ("<i>"))
+;
 
   "<lyst>"   SELECT:3453   (n) IF
 	(1 %på/til%)
@@ -1607,17 +1614,17 @@ CONSTRAINTS
 
 
   "<gange>"   REMOVE:3590   (vblex pres) IF
-	(*-1O sentence-border LINK *1 number LINK 0 not-number)
-	(*1 sentence-border BARRIER number)
+	(*-1O sentence-border LINK *1 number-qnt LINK 0 not-number)
+	(*1 sentence-border BARRIER number-qnt)
 ;
 #  "nogen gange (noun) er det sådan at"))
 
   "<gange>"   REMOVE:3591   (vblex pres) IF
-	(NOT 1 number)
+	(NOT 1 number-qnt)
 ;
 
   "<gange>"   REMOVE:3592   (vblex pres) IF
-	(NOT -1 number)
+	(NOT -1 number-qnt)
 ;
 #  "bare verb ved f.eks to gange to"
 
@@ -4793,7 +4800,7 @@ SELECT:den-10.april det-dem + ut + sg IF
 	(NOT -1 adv)
 	(**-1C sentence-border BARRIER pres/past)
 	(**1C sentence-border BARRIER pres/past)
-	(**-1CO number LINK NOT 0 %en/et% LINK NOT *1 not-adv-adj-comma)
+	(**-1CO number-qnt LINK NOT 0 %en/et% LINK NOT *1 not-adv-adj-comma)
 ;
 #  "Tager ikke chancen for at 0 kan være lexicalverb hvis der
 # ikke er andre verber i sætningen"
@@ -4802,7 +4809,7 @@ SELECT:den-10.april det-dem + ut + sg IF
 	(NOT 0 ambiguous-plural-noun)
 	(NOT -1 adv)
 	(NOT -1 comma/konj)
-	(**-1CO number LINK NOT 0 %en/et% LINK NOT *1 not-adv-adj-comma)
+	(**-1CO number-qnt LINK NOT 0 %en/et% LINK NOT *1 not-adv-adj-comma)
 	(*1 pres/past BARRIER sentence-border)
 ;
 #  "over ti år"
@@ -4813,7 +4820,7 @@ SELECT:den-10.april det-dem + ut + sg IF
 	(NOT 0 ambiguous-plural-noun)
 	(NOT -1 adv)
 	(NOT -1 comma/konj)
-	(**-1CO number LINK NOT 0 %en/et% LINK NOT *1 not-adv-adj-comma)
+	(**-1CO number-qnt LINK NOT 0 %en/et% LINK NOT *1 not-adv-adj-comma)
 	(*-1 pres/past BARRIER sentence-border)
 ;
 #  "over ti år"
@@ -4847,7 +4854,7 @@ SELECT:den-10.april det-dem + ut + sg IF
 	(NOT -1 adv)
 	(NOT -1 comma/konj)
 	(NOT -1 gen)
-	(**-1CO plural-det LINK NOT 0 number LINK NOT *1 not-adv-adj-comma)
+	(**-1CO plural-det LINK NOT 0 number-qnt LINK NOT *1 not-adv-adj-comma)
 	(**-1C plural-det LINK NOT -1 indefinite-plural-noun)
 	(*1O sentence-border LINK **-1C lexicalverb LINK NOT 0 ambiguous-verb)
 ;
@@ -4861,7 +4868,7 @@ SELECT:den-10.april det-dem + ut + sg IF
 	(NOT -1 adv)
 	(NOT -1 comma/konj)
 	(NOT -1 gen)
-	(**-1CO plural-det LINK NOT 0 number LINK NOT *1 not-adv-adj-comma)
+	(**-1CO plural-det LINK NOT 0 number-qnt LINK NOT *1 not-adv-adj-comma)
 	(**-1C plural-det LINK NOT -1 definite-plural-noun)
 	(**-1C lexicalverb BARRIER sentence-border)
 ;
@@ -8384,6 +8391,13 @@ SELECT:4081 (adj) IF
 	(NOT 1 comma/konj)
 ;
 
+SELECT:1940-angreb-Tysklands past IF
+	(-1 number-qnt)
+	(0C noun OR verb)
+        (NOT 0 gen)
+	(*1 noun + nom BARRIER pre-np-head)
+;
+
  REMOVE:1723 (adj def sg) IF
 	(0 plural)
 	(NOT 0 %syvende%)
@@ -8583,10 +8597,9 @@ SELECT:4081 (adj) IF
 ;
 #	(*1 pres/past BARRIER sentence-border)
 
- REMOVE:1678 (vblex) IF
-	(NOT 0 not-noun-verb)
-	(-1C number)
-	(NOT -1 not-number)
+ REMOVE:1678 verb IF
+	(0C noun OR verb)
+	(-1C number-qnt)
 ;
 #  "noun mer sansynlig end verb efter tal"
 
