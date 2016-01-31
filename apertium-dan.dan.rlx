@@ -7851,6 +7851,8 @@ REMOVE:gen-noun gen-noun IF
 # 29.5.2001: At Monica Hås leverede våbnene var klart.
 # (lidt dårligere precision med denne regel)"))
 
+
+
 # sec 3
 CONSTRAINTS
 ## select domain heur
@@ -7928,6 +7930,11 @@ CONSTRAINTS
 
 # 050908 Not 1 sbu
 
+
+SELECT:blev-anvendt pp IF
+        (-1 %være/blive%)
+        (0C adj OR verb)
+;
 
  SELECT:1735 (cnjsub) IF
 	(-1 konj)
