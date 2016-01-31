@@ -5826,72 +5826,73 @@
     <!-- Modal verbs -->
 
 <pardef n="k/unne__vbmod">
-  <e>       <p><l>unne</l>      <r>unne<s n="vbmod"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>unnet</l>   <r>unne<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>unnet</l>   <r>unne<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
+  <e>       <p><l>unnet</l>   <r>unne<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>unnet</l>   <r>unne<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>unnende</l> <r>unne<s n="adj"/><s n="pprs"/></r></p></e>
   <e>       <p><l>un</l>      <r>unne<s n="vbmod"/><s n="imp"/></r></p></e>
-  <e>       <p><l>an</l>        <r>unne<s n="vbmod"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>unnes</l>      <r>unne<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
-  <e>       <p><l>unne</l>      <r>unne<s n="vbmod"/><s n="past"/><s n="actv"/></r></p></e>
-  <e>       <p><l>unnende</l>   <r>unne<s n="vbmod"/><s n="pprs"/></r></p></e>
-  <e>       <p><l>unnet</l>     <r>unne<s n="vbmod"/><s n="pp"/></r></p></e>
-  <e>       <p><l>unnende</l>    <r>unne<s n="adj"/><s n="pprs"/></r></p></e>
-  <e>       <p><l>unnet</l>         <r>unne<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>unnet</l>         <r>unne<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>unnet</l>        <r>unne<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
-  <e>       <p><l>unnet</l>        <r>unne<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>unne</l>    <r>unne<s n="vbmod"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>unne</l>    <r>unne<s n="vbmod"/><s n="past"/><s n="actv"/></r></p></e>
+  <e>       <p><l>unnet</l>   <r>unne<s n="vbmod"/><s n="pp"/></r></p></e>
+  <e>       <p><l>unnende</l> <r>unne<s n="vbmod"/><s n="pprs"/></r></p></e>
+  <e>       <p><l>an</l>      <r>unne<s n="vbmod"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>unnes</l>   <r>unne<s n="vbmod"/><s n="pres"/><s n="pasv"/></r></p></e>
 </pardef>
 
 <pardef n="sk/ulle__vbmod">
-  <e>       <p><l>ulle</l>      <r>ulle<s n="vbmod"/><s n="inf"/></r></p><par n="S__voice"/></e>
-  <e>       <p><l>al</l>        <r>ulle<s n="vbmod"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>ulles</l>        <r>ulle<s n="vbmod"/><s n="pres"/><s n="pasv"/></r></p></e>
-  <e>       <p><l>ulle</l>      <r>ulle<s n="vbmod"/><s n="past"/><s n="actv"/></r></p></e>
-  <e>       <p><l>ulles</l>      <r>ulle<s n="vbmod"/><s n="past"/><s n="pasv"/></r></p></e>
-  <e>       <p><l>ullet</l>     <r>ulle<s n="vbmod"/><s n="pp"/></r></p></e>
-      <e>       <p><l>ullende</l>    <r>ulle<s n="adj"/><s n="pprs"/></r></p></e>
-  <e>       <p><l>ullet</l>         <r>ulle<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>ullet</l>         <r>ulle<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>ullet</l>        <r>ulle<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
-  <e>       <p><l>ullet</l>        <r>ulle<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>ullet</l>                 <r>ulle<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ullet</l>                 <r>ulle<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ullet</l>                 <r>ulle<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>ullet</l>                 <r>ulle<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>ullende</l>               <r>ulle<s n="adj"/><s n="pprs"/></r></p></e>
+  <e>       <p><l>ulle</l>                  <r>ulle<s n="vbmod"/><s n="inf"/></r></p><par n="S__voice"/></e>
+      <e>   <p><l>ulle</l>                  <r>ulle<s n="vbmod"/><s n="past"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ulles</l>                 <r>ulle<s n="vbmod"/><s n="past"/><s n="pasv"/></r></p></e>
+  <e>       <p><l>ullet</l>                 <r>ulle<s n="vbmod"/><s n="pp"/></r></p></e>
+  <e>       <p><l>al</l>                    <r>ulle<s n="vbmod"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ulles</l>                 <r>ulle<s n="vbmod"/><s n="pres"/><s n="pasv"/></r></p></e>
 </pardef>
 
 <pardef n="vil/le__vaux">
-  <e>       <p><l>le</l>        <r>le<s n="vaux"/><s n="inf"/></r></p><par n="S__voice"/></e>
-  <e>       <p><l></l>          <r>le<s n="vaux"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l></l>          <r>le<s n="vaux"/><s n="pres"/><s n="pasv"/></r></p></e>
-  <e>       <p><l>les</l>        <r>le<s n="vaux"/><s n="past"/><s n="actv"/></r></p></e>
-  <e>       <p><l>let</l>       <r>le<s n="vaux"/><s n="pp"/></r></p></e>
-  <e>       <p><l>illende</l>    <r>le<s n="adj"/><s n="pprs"/></r></p></e>
-  <e>       <p><l>illet</l>         <r>le<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>illet</l>         <r>le<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>illet</l>        <r>le<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
-  <e>       <p><l>illet</l>        <r>le<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
-  <e r="RL"><p><l></l>       <r>le<s n="vaux"/><s n="imp"/></r></p></e>
+  <e>       <p><l>illet</l>                 <r>le<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>illet</l>                 <r>le<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
+  <e>       <p><l>illet</l>                 <r>le<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>illet</l>                 <r>le<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>illende</l>               <r>le<s n="adj"/><s n="pprs"/></r></p></e>
+  <e r="RL"><p><l></l>                      <r>le<s n="vaux"/><s n="imp"/></r></p></e>
+  <e>       <p><l>le</l>                    <r>le<s n="vaux"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>les</l>                   <r>le<s n="vaux"/><s n="past"/><s n="actv"/></r></p></e>
+  <e>       <p><l>let</l>                   <r>le<s n="vaux"/><s n="pp"/></r></p></e>
+  <e>       <p><l></l>                      <r>le<s n="vaux"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l></l>                      <r>le<s n="vaux"/><s n="pres"/><s n="pasv"/></r></p></e>
 </pardef>
 
 <pardef n="b/urde__vbmod">
-  <e>       <p><l>urde</l>      <r>urde<s n="vbmod"/><s n="inf"/></r></p><par n="S__voice"/></e>
-  <e>       <p><l>ør</l>        <r>urde<s n="vbmod"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>ørs</l>        <r>urde<s n="vbmod"/><s n="pres"/><s n="pasv"/></r></p></e>
-  <e>       <p><l>urdes</l>      <r>urde<s n="vbmod"/><s n="past"/><s n="pasv"/></r></p></e>
-  <e>       <p><l>urde</l>      <r>urde<s n="vbmod"/><s n="past"/><s n="actv"/></r></p></e>
-  <e>       <p><l>urdet</l>     <r>urde<s n="vbmod"/><s n="pp"/></r></p></e>  <e>       <p><l>urdende</l>    <r>urde<s n="adj"/><s n="pprs"/></r></p></e>
-  <e>       <p><l>urdet</l>         <r>urde<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>urdet</l>         <r>urde<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>urdet</l>        <r>urde<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
-  <e>       <p><l>urdet</l>        <r>urde<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>urdet</l>                 <r>urde<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>urdet</l>                 <r>urde<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
+  <e>       <p><l>urdet</l>                 <r>urde<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>urdet</l>                 <r>urde<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>urdende</l>               <r>urde<s n="adj"/><s n="pprs"/></r></p></e>
+  <e>       <p><l>urde</l>                  <r>urde<s n="vbmod"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>urde</l>                  <r>urde<s n="vbmod"/><s n="past"/><s n="actv"/></r></p></e>
+  <e>       <p><l>urdes</l>                 <r>urde<s n="vbmod"/><s n="past"/><s n="pasv"/></r></p></e>
+  <e>       <p><l>urdet</l>                 <r>urde<s n="vbmod"/><s n="pp"/></r></p></e>
+  <e>       <p><l>ør</l>                    <r>urde<s n="vbmod"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ørs</l>                   <r>urde<s n="vbmod"/><s n="pres"/><s n="pasv"/></r></p></e>
 </pardef>
 
 <pardef n="må/tte__vaux">
-  <e>       <p><l>tte</l>       <r>tte<s n="vaux"/><s n="inf"/></r></p><par n="S__voice"/></e>
-  <e>       <p><l></l>          <r>tte<s n="vaux"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>tte</l>       <r>tte<s n="vaux"/><s n="past"/><s n="actv"/></r></p></e>
-  <e>       <p><l>ttes</l>      <r>tte<s n="vaux"/><s n="pres"/><s n="pasv"/></r></p></e>
-  <e>       <p><l>ttet</l>      <r>tte<s n="vaux"/><s n="pp"/></r></p></e>
-  <e>       <p><l>åttende</l>    <r>tte<s n="adj"/><s n="pprs"/></r></p></e>
-  <e>       <p><l>åttet</l>         <r>tte<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>åttet</l>         <r>tte<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>åttet</l>        <r>tte<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
-  <e>       <p><l>åttet</l>        <r>tte<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>åttet</l>                 <r>tte<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>åttet</l>                 <r>tte<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
+  <e>       <p><l>åttet</l>                 <r>tte<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>åttet</l>                 <r>tte<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>åttende</l>               <r>tte<s n="adj"/><s n="pprs"/></r></p></e>
+  <e>       <p><l>tte</l>                   <r>tte<s n="vaux"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>tte</l>                   <r>tte<s n="vaux"/><s n="past"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ttet</l>                  <r>tte<s n="vaux"/><s n="pp"/></r></p></e>
+  <e>       <p><l></l>                      <r>tte<s n="vaux"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ttes</l>                  <r>tte<s n="vaux"/><s n="pres"/><s n="pasv"/></r></p></e>
 </pardef>
 
 
@@ -7391,7 +7392,6 @@
 <e lm="avis">            <i>avis</i><par n="residens__n"/></e>
 <e lm="avisartikel">               <i>avisartik</i><par n="cirk/el__n"/></e>
 <e lm="avispapir">                 <i>avispapir</i><par n="firma__n"/></e>
-<e lm="avl">                       <i>avl</i><par n="vals__n"/></e>
 <e lm="avl">             <i>avl</i><par n="bold__n"/></e>
 <e lm="avle">            <i>avle</i><par n="abe__n"/></e>
 <e lm="avlsgård">        <i>avlsgård</i><par n="bold__n"/></e>
@@ -10306,6 +10306,7 @@
 <e lm="gravpleje">       <i>gravpleje</i><par n="abe__n"/></e>
 <e lm="gravsted">        <i>gravsted</i><par n="alibi__n"/></e>
 <e lm="gravsten">        <i>gravsten</i><par n="sko__n"/></e>
+<e lm="formåen">                    <i>formåen</i><par n="sko__n"/></e>
 <e lm="gray">                      <i>gray</i><par n="lux__n"/></e>
 <e lm="greb">            <i>greb</i><par n="år__n"/></e>
 <e lm="greb">            <i>greb</i><par n="sko__n"/></e>
@@ -10543,7 +10544,6 @@
 <e lm="harpe">           <i>harpe</i><par n="abe__n"/></e>
 <e lm="harpiks">         <i>harpiks</i><par n="harpiks__n"/></e>
 <e lm="has">                       <i>has</i><par n="MC_no-cp__n"/></e>
-<e lm="has">             <i>has</i><par n="residens__n"/></e>
 <e lm="hash">                      <i>hash</i><par n="slag__n"/></e>
 <e lm="hassel">                    <i>has</i><par n="trus/sel__n"/></e>
 <e lm="hasselnød" a="DAINF"><i>hasselnød</i><par n="nød__n"/></e>
@@ -26215,7 +26215,6 @@
 <e lm="chauvinist"><i>chauvinist</i><par n="aften__n"/></e>
 <e lm="søanemone"><i>søanemone</i><par n="hygiejne__n"/></e>
 <e lm="havørred"><i>havøred</i><par n="aften__n"/></e>
-<e lm="havbad"><i>havbad</i><par n="hus__n"/></e>
 <e lm="havdyr"><i>havdyr</i><par n="slag__n"/></e>
 <e lm="søfartsby"><i>søfartsby</i><par n="aften__n"/></e>
 <e lm="søfartsinspektør"><i>søfartsinspektør</i><par n="aften__n"/></e>
@@ -26774,6 +26773,7 @@
 <e lm="elendig">        <i>elendig</i><par n="øvrig__adj"/></e>
 <e lm="humoristisk">        <i>humoristisk</i><par n="amerikansk__adj"/></e>
 <e lm="populær">        <i>populær</i><par n="aktiv__adj"/></e>
+<e lm="primær">        <i>primær</i><par n="aktiv__adj"/></e>
 <e lm="konstruktiv">        <i>konstruktiv</i><par n="aktiv__adj"/></e>
 <e lm="stolt">        <i>stolt</i><par n="stolt__adj"/></e>
 <e lm="kommerciel">        <i>kommerciel</i><par n="finansiel__adj"/></e>
@@ -43216,7 +43216,7 @@
 <e lm="Akureyri">        <i>Akureyri</i><par n="Norge__np"/></e>
 <e lm="Alabama">         <i>Alabama</i><par n="Norge__np"/></e>
 <e lm="Alaska">          <i>Alaska</i><par n="Norge__np"/></e>
-<e lm="Albania">         <i>Albania</i><par n="Norge__np"/></e>
+<e lm="Albanien">         <i>Albanien</i><par n="Norge__np"/></e>
 <e lm="Albany">          <i>Albany</i><par n="Norge__np"/></e>
 <e lm="Alberta">         <i>Alberta</i><par n="Norge__np"/></e>
 <e lm="Albertville">     <i>Albertville</i><par n="Norge__np"/></e>
@@ -54575,6 +54575,7 @@
 <e lm="kagle">             <i>kagl</i><par n="mal/e__vblex"/></e>
 <e lm="kakuminalisere">    <i>kakuminaliser</i><par n="mal/e__vblex"/></e>
 <e lm="kalde">             <i>kald</i><par n="tal/e__vblex"/></e>
+<e lm="opkalde">             <i>opkald</i><par n="tal/e__vblex"/></e>
 <e lm="kalfatre">          <i>kalfatr</i><par n="mal/e__vblex"/></e>
 <e lm="kalibrere">         <i>kalibrer</i><par n="mal/e__vblex"/></e>
 <e lm="kalke">             <i>kalk</i><par n="mal/e__vblex"/></e>
@@ -56456,6 +56457,7 @@
 <e lm="slynge">             <i>slyng</i><par n="mal/e__vblex"/></e>
 <e lm="slingre">            <i>slingr</i><par n="mal/e__vblex"/></e>
 <e lm="slippe">             <i>sl</i><par n="sl/ippe__vblex"/></e>
+<e lm="undslippe">             <i>undsl</i><par n="sl/ippe__vblex"/></e>
 <e lm="slubre">             <i>slubr</i><par n="mal/e__vblex"/></e>
 <e lm="sludre">             <i>sludr</i><par n="mal/e__vblex"/></e>
 <e lm="sluge">              <i>slug</i><par n="tal/e__vblex"/></e>
