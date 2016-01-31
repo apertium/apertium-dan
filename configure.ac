@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-dan], [0.2.0], [francis.tyers@gmail.com])
+AC_INIT([apertium-dan], [0.3.0], [francis.tyers@gmail.com])
 AM_INIT_AUTOMAKE([apertium-dan], [0.2.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
