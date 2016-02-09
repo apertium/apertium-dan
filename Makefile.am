@@ -91,8 +91,8 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "TODO test sentence" | apertium -d . dan-morph | tee .test-mt
-	@echo "TODO test analysis results" > .test-ref
+	echo "kage" | apertium -d . dan-morph | tee .test-mt
+	@echo "^kage/kage<vblex><inf><actv>/kage<n><ut><sg><ind><nom>/kage<n><ut><sg><ind><nom>$$^./.<sent>$$" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
 
