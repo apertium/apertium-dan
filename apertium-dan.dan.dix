@@ -1,13 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Dictionary:
-  Sections: 3
-  Entries: 11111
-  Sdefs: 70
-  Paradigms: 396
-  Last processed by: apertium-dixtools merge-morph apertium-da-nb.da.dix /Users/jonasfromseier/apertiumBuild/apertium-sv-da/apertium-sv-da.da.dix apertium-merged-da.dix -debug
-
--->
 <dictionary>
 
   <alphabet>ÀÁÂÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÖØÙÚÛÜàáâäåæçèéêëìíîïñòóôöøùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
@@ -4027,18 +4018,18 @@
 
 
 <pardef n="ha/ve__vbhaver">
-  <e>       <p><l>ve</l>        <r>ve<s n="vbhaver"/><s n="inf"/></r></p><par n="S__voice"/></e>
-  <e>       <p><l>r</l>         <r>ve<s n="vbhaver"/><s n="pres"/><s n="actv"/></r></p></e>
-  <e>       <p><l>ves</l>       <r>ve<s n="vbhaver"/><s n="pres"/><s n="pasv"/></r></p></e>
-  <e>       <p><l>vde</l>       <r>ve<s n="vbhaver"/><s n="past"/></r></p><par n="S__voice"/></e>
-  <e>       <p><l>v</l>         <r>ve<s n="vbhaver"/><s n="imp"/></r></p></e>
-  <e>       <p><l>vende</l>     <r>ve<s n="vbhaver"/><s n="pprs"/></r></p></e>
-  <e>       <p><l>vende</l>     <r>ve<s n="adj"/><s n="pprs"/></r></p></e>
-  <e>       <p><l>ft</l>        <r>ve<s n="vbhaver"/><s n="pp"/></r></p></e>
-    <e>       <p><l>ft</l>         <r>ve<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ft</l>         <r>ve<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>fte</l>        <r>ve<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
   <e>       <p><l>fte</l>        <r>ve<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
+  <e>       <p><l>ft</l>         <r>ve<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>vende</l>     <r>ve<s n="adj"/><s n="pprs"/></r></p></e>
+  <e>       <p><l>v</l>         <r>ve<s n="vbhaver"/><s n="imp"/></r></p></e>
+  <e>       <p><l>ve</l>        <r>ve<s n="vbhaver"/><s n="inf"/></r></p><par n="S__voice"/></e>
+  <e>       <p><l>vde</l>       <r>ve<s n="vbhaver"/><s n="past"/></r></p><par n="S__voice"/></e>
+    <e>       <p><l>ft</l>        <r>ve<s n="vbhaver"/><s n="pp"/></r></p></e>
+  <e>       <p><l>vende</l>     <r>ve<s n="vbhaver"/><s n="pprs"/></r></p></e>
+  <e>       <p><l>r</l>         <r>ve<s n="vbhaver"/><s n="pres"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ves</l>       <r>ve<s n="vbhaver"/><s n="pres"/><s n="pasv"/></r></p></e>
 </pardef>
 
 
@@ -10558,7 +10549,6 @@
 <e lm="havbad">          <i>havbad</i><par n="skib__n"/></e>
 <e lm="havbrug">                   <i>havbrug</i><par n="slag__n"/></e>
 <e lm="havbund">         <i>havbund</i><par n="bold__n"/></e>
-<e lm="have">                      <i>have</i><par n="hygiejne__n"/></e>
 <e lm="have">            <i>have</i><par n="abe__n"/></e>
 <e lm="havebrug">        <i>havebrug</i><par n="år__n"/></e>
 <e lm="havelåge" a="PT"> <i>havelåge</i><par n="abe__n"/></e>
