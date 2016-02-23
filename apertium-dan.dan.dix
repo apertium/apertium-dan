@@ -57659,17 +57659,14 @@
 <e lm="AB" c="andelsboligforening"><i>AB</i><par n="t.eks.__abbr"/></e>
 <e lm="CV" a="PT">       <i>CV</i><par n="t.eks.__abbr"/></e>
 <e lm="DKK" a="PT">      <i>DKK</i><par n="t.eks.__abbr"/></e>
-<e r="RL" lm="Dagens Nyheter" a="PT"><i>Dagens<b/>Nyheter</i><par n="t.eks.__abbr"/></e>
 <e lm="HBT">             <i>HBT</i><par n="t.eks.__abbr"/></e>
 <e lm="MF" c="medlem af Folketinget"><i>MF</i><par n="t.eks.__abbr"/></e>
 <e lm="NOK" a="PT">      <i>NOK</i><par n="t.eks.__abbr"/></e>
 <e lm="SEK" a="PT">      <i>SEK</i><par n="t.eks.__abbr"/></e>
 <e lm="Skt." a="PT">     <i>Skt.</i><par n="t.eks.__abbr"/></e>
-<e r="RL" lm="Svenska Dagbladet" a="PT"><i>Svenska<b/>Dagbladet</i><par n="t.eks.__abbr"/></e>
 <e lm="a/s" c="aktieselskab"><i>a/s</i><par n="t.eks.__abbr"/></e>
 <e lm="adj." c="adjektiv"><i>adj.</i><par n="t.eks.__abbr"/></e>
 <e lm="adr." a="PT">     <i>adr.</i><par n="t.eks.__abbr"/></e>
-<e r="RL" lm="andelslejlighedsforening" a="PT"><i>andelslejlighedsforening</i><par n="t.eks.__abbr"/></e>
 <e lm="ang." a="PT">     <i>ang.</i><par n="t.eks.__abbr"/></e>
 <e lm="anm." a="PT">     <i>anm.</i><par n="t.eks.__abbr"/></e>
 <e lm="apr." a="PT">     <i>apr.</i><par n="t.eks.__abbr"/></e>
@@ -57699,7 +57696,6 @@
 <e lm="dia" a="PT">      <i>dia</i><par n="t.eks.__abbr"/></e>
 <e lm="dial." a="PT">    <i>dial.</i><par n="t.eks.__abbr"/></e>
 <e lm="diam." a="PT">    <i>diam.</i><par n="t.eks.__abbr"/></e>
-<e r="RL" lm="direkte reklame" a="PT"><i>direkte<b/>reklame</i><par n="t.eks.__abbr"/></e>
 <e lm="div." a="PT">     <i>div.</i><par n="t.eks.__abbr"/></e>
 <e lm="dj" a="PT">       <i>dj</i><par n="t.eks.__abbr"/></e>
 <e lm="dl" a="PT">       <i>dl</i><par n="t.eks.__abbr"/></e>
@@ -58038,8 +58034,8 @@
 
     <!-- Proper nouns -->
 
-<e lm="Dagens Nyheter" a="PT"><i>Dagens<b/>Nyheter</i><par n="Ibsen__np"/></e>
 <e lm="Svenska Dagbladet" a="PT"><i>Svenska<b/>Dagbladet</i><par n="Lagtinget__np"/></e>
+<e lm="Dagens Nyheter" a="PT"><i>Dagens<b/>Nyheter</i><par n="Wikipedia__np"/></e>
 
 <e lm="EF" a="PT">       <i>EF</i><par n="Norge__np"/></e>
 <e lm="USSR" a="PT">     <i>USSR</i><par n="Norge__np"/></e>
