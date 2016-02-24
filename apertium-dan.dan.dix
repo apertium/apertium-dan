@@ -52,6 +52,7 @@
     <sdef n="part"  c="infinitive participle"/>
     <sdef n="prn"   c="Pronoun"/>
     <sdef n="rel"   c="Relative pronoun"/>
+    <sdef n="res"   c="Reciprocal pronoun"/>
     <sdef n="ref"   c="Reflexive pronoun"/>
     <sdef n="acc"   c="Object"/>
     <sdef n="det" />
@@ -1550,25 +1551,11 @@
 
 
 <pardef n="nog/en__prn">
-
-
-  <e>       <p><l>en</l>        <r>en<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p></e>
-
-  <e>       <p><l>en</l>        <r>en<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/><s n="gen"/></r></p></e>
-
-<e>       <p><l>en</l>        <r>en<s n="prn"/><s n="ind"/><s n="neg"/><s n="pl"/></r></p></e>
-
-<e>       <p><l>ens</l>        <r>en<s n="prn"/><s n="ind"/><s n="neg"/><s n="pl"/><s n="gen"/></r></p></e>
-
-  <e>       <p><l>et</l>        <r>en<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
-
-  <e>       <p><l>ets</l>        <r>en<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
-
-  <e>       <p><l>le</l>        <r>en<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p></e>
-
-  <e>       <p><l>les</l>        <r>en<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>en</l>  <r>en<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>en</l>  <r>en<s n="prn"/><s n="ind"/><s n="neg"/><s n="pl"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>et</l>  <r>en<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p><par n="S__case"/></e>
+  <e>       <p><l>le</l>  <r>en<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p><par n="S__case"/></e>
 </pardef>
-
 
 
 <pardef n="and/en__prn">
@@ -5945,9 +5932,9 @@
   <e r="RL"><p><l>nes</l>       <r>nes<s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/><s n="pl"/><s n="gen"/></r></p></e>
 </pardef>
 
-<pardef n="hinanden__prn"> <!-- PT: ersätter samme__prn för hinanden -->
-  <e a="PT"><p><l></l>          <r><s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="pl"/></r></p></e>
-  <e a="PT"><p><l>s</l>         <r><s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="pl"/><s n="gen"/></r></p></e>
+<pardef n="hinanden__prn">
+  <e>       <p><l></l>          <r><s n="prn"/><s n="res"/><s n="p3"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="prn"/><s n="res"/><s n="p3"/><s n="un"/><s n="pl"/><s n="gen"/></r></p></e>
 </pardef>
 
 <pardef n="eneste__prn">
