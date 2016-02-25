@@ -1589,7 +1589,7 @@
 </pardef>
 
 <pardef n="ingenting__prn">
-  <e>       <p><l></l>          <r><s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></r></p><par n="s_all_case"/></e>
+  <e>       <p><l></l>       <r><s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></r></p><par n="s_case"/></e>
 </pardef>
 
 <pardef n="in/gen__prn">
@@ -6628,12 +6628,15 @@
 <e lm="hver eneste">     <i>hver</i><par n="hver/_eneste__prn"/></e>
 <e lm="hver anden">      <i>hver</i><par n="hver/_anden__prn"/></e>
 <e lm="hvilken">         <i>hvilke</i><par n="hvilke/n__prn"/></e>
+
 <e lm="ingen">           <i>in</i><par n="in/gen__prn"/></e>
 <e lm="ingenting">       <i>ingenting</i><par n="ingenting__prn"/></e>
+<e lm="intet">       <i>intet</i><par n="ingenting__prn"/></e>
+<e lm="nogen">           <i>nog</i><par n="nog/en__prn"/></e>
+
+<e lm="samme">           <i>samme</i><par n="samme__prn"/></e>
 <e lm="man">             <par n="/man__prn"/></e>
 <e lm="mange">           <i>mang</i><par n="mang/e__prn"/></e>
-<e lm="nogen">           <i>nog</i><par n="nog/en__prn"/></e>
-<e lm="samme">           <i>samme</i><par n="samme__prn"/></e>
 <e lm="selv">            <i>selv</i><par n="selv__prn"/></e>
 <e lm="sig">             <i></i><par n="/sig__prn"/></e>
 <e lm="som">             <par n="/som__prn"/></e>
@@ -29017,7 +29020,6 @@
     <!-- TODO: CHECK THESE: -->
 <e lm="mere">            <i>mere</i><par n="mere__preadv"/></e>
 <e lm="mest">            <i>mest</i><par n="mere__preadv"/></e>
-<!--<e lm="meget">           <i>me</i><par n="me/get__adv"/></e>-->
 <e lm="meget">          <i>meget</i><par n="ikke__adv"/></e>
 <e lm="mellem">          <i>mellem</i><par n="ikke__adv"/></e>
 <e lm="mere">            <i>mere</i><par n="ikke__adv"/></e>
