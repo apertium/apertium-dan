@@ -1182,7 +1182,7 @@
 
 <pardef n="hver__det">
   <e>       <p><l>t</l>          <r><s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
-    <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="un"/><s n="sp"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="un"/><s n="sp"/></r></p></e>
 </pardef>
 
 
@@ -1505,6 +1505,12 @@
   <e>       <p><l>en</l>  <r>en<s n="prn"/><s n="ind"/><s n="neg"/><s n="pl"/></r></p><par n="s_case"/></e>
   <e>       <p><l>et</l>  <r>en<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p><par n="s_case"/></e>
   <e>       <p><l>le</l>  <r>en<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p><par n="s_case"/></e>
+</pardef>
+
+<pardef n="sådan__prn">
+  <e>       <p><l></l>  <r><s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>t</l> <r><s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>ne</l>  <r><s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p><par n="s_case"/></e>
 </pardef>
 
 <pardef n="/sig__refl" c="TODO: better at the moment, we just discard this anyway">
@@ -6631,7 +6637,7 @@
 <e lm="selv">            <i>selv</i><par n="selv__prn"/></e>
 <e lm="sig">             <i></i><par n="/sig__prn"/></e>
 <e lm="som">             <par n="/som__prn"/></e>
-<e lm="sådan">           <i>sådan</i><par n="ingenting__prn"/></e>
+<e lm="sådan">           <i>sådan</i><par n="sådan__prn"/></e>
 <e lm="egen">            <i>eg</i><par n="eg/en__prn"/></e>
 
 
