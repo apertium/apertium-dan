@@ -346,6 +346,7 @@
 <pardef n="erfar/en__adj">
   <e>       <p><l>nere</l>      <r>en<s n="adj"/><s n="sint"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
   <e>       <p><l>en</l>        <r>en<s n="adj"/><s n="sint"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e r="LR"><p><l>et</l>       <r>en<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ent</l>       <r>en<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ne</l>        <r>en<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>ne</l>        <r>en<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
@@ -749,15 +750,6 @@
   <e>       <p><l>rest</l>      <r>ter<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
   <e>       <p><l>reste</l>     <r>ter<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
-
-<pardef n="eg/en__adj">
-  <e>       <p><l>en</l>        <r>en<s n="adj"/><s n="sint"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>ent</l>       <r>en<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e r="LR"><p><l>et</l>        <r>en<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>ne</l>        <r>en<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
-  <e>       <p><l>ne</l>        <r>en<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
-</pardef>
-
 
 <pardef n="kærkom/men__adj">
   <e>       <p><l>nere</l>      <r>men<s n="adj"/><s n="sint"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
@@ -26742,7 +26734,6 @@
 <e lm="lille">           <par n="/lille__adj"/></e>
 <e lm="stor">            <par n="/stor__adj"/></e>
 <e lm="ung">             <par n="/ung__adj"/></e>
-<e lm="egen">            <i>eg</i><par n="eg/en__adj"/></e>
 <e lm="absolut">         <i>absolut</i><par n="absolut__adj"/></e>
 <e lm="afhængig">        <i>afhængig</i><par n="aktiv__adj"/></e>
 <e lm="afsindig">        <i>afsindig</i><par n="aktiv__adj"/></e>
