@@ -1496,7 +1496,17 @@
   <e>       <p><l>s</l> <r>s</r></p><par n="det+prn"/><p><l></l><r><s n="def"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l> <r>s</r></p><par n="det+prn"/><p><l></l><r><s n="def"/><s n="pos"/><s n="ut"/><s n="sg"/></r></p></e>
 </pardef>
-  <!-- /prpers with det.pos -->
+<pardef n="enhver__prn">
+  <e>       <p><l>t</l>         <r><s n="prn"/><s n="def"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>t</l>         <r><s n="prn"/><s n="def"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="prn"/><s n="def"/><s n="un"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="prn"/><s n="def"/><s n="un"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="prn"/><s n="def"/><s n="ut"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="prn"/><s n="def"/><s n="ut"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>ts</l> <r>s</r></p><par n="det+prn"/><p><l></l><r><s n="def"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l> <r>s</r></p><par n="det+prn"/><p><l></l><r><s n="def"/><s n="pos"/><s n="ut"/><s n="sg"/></r></p></e>
+</pardef>
+<!-- /prpers with det.pos -->
 
 <pardef n="nog/en__prn">
   <e>       <p><l>en</l>  <r>en<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p><par n="s_case"/></e>
@@ -1580,8 +1590,8 @@
   <e>       <p><l></l>        <r><s n="prn"/><s n="def"/><s n="ut"/><s n="sg"/></r></p><par n="s_case"/></e>
 </pardef>
 
-<pardef n="ingenting__prn"> <!-- TODO: CHECK THIS -->
-  <e>       <p><l></l>          <r><s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></r></p><par n="s_case"/></e>
+<pardef n="ingenting__prn">
+  <e>       <p><l></l>          <r><s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></r></p><par n="s_all_case"/></e>
 </pardef>
 
 <pardef n="in/gen__prn">
@@ -6615,7 +6625,7 @@
 <e lm="begge">           <i>begge</i><par n="begge__prn"/></e>
 <e lm="denne">           <i>d</i><par n="d/enne__prn"/></e>
 <e lm="der">             <i>der</i><par n="der__prn"/></e>
-<e lm="enhver">          <i>enhver</i><par n="hver__prn"/></e>
+<e lm="enhver">          <i>enhver</i><par n="enhver__prn"/></e>
 <e lm="hver">            <i>hver</i><par n="hver__prn"/></e>
 <e lm="hver eneste">     <i>hver</i><par n="hver/_eneste__prn"/></e>
 <e lm="hver anden">      <i>hver</i><par n="hver/_anden__prn"/></e>
