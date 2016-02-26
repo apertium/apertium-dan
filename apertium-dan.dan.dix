@@ -1132,15 +1132,19 @@
 </pardef>
 
 
-<pardef n="e/n__det">
-  <e>       <p><l>n</l>         <r>n<s n="det"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p></e>
-  <e>       <p><l>t</l>         <r>n<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
+<pardef n="/en__det">
+  <e>       <p><l>det</l>        <r>den<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>de</l>         <r>den<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l>den</l>        <r>den<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>et</l>         <r>en<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>de</l>         <r>en<s n="det"/><s n="ind"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l>en</l>         <r>en<s n="det"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p></e>
 </pardef>
 
-<pardef n="d/en__det">
-  <e>       <p><l>en</l>        <r>en<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
-  <e>       <p><l>et</l>        <r>en<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>e</l>         <r>en<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></r></p></e>
+<pardef n="d/enne__det">
+  <e>       <p><l>enne</l>  <r>enne<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ette</l>  <r>enne<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>isse</l>  <r>enne<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
 
 
@@ -1198,12 +1202,6 @@
   <e>       <p><l></l>          <r><s n="det"/><s n="ord"/><s n="un"/><s n="sp"/></r></p></e>
 </pardef>
 
-
-<pardef n="d/enne__det">
-  <e>       <p><l>enne</l>  <r>enne<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ette</l>  <r>enne<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>isse</l>  <r>enne<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></r></p></e>
-</pardef>
 
 <pardef n="nog/en__det">
   <e>       <p><l>en</l>  <r>en<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p></e>
@@ -5916,7 +5914,7 @@
 <e lm="næste">           <i>næste</i><par n="næste__det"/></e>
 <e lm="forrige">           <i>forrige</i><par n="næste__det"/></e>
 <e lm="al">              <i>al</i><par n="al/__det"/></e>
-<e lm="en">              <i>e</i><par n="e/n__det"/></e>
+<e lm="en" c="also den"> <i></i><par n="/en__det"/></e>
 <e lm="anden">           <i>and</i><par n="and/en__det"/></e>
 <e lm="begge">           <i>begge</i><par n="begge__det"/></e>
 <e lm="sådan">           <i>sådan</i><par n="sådan__det"/></e>
@@ -5928,7 +5926,6 @@
 <e lm="hin">           <i>hi</i><par n="hi/n__det"/></e>
 <e lm="hver">            <i>hver</i><par n="hver__det"/></e>
 <e lm="denne">           <i>d</i><par n="d/enne__det"/></e>
-<e lm="den">           <i>d</i><par n="d/en__det"/></e>
 <e lm="ingen">           <i>in</i><par n="in/gen__det"/></e>
 <e lm="nogen">           <i>nog</i><par n="nog/en__det"/></e>
 
