@@ -1131,6 +1131,19 @@
   <e>       <p><l></l>          <r><s n="num"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
 
+  <pardef n="1__num">
+    <!-- TODO: how's this in dan? -->
+<!-- <e>       <p><l>:a</l>  <r>:es<s n="adj"/><s n="ord"/><s n="pst"/><s n="fn"/><s n="sg"/><s n="ind"/></r></p><par n="s_case"/></e> -->
+<!-- <e>       <p><l>:es</l> <r>:es<s n="adj"/><s n="ord"/><s n="pst"/><s n="m"/><s n="sg"/><s n="ind"/><s n="gen"/></r></p></e> -->
+<!-- <e>       <p><l>:es</l> <r>:es<s n="adj"/><s n="ord"/><s n="pst"/><s n="m"/><s n="sg"/><s n="ind"/><s n="nom"/></r></p></e> -->
+<!-- <e>       <p><l>:es</l>  <r>:es<s n="adj"/><s n="ord"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/></e> -->
+<!-- <e>       <p><l>:es</l>  <r>:es<s n="adj"/><s n="ord"/><s n="pst"/><s n="un"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/></e> -->
+<e>       <p><l></l>    <r><s n="num"/><s n="un"/><s n="sg"/></r></p></e>
+  </pardef>
+  <pardef n="i__num">
+<e>       <p><l></l> <r><s n="num"/><s n="un"/><s n="sp"/></r></p></e>
+  </pardef>
+
 
 <pardef n="/en__det">
   <e>       <p><l>det</l>        <r>den<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -6655,6 +6668,24 @@
           group num
       ****************************** -->
     <!-- Numbers -->
+
+<e lm="1"><re>1</re><par n="1__num"/></e>
+<e lm="0-9,0-9"><re>[0-9]+([.,][0-9]+)?(%)?</re><par n="i__num"/></e>
+
+<e lm="C"><i>C</i><par n="i__num"/></e>
+<e lm="I"><i>I</i><par n="i__num"/></e>
+<e lm="II"><i>II</i><par n="i__num"/></e>
+<e lm="III"><i>III</i><par n="i__num"/></e>
+<e lm="IV"><i>IV</i><par n="i__num"/></e>
+<e lm="IX"><i>IX</i><par n="i__num"/></e>
+<e lm="L"><i>L</i><par n="i__num"/></e>
+<e lm="M"><i>M</i><par n="i__num"/></e>
+<e lm="V"><i>V</i><par n="i__num"/></e>
+<e lm="VI"><i>VI</i><par n="i__num"/></e>
+<e lm="VII"><i>VII</i><par n="i__num"/></e>
+<e lm="VIII"><i>VIII</i><par n="i__num"/></e>
+<e lm="X"><i>X</i><par n="i__num"/></e>
+
 <e lm="nul">              <i>nul</i><par n="to__num"/></e>
 <e lm="en">              <i>e</i><par n="e/n__num"/></e>
 <e lm="to">              <i>to</i><par n="to__num"/></e>
@@ -6687,6 +6718,7 @@
 <e lm="tusind">          <i>tusind</i><par n="to__num"/></e>
 <e lm="million">          <i>million</i><par n="to__num"/></e>
 <e lm="milliard">          <i>milliard</i><par n="to__num"/></e>
+
 
     <!-- ******************************
           group n
