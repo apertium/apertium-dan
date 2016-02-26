@@ -2742,6 +2742,13 @@
   <e>       <p><l>r</l>         <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R"/></e>
   <e>       <p><l>rne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
 </pardef>
+<pardef n="abe_no-cp__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~en / ~er / ~erne -->
+  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="no-cp\Ø\S__case"/></e>
+  <e r="RL"><p><l></l>          <r><s n="n"/><s n="ut"/><s n="sp"/></r></p><par n="no-cp\Ø\S__case"/></e>
+  <e>       <p><l>n</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>r</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>rne</l>      <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/></e>
+</pardef>
 
 <pardef n="hus__n" c="autoconcord:nt,sgpl"> <!-- Neuter; ~ / ~et / ~e / ~ene; Remember genitive is "hus'". Only to bed used with nouns that end in "s". If not, use skib__n -->
   <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\'__case"/></e>
@@ -12034,7 +12041,7 @@
 <e lm="lig">             <i>lig</i><par n="år__n"/></e>
 <e lm="liga">            <i>liga</i><par n="ateist__n"/></e>
 <e lm="ligatur">         <i>ligatur</i><par n="ateist__n"/></e>
-<e lm="lige">            <i>lige</i><par n="abe__n"/></e>
+<e lm="lige">            <i>lige</i><par n="abe_no-cp__n"/></e>
 <e lm="ligeløn">         <i>ligeløn</i><par n="løn__n"/></e>
 <e lm="lighed">          <i>lighed</i><par n="ateist__n"/></e>
 <e lm="lighedstegn">     <i>lighedstegn</i><par n="år__n"/></e>
