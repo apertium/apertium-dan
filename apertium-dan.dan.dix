@@ -1121,8 +1121,8 @@
 <pardef n="e/n__num">
   <e>       <p><l>n</l>          <r>n<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p></e>
   <e>       <p><l>t</l>          <r>n<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>n</l>          <r>n<s n="num"/><s n="sg"/><s n="ut"/></r></p></e>
-  <e>       <p><l>t</l>          <r>n<s n="num"/><s n="sg"/><s n="nt"/></r></p></e>
+  <e>       <p><l>n</l>          <r>n<s n="num"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>          <r>n<s n="num"/><s n="nt"/><s n="sg"/></r></p></e>
 </pardef>
 
 <pardef n="to__num">
