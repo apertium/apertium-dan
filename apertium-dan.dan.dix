@@ -1143,7 +1143,7 @@
   <e>       <p><l>ens</l>       <r>en<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></r></p></e>
   <e>       <p><l>ets</l>       <r>en<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>eres</l>      <r>en<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></r></p></e>
-  <!-- dan-nor tagfixing TODO: -->
+  <!-- dan-nor tagfixing TODO; we don't want genitive on determiners (should be on prn only; possibly as det.pos): -->
   <e r="RL"><p><l>ens</l>       <r>en<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="gen"/></r></p></e>
   <e r="RL"><p><l>ets</l>       <r>en<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
   <e r="RL"><p><l>eres</l>      <r>en<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/><s n="gen"/></r></p></e>
@@ -1170,11 +1170,11 @@
 
 <pardef n="al/__det">
   <e>       <p><l></l>         <r><s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p></e>
-   <e>       <p><l>s</l>       <r><s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/><s n="gen"/></r></p></e>
+   <e r="RL"><p><l>s</l>       <r><s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>t</l>        <r><s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ts</l>       <r><s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
+  <e r="RL"><p><l>ts</l>       <r><s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>le</l>       <r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
-  <e>       <p><l>les</l>      <r><s n="det"/><s n="qnt"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e r="RL"><p><l>les</l>      <r><s n="det"/><s n="qnt"/><s n="pl"/><s n="gen"/></r></p></e>
 </pardef>
 
 
@@ -1206,31 +1206,16 @@
 
 
 <pardef n="d/enne__det">
-  <e>       <p><l>enne</l>      <r>enne<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ennes</l>      <r>enne<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>ette</l>      <r>enne<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ettes</l>      <r>enne<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e>       <p><l>isse</l>      <r>enne<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></r></p></e>
-  <e>       <p><l>isses</l>      <r>enne<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/><s n="gen"/></r></p></e>
+  <e>       <p><l>enne</l>  <r>enne<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ette</l>  <r>enne<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>isse</l>  <r>enne<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="nog/en__det">
-  <e>       <p><l>en</l>        <r>en<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p></e>
-
-  <e>       <p><l>en</l>        <r>en<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/><s n="gen"/></r></p></e>
-
-<e>       <p><l>en</l>        <r>en<s n="det"/><s n="qnt"/><s n="neg"/><s n="pl"/></r></p></e>
-
-<e>       <p><l>ens</l>        <r>en<s n="det"/><s n="qnt"/><s n="neg"/><s n="pl"/><s n="gen"/></r></p></e>
-
-  <e>       <p><l>et</l>        <r>en<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
-
-  <e>       <p><l>ets</l>        <r>en<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
-
-  <e>       <p><l>le</l>        <r>en<s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
-
-  <e>       <p><l>les</l>        <r>en<s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/><s n="gen"/></r></p></e>
-
+  <e>       <p><l>en</l>  <r>en<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>en</l>  <r>en<s n="det"/><s n="qnt"/><s n="neg"/><s n="pl"/></r></p></e>
+  <e>       <p><l>et</l>  <r>en<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>le</l>  <r>en<s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="in/gen__det">
@@ -2618,11 +2603,11 @@
 
 
 <pardef n="aften__n" c="was ep__n">
-  <e>       <p><l>erne</l>       <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
+  <e>       <p><l>erne</l>      <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
   <e>       <p><l>er</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R"/></e>
   <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
-  <e r="RL">       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sp"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+  <e r="RL"><p><l></l>          <r><s n="n"/><s n="ut"/><s n="sp"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
 </pardef>
 
 
@@ -18176,6 +18161,7 @@
 <e lm="ansigtstræk"><i>ansigtstræk</i><par n="stik__n"/></e>
 <e lm="ansjos"><i>ansjos</i><par n="aften__n"/></e>
 <e lm="anstalt"><i>anstalt</i><par n="aften__n"/></e>
+<e lm="arbejdsulykkeforsikringsanstalt"><i>arbejdsulykkeforsikringsanstalt</i><par n="aften__n"/></e>
 <e lm="anstand"><i>anstand</i><par n="aften__n"/></e>
 <e lm="antabus"><i>antabus</i><par n="aften__n"/></e>
 <e lm="antagonist"><i>antagonist</i><par n="aften__n"/></e>
