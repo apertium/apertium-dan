@@ -1149,7 +1149,6 @@
 
 
 <pardef n="Deres__det">
-
   <e>       <p><l>Deres</l>          <r><s n="det"/><s n="pos"/><s n="p2"/><s n="un"/><s n="sp"/></r></p></e>
 </pardef>
 
@@ -1178,7 +1177,8 @@
 
 <pardef n="hver__det">
   <e>       <p><l>t</l>          <r><s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="un"/><s n="sp"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
 
 
@@ -5961,6 +5961,7 @@
 <e lm="hvor mange">      <i>hvor<b/>mang</i><par n="mang/e__det"/></e>
     <!--<e lm="selv"><i>selv</i><par n="selv__det"/></e>-->
 
+<!-- TODO: used in dan-nor, should be removed in favour of adj.ord? -->
 <e lm="første">          <i>første</i><par n="første__det"/></e>
 <e lm="tredje">          <i>tredje</i><par n="første__det"/></e>
 <e lm="fjerde">          <i>fjerde</i><par n="første__det"/></e>
