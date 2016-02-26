@@ -26745,7 +26745,6 @@
 <e lm="akademisk">       <i>akademisk</i><par n="amerikansk__adj"/></e>
 <e lm="gravid">          <i>gravid</i><par n="amerikansk__adj"/></e>
 <e lm="aktiv">           <i>aktiv</i><par n="aktiv__adj"/></e>
-<e r="LR" lm="rigtig">          <i>rigtig</i><par n="aktiv__adj"/></e>
 <e lm="fuldstændig">     <i>fuldstændig</i><par n="aktiv__adj"/></e>
 <e lm="tør">             <i>tør</i><par n="tør__adj"/></e>
 <e lm="styg">            <i>styg</i><par n="styg__adj"/></e>
@@ -26870,7 +26869,6 @@
 <e lm="nedtrykt">        <i>nedtrykt</i><par n="amerikansk__adj"/></e>
 <e lm="nem">             <i>nem</i><par n="dum__adj"/></e>
 <e lm="nordisk">         <i>nordisk</i><par n="amerikansk__adj"/></e>
-<e r="LR" lm="nordlig">         <i>nordlig</i><par n="amerikansk__adj"/></e>
 <e lm="normal">          <i>normal</i><par n="aktiv__adj"/></e>
 <e r="LR" lm="norsk">           <i>norsk</i><par n="amerikansk__adj"/></e>
 <e lm="nynorsk">           <i>nynorsk</i><par n="amerikansk__adj"/></e>
@@ -27977,6 +27975,7 @@
 <e lm="nominel">                  <i>nominel</i><par n="finansiel__adj"/></e>
 <e lm="nordirsk">                  <i>nordirsk</i><par n="lykkelig__adj"/></e>
 <e lm="nordisk">                   <i>nordisk</i><par n="glad__adj"/></e>
+<e r="LR" lm="nordlig">         <i>nordlig</i><par n="amerikansk__adj"/></e>
 <e lm="nordlig">                   <i>nordlig</i><par n="lykkelig__adj"/></e>
 <e lm="nordnorsk">                 <i>nordnorsk</i><par n="glad__adj"/></e>
 <e lm="nordre">                    <i>nordre</i><par n="OK__adj"/></e>
@@ -28182,6 +28181,7 @@
 <e lm="retskraftig">              <i>retskraftig</i><par n="lykkelig__adj"/></e>
 <e lm="retslig">                  <i>retslig</i><par n="lykkelig__adj"/></e>
 <e lm="rigorøs">                   <i>rigorøs</i><par n="rund__adj"/></e>
+<e r="LR" lm="rigtig">          <i>rigtig</i><par n="aktiv__adj"/></e>
 <e lm="rigtig">                    <i>rigtig</i><par n="lykkelig__adj"/></e>
 <e lm="rimelig">                   <i>rimelig</i><par n="lykkelig__adj"/></e>
 <e lm="rimfri">                    <i>rimfri</i><par n="rund__adj"/></e>
