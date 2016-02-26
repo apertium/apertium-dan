@@ -1141,13 +1141,6 @@
   <e>       <p><l>en</l>        <r>en<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
   <e>       <p><l>et</l>        <r>en<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>e</l>         <r>en<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></r></p></e>
-  <e>       <p><l>ens</l>       <r>en<s n="det"/><s n="pos"/><s n="ut"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ets</l>       <r>en<s n="det"/><s n="pos"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>eres</l>      <r>en<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></r></p></e>
-  <!-- dan-nor tagfixing TODO; we don't want genitive on determiners (should be on prn only; possibly as det.pos): -->
-  <e r="RL"><p><l>ens</l>       <r>en<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e r="RL"><p><l>ets</l>       <r>en<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
-  <e r="RL"><p><l>eres</l>      <r>en<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/><s n="gen"/></r></p></e>
 </pardef>
 
 
@@ -5935,6 +5928,7 @@
 <e lm="hin">           <i>hi</i><par n="hi/n__det"/></e>
 <e lm="hver">            <i>hver</i><par n="hver__det"/></e>
 <e lm="denne">           <i>d</i><par n="d/enne__det"/></e>
+<e lm="den">           <i>d</i><par n="d/en__det"/></e>
 <e lm="ingen">           <i>in</i><par n="in/gen__det"/></e>
 <e lm="nogen">           <i>nog</i><par n="nog/en__det"/></e>
 
