@@ -1455,7 +1455,7 @@
   <e>       <p><l>res</l>   <r>res</r></p><par n="det+prn_pos"/><p><l></l><r><s n="ut"/><s n="sg"/></r></p></e>
 </pardef>
 
-<pardef n="De__prn">
+<pardef n="De__prn" c="TODO: upper/lower-case lemma won't distinguish this">
   <e>       <p><l></l>      <r><s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>m</l>     <r><s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>res</l>   <r>res</r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="pl"/></r></p></e>
@@ -6647,7 +6647,6 @@
 <e lm="vi">              <par n="/vi__prn"/></e>
 <e lm="I">               <par n="/I__prn"/></e>
 <e lm="de">              <i>de</i><par n="de__prn"/></e>
-<e lm="De">              <i>De</i><par n="De__prn"/></e>
 
 <e lm="al">              <i>al</i><par n="al/__prn"/></e>
 <e lm="allesammen">      <i>allesammen</i><par n="begge__prn"/></e>
