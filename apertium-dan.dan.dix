@@ -6668,6 +6668,7 @@
 <e lm="nogen">           <i>nog</i><par n="nog/en__prn"/></e>
 
 <e lm="samme">           <i>samme</i><par n="samme__prn"/></e>
+<e lm="den samme">           <i>den<b/>samme</i><par n="samme__prn"/></e>
 <e lm="man">             <par n="/man__prn"/></e>
 <e lm="mange">           <i>mang</i><par n="mang/e__prn"/></e>
 <e lm="selv">            <i>selv</i><par n="selv__prn"/></e>
@@ -18643,7 +18644,6 @@
 <e lm="basepolitik"><i>basepolitik</i><par n="paryk__n"/></e>
 <e lm="basilika"><i>basilika</i><par n="aften__n"/></e>
 <e lm="basilisk"><i>basilisk</i><par n="aften__n"/></e>
-<e lm="basilikum"><i>basilikum</i><par n="calcium__n"/></e>
 <e lm="basisår"><i>basisår</i><par n="slag__n"/></e>
 <e lm="basse"><i>basse</i><par n="hygiejne__n"/></e>
 <e lm="bassinkant"><i>bassinkant</i><par n="aften__n"/></e>
@@ -26651,7 +26651,8 @@
 <e lm="bagdør"><i>bagdør</i><par n="aften__n"/></e>
 <e lm="baggård">        <i>baggård</i><par n="bold__n"/></e>
 <e lm="barnevogn">       <i>barnevogn</i><par n="bold__n"/></e>
-<e lm="basilikum"><i>basilikum</i><par n="lam__n"/></e>
+<e r="LR" lm="basilikum"><i>basilikum</i><par n="lam__n"/></e>
+<e lm="basilikum"><i>basilikum</i><par n="calcium__n"/></e>
 <e lm="besparelse"><i>besparelse</i><par n="abe__n"/></e>
 <e lm="betingelse"><i>betingelse</i><par n="hygiejne_\s__n"/></e>
 <e lm="bevæggrund"><i>bevæggrund</i><par n="bold__n"/></e>
@@ -27097,7 +27098,6 @@
 <e lm="almindelig">      <i>alm</i><par n="lykkelig__adj"/></e>
 <e r="LR" lm="alvorlig">        <i>alvorlig</i><par n="aktiv__adj"/></e>
 <e lm="amerikansk">      <i>amerikansk</i><par n="amerikansk__adj"/></e>
-<e r="LR" lm="diskret">         <i>diskret</i><par n="amerikansk__adj"/></e>
 <e lm="anatomisk">       <i>anatomisk</i><par n="amerikansk__adj"/></e>
 <e r="LR" lm="anonym">          <i>anonym</i><par n="amerikansk__adj"/></e>
 <e r="LR" lm="ansvarlig">       <i>ansvarlig</i><par n="amerikansk__adj"/></e>
@@ -27552,7 +27552,8 @@
 <e lm="dirkefri">                  <i>dirkefri</i><par n="rund__adj"/></e>
 <e lm="forureningsfri">                  <i>forureningsfri</i><par n="rund__adj"/></e>
 <e lm="atomvåbenfri">                  <i>atomvåbenfri</i><par n="rund__adj"/></e>
-<e lm="diskret">                   <i>diskre</i><par n="øve/t__adj"/></e>
+<e r="LR" lm="diskret">  <i>diskre</i><par n="øve/t__adj"/></e>
+<e lm="diskret">         <i>diskret</i><par n="amerikansk__adj"/></e>
 <e lm="distinkt">                  <i>distinkt</i><par n="glad__adj"/></e>
 <e lm="diverse">                   <i>diverse</i><par n="OK__adj"/></e>
 <e lm="dobbelt">                    <i>dobbelt</i><par n="stolt__adj"/></e>
@@ -58530,7 +58531,7 @@
 <e lm="ton" a="PT" c="domain:enheter"><i>ton</i><par n="t.eks.__abbr"/></e>
 <e lm="kvm" a="PT" c="domain:enheter"><i>kvm</i><par n="t.eks.__abbr"/></e>
 <e lm="kWh" a="PT" c="domain:enheter"><i>kWh</i><par n="t.eks.__abbr"/></e>
-<e lm="Nm" a="PT" c="domain:enheter"><i>Nm</i><par n="t.eks.__abbr"/></e>
+<e lm="nm" a="PT" c="domain:enheter"><i>nm</i><par n="t.eks.__abbr"/></e>
 <e lm="et gran" a="PT" c="domain:recept"><i>et<b/>gran</i><par n="t.eks.__abbr"/></e>
 
 <e r="LR" lm="l." a="PT" c="domain:recept"><i>l.</i><par n="t.eks.__abbr"/></e>
