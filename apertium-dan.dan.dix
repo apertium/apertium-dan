@@ -147,7 +147,7 @@
    <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
    <e>       <p><l></l>          <r></r></p></e>
    <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
-  <e r="RL"><p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
+  <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
   <e r="RL"><p><l></l>         <r><s n="cmp"/></r></p></e>
 </pardef>
 
