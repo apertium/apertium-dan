@@ -4052,7 +4052,7 @@
   <e>       <p><l>været</l>        <r>være<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
 </pardef>
 
-<pardef n="/være__vblex"> <!-- Use this one for compound words -->
+<pardef n="/være__vblex"> <!-- Use this one for multiwords -->
   <e>       <p><l>være</l>      <r>være<s n="vblex"/><s n="inf"/><s n="actv"/></r></p></e>
   <e>       <p><l>er</l>        <r>være<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
   <e>       <p><l>var</l>       <r>være<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
@@ -5220,16 +5220,13 @@
   <e>       <p><l>yder</l>      <r>yde<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
   <e>       <p><l>ydes</l>      <r>yde<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>ød</l>        <r>yde<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ødes</l>      <r>yde<s n="vblex"/><s n="past"/><s n="pasv"/></r></p></e>
   <e>       <p><l>ydt</l>       <r>yde<s n="vblex"/><s n="pp"/></r></p></e>
   <e>       <p><l>ydende</l>    <r>yde<s n="adj"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ydt</l>         <r>yde<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ydt</l>         <r>yde<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ydte</l>        <r>yde<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
   <e>       <p><l>ydte</l>        <r>yde<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
-
-
-
-
 </pardef>
 
 <pardef n="br/yde__vblex">
@@ -5634,14 +5631,13 @@
   <e>       <p><l>iver</l>      <r>ive<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
   <e>       <p><l>ives</l>      <r>ive<s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
   <e>       <p><l>av</l>        <r>ive<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
+  <e>       <p><l>ivedes</l>    <r>ive<s n="vblex"/><s n="past"/><s n="pasv"/></r></p></e>
   <e>       <p><l>ivet</l>      <r>ive<s n="vblex"/><s n="pp"/></r></p></e>
   <e>       <p><l>ivende</l>    <r>ive<s n="adj"/><s n="pprs"/></r></p></e>
   <e>       <p><l>ivet</l>         <r>ive<s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ivet</l>         <r>ive<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ivne</l>        <r>ive<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
   <e>       <p><l>ivne</l>        <r>ive<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
-
-
 </pardef>
 
 <pardef n="v/ige__vblex">
@@ -18091,7 +18087,6 @@
 <e lm="alabast"><i>alabast</i><par n="aften__n"/></e>
 <e lm="alarmsignal"><i>alarmsignal</i><par n="firma__n"/></e>
 <e lm="alarmtilstand"><i>alarmtilstand</i><par n="aften__n"/></e>
-<e lm="albansk"><i>albansk</i><par n="afghansk__n"/></e>
 <e lm="albatros"><i>albatros</i><par n="mis__n"/></e>
 <e lm="albinisme"><i>albinisme</i><par n="hygiejne__n"/></e>
 <e lm="albino"><i>albino</i><par n="aften__n"/></e>
@@ -26789,6 +26784,23 @@
 <e lm="afhængig">        <i>afhængig</i><par n="aktiv__adj"/></e>
 <e lm="afsindig">        <i>afsindig</i><par n="aktiv__adj"/></e>
 <e lm="afrikansk">       <i>afrikansk</i><par n="amerikansk__adj"/></e>
+<e lm="albansk">       <i>albansk</i><par n="amerikansk__adj"/></e>
+<e lm="algerisk">       <i>algerisk</i><par n="amerikansk__adj"/></e>
+<e lm="armensk">       <i>armensk</i><par n="amerikansk__adj"/></e>
+<e lm="chilensk">       <i>chilensk</i><par n="amerikansk__adj"/></e>
+<e lm="cypriotisk">       <i>cypriotisk</i><par n="amerikansk__adj"/></e>
+<e lm="estisk">       <i>estisk</i><par n="amerikansk__adj"/></e>
+<e lm="etiopisk">       <i>etiopisk</i><par n="amerikansk__adj"/></e>
+<e lm="finlandssvensk">       <i>finlandssvensk</i><par n="amerikansk__adj"/></e>
+<e lm="gotlandsk">       <i>gotlandsk</i><par n="amerikansk__adj"/></e>
+<e lm="lettisk">       <i>lettisk</i><par n="amerikansk__adj"/></e>
+<e lm="litauisk">       <i>litauisk</i><par n="amerikansk__adj"/></e>
+<e lm="maltesisk">       <i>maltesisk</i><par n="amerikansk__adj"/></e>
+<e lm="mongolsk">       <i>mongolsk</i><par n="amerikansk__adj"/></e>
+<e lm="oldsvensk">       <i>oldsvensk</i><par n="amerikansk__adj"/></e>
+<e lm="polsk">       <i>polsk</i><par n="amerikansk__adj"/></e>
+<e lm="slovensk">       <i>slovensk</i><par n="amerikansk__adj"/></e>
+<e lm="tjekkisk">       <i>tjekkisk</i><par n="amerikansk__adj"/></e>
 <e lm="tolerant">        <i>tolerant</i><par n="amerikansk__adj"/></e>
 <e lm="baskisk">         <i>baskisk</i><par n="amerikansk__adj"/></e>
 <e lm="særskilt">        <i>særskilt</i><par n="amerikansk__adj"/></e>
@@ -29554,6 +29566,19 @@
 <e lm="kilovis">          <i>kilovis</i><par n="ikke__adv"/></e>
 <e lm="meget længe">      <i>meget<b/>længe</i><par n="ikke__adv"/></e>
 <e lm="klatvis">         <i>klatvis</i><par n="ikke__adv"/></e>
+<e lm="enten">         <i>enten</i><par n="ikke__adv"/></e>
+<e lm="bogstavelig talt">         <i>bogstavelig<b/>talt</i><par n="ikke__adv"/></e>
+<e lm="daglig">         <i>daglig</i><par n="ikke__adv"/></e>
+<e lm="derved">         <i>derved</i><par n="ikke__adv"/></e>
+<e lm="sidste efterår">         <i>sidste<b/>efterår</i><par n="ikke__adv"/></e>
+<e lm="i morges">         <i>i<b/>morges</i><par n="ikke__adv"/></e>
+<e lm="sidste sommer">         <i>sidste<b/>sommer</i><par n="ikke__adv"/></e>
+<e lm="sidste forår">         <i>sidste<b/>forår</i><par n="ikke__adv"/></e>
+<e lm="nöje">         <i>nöje</i><par n="ikke__adv"/></e>
+<e lm="hvornår">         <i>hvornår</i><par n="ikke__adv"/></e>
+<e lm="endelig">         <i>endelig</i><par n="ikke__adv"/></e>
+<e lm="bagud">         <i>bagud</i><par n="ikke__adv"/></e>
+<e lm="væk">         <i>væk</i><par n="ikke__adv"/></e>
 
 <e lm="klogt">         <i>klogt</i><par n="ikke__adv"/></e>
 <e lm="knagende">         <i>knagende</i><par n="ikke__adv"/></e>
@@ -31162,6 +31187,7 @@
 <e lm="Veritas">         <i>Veritas</i><par n="Findus__np"/></e>
 <e lm="Lasarus">         <i>Lasarus</i><par n="Jens__np"/></e>
 
+
 <e lm="Aabakken">   <i>Aabakken</i><par n="Ibsen__np"/></e>
 <e lm="Aabenraa">   <i>Aabenraa</i><par n="Ibsen__np"/></e>
 <e lm="Aaberg">   <i>Aaberg</i><par n="Ibsen__np"/></e>
@@ -31288,8 +31314,8 @@
 <e lm="Aias">   <i>Aias</i><par n="Findus__np"/></e>
 <e lm="Aid">   <i>Aid</i><par n="Ibsen__np"/></e>
 <e lm="Aida">   <i>Aida</i><par n="Ibsen__np"/></e>
-<e lm="Aikio-Arianaick">   <i>Aikio-Arianaick</i><par n="Ibsen__np"/></e>
 <e lm="Aikio">   <i>Aikio</i><par n="Ibsen__np"/></e>
+<e lm="Aikio-Arianaick">   <i>Aikio-Arianaick</i><par n="Ibsen__np"/></e>
 <e lm="Aikioniemi">   <i>Aikioniemi</i><par n="Ibsen__np"/></e>
 <e lm="Ailio">   <i>Ailio</i><par n="Ibsen__np"/></e>
 <e lm="Ain">   <i>Ain</i><par n="Ibsen__np"/></e>
@@ -31485,7 +31511,6 @@
 <e lm="Arell">   <i>Arell</i><par n="Ibsen__np"/></e>
 <e lm="Arent">   <i>Arent</i><par n="Ibsen__np"/></e>
 <e lm="Arentz-Hansen">   <i>Arentz-Hansen</i><par n="Ibsen__np"/></e>
-<e lm="Rommel">   <i>Rommel</i><par n="Ibsen__np"/></e>
 <e lm="Arethun">   <i>Arethun</i><par n="Ibsen__np"/></e>
 <e lm="Arhipov">   <i>Arhipov</i><par n="Ibsen__np"/></e>
 <e lm="Arianaick">   <i>Arianaick</i><par n="Ibsen__np"/></e>
@@ -32021,8 +32046,8 @@
 <e lm="Bondlid">   <i>Bondlid</i><par n="Ibsen__np"/></e>
 <e lm="Bones">   <i>Bones</i><par n="Findus__np"/></e>
 <e lm="Bongard">   <i>Bongard</i><par n="Ibsen__np"/></e>
-<e lm="Bongo-báddi">   <i>Bongo-báddi</i><par n="Ibsen__np"/></e>
 <e lm="Bongo">   <i>Bongo</i><par n="Ibsen__np"/></e>
+<e lm="Bongo-báddi">   <i>Bongo-báddi</i><par n="Ibsen__np"/></e>
 <e lm="Bonnerup">   <i>Bonnerup</i><par n="Ibsen__np"/></e>
 <e lm="Bonnevie">   <i>Bonnevie</i><par n="Ibsen__np"/></e>
 <e lm="Bonnez">   <i>Bonnez</i><par n="Findus__np"/></e>
@@ -32259,8 +32284,8 @@
 <e lm="Bureus">   <i>Bureus</i><par n="Findus__np"/></e>
 <e lm="Burgen">   <i>Burgen</i><par n="Ibsen__np"/></e>
 <e lm="Burson-Marsteller">   <i>Burson-Marsteller</i><par n="Ibsen__np"/></e>
-<e lm="Burton-upon-Trent">   <i>Burton-upon-Trent</i><par n="Ibsen__np"/></e>
 <e lm="Burton">   <i>Burton</i><par n="Ibsen__np"/></e>
+<e lm="Burton-upon-Trent">   <i>Burton-upon-Trent</i><par n="Ibsen__np"/></e>
 <e lm="Busch">   <i>Busch</i><par n="Ibsen__np"/></e>
 <e lm="Buschmann">   <i>Buschmann</i><par n="Ibsen__np"/></e>
 <e lm="Buseth">   <i>Buseth</i><par n="Ibsen__np"/></e>
@@ -32772,8 +32797,8 @@
 <e lm="Eligius">   <i>Eligius</i><par n="Findus__np"/></e>
 <e lm="Eliot">   <i>Eliot</i><par n="Ibsen__np"/></e>
 <e lm="Ellemand-Jensen">   <i>Ellemand-Jensen</i><par n="Ibsen__np"/></e>
-<e lm="Ellemann-Jensen">   <i>Ellemann-Jensen</i><par n="Ibsen__np"/></e>
 <e lm="Ellemann">   <i>Ellemann</i><par n="Ibsen__np"/></e>
+<e lm="Ellemann-Jensen">   <i>Ellemann-Jensen</i><par n="Ibsen__np"/></e>
 <e lm="Elligers">   <i>Elligers</i><par n="Findus__np"/></e>
 <e lm="Ellilä">   <i>Ellilä</i><par n="Ibsen__np"/></e>
 <e lm="Ellis">   <i>Ellis</i><par n="Findus__np"/></e>
@@ -32845,6 +32870,7 @@
 <e lm="Erdahl">   <i>Erdahl</i><par n="Ibsen__np"/></e>
 <e lm="Erebos">   <i>Erebos</i><par n="Findus__np"/></e>
 <e lm="Erebus">   <i>Erebus</i><par n="Findus__np"/></e>
+<e lm="Ericsson">   <i>Ericsson</i><par n="Ibsen__np"/></e>
 <e lm="Eriksrud">   <i>Eriksrud</i><par n="Ibsen__np"/></e>
 <e lm="Erikstad">   <i>Erikstad</i><par n="Ibsen__np"/></e>
 <e lm="Erkinaro">   <i>Erkinaro</i><par n="Ibsen__np"/></e>
@@ -33213,6 +33239,7 @@
 <e lm="Freiberg">   <i>Freiberg</i><par n="Ibsen__np"/></e>
 <e lm="Freihow">   <i>Freihow</i><par n="Ibsen__np"/></e>
 <e lm="Freilem">   <i>Freilem</i><par n="Ibsen__np"/></e>
+<e lm="Freja">   <i>Freja</i><par n="Ibsen__np"/></e>
 <e lm="Fremantle">   <i>Fremantle</i><par n="Ibsen__np"/></e>
 <e lm="Frette">   <i>Frette</i><par n="Ibsen__np"/></e>
 <e lm="Freuchen">   <i>Freuchen</i><par n="Ibsen__np"/></e>
@@ -33243,7 +33270,6 @@
 <e lm="Frydenberg">   <i>Frydenberg</i><par n="Ibsen__np"/></e>
 <e lm="Frängstorp">   <i>Frängstorp</i><par n="Ibsen__np"/></e>
 <e lm="Fränti">   <i>Fränti</i><par n="Ibsen__np"/></e>
-<e lm="Freja">   <i>Freja</i><par n="Ibsen__np"/></e>
 <e lm="Frølich">   <i>Frølich</i><par n="Ibsen__np"/></e>
 <e lm="Frøseth">   <i>Frøseth</i><par n="Ibsen__np"/></e>
 <e lm="Frøystad">   <i>Frøystad</i><par n="Ibsen__np"/></e>
@@ -33544,8 +33570,8 @@
 <e lm="Gross">   <i>Gross</i><par n="Findus__np"/></e>
 <e lm="Grossglockner">   <i>Grossglockner</i><par n="Ibsen__np"/></e>
 <e lm="Grostøl">   <i>Grostøl</i><par n="Ibsen__np"/></e>
-<e lm="Groth-Lassinantti">   <i>Groth-Lassinantti</i><par n="Ibsen__np"/></e>
 <e lm="Groth">   <i>Groth</i><par n="Ibsen__np"/></e>
+<e lm="Groth-Lassinantti">   <i>Groth-Lassinantti</i><par n="Ibsen__np"/></e>
 <e lm="Grotius">   <i>Grotius</i><par n="Findus__np"/></e>
 <e lm="Grotle">   <i>Grotle</i><par n="Ibsen__np"/></e>
 <e lm="Grotmol">   <i>Grotmol</i><par n="Ibsen__np"/></e>
@@ -33693,8 +33719,8 @@
 <e lm="Haanes">   <i>Haanes</i><par n="Findus__np"/></e>
 <e lm="Haanshus">   <i>Haanshus</i><par n="Findus__np"/></e>
 <e lm="Haanæs">   <i>Haanæs</i><par n="Findus__np"/></e>
-<e lm="Haapa-aho">   <i>Haapa-aho</i><par n="Ibsen__np"/></e>
 <e lm="Haapa">   <i>Haapa</i><par n="Ibsen__np"/></e>
+<e lm="Haapa-aho">   <i>Haapa-aho</i><par n="Ibsen__np"/></e>
 <e lm="Haapakoski">   <i>Haapakoski</i><par n="Ibsen__np"/></e>
 <e lm="Haapala">   <i>Haapala</i><par n="Ibsen__np"/></e>
 <e lm="Haapalahti">   <i>Haapalahti</i><par n="Ibsen__np"/></e>
@@ -33795,8 +33821,8 @@
 <e lm="Halkola">   <i>Halkola</i><par n="Ibsen__np"/></e>
 <e lm="Halkosaari">   <i>Halkosaari</i><par n="Ibsen__np"/></e>
 <e lm="Hall">   <i>Hall</i><par n="Ibsen__np"/></e>
-<e lm="Halla-aho">   <i>Halla-aho</i><par n="Ibsen__np"/></e>
 <e lm="Halla">   <i>Halla</i><par n="Ibsen__np"/></e>
+<e lm="Halla-aho">   <i>Halla-aho</i><par n="Ibsen__np"/></e>
 <e lm="Hallager">   <i>Hallager</i><par n="Ibsen__np"/></e>
 <e lm="Hallamaa">   <i>Hallamaa</i><par n="Ibsen__np"/></e>
 <e lm="Hallan">   <i>Hallan</i><par n="Ibsen__np"/></e>
@@ -34022,8 +34048,8 @@
 <e lm="Hausgaard">   <i>Hausgaard</i><par n="Ibsen__np"/></e>
 <e lm="Hausken">   <i>Hausken</i><par n="Ibsen__np"/></e>
 <e lm="Hausmann">   <i>Hausmann</i><par n="Ibsen__np"/></e>
-<e lm="Hauta-aho">   <i>Hauta-aho</i><par n="Ibsen__np"/></e>
 <e lm="Hauta">   <i>Hauta</i><par n="Ibsen__np"/></e>
+<e lm="Hauta-aho">   <i>Hauta-aho</i><par n="Ibsen__np"/></e>
 <e lm="Hautajärvi">   <i>Hautajärvi</i><par n="Ibsen__np"/></e>
 <e lm="Hautakorpi">   <i>Hautakorpi</i><par n="Ibsen__np"/></e>
 <e lm="Hautakoski">   <i>Hautakoski</i><par n="Ibsen__np"/></e>
@@ -35046,8 +35072,8 @@
 <e lm="Jerving">   <i>Jerving</i><par n="Ibsen__np"/></e>
 <e lm="Jeser">   <i>Jeser</i><par n="Ibsen__np"/></e>
 <e lm="Jeskanen">   <i>Jeskanen</i><par n="Ibsen__np"/></e>
-<e lm="Jessen-Schardebøl">   <i>Jessen-Schardebøl</i><par n="Ibsen__np"/></e>
 <e lm="Jessen">   <i>Jessen</i><par n="Ibsen__np"/></e>
+<e lm="Jessen-Schardebøl">   <i>Jessen-Schardebøl</i><par n="Ibsen__np"/></e>
 <e lm="Jessnes">   <i>Jessnes</i><par n="Findus__np"/></e>
 <e lm="Jesson">   <i>Jesson</i><par n="Ibsen__np"/></e>
 <e lm="Jetsonen">   <i>Jetsonen</i><par n="Ibsen__np"/></e>
@@ -35222,8 +35248,8 @@
 <e lm="Juvonen">   <i>Juvonen</i><par n="Ibsen__np"/></e>
 <e lm="Juvven">   <i>Juvven</i><par n="Ibsen__np"/></e>
 <e lm="Jyderup">   <i>Jyderup</i><par n="Ibsen__np"/></e>
-<e lm="Jylhä-Ollila">   <i>Jylhä-Ollila</i><par n="Ibsen__np"/></e>
 <e lm="Jylhä">   <i>Jylhä</i><par n="Ibsen__np"/></e>
+<e lm="Jylhä-Ollila">   <i>Jylhä-Ollila</i><par n="Ibsen__np"/></e>
 <e lm="Jylkkä">   <i>Jylkkä</i><par n="Ibsen__np"/></e>
 <e lm="Jylli">   <i>Jylli</i><par n="Ibsen__np"/></e>
 <e lm="Jylling">   <i>Jylling</i><par n="Ibsen__np"/></e>
@@ -36319,8 +36345,8 @@
 <e lm="Kunttu">   <i>Kunttu</i><par n="Ibsen__np"/></e>
 <e lm="Kuokka">   <i>Kuokka</i><par n="Ibsen__np"/></e>
 <e lm="Kuokkanen">   <i>Kuokkanen</i><par n="Ibsen__np"/></e>
-<e lm="Kuoljok-Angéus">   <i>Kuoljok-Angéus</i><par n="Findus__np"/></e>
 <e lm="Kuoljok">   <i>Kuoljok</i><par n="Ibsen__np"/></e>
+<e lm="Kuoljok-Angéus">   <i>Kuoljok-Angéus</i><par n="Findus__np"/></e>
 <e lm="Kuoppa">   <i>Kuoppa</i><par n="Ibsen__np"/></e>
 <e lm="Kuoppala">   <i>Kuoppala</i><par n="Ibsen__np"/></e>
 <e lm="Kuoppamäki">   <i>Kuoppamäki</i><par n="Ibsen__np"/></e>
@@ -37179,8 +37205,8 @@
 <e lm="Luojus">   <i>Luojus</i><par n="Findus__np"/></e>
 <e lm="Luokkala">   <i>Luokkala</i><par n="Ibsen__np"/></e>
 <e lm="Luokkanen">   <i>Luokkanen</i><par n="Ibsen__np"/></e>
-<e lm="Luoma-aho">   <i>Luoma-aho</i><par n="Ibsen__np"/></e>
 <e lm="Luoma">   <i>Luoma</i><par n="Ibsen__np"/></e>
+<e lm="Luoma-aho">   <i>Luoma-aho</i><par n="Ibsen__np"/></e>
 <e lm="Luomajoki">   <i>Luomajoki</i><par n="Ibsen__np"/></e>
 <e lm="Luomala">   <i>Luomala</i><par n="Ibsen__np"/></e>
 <e lm="Luomanen">   <i>Luomanen</i><par n="Ibsen__np"/></e>
@@ -37352,8 +37378,8 @@
 <e lm="Mailer">   <i>Mailer</i><par n="Ibsen__np"/></e>
 <e lm="Mailinn">   <i>Mailinn</i><par n="Ibsen__np"/></e>
 <e lm="Maisala">   <i>Maisala</i><par n="Ibsen__np"/></e>
-<e lm="Maj-Lis">   <i>Maj-Lis</i><par n="Findus__np"/></e>
 <e lm="Maj">   <i>Maj</i><par n="Ibsen__np"/></e>
+<e lm="Maj-Lis">   <i>Maj-Lis</i><par n="Findus__np"/></e>
 <e lm="Maja">   <i>Maja</i><par n="Ibsen__np"/></e>
 <e lm="Majala">   <i>Majala</i><par n="Ibsen__np"/></e>
 <e lm="Majalahti">   <i>Majalahti</i><par n="Ibsen__np"/></e>
@@ -37409,8 +37435,8 @@
 <e lm="Mannonen">   <i>Mannonen</i><par n="Ibsen__np"/></e>
 <e lm="Mannsverk">   <i>Mannsverk</i><par n="Ibsen__np"/></e>
 <e lm="Mansfield">   <i>Mansfield</i><par n="Ibsen__np"/></e>
-<e lm="Mansikka-aho">   <i>Mansikka-aho</i><par n="Ibsen__np"/></e>
 <e lm="Mansikka">   <i>Mansikka</i><par n="Ibsen__np"/></e>
+<e lm="Mansikka-aho">   <i>Mansikka-aho</i><par n="Ibsen__np"/></e>
 <e lm="Mansikkala">   <i>Mansikkala</i><par n="Ibsen__np"/></e>
 <e lm="Mansikkamäki">   <i>Mansikkamäki</i><par n="Ibsen__np"/></e>
 <e lm="Mansikkaviita">   <i>Mansikkaviita</i><par n="Ibsen__np"/></e>
@@ -37511,8 +37537,8 @@
 <e lm="Matalamäki">   <i>Matalamäki</i><par n="Ibsen__np"/></e>
 <e lm="Maternes">   <i>Maternes</i><par n="Findus__np"/></e>
 <e lm="Matero">   <i>Matero</i><par n="Ibsen__np"/></e>
-<e lm="Matheson-Woxholt">   <i>Matheson-Woxholt</i><par n="Ibsen__np"/></e>
 <e lm="Matheson">   <i>Matheson</i><par n="Ibsen__np"/></e>
+<e lm="Matheson-Woxholt">   <i>Matheson-Woxholt</i><par n="Ibsen__np"/></e>
 <e lm="Mathisdatter">   <i>Mathisdatter</i><par n="Ibsen__np"/></e>
 <e lm="Mathisdtr.">   <i>Mathisdtr.</i><par n="Ibsen__np"/></e>
 <e lm="Matikainen">   <i>Matikainen</i><par n="Ibsen__np"/></e>
@@ -37584,8 +37610,8 @@
 <e lm="Meier">   <i>Meier</i><par n="Ibsen__np"/></e>
 <e lm="Meifiord">   <i>Meifiord</i><par n="Ibsen__np"/></e>
 <e lm="Meinertz">   <i>Meinertz</i><par n="Findus__np"/></e>
-<e lm="Meinich-Olsen">   <i>Meinich-Olsen</i><par n="Ibsen__np"/></e>
 <e lm="Meinich">   <i>Meinich</i><par n="Ibsen__np"/></e>
+<e lm="Meinich-Olsen">   <i>Meinich-Olsen</i><par n="Ibsen__np"/></e>
 <e lm="Meisingset">   <i>Meisingset</i><par n="Ibsen__np"/></e>
 <e lm="Meissen">   <i>Meissen</i><par n="Ibsen__np"/></e>
 <e lm="Mejdell">   <i>Mejdell</i><par n="Ibsen__np"/></e>
@@ -38040,8 +38066,8 @@
 <e lm="Mølgaard">   <i>Mølgaard</i><par n="Ibsen__np"/></e>
 <e lm="Møllebakken">   <i>Møllebakken</i><par n="Ibsen__np"/></e>
 <e lm="Møllemann">   <i>Møllemann</i><par n="Ibsen__np"/></e>
-<e lm="Møller-rasmussen">   <i>Møller-rasmussen</i><par n="Ibsen__np"/></e>
 <e lm="Møller">   <i>Møller</i><par n="Ibsen__np"/></e>
+<e lm="Møller-rasmussen">   <i>Møller-rasmussen</i><par n="Ibsen__np"/></e>
 <e lm="Møllerhagen">   <i>Møllerhagen</i><par n="Ibsen__np"/></e>
 <e lm="Møllhausen">   <i>Møllhausen</i><par n="Ibsen__np"/></e>
 <e lm="Mølmann">   <i>Mølmann</i><par n="Ibsen__np"/></e>
@@ -38458,6 +38484,7 @@
 <e lm="Ohcan">   <i>Ohcan</i><par n="Ibsen__np"/></e>
 <e lm="Ohenoja">   <i>Ohenoja</i><par n="Ibsen__np"/></e>
 <e lm="Ohlsen">   <i>Ohlsen</i><par n="Ibsen__np"/></e>
+<e lm="Ohlsson">   <i>Ohlsson</i><par n="Ibsen__np"/></e>
 <e lm="Ohnstad">   <i>Ohnstad</i><par n="Ibsen__np"/></e>
 <e lm="Ohock">   <i>Ohock</i><par n="Ibsen__np"/></e>
 <e lm="Ohra-aho">   <i>Ohra-aho</i><par n="Ibsen__np"/></e>
@@ -38511,6 +38538,7 @@
 <e lm="Ollinen">   <i>Ollinen</i><par n="Ibsen__np"/></e>
 <e lm="Ollitervo">   <i>Ollitervo</i><par n="Ibsen__np"/></e>
 <e lm="Ollonen">   <i>Ollonen</i><par n="Ibsen__np"/></e>
+<e lm="Olofsson">   <i>Olofsson</i><par n="Ibsen__np"/></e>
 <e lm="Olsrud">   <i>Olsrud</i><par n="Ibsen__np"/></e>
 <e lm="Olthuis">   <i>Olthuis</i><par n="Findus__np"/></e>
 <e lm="Omberg">   <i>Omberg</i><par n="Ibsen__np"/></e>
@@ -39386,9 +39414,9 @@
 <e lm="Rannila">   <i>Rannila</i><par n="Ibsen__np"/></e>
 <e lm="Rannisto">   <i>Rannisto</i><par n="Ibsen__np"/></e>
 <e lm="Rannveig">   <i>Rannveig</i><par n="Ibsen__np"/></e>
+<e lm="Ranta">   <i>Ranta</i><par n="Ibsen__np"/></e>
 <e lm="Ranta-Rönnlund">   <i>Ranta-Rönnlund</i><par n="Ibsen__np"/></e>
 <e lm="Ranta-aho">   <i>Ranta-aho</i><par n="Ibsen__np"/></e>
-<e lm="Ranta">   <i>Ranta</i><par n="Ibsen__np"/></e>
 <e lm="Rantakallio">   <i>Rantakallio</i><par n="Ibsen__np"/></e>
 <e lm="Rantakari">   <i>Rantakari</i><par n="Ibsen__np"/></e>
 <e lm="Rantakaulio">   <i>Rantakaulio</i><par n="Ibsen__np"/></e>
@@ -39586,6 +39614,7 @@
 <e lm="Riestovárri">   <i>Riestovárri</i><par n="Ibsen__np"/></e>
 <e lm="Rigels">   <i>Rigels</i><par n="Findus__np"/></e>
 <e lm="Rigney">   <i>Rigney</i><par n="Ibsen__np"/></e>
+<e lm="Rigsgrænsen">   <i>Rigsgrænsen</i><par n="Ibsen__np"/></e>
 <e lm="Riiber">   <i>Riiber</i><par n="Ibsen__np"/></e>
 <e lm="Riihelä">   <i>Riihelä</i><par n="Ibsen__np"/></e>
 <e lm="Riiheläinen">   <i>Riiheläinen</i><par n="Ibsen__np"/></e>
@@ -39613,7 +39642,6 @@
 <e lm="Rikkinen">   <i>Rikkinen</i><par n="Ibsen__np"/></e>
 <e lm="Rikkola">   <i>Rikkola</i><par n="Ibsen__np"/></e>
 <e lm="Rikkonen">   <i>Rikkonen</i><par n="Ibsen__np"/></e>
-<e lm="Rigsgrænsen">   <i>Rigsgrænsen</i><par n="Ibsen__np"/></e>
 <e lm="Rikstad">   <i>Rikstad</i><par n="Ibsen__np"/></e>
 <e lm="Riller">   <i>Riller</i><par n="Ibsen__np"/></e>
 <e lm="Rimbaud">   <i>Rimbaud</i><par n="Ibsen__np"/></e>
@@ -39641,8 +39669,8 @@
 <e lm="Rinnemäki">   <i>Rinnemäki</i><par n="Ibsen__np"/></e>
 <e lm="Rinnvold">   <i>Rinnvold</i><par n="Ibsen__np"/></e>
 <e lm="Rinpoche">   <i>Rinpoche</i><par n="Ibsen__np"/></e>
-<e lm="Rinta-aho">   <i>Rinta-aho</i><par n="Ibsen__np"/></e>
 <e lm="Rinta">   <i>Rinta</i><par n="Ibsen__np"/></e>
+<e lm="Rinta-aho">   <i>Rinta-aho</i><par n="Ibsen__np"/></e>
 <e lm="Rintakoski">   <i>Rintakoski</i><par n="Ibsen__np"/></e>
 <e lm="Rintala">   <i>Rintala</i><par n="Ibsen__np"/></e>
 <e lm="Rintaluoma">   <i>Rintaluoma</i><par n="Ibsen__np"/></e>
@@ -39739,6 +39767,7 @@
 <e lm="Romanov">   <i>Romanov</i><par n="Ibsen__np"/></e>
 <e lm="Romhus">   <i>Romhus</i><par n="Findus__np"/></e>
 <e lm="Romme">   <i>Romme</i><par n="Ibsen__np"/></e>
+<e lm="Rommel">   <i>Rommel</i><par n="Ibsen__np"/></e>
 <e lm="Romppainen">   <i>Romppainen</i><par n="Ibsen__np"/></e>
 <e lm="Romppanen">   <i>Romppanen</i><par n="Ibsen__np"/></e>
 <e lm="Romu">   <i>Romu</i><par n="Ibsen__np"/></e>
@@ -39873,8 +39902,8 @@
 <e lm="Ruusila">   <i>Ruusila</i><par n="Ibsen__np"/></e>
 <e lm="Ruuska">   <i>Ruuska</i><par n="Ibsen__np"/></e>
 <e lm="Ruuskanen">   <i>Ruuskanen</i><par n="Ibsen__np"/></e>
-<e lm="Ruusumaa-Altti">   <i>Ruusumaa-Altti</i><par n="Ibsen__np"/></e>
 <e lm="Ruusumaa">   <i>Ruusumaa</i><par n="Ibsen__np"/></e>
+<e lm="Ruusumaa-Altti">   <i>Ruusumaa-Altti</i><par n="Ibsen__np"/></e>
 <e lm="Ruusunen">   <i>Ruusunen</i><par n="Ibsen__np"/></e>
 <e lm="Ruusuvuori">   <i>Ruusuvuori</i><par n="Ibsen__np"/></e>
 <e lm="Ruutiainen">   <i>Ruutiainen</i><par n="Ibsen__np"/></e>
@@ -40131,8 +40160,8 @@
 <e lm="Santikko">   <i>Santikko</i><par n="Ibsen__np"/></e>
 <e lm="Santonen">   <i>Santonen</i><par n="Ibsen__np"/></e>
 <e lm="Sappinen">   <i>Sappinen</i><par n="Ibsen__np"/></e>
-<e lm="Sara-aho">   <i>Sara-aho</i><par n="Ibsen__np"/></e>
 <e lm="Sara">   <i>Sara</i><par n="Ibsen__np"/></e>
+<e lm="Sara-aho">   <i>Sara-aho</i><par n="Ibsen__np"/></e>
 <e lm="Sarai">   <i>Sarai</i><par n="Ibsen__np"/></e>
 <e lm="Sarajávri">   <i>Sarajávri</i><par n="Ibsen__np"/></e>
 <e lm="Sarajärvi">   <i>Sarajärvi</i><par n="Ibsen__np"/></e>
@@ -40255,8 +40284,8 @@
 <e lm="Schjetne">   <i>Schjetne</i><par n="Ibsen__np"/></e>
 <e lm="Schjødt">   <i>Schjødt</i><par n="Ibsen__np"/></e>
 <e lm="Schjødtz">   <i>Schjødtz</i><par n="Findus__np"/></e>
-<e lm="Schjøtt-Pedersen">   <i>Schjøtt-Pedersen</i><par n="Ibsen__np"/></e>
 <e lm="Schjøtt">   <i>Schjøtt</i><par n="Ibsen__np"/></e>
+<e lm="Schjøtt-Pedersen">   <i>Schjøtt-Pedersen</i><par n="Ibsen__np"/></e>
 <e lm="Schjøtz">   <i>Schjøtz</i><par n="Findus__np"/></e>
 <e lm="Schlachter">   <i>Schlachter</i><par n="Ibsen__np"/></e>
 <e lm="Schlanbusch">   <i>Schlanbusch</i><par n="Ibsen__np"/></e>
@@ -40807,6 +40836,7 @@
 <e lm="Sorri">   <i>Sorri</i><par n="Ibsen__np"/></e>
 <e lm="Sorsa">   <i>Sorsa</i><par n="Ibsen__np"/></e>
 <e lm="Sorteberg">   <i>Sorteberg</i><par n="Ibsen__np"/></e>
+<e lm="Sortemyr">   <i>Sortemyr</i><par n="Ibsen__np"/></e>
 <e lm="Sorvali">   <i>Sorvali</i><par n="Ibsen__np"/></e>
 <e lm="Sorvanov">   <i>Sorvanov</i><par n="Ibsen__np"/></e>
 <e lm="Sorvanova">   <i>Sorvanova</i><par n="Ibsen__np"/></e>
@@ -41141,7 +41171,6 @@
 <e lm="Svanes">   <i>Svanes</i><par n="Findus__np"/></e>
 <e lm="Svanøybugt">   <i>Svanøybugt</i><par n="Ibsen__np"/></e>
 <e lm="Svartbekken">   <i>Svartbekken</i><par n="Ibsen__np"/></e>
-<e lm="Sortemyr">   <i>Sortemyr</i><par n="Ibsen__np"/></e>
 <e lm="Svarthol">   <i>Svarthol</i><par n="Ibsen__np"/></e>
 <e lm="Svartskard">   <i>Svartskard</i><par n="Ibsen__np"/></e>
 <e lm="Svatsum">   <i>Svatsum</i><par n="Ibsen__np"/></e>
@@ -41175,7 +41204,26 @@
 <e lm="Swann">   <i>Swann</i><par n="Ibsen__np"/></e>
 <e lm="Swatow">   <i>Swatow</i><par n="Ibsen__np"/></e>
 <e lm="Swepston">   <i>Swepston</i><par n="Ibsen__np"/></e>
+<e lm="Syd">   <i>Syd</i><par n="Ibsen__np"/></e>
+<e lm="Syd-Bokn">   <i>Syd-Bokn</i><par n="Ibsen__np"/></e>
+<e lm="Sydby">   <i>Sydby</i><par n="Ibsen__np"/></e>
+<e lm="Sydbye">   <i>Sydbye</i><par n="Ibsen__np"/></e>
+<e lm="Sydeidgrend">   <i>Sydeidgrend</i><par n="Ibsen__np"/></e>
+<e lm="Sydeng">   <i>Sydeng</i><par n="Ibsen__np"/></e>
+<e lm="Sydgård">   <i>Sydgård</i><par n="Ibsen__np"/></e>
+<e lm="Sydhaug">   <i>Sydhaug</i><par n="Ibsen__np"/></e>
+<e lm="Sydheim">   <i>Sydheim</i><par n="Ibsen__np"/></e>
+<e lm="Sydhus">   <i>Sydhus</i><par n="Findus__np"/></e>
+<e lm="Sydil">   <i>Sydil</i><par n="Ibsen__np"/></e>
+<e lm="Sydkjosen">   <i>Sydkjosen</i><par n="Ibsen__np"/></e>
+<e lm="Sydli">   <i>Sydli</i><par n="Ibsen__np"/></e>
+<e lm="Sydløkken">   <i>Sydløkken</i><par n="Ibsen__np"/></e>
+<e lm="Sydnes">   <i>Sydnes</i><par n="Findus__np"/></e>
 <e lm="Sydow">   <i>Sydow</i><par n="Ibsen__np"/></e>
+<e lm="Sydrollnes">   <i>Sydrollnes</i><par n="Findus__np"/></e>
+<e lm="Sydskår">   <i>Sydskår</i><par n="Ibsen__np"/></e>
+<e lm="Sydvik">   <i>Sydvik</i><par n="Ibsen__np"/></e>
+<e lm="Sydvår">   <i>Sydvår</i><par n="Ibsen__np"/></e>
 <e lm="Sydänmaa">   <i>Sydänmaa</i><par n="Ibsen__np"/></e>
 <e lm="Sydänmaanlakka">   <i>Sydänmaanlakka</i><par n="Ibsen__np"/></e>
 <e lm="Sylstad">   <i>Sylstad</i><par n="Ibsen__np"/></e>
@@ -41259,25 +41307,6 @@
 <e lm="Sønsteby">   <i>Sønsteby</i><par n="Ibsen__np"/></e>
 <e lm="Sønsterud">   <i>Sønsterud</i><par n="Ibsen__np"/></e>
 <e lm="Sønvinsen">   <i>Sønvinsen</i><par n="Ibsen__np"/></e>
-<e lm="Syd-Bokn">   <i>Syd-Bokn</i><par n="Ibsen__np"/></e>
-<e lm="Syd">   <i>Syd</i><par n="Ibsen__np"/></e>
-<e lm="Sydby">   <i>Sydby</i><par n="Ibsen__np"/></e>
-<e lm="Sydbye">   <i>Sydbye</i><par n="Ibsen__np"/></e>
-<e lm="Sydeidgrend">   <i>Sydeidgrend</i><par n="Ibsen__np"/></e>
-<e lm="Sydeng">   <i>Sydeng</i><par n="Ibsen__np"/></e>
-<e lm="Sydgård">   <i>Sydgård</i><par n="Ibsen__np"/></e>
-<e lm="Sydhaug">   <i>Sydhaug</i><par n="Ibsen__np"/></e>
-<e lm="Sydheim">   <i>Sydheim</i><par n="Ibsen__np"/></e>
-<e lm="Sydhus">   <i>Sydhus</i><par n="Findus__np"/></e>
-<e lm="Sydil">   <i>Sydil</i><par n="Ibsen__np"/></e>
-<e lm="Sydkjosen">   <i>Sydkjosen</i><par n="Ibsen__np"/></e>
-<e lm="Sydli">   <i>Sydli</i><par n="Ibsen__np"/></e>
-<e lm="Sydløkken">   <i>Sydløkken</i><par n="Ibsen__np"/></e>
-<e lm="Sydnes">   <i>Sydnes</i><par n="Findus__np"/></e>
-<e lm="Sydrollnes">   <i>Sydrollnes</i><par n="Findus__np"/></e>
-<e lm="Sydskår">   <i>Sydskår</i><par n="Ibsen__np"/></e>
-<e lm="Sydvik">   <i>Sydvik</i><par n="Ibsen__np"/></e>
-<e lm="Sydvår">   <i>Sydvår</i><par n="Ibsen__np"/></e>
 <e lm="Søvndahl">   <i>Søvndahl</i><par n="Ibsen__np"/></e>
 <e lm="Süchow">   <i>Süchow</i><par n="Ibsen__np"/></e>
 <e lm="Sülberg">   <i>Sülberg</i><par n="Ibsen__np"/></e>
@@ -41400,8 +41429,8 @@
 <e lm="Tastula">   <i>Tastula</i><par n="Ibsen__np"/></e>
 <e lm="Tattari">   <i>Tattari</i><par n="Ibsen__np"/></e>
 <e lm="Taule">   <i>Taule</i><par n="Ibsen__np"/></e>
-<e lm="Tauli-Corpuz">   <i>Tauli-Corpuz</i><par n="Findus__np"/></e>
 <e lm="Tauli">   <i>Tauli</i><par n="Ibsen__np"/></e>
+<e lm="Tauli-Corpuz">   <i>Tauli-Corpuz</i><par n="Findus__np"/></e>
 <e lm="Tauriainen">   <i>Tauriainen</i><par n="Ibsen__np"/></e>
 <e lm="Tausen">   <i>Tausen</i><par n="Ibsen__np"/></e>
 <e lm="Tavasti">   <i>Tavasti</i><par n="Ibsen__np"/></e>
@@ -41672,8 +41701,8 @@
 <e lm="Torgun">   <i>Torgun</i><par n="Ibsen__np"/></e>
 <e lm="Torgundrud">   <i>Torgundrud</i><par n="Ibsen__np"/></e>
 <e lm="Torheim">   <i>Torheim</i><par n="Ibsen__np"/></e>
-<e lm="Torikka-Gelencser">   <i>Torikka-Gelencser</i><par n="Ibsen__np"/></e>
 <e lm="Torikka">   <i>Torikka</i><par n="Ibsen__np"/></e>
+<e lm="Torikka-Gelencser">   <i>Torikka-Gelencser</i><par n="Ibsen__np"/></e>
 <e lm="Toriseva">   <i>Toriseva</i><par n="Ibsen__np"/></e>
 <e lm="Torjussen">   <i>Torjussen</i><par n="Ibsen__np"/></e>
 <e lm="Torkelsen">   <i>Torkelsen</i><par n="Ibsen__np"/></e>
@@ -42155,8 +42184,8 @@
 <e lm="Vary">   <i>Vary</i><par n="Ibsen__np"/></e>
 <e lm="Vasama">   <i>Vasama</i><par n="Ibsen__np"/></e>
 <e lm="Vasankari">   <i>Vasankari</i><par n="Ibsen__np"/></e>
-<e lm="Vasara-Hammare">   <i>Vasara-Hammare</i><par n="Ibsen__np"/></e>
 <e lm="Vasara">   <i>Vasara</i><par n="Ibsen__np"/></e>
+<e lm="Vasara-Hammare">   <i>Vasara-Hammare</i><par n="Ibsen__np"/></e>
 <e lm="Vasarainen">   <i>Vasarainen</i><par n="Ibsen__np"/></e>
 <e lm="Vasiljev">   <i>Vasiljev</i><par n="Ibsen__np"/></e>
 <e lm="Vasiljeva">   <i>Vasiljeva</i><par n="Ibsen__np"/></e>
@@ -42252,8 +42281,8 @@
 <e lm="Vesamäki">   <i>Vesamäki</i><par n="Ibsen__np"/></e>
 <e lm="Vesanen">   <i>Vesanen</i><par n="Ibsen__np"/></e>
 <e lm="Vesikko">   <i>Vesikko</i><par n="Ibsen__np"/></e>
-<e lm="Vest-Kasai">   <i>Vest-Kasai</i><par n="Ibsen__np"/></e>
 <e lm="Vest">   <i>Vest</i><par n="Ibsen__np"/></e>
+<e lm="Vest-Kasai">   <i>Vest-Kasai</i><par n="Ibsen__np"/></e>
 <e lm="Vestad">   <i>Vestad</i><par n="Ibsen__np"/></e>
 <e lm="Vestbirk">   <i>Vestbirk</i><par n="Ibsen__np"/></e>
 <e lm="Vesterfjeld">   <i>Vesterfjeld</i><par n="Ibsen__np"/></e>
@@ -42327,8 +42356,8 @@
 <e lm="Viiri">   <i>Viiri</i><par n="Ibsen__np"/></e>
 <e lm="Viirret">   <i>Viirret</i><par n="Ibsen__np"/></e>
 <e lm="Viisanen">   <i>Viisanen</i><par n="Ibsen__np"/></e>
-<e lm="Viita-aho">   <i>Viita-aho</i><par n="Ibsen__np"/></e>
 <e lm="Viita">   <i>Viita</i><par n="Ibsen__np"/></e>
+<e lm="Viita-aho">   <i>Viita-aho</i><par n="Ibsen__np"/></e>
 <e lm="Viitaharju">   <i>Viitaharju</i><par n="Ibsen__np"/></e>
 <e lm="Viitala">   <i>Viitala</i><par n="Ibsen__np"/></e>
 <e lm="Viitamäki">   <i>Viitamäki</i><par n="Ibsen__np"/></e>
@@ -42603,8 +42632,8 @@
 <e lm="Warp">   <i>Warp</i><par n="Ibsen__np"/></e>
 <e lm="Warren">   <i>Warren</i><par n="Ibsen__np"/></e>
 <e lm="Wartenberg">   <i>Wartenberg</i><par n="Ibsen__np"/></e>
-<e lm="Wasara-Hammare">   <i>Wasara-Hammare</i><par n="Ibsen__np"/></e>
 <e lm="Wasara">   <i>Wasara</i><par n="Ibsen__np"/></e>
+<e lm="Wasara-Hammare">   <i>Wasara-Hammare</i><par n="Ibsen__np"/></e>
 <e lm="Wash">   <i>Wash</i><par n="Ibsen__np"/></e>
 <e lm="Watchman">   <i>Watchman</i><par n="Ibsen__np"/></e>
 <e lm="Waterford">   <i>Waterford</i><par n="Ibsen__np"/></e>
@@ -42616,8 +42645,8 @@
 <e lm="Weber">   <i>Weber</i><par n="Ibsen__np"/></e>
 <e lm="Weberg">   <i>Weberg</i><par n="Ibsen__np"/></e>
 <e lm="Webster">   <i>Webster</i><par n="Ibsen__np"/></e>
-<e lm="Wedel-Jarlsberg">   <i>Wedel-Jarlsberg</i><par n="Ibsen__np"/></e>
 <e lm="Wedel">   <i>Wedel</i><par n="Ibsen__np"/></e>
+<e lm="Wedel-Jarlsberg">   <i>Wedel-Jarlsberg</i><par n="Ibsen__np"/></e>
 <e lm="Wedervang">   <i>Wedervang</i><par n="Ibsen__np"/></e>
 <e lm="Wedset">   <i>Wedset</i><par n="Ibsen__np"/></e>
 <e lm="Weedon">   <i>Weedon</i><par n="Ibsen__np"/></e>
@@ -42910,6 +42939,7 @@
 <e lm="Åhren">   <i>Åhren</i><par n="Ibsen__np"/></e>
 <e lm="Åhrén">   <i>Åhrén</i><par n="Ibsen__np"/></e>
 <e lm="Åkerlund">   <i>Åkerlund</i><par n="Ibsen__np"/></e>
+<e lm="Åkesson">   <i>Åkesson</i><par n="Ibsen__np"/></e>
 <e lm="Åknes">   <i>Åknes</i><par n="Findus__np"/></e>
 <e lm="Åkre">   <i>Åkre</i><par n="Ibsen__np"/></e>
 <e lm="Åle">   <i>Åle</i><par n="Ibsen__np"/></e>
@@ -43035,11 +43065,6 @@
 <e lm="Øzerk">   <i>Øzerk</i><par n="Ibsen__np"/></e>
 <e lm="Þórlákshöfn">   <i>Þórlákshöfn</i><par n="Ibsen__np"/></e>
 <e lm="Čeljuskin">   <i>Čeljuskin</i><par n="Ibsen__np"/></e>
-<e lm="Šem">   <i>Šem</i><par n="Ibsen__np"/></e>
-<e lm="Šemeber">   <i>Šemeber</i><par n="Ibsen__np"/></e>
-<e lm="Šiauliai">   <i>Šiauliai</i><par n="Ibsen__np"/></e>
-<e lm="Šillem">   <i>Šillem</i><par n="Ibsen__np"/></e>
-<e lm="Šilo">   <i>Šilo</i><par n="Ibsen__np"/></e>
 <e lm="Čohk">   <i>Čohk</i><par n="Ibsen__np"/></e>
 <e lm="Čohkadoggejávri">   <i>Čohkadoggejávri</i><par n="Ibsen__np"/></e>
 <e lm="Čohkarášša">   <i>Čohkarášša</i><par n="Ibsen__np"/></e>
@@ -43047,50 +43072,70 @@
 <e lm="Čohkavárri">   <i>Čohkavárri</i><par n="Ibsen__np"/></e>
 <e lm="Čohkoaivvejávri">   <i>Čohkoaivvejávri</i><par n="Ibsen__np"/></e>
 <e lm="Čohkájojohka">   <i>Čohkájojohka</i><par n="Ibsen__np"/></e>
+<e lm="Šem">   <i>Šem</i><par n="Ibsen__np"/></e>
+<e lm="Šemeber">   <i>Šemeber</i><par n="Ibsen__np"/></e>
+<e lm="Šiauliai">   <i>Šiauliai</i><par n="Ibsen__np"/></e>
+<e lm="Šillem">   <i>Šillem</i><par n="Ibsen__np"/></e>
+<e lm="Šilo">   <i>Šilo</i><par n="Ibsen__np"/></e>
 <e lm="Šuah">   <i>Šuah</i><par n="Ibsen__np"/></e>
 <e lm="Šuni">   <i>Šuni</i><par n="Ibsen__np"/></e>
-
 
 <e lm="Rheinland-Pfalz"> <i>Rheinland-Pfalz</i><par n="Ås__np"/></e>
 <e lm="Saint-Tropez">    <i>Saint-Tropez</i><par n="Ås__np"/></e>
 <e lm="Syd-Troms">       <i>Syd-Troms</i><par n="Ås__np"/></e>
 
+<e lm="Aarhus">          <i>Aarhus</i><par n="Ås__np"/></e>
 <e lm="Aarnes">          <i>Aarnes</i><par n="Ås__np"/></e>
 <e lm="Aas">             <i>Aas</i><par n="Ås__np"/></e>
 <e lm="Aass">            <i>Aass</i><par n="Ås__np"/></e>
 <e lm="Addis">           <i>Addis</i><par n="Ås__np"/></e>
+<e lm="Agabos"> <i>Agabos</i><par n="Ås__np"/></e>
 <e lm="Agdenes">         <i>Agdenes</i><par n="Ås__np"/></e>
+<e lm="Aias"> <i>Aias</i><par n="Ås__np"/></e>
 <e lm="Aires">           <i>Aires</i><par n="Ås__np"/></e>
 <e lm="Ajaccio">         <i>Ajaccio</i><par n="Jo__np"/></e>
+<e lm="Akeloos"> <i>Akeloos</i><par n="Ås__np"/></e>
 <e lm="Akershus">        <i>Akershus</i><par n="Ås__np"/></e>
 <e lm="Akropolis">       <i>Akropolis</i><par n="Ås__np"/></e>
 <e lm="Aksnes">          <i>Aksnes</i><par n="Ås__np"/></e>
+<e lm="Akvilas"> <i>Akvilas</i><par n="Ås__np"/></e>
+<e lm="Alamos"> <i>Alamos</i><par n="Ås__np"/></e>
 <e lm="Allah">           <i>Allah</i><par n="Jo__np"/></e>
 <e lm="Als">             <i>Als</i><par n="Ås__np"/></e>
 <e lm="Amazonas">        <i>Amazonas</i><par n="Ås__np"/></e>
 <e lm="Amiens">          <i>Amiens</i><par n="Ås__np"/></e>
 <e lm="Amor">            <i>Amor</i><par n="Jo__np"/></e>
+<e lm="Andopsnes"> <i>Andopsnes</i><par n="Ås__np"/></e>
 <e lm="Angeles">         <i>Angeles</i><par n="Ås__np"/></e>
 <e lm="Antarktis">       <i>Antarktis</i><par n="Ås__np"/></e>
+<e lm="Antiatlas"> <i>Antiatlas</i><par n="Ås__np"/></e>
 <e lm="Arkansas">        <i>Arkansas</i><par n="Ås__np"/></e>
+<e lm="Arkelaus"> <i>Arkelaus</i><par n="Ås__np"/></e>
 <e lm="Arktis">          <i>Arktis</i><par n="Ås__np"/></e>
+<e lm="Arostobulos"> <i>Arostobulos</i><par n="Ås__np"/></e>
+<e lm="Asklepios"> <i>Asklepios</i><par n="Ås__np"/></e>
 <e lm="Auschwitz">       <i>Auschwitz</i><par n="Ås__np"/></e>
 <e lm="Avaldsnes">       <i>Avaldsnes</i><par n="Ås__np"/></e>
+<e lm="Averroes"> <i>Averroes</i><par n="Ås__np"/></e>
 <e lm="Bahamas">         <i>Bahamas</i><par n="Ås__np"/></e>
 <e lm="Barbados">        <i>Barbados</i><par n="Ås__np"/></e>
 <e lm="Bardufoss">       <i>Bardufoss</i><par n="Ås__np"/></e>
+<e lm="Barrios"> <i>Barrios</i><par n="Ås__np"/></e>
+<e lm="Beatles"> <i>Beatles</i><par n="Ås__np"/></e>
 <e lm="Benelux">         <i>Benelux</i><par n="Ås__np"/></e>
 <e lm="Birkenes">        <i>Birkenes</i><par n="Ås__np"/></e>
 <e lm="Bjerknes">        <i>Bjerknes</i><par n="Ås__np"/></e>
 <e lm="Blitz">           <i>Blitz</i><par n="Ås__np"/></e>
 <e lm="Bordeaux">        <i>Bordeaux</i><par n="Ås__np"/></e>
 <e lm="Bosporos">        <i>Bosporos</i><par n="Ås__np"/></e>
+<e lm="Boys"> <i>Boys</i><par n="Ås__np"/></e>
 <e lm="Braskereidfoss">  <i>Braskereidfoss</i><par n="Ås__np"/></e>
 <e lm="Bremnes">         <i>Bremnes</i><par n="Ås__np"/></e>
 <e lm="Brunlanes">       <i>Brunlanes</i><par n="Ås__np"/></e>
 <e lm="Bruxelles">       <i>Bruxelles</i><par n="Ås__np"/></e>
 <e lm="Buddha">          <i>Buddha</i><par n="Jo__np"/></e>
 <e lm="Buenos">          <i>Buenos</i><par n="Ås__np"/></e>
+<e lm="Bunes"> <i>Bunes</i><par n="Ås__np"/></e>
 <e lm="Business">        <i>Business</i><par n="Ås__np"/></e>
 <e lm="Bydgoszcz">       <i>Bydgoszcz</i><par n="Ås__np"/></e>
 <e lm="Bæskades">        <i>Bæskades</i><par n="Ås__np"/></e>
@@ -43098,6 +43143,9 @@
 <e lm="Calais">          <i>Calais</i><par n="Ås__np"/></e>
 <e lm="Cannes">          <i>Cannes</i><par n="Ås__np"/></e>
 <e lm="Celebes">         <i>Celebes</i><par n="Ås__np"/></e>
+<e lm="Chablis"> <i>Chablis</i><par n="Ås__np"/></e>
+<e lm="Chantas"> <i>Chantas</i><par n="Ås__np"/></e>
+<e lm="Christianus"> <i>Christianus</i><par n="Ås__np"/></e>
 <e lm="Dallas">          <i>Dallas</i><par n="Ås__np"/></e>
 <e lm="Damaskus">        <i>Damaskus</i><par n="Ås__np"/></e>
 <e lm="Degerfors">       <i>Degerfors</i><par n="Ås__np"/></e>
@@ -43106,8 +43154,18 @@
 <e lm="Donets">          <i>Donets</i><par n="Ås__np"/></e>
 <e lm="Edda">            <i>Edda</i><par n="Eva__np"/></e>
 <e lm="Eina">            <i>Eina</i><par n="Eva__np"/></e>
+<e lm="Eknes"> <i>Eknes</i><par n="Ås__np"/></e>
+<e lm="Elburs"> <i>Elburs</i><par n="Ås__np"/></e>
+<e lm="Eleusis"> <i>Eleusis</i><par n="Ås__np"/></e>
+<e lm="Elligers"> <i>Elligers</i><par n="Ås__np"/></e>
+<e lm="Enns"> <i>Enns</i><par n="Ås__np"/></e>
+<e lm="Epafras"> <i>Epafras</i><par n="Ås__np"/></e>
+<e lm="Erebos"> <i>Erebos</i><par n="Ås__np"/></e>
+<e lm="Erebus"> <i>Erebus</i><par n="Ås__np"/></e>
+<e lm="Eryx"> <i>Eryx</i><par n="Ås__np"/></e>
 <e lm="Essex">           <i>Essex</i><par n="Ås__np"/></e>
 <e lm="Essonnes">        <i>Essonnes</i><par n="Ås__np"/></e>
+<e lm="Eubulos"> <i>Eubulos</i><par n="Ås__np"/></e>
 <e lm="Evenes">          <i>Evenes</i><par n="Ås__np"/></e>
 <e lm="Fagernes">        <i>Fagernes</i><par n="Ås__np"/></e>
 <e lm="Fairbanks">       <i>Fairbanks</i><par n="Ås__np"/></e>
@@ -43118,20 +43176,29 @@
 <e lm="Forus">           <i>Forus</i><par n="Ås__np"/></e>
 <e lm="Fosnes">          <i>Fosnes</i><par n="Ås__np"/></e>
 <e lm="Framnæs">         <i>Framnæs</i><par n="Ås__np"/></e>
+<e lm="Fransplass"> <i>Fransplass</i><par n="Ås__np"/></e>
 <e lm="Furnes">          <i>Furnes</i><par n="Ås__np"/></e>
+<e lm="Gallegos"> <i>Gallegos</i><par n="Ås__np"/></e>
 <e lm="Gandhi">          <i>Gandhi</i><par n="Ibsen__np"/></e>
 <e lm="Ganges">          <i>Ganges</i><par n="Ås__np"/></e>
 <e lm="Gauss">           <i>Gauss</i><par n="Ås__np"/></e>
+<e lm="Gerais"> <i>Gerais</i><par n="Ås__np"/></e>
 <e lm="Gjemnes">         <i>Gjemnes</i><par n="Ås__np"/></e>
 <e lm="Glåmos">          <i>Glåmos</i><par n="Ås__np"/></e>
+<e lm="Goiás"> <i>Goiás</i><par n="Ås__np"/></e>
+<e lm="Grundfos"> <i>Grundfos</i><par n="Ås__np"/></e>
 <e lm="Gullfaks">        <i>Gullfaks</i><par n="Ås__np"/></e>
 <e lm="Halifax">         <i>Halifax</i><par n="Ås__np"/></e>
 <e lm="Hamlet">          <i>Hamlet</i><par n="Jo__np"/></e>
+<e lm="Hamnnes"> <i>Hamnnes</i><par n="Ås__np"/></e>
 <e lm="Harvard">         <i>Harvard</i><par n="Jo__np"/></e>
 <e lm="Hastings">        <i>Hastings</i><par n="Ås__np"/></e>
+<e lm="Haukanes"> <i>Haukanes</i><par n="Ås__np"/></e>
 <e lm="Haukås">          <i>Haukås</i><par n="Ås__np"/></e>
 <e lm="Haus">            <i>Haus</i><par n="Ås__np"/></e>
 <e lm="Heggenes">        <i>Heggenes</i><par n="Ås__np"/></e>
+<e lm="Heibergs"> <i>Heibergs</i><par n="Ås__np"/></e>
+<e lm="Hellehus"> <i>Hellehus</i><par n="Ås__np"/></e>
 <e lm="Helsingfors">     <i>Helsingfors</i><par n="Ås__np"/></e>
 <e lm="Hemnes">          <i>Hemnes</i><par n="Ås__np"/></e>
 <e lm="Herefoss">        <i>Herefoss</i><par n="Ås__np"/></e>
@@ -43143,28 +43210,41 @@
 <e lm="Hornnes">         <i>Hornnes</i><par n="Ås__np"/></e>
 <e lm="Husnes">          <i>Husnes</i><par n="Ås__np"/></e>
 <e lm="Hvittingfoss">    <i>Hvittingfoss</i><par n="Ås__np"/></e>
+<e lm="Højriis"> <i>Højriis</i><par n="Ås__np"/></e>
 <e lm="Hønefoss">        <i>Hønefoss</i><par n="Ås__np"/></e>
 <e lm="Ikornnes">        <i>Ikornnes</i><par n="Ås__np"/></e>
+<e lm="Ilios"> <i>Ilios</i><par n="Ås__np"/></e>
 <e lm="Illinois">        <i>Illinois</i><par n="Ås__np"/></e>
 <e lm="Indianapolis">    <i>Indianapolis</i><par n="Ås__np"/></e>
+<e lm="Iroquois"> <i>Iroquois</i><par n="Ås__np"/></e>
 <e lm="Jahve">           <i>Jahve</i><par n="Jo__np"/></e>
 <e lm="Janus">           <i>Janus</i><par n="Jens__np"/></e>
 <e lm="Jehova">          <i>Jehova</i><par n="Jo__np"/></e>
+<e lm="Jordnes"> <i>Jordnes</i><par n="Ås__np"/></e>
 <e lm="Kansas">          <i>Kansas</i><par n="Ås__np"/></e>
 <e lm="Kaukasus">        <i>Kaukasus</i><par n="Ås__np"/></e>
 <e lm="Kaunas">          <i>Kaunas</i><par n="Ås__np"/></e>
 <e lm="King's">          <i>King's</i><par n="Ås__np"/></e>
+<e lm="Kinos"> <i>Kinos</i><par n="Ås__np"/></e>
 <e lm="Kirkenes">        <i>Kirkenes</i><par n="Ås__np"/></e>
 <e lm="Kjos">            <i>Kjos</i><par n="Ås__np"/></e>
+<e lm="Kjæs"> <i>Kjæs</i><par n="Ås__np"/></e>
 <e lm="Klaveness">       <i>Klaveness</i><par n="Ås__np"/></e>
 <e lm="Koblenz">         <i>Koblenz</i><par n="Ås__np"/></e>
 <e lm="Kolsås">          <i>Kolsås</i><par n="Ås__np"/></e>
+<e lm="Kongeriget Hijaz">           <i>Kongeriget<b/>Hijaz</i><par n="Ås__np"/></e>
 <e lm="Korsnes">         <i>Korsnes</i><par n="Ås__np"/></e>
+<e lm="Krosnes"> <i>Krosnes</i><par n="Ås__np"/></e>
+<e lm="Kullas"> <i>Kullas</i><par n="Ås__np"/></e>
+<e lm="Kunduz"> <i>Kunduz</i><par n="Ås__np"/></e>
 <e lm="Kypros">          <i>Kypros</i><par n="Ås__np"/></e>
+<e lm="Ladislaus"> <i>Ladislaus</i><par n="Ås__np"/></e>
 <e lm="Lagos">           <i>Lagos</i><par n="Ås__np"/></e>
+<e lm="Lakesis"> <i>Lakesis</i><par n="Ås__np"/></e>
 <e lm="Land's">          <i>Land's</i><par n="Ås__np"/></e>
 <e lm="Landås">          <i>Landås</i><par n="Ås__np"/></e>
 <e lm="Langhus">         <i>Langhus</i><par n="Ås__np"/></e>
+<e lm="Langnes"> <i>Langnes</i><par n="Ås__np"/></e>
 <e lm="Las">             <i>Las</i><par n="Ås__np"/></e>
 <e lm="Lausanne">        <i>Lausanne</i><par n="Eva__np"/></e>
 <e lm="Lawrence">        <i>Lawrence</i><par n="Jo__np"/></e>
@@ -43179,25 +43259,34 @@
 <e lm="Lofthus">         <i>Lofthus</i><par n="Ås__np"/></e>
 <e lm="Lorentz">         <i>Lorentz</i><par n="Ås__np"/></e>
 <e lm="Los">             <i>Los</i><par n="Ås__np"/></e>
+<e lm="Losec"> <i>Losec</i><par n="Ås__np"/></e>
 <e lm="Lønning">         <i>Lønning</i><par n="Jo__np"/></e>
 <e lm="Løvaas">          <i>Løvaas</i><par n="Ås__np"/></e>
 <e lm="Madras">          <i>Madras</i><par n="Ås__np"/></e>
 <e lm="Magnor">          <i>Magnor</i><par n="Jo__np"/></e>
 <e lm="Mainz">           <i>Mainz</i><par n="Ås__np"/></e>
+<e lm="Maranz"> <i>Maranz</i><par n="Ås__np"/></e>
 <e lm="Mars">            <i>Mars</i><par n="Ås__np"/></e>
 <e lm="Masi">            <i>Masi</i><par n="Jo__np"/></e>
 <e lm="Massachusetts">   <i>Massachusetts</i><par n="Ås__np"/></e>
+<e lm="Masternes"> <i>Masternes</i><par n="Ås__np"/></e>
 <e lm="Mauritius">       <i>Mauritius</i><par n="Ås__np"/></e>
+<e lm="Mausolos"> <i>Mausolos</i><par n="Ås__np"/></e>
 <e lm="Melhus">          <i>Melhus</i><par n="Ås__np"/></e>
+<e lm="Mellumsplass"> <i>Mellumsplass</i><par n="Ås__np"/></e>
 <e lm="Memphis">         <i>Memphis</i><par n="Ås__np"/></e>
+<e lm="Mercedes"> <i>Mercedes</i><par n="Ås__np"/></e>
+<e lm="Minais"> <i>Minais</i><par n="Ås__np"/></e>
 <e lm="Minneapolis">     <i>Minneapolis</i><par n="Ås__np"/></e>
 <e lm="Monika">          <i>Monika</i><par n="Eva__np"/></e>
 <e lm="Monrad">          <i>Monrad</i><par n="Jo__np"/></e>
 <e lm="Montreux">        <i>Montreux</i><par n="Ås__np"/></e>
+<e lm="Morales"> <i>Morales</i><par n="Ås__np"/></e>
 <e lm="Mork">            <i>Mork</i><par n="Jo__np"/></e>
 <e lm="Moskenes">        <i>Moskenes</i><par n="Ås__np"/></e>
 <e lm="Moss">            <i>Moss</i><par n="Ås__np"/></e>
 <e lm="Mountains">       <i>Mountains</i><par n="Ås__np"/></e>
+<e lm="Mårnes"> <i>Mårnes</i><par n="Ås__np"/></e>
 <e lm="Møhlenpris">      <i>Møhlenpris</i><par n="Ås__np"/></e>
 <e lm="Namsos">          <i>Namsos</i><par n="Ås__np"/></e>
 <e lm="Nantes">          <i>Nantes</i><par n="Ås__np"/></e>
@@ -43207,10 +43296,15 @@
 <e lm="Nidaros">         <i>Nidaros</i><par n="Ås__np"/></e>
 <e lm="Nordnes">         <i>Nordnes</i><par n="Ås__np"/></e>
 <e lm="Næss">            <i>Næss</i><par n="Ås__np"/></e>
+<e lm="Okeanos"> <i>Okeanos</i><par n="Ås__np"/></e>
+<e lm="Oras"> <i>Oras</i><par n="Ås__np"/></e>
 <e lm="Orleans">         <i>Orleans</i><par n="Ås__np"/></e>
+<e lm="Osnes"> <i>Osnes</i><par n="Ås__np"/></e>
+<e lm="Osterhaus"> <i>Osterhaus</i><par n="Ås__np"/></e>
 <e lm="Pampas">          <i>Pampas</i><par n="Ås__np"/></e>
 <e lm="Paris">           <i>Paris</i><par n="Ås__np"/></e>
 <e lm="Pascal">          <i>Pascal</i><par n="Jo__np"/></e>
+<e lm="Patjas"> <i>Patjas</i><par n="Ås__np"/></e>
 <e lm="Paz">             <i>Paz</i><par n="Ås__np"/></e>
 <e lm="Peloponnes">      <i>Peloponnes</i><par n="Ås__np"/></e>
 <e lm="Pelopponesos">    <i>Pelopponesos</i><par n="Ås__np"/></e>
@@ -43218,12 +43312,19 @@
 <e lm="Phoenix">         <i>Phoenix</i><par n="Ås__np"/></e>
 <e lm="Pireus">          <i>Pireus</i><par n="Ås__np"/></e>
 <e lm="Plains">          <i>Plains</i><par n="Ås__np"/></e>
+<e lm="Pogradec"> <i>Pogradec</i><par n="Ås__np"/></e>
+<e lm="Poitiers"> <i>Poitiers</i><par n="Ås__np"/></e>
 <e lm="Pontius">         <i>Pontius</i><par n="Ås__np"/></e>
 <e lm="Porsgrunds">      <i>Porsgrunds</i><par n="Ås__np"/></e>
+<e lm="Périgueux"> <i>Périgueux</i><par n="Ås__np"/></e>
 <e lm="Rafnes">          <i>Rafnes</i><par n="Ås__np"/></e>
+<e lm="Ramas"> <i>Ramas</i><par n="Ås__np"/></e>
 <e lm="Ramnes">          <i>Ramnes</i><par n="Ås__np"/></e>
+<e lm="Rastas"> <i>Rastas</i><par n="Ås__np"/></e>
 <e lm="Raufoss">         <i>Raufoss</i><par n="Ås__np"/></e>
+<e lm="Raunes"> <i>Raunes</i><par n="Ås__np"/></e>
 <e lm="Refsnes">         <i>Refsnes</i><par n="Ås__np"/></e>
+<e lm="Republikken Texas">           <i>Republikken<b/>Texas</i><par n="Ås__np"/></e>
 <e lm="Revsnes">         <i>Revsnes</i><par n="Ås__np"/></e>
 <e lm="Richmond">        <i>Richmond</i><par n="Jo__np"/></e>
 <e lm="Rico">            <i>Rico</i><par n="Jo__np"/></e>
@@ -43233,17 +43334,22 @@
 <e lm="Rochelle">        <i>Rochelle</i><par n="Eva__np"/></e>
 <e lm="Rodos">           <i>Rodos</i><par n="Ås__np"/></e>
 <e lm="Rondane">         <i>Rondane</i><par n="Jo__np"/></e>
+<e lm="Roos"> <i>Roos</i><par n="Ås__np"/></e>
 <e lm="Rosario">         <i>Rosario</i><par n="Jo__np"/></e>
+<e lm="Roubaix"> <i>Roubaix</i><par n="Ås__np"/></e>
 <e lm="Runar">           <i>Runar</i><par n="Jo__np"/></e>
 <e lm="Råde">            <i>Råde</i><par n="Jo__np"/></e>
 <e lm="Rånåsfoss">       <i>Rånåsfoss</i><par n="Ås__np"/></e>
 <e lm="Rønning">         <i>Rønning</i><par n="Jo__np"/></e>
 <e lm="Røros">           <i>Røros</i><par n="Ås__np"/></e>
+<e lm="Saint Kitts og Nevis">           <i>Saint<b/>Kitts<b/>og<b/>Nevis</i><par n="Ås__np"/></e>
 <e lm="Salhus">          <i>Salhus</i><par n="Ås__np"/></e>
+<e lm="Saltnes"> <i>Saltnes</i><par n="Ås__np"/></e>
 <e lm="Samos">           <i>Samos</i><par n="Ås__np"/></e>
 <e lm="Sandnes">         <i>Sandnes</i><par n="Ås__np"/></e>
 <e lm="Sannes">          <i>Sannes</i><par n="Ås__np"/></e>
 <e lm="Selnes">          <i>Selnes</i><par n="Ås__np"/></e>
+<e lm="Silas"> <i>Silas</i><par n="Ås__np"/></e>
 <e lm="Simonnes">        <i>Simonnes</i><par n="Ås__np"/></e>
 <e lm="Simonnæs">        <i>Simonnæs</i><par n="Ås__np"/></e>
 <e lm="Singsås">         <i>Singsås</i><par n="Ås__np"/></e>
@@ -43255,7 +43361,9 @@
 <e lm="Springs">         <i>Springs</i><par n="Ås__np"/></e>
 <e lm="Stamnes">         <i>Stamnes</i><par n="Ås__np"/></e>
 <e lm="Stange">          <i>Stange</i><par n="Jo__np"/></e>
+<e lm="Stangnes"> <i>Stangnes</i><par n="Ås__np"/></e>
 <e lm="Stefan">          <i>Stefan</i><par n="Jo__np"/></e>
+<e lm="Stegaros"> <i>Stegaros</i><par n="Ås__np"/></e>
 <e lm="Sten">            <i>Sten</i><par n="Jo__np"/></e>
 <e lm="Stokmarknes">     <i>Stokmarknes</i><par n="Ås__np"/></e>
 <e lm="Stones">          <i>Stones</i><par n="Ås__np"/></e>
@@ -43263,140 +43371,61 @@
 <e lm="Strauss">         <i>Strauss</i><par n="Ås__np"/></e>
 <e lm="Strømsnes">       <i>Strømsnes</i><par n="Ås__np"/></e>
 <e lm="Suez">            <i>Suez</i><par n="Ås__np"/></e>
+<e lm="Superfos"> <i>Superfos</i><par n="Ås__np"/></e>
 <e lm="Sussex">          <i>Sussex</i><par n="Ås__np"/></e>
+<e lm="Svanes"> <i>Svanes</i><par n="Ås__np"/></e>
 <e lm="Sveits">          <i>Sveits</i><par n="Ås__np"/></e>
+<e lm="Svenes"> <i>Svenes</i><par n="Ås__np"/></e>
+<e lm="Sørrollnes"> <i>Sørrollnes</i><par n="Ås__np"/></e>
 <e lm="Tammerfors">      <i>Tammerfors</i><par n="Ås__np"/></e>
 <e lm="Taunus">          <i>Taunus</i><par n="Ås__np"/></e>
 <e lm="Tellus">          <i>Tellus</i><par n="Ås__np"/></e>
 <e lm="Tertnes">         <i>Tertnes</i><par n="Ås__np"/></e>
 <e lm="Texas">           <i>Texas</i><par n="Ås__np"/></e>
-<e lm="Kongeriget Hijaz">           <i>Kongeriget<b/>Hijaz</i><par n="Ås__np"/></e>
-<e lm="Republikken Texas">           <i>Republikken<b/>Texas</i><par n="Ås__np"/></e>
-<e lm="Saint Kitts og Nevis">           <i>Saint<b/>Kitts<b/>og<b/>Nevis</i><par n="Ås__np"/></e>
 <e lm="Thames">          <i>Thames</i><par n="Ås__np"/></e>
 <e lm="Thune">           <i>Thune</i><par n="Jo__np"/></e>
 <e lm="Tigris">          <i>Tigris</i><par n="Ås__np"/></e>
+<e lm="Trofimos"> <i>Trofimos</i><par n="Ås__np"/></e>
 <e lm="Troms">           <i>Troms</i><par n="Ås__np"/></e>
 <e lm="Tune">            <i>Tune</i><par n="Jo__np"/></e>
 <e lm="Tunis">           <i>Tunis</i><par n="Ås__np"/></e>
+<e lm="Tykikos"> <i>Tykikos</i><par n="Ås__np"/></e>
 <e lm="Tysnes">          <i>Tysnes</i><par n="Ås__np"/></e>
 <e lm="Ulefoss">         <i>Ulefoss</i><par n="Ås__np"/></e>
+<e lm="Ulnes"> <i>Ulnes</i><par n="Ås__np"/></e>
+<e lm="Ulvenes"> <i>Ulvenes</i><par n="Ås__np"/></e>
 <e lm="Vaduz">           <i>Vaduz</i><par n="Ås__np"/></e>
+<e lm="Valais"> <i>Valais</i><par n="Ås__np"/></e>
 <e lm="Valdres">         <i>Valdres</i><par n="Ås__np"/></e>
+<e lm="Valenciennes"> <i>Valenciennes</i><par n="Ås__np"/></e>
 <e lm="Vangsnes">        <i>Vangsnes</i><par n="Ås__np"/></e>
 <e lm="Vats">            <i>Vats</i><par n="Ås__np"/></e>
+<e lm="Vedhugnes"> <i>Vedhugnes</i><par n="Ås__np"/></e>
 <e lm="Vegas">           <i>Vegas</i><par n="Ås__np"/></e>
 <e lm="Venås">           <i>Venås</i><par n="Ås__np"/></e>
+<e lm="Veracruz"> <i>Veracruz</i><par n="Ås__np"/></e>
 <e lm="Versailles">      <i>Versailles</i><par n="Ås__np"/></e>
+<e lm="Verviers"> <i>Verviers</i><par n="Ås__np"/></e>
 <e lm="Veslemøy">        <i>Veslemø</i><par n="Eva__np"/></e>
 <e lm="Vestnes">         <i>Vestnes</i><par n="Ås__np"/></e>
+<e lm="Vikanes"> <i>Vikanes</i><par n="Ås__np"/></e>
 <e lm="Vilnius">         <i>Vilnius</i><par n="Ås__np"/></e>
 <e lm="Voss">            <i>Voss</i><par n="Ås__np"/></e>
+<e lm="Vuollegeavŋŋis"> <i>Vuollegeavŋŋis</i><par n="Ås__np"/></e>
 <e lm="Wales">           <i>Wales</i><par n="Ås__np"/></e>
 <e lm="Wiktor">          <i>Wiktor</i><par n="Jo__np"/></e>
 <e lm="Winston">         <i>Winston</i><par n="Jo__np"/></e>
 <e lm="Xerxes">          <i>Xerxes</i><par n="Jens__np"/></e>
 <e lm="Åndalsnes">       <i>Åndalsnes</i><par n="Ås__np"/></e>
 <e lm="Århus">           <i>Århus</i><par n="Ås__np"/></e>
-<e lm="Aarhus">           <i>Aarhus</i><par n="Ås__np"/></e>
+<e lm="Års"> <i>Års</i><par n="Ås__np"/></e>
 <e lm="Ås">              <i>Ås</i><par n="Ås__np"/></e>
 <e lm="Åsnes">           <i>Åsnes</i><par n="Ås__np"/></e>
 <e lm="Åss">             <i>Åss</i><par n="Ås__np"/></e>
+<e lm="Øines"> <i>Øines</i><par n="Ås__np"/></e>
 <e lm="Øksnes">          <i>Øksnes</i><par n="Ås__np"/></e>
 <e lm="Ørnes">           <i>Ørnes</i><par n="Ås__np"/></e>
 <e lm="Østerås">         <i>Østerås</i><par n="Ås__np"/></e>
-<e lm="Agabos"> <i>Agabos</i><par n="Ås__np"/></e>
-<e lm="Aias"> <i>Aias</i><par n="Ås__np"/></e>
-<e lm="Akeloos"> <i>Akeloos</i><par n="Ås__np"/></e>
-<e lm="Akvilas"> <i>Akvilas</i><par n="Ås__np"/></e>
-<e lm="Alamos"> <i>Alamos</i><par n="Ås__np"/></e>
-<e lm="Andopsnes"> <i>Andopsnes</i><par n="Ås__np"/></e>
-<e lm="Antiatlas"> <i>Antiatlas</i><par n="Ås__np"/></e>
-<e lm="Arkelaus"> <i>Arkelaus</i><par n="Ås__np"/></e>
-<e lm="Arostobulos"> <i>Arostobulos</i><par n="Ås__np"/></e>
-<e lm="Asklepios"> <i>Asklepios</i><par n="Ås__np"/></e>
-<e lm="Averroes"> <i>Averroes</i><par n="Ås__np"/></e>
-<e lm="Barrios"> <i>Barrios</i><par n="Ås__np"/></e>
-<e lm="Beatles"> <i>Beatles</i><par n="Ås__np"/></e>
-<e lm="Boys"> <i>Boys</i><par n="Ås__np"/></e>
-<e lm="Bunes"> <i>Bunes</i><par n="Ås__np"/></e>
-<e lm="Chablis"> <i>Chablis</i><par n="Ås__np"/></e>
-<e lm="Chantas"> <i>Chantas</i><par n="Ås__np"/></e>
-<e lm="Christianus"> <i>Christianus</i><par n="Ås__np"/></e>
-<e lm="Eknes"> <i>Eknes</i><par n="Ås__np"/></e>
-<e lm="Elburs"> <i>Elburs</i><par n="Ås__np"/></e>
-<e lm="Eleusis"> <i>Eleusis</i><par n="Ås__np"/></e>
-<e lm="Elligers"> <i>Elligers</i><par n="Ås__np"/></e>
-<e lm="Enns"> <i>Enns</i><par n="Ås__np"/></e>
-<e lm="Epafras"> <i>Epafras</i><par n="Ås__np"/></e>
-<e lm="Erebos"> <i>Erebos</i><par n="Ås__np"/></e>
-<e lm="Erebus"> <i>Erebus</i><par n="Ås__np"/></e>
-<e lm="Eryx"> <i>Eryx</i><par n="Ås__np"/></e>
-<e lm="Eubulos"> <i>Eubulos</i><par n="Ås__np"/></e>
-<e lm="Fransplass"> <i>Fransplass</i><par n="Ås__np"/></e>
-<e lm="Gallegos"> <i>Gallegos</i><par n="Ås__np"/></e>
-<e lm="Gerais"> <i>Gerais</i><par n="Ås__np"/></e>
-<e lm="Goiás"> <i>Goiás</i><par n="Ås__np"/></e>
-<e lm="Grundfos"> <i>Grundfos</i><par n="Ås__np"/></e>
-<e lm="Hamnnes"> <i>Hamnnes</i><par n="Ås__np"/></e>
-<e lm="Haukanes"> <i>Haukanes</i><par n="Ås__np"/></e>
-<e lm="Heibergs"> <i>Heibergs</i><par n="Ås__np"/></e>
-<e lm="Hellehus"> <i>Hellehus</i><par n="Ås__np"/></e>
-<e lm="Højriis"> <i>Højriis</i><par n="Ås__np"/></e>
-<e lm="Ilios"> <i>Ilios</i><par n="Ås__np"/></e>
-<e lm="Iroquois"> <i>Iroquois</i><par n="Ås__np"/></e>
-<e lm="Jordnes"> <i>Jordnes</i><par n="Ås__np"/></e>
-<e lm="Kinos"> <i>Kinos</i><par n="Ås__np"/></e>
-<e lm="Kjæs"> <i>Kjæs</i><par n="Ås__np"/></e>
-<e lm="Krosnes"> <i>Krosnes</i><par n="Ås__np"/></e>
-<e lm="Kullas"> <i>Kullas</i><par n="Ås__np"/></e>
-<e lm="Kunduz"> <i>Kunduz</i><par n="Ås__np"/></e>
-<e lm="Ladislaus"> <i>Ladislaus</i><par n="Ås__np"/></e>
-<e lm="Lakesis"> <i>Lakesis</i><par n="Ås__np"/></e>
-<e lm="Langnes"> <i>Langnes</i><par n="Ås__np"/></e>
-<e lm="Losec"> <i>Losec</i><par n="Ås__np"/></e>
-<e lm="Maranz"> <i>Maranz</i><par n="Ås__np"/></e>
-<e lm="Masternes"> <i>Masternes</i><par n="Ås__np"/></e>
-<e lm="Mausolos"> <i>Mausolos</i><par n="Ås__np"/></e>
-<e lm="Mellumsplass"> <i>Mellumsplass</i><par n="Ås__np"/></e>
-<e lm="Mercedes"> <i>Mercedes</i><par n="Ås__np"/></e>
-<e lm="Minais"> <i>Minais</i><par n="Ås__np"/></e>
-<e lm="Morales"> <i>Morales</i><par n="Ås__np"/></e>
-<e lm="Mårnes"> <i>Mårnes</i><par n="Ås__np"/></e>
-<e lm="Okeanos"> <i>Okeanos</i><par n="Ås__np"/></e>
-<e lm="Oras"> <i>Oras</i><par n="Ås__np"/></e>
-<e lm="Osnes"> <i>Osnes</i><par n="Ås__np"/></e>
-<e lm="Osterhaus"> <i>Osterhaus</i><par n="Ås__np"/></e>
-<e lm="Patjas"> <i>Patjas</i><par n="Ås__np"/></e>
-<e lm="Pogradec"> <i>Pogradec</i><par n="Ås__np"/></e>
-<e lm="Poitiers"> <i>Poitiers</i><par n="Ås__np"/></e>
-<e lm="Périgueux"> <i>Périgueux</i><par n="Ås__np"/></e>
-<e lm="Ramas"> <i>Ramas</i><par n="Ås__np"/></e>
-<e lm="Rastas"> <i>Rastas</i><par n="Ås__np"/></e>
-<e lm="Raunes"> <i>Raunes</i><par n="Ås__np"/></e>
-<e lm="Roos"> <i>Roos</i><par n="Ås__np"/></e>
-<e lm="Roubaix"> <i>Roubaix</i><par n="Ås__np"/></e>
-<e lm="Saltnes"> <i>Saltnes</i><par n="Ås__np"/></e>
-<e lm="Silas"> <i>Silas</i><par n="Ås__np"/></e>
-<e lm="Stangnes"> <i>Stangnes</i><par n="Ås__np"/></e>
-<e lm="Stegaros"> <i>Stegaros</i><par n="Ås__np"/></e>
-<e lm="Superfos"> <i>Superfos</i><par n="Ås__np"/></e>
-<e lm="Svanes"> <i>Svanes</i><par n="Ås__np"/></e>
-<e lm="Svenes"> <i>Svenes</i><par n="Ås__np"/></e>
-<e lm="Sørrollnes"> <i>Sørrollnes</i><par n="Ås__np"/></e>
-<e lm="Trofimos"> <i>Trofimos</i><par n="Ås__np"/></e>
-<e lm="Tykikos"> <i>Tykikos</i><par n="Ås__np"/></e>
-<e lm="Ulnes"> <i>Ulnes</i><par n="Ås__np"/></e>
-<e lm="Ulvenes"> <i>Ulvenes</i><par n="Ås__np"/></e>
-<e lm="Valais"> <i>Valais</i><par n="Ås__np"/></e>
-<e lm="Valenciennes"> <i>Valenciennes</i><par n="Ås__np"/></e>
-<e lm="Vedhugnes"> <i>Vedhugnes</i><par n="Ås__np"/></e>
-<e lm="Veracruz"> <i>Veracruz</i><par n="Ås__np"/></e>
-<e lm="Verviers"> <i>Verviers</i><par n="Ås__np"/></e>
-<e lm="Vikanes"> <i>Vikanes</i><par n="Ås__np"/></e>
-<e lm="Vuollegeavŋŋis"> <i>Vuollegeavŋŋis</i><par n="Ås__np"/></e>
-<e lm="Års"> <i>Års</i><par n="Ås__np"/></e>
-<e lm="Øines"> <i>Øines</i><par n="Ås__np"/></e>
 
 <e lm="Magdalena">       <i>Magdalena</i><par n="Eva__np"/></e>
 <e lm="Statens Veivesen">     <i>Statens<b/>Veivesen</i><par n="Lagtinget__np"/></e>
@@ -45568,7 +45597,7 @@
 <e lm="Magellanstrædet"> <i>Magellanstrædet</i><par n="Midhavet__np"/></e>
 <e lm="Malakkastrædet">  <i>Malakkastrædet</i><par n="Midhavet__np"/></e>
 <e lm="Marmarahavet">    <i>Marmarahavet</i><par n="Midhavet__np"/></e>
-<e lm="mellemhavet">     <i>mellemhavet</i><par n="Midhavet__np"/></e>
+<e lm="Mellemhavet">     <i>Mellemhavet</i><par n="Midhavet__np"/></e>
 <e lm="Middelhavet">     <i>Middelhavet</i><par n="Midhavet__np"/></e>
 <e lm="Midhavet">        <i>Midhavet</i><par n="Midhavet__np"/></e>
 <e lm="Nordøstlandet">  <i>Nordøstlandet</i><par n="Midhavet__np"/></e>
@@ -48352,6 +48381,7 @@
 <e lm="Alice">           <i>Alice</i><par n="Eva__np"/></e>
 <e lm="Annie">           <i>Annie</i><par n="Eva__np"/></e>
 <e lm="Axel">            <i>Axel</i><par n="Jo__np"/></e>
+<e lm="Mark">            <i>Mark</i><par n="Jo__np"/></e>
 <e lm="Catarina">        <i>Catarina</i><par n="Eva__np"/></e>
 <e lm="Charlotte">       <i>Charlotte</i><par n="Eva__np"/></e>
 <e lm="Christina">       <i>Christina</i><par n="Eva__np"/></e>
@@ -48361,6 +48391,7 @@
 <e lm="Oliver">          <i>Oliver</i><par n="Jo__np"/></e>
 <e lm="Urban">           <i>Urban</i><par n="Jo__np"/></e>
 <e lm="Zhou">            <i>Zhou</i><par n="Jo__np"/></e>
+
 
 <e lm="Nationaltheatret"><i>Nationaltheatret</i><par n="Lagtinget__np"/></e>
 
@@ -48404,6 +48435,7 @@
 <e lm="Bonakas">   <i>Bonakas</i><par n="Ås__np"/></e>
 <e lm="Igeldas">   <i>Igeldas</i><par n="Ås__np"/></e>
 <e lm="Atlanten" a="PT"> <i>Atlanten</i><par n="Osen__np"/></e>
+
 
 <e lm="Abadan"><i>Abadan</i><par n="Norge__np"/></e>
 <e lm="Abbaside-kalifatet"><i>Abbaside-kalifatet</i><par n="Norge__np"/></e>
@@ -50740,6 +50772,7 @@
 <e lm="Norema"><i>Norema</i><par n="Norge__np"/></e>
 <e lm="Noresund"><i>Noresund</i><par n="Norge__np"/></e>
 <e lm="Norfolk"><i>Norfolk</i><par n="Norge__np"/></e>
+<e r="LR" lm="Noreg"><p><l>Noreg</l><r>Norge</r></p><par n="Norge__np"/></e>
 <e lm="Norge"><i>Norge</i><par n="Norge__np"/></e>
 <e lm="Norgesvældet"><i>Norgesvældet</i><par n="Norge__np"/></e>
 <e lm="Norheim"><i>Norheim</i><par n="Norge__np"/></e>
@@ -51844,7 +51877,6 @@
 <e lm="Ueland"><i>Ueland</i><par n="Norge__np"/></e>
 <e lm="Uganda"><i>Uganda</i><par n="Norge__np"/></e>
 <e lm="Uggerud"><i>Uggerud</i><par n="Norge__np"/></e>
-<e lm="Ukraina"><i>Ukraina</i><par n="Norge__np"/></e>
 <e lm="Ulan"><i>Ulan</i><par n="Norge__np"/></e>
 <e lm="Uleåborg"><i>Uleåborg</i><par n="Norge__np"/></e>
 <e lm="Ulkuniemi"><i>Ulkuniemi</i><par n="Norge__np"/></e>
@@ -52194,7 +52226,30 @@
 <e lm="Åsgård"><i>Åsgård</i><par n="Norge__np"/></e>
 <e lm="Aasheim"><i>Aasheim</i><par n="Norge__np"/></e>
 <e lm="Aasland"><i>Aasland</i><par n="Norge__np"/></e>
-<e r="LR" lm="Noreg"><p><l>Noreg</l><r>Norge</r></p><par n="Norge__np"/></e>
+<e lm="Algeriet"><i>Algeriet</i><par n="Norge__np"/></e>
+<e lm="Belize"><i>Belize</i><par n="Norge__np"/></e>
+<e lm="Benin"><i>Benin</i><par n="Norge__np"/></e>
+<e lm="Cameroun"><i>Cameroun</i><par n="Norge__np"/></e>
+<e lm="Congo"><i>Congo</i><par n="Norge__np"/></e>
+<e lm="Cypern"><i>Cypern</i><par n="Norge__np"/></e>
+<e lm="Egypten"><i>Egypten</i><par n="Norge__np"/></e>
+<e lm="Elfenbenskysten"><i>Elfenbenskysten</i><par n="Norge__np"/></e>
+<e lm="Gøteborg"><i>Gøteborg</i><par n="Norge__np"/></e>
+<e lm="Kattegatt"><i>Kattegatt</i><par n="Norge__np"/></e>
+<e lm="Kiribati"><i>Kiribati</i><par n="Norge__np"/></e>
+<e lm="Mozambique"><i>Mozambique</i><par n="Norge__np"/></e>
+<e lm="Nederlandene"><i>Nederlandene</i><par n="Norge__np"/></e>
+<e lm="New York"><i>New<b/>York</i><par n="Norge__np"/></e>
+<e lm="Norden"><i>Norden</i><par n="Norge__np"/></e>
+<e lm="Rumænien"><i>Rumænien</i><par n="Norge__np"/></e>
+<e r="LR" lm="Svejts"><p><l>Svejts</l><r>Schweiz</r></p><par n="Norge__np"/></e>
+<e lm="Schweiz"><i>Schweiz</i><par n="Norge__np"/></e>
+<e lm="Sydafrika"><i>Sydafrika</i><par n="Norge__np"/></e>
+<e lm="Tonga"><i>Tonga</i><par n="Norge__np"/></e>
+<e lm="Tunesien"><i>Tunesien</i><par n="Norge__np"/></e>
+<e lm="Ukraine"><i>Ukraine</i><par n="Norge__np"/></e>
+<e lm="Ækvatorialguinea"><i>Ækvatorialguinea</i><par n="Norge__np"/></e>
+
 
 
 
@@ -52217,7 +52272,7 @@
 
     <!-- Verbs  *V-->
 
-<e lm="være ligeglad">   <par n="/være__vbser"/><p><l><b/>ligeglad</l><r><g><b/>ligeglad</g></r></p></e>
+<e lm="være ligeglad">   <par n="/være__vblex"/><p><l><b/>ligeglad</l><r><g><b/>ligeglad</g></r></p></e>
 <e lm="abandonnere">        <i>abandonner</i><par n="mal/e__vblex"/></e>
 <e lm="abbreviere">         <i>abbrevier</i><par n="mal/e__vblex"/></e>
 <e lm="downloade">         <i>download</i><par n="mal/e__vblex"/></e>
@@ -52529,7 +52584,7 @@
 <e lm="anfægte">            <i>anfægt</i><par n="mal/e__vblex"/></e>
 <e lm="anføre">             <i>anfør</i><par n="tal/e__vblex"/></e>
 <e lm="angive">             <i>ang</i><par n="g/ive__vblex"/></e>
-<e lm="angive">             <i>angiv</i><par n="mal/e__vblex"/></e>
+<e r="LR" lm="angive">   <i>angiv</i><par n="mal/e__vblex"/></e>
 <e lm="angle">              <i>angl</i><par n="mal/e__vblex"/></e>
 <e lm="anglicere">          <i>anglicer</i><par n="mal/e__vblex"/></e>
 <e lm="anglificere">        <i>anglificer</i><par n="mal/e__vblex"/></e>
@@ -57855,9 +57910,7 @@
     <!-- Abbreviations -->
 
 <e lm="A/B" c="andelsboligforening"><i>A/B</i><par n="t.eks.__abbr"/></e>
-<e lm="A/S" c="aktieselskab"><i>A/S</i><par n="t.eks.__abbr"/></e>
 <e lm="AB" c="andelsboligforening"><i>AB</i><par n="t.eks.__abbr"/></e>
-<e lm="CV" a="PT">       <i>CV</i><par n="t.eks.__abbr"/></e>
 <e lm="DKK" a="PT">      <i>DKK</i><par n="t.eks.__abbr"/></e>
 <e lm="HBT">             <i>HBT</i><par n="t.eks.__abbr"/></e>
 <e lm="MF" c="medlem af Folketinget"><i>MF</i><par n="t.eks.__abbr"/></e>
@@ -58066,15 +58119,14 @@
 <e lm="m.v.h." a="PT">   <i>m.v.h.</i><par n="t.eks.__abbr"/></e>
 <e lm="m/s" a="PT">      <i>m/s</i><par n="t.eks.__abbr"/></e>
 <e lm="maks." a="PT">    <i>maks.</i><par n="t.eks.__abbr"/></e>
-<e lm="MB" a="PT" c="domain:data"><i>MB</i><par n="t.eks.__abbr"/></e>
-<e lm="Mb" a="PT" c="domain:data"><i>Mb</i><par n="t.eks.__abbr"/></e>
+<e lm="mb" a="PT" c="domain:data"><i>mb</i><par n="t.eks.__abbr"/></e>
 <e lm="mc" a="PT">       <i>mc</i><par n="t.eks.__abbr"/></e>
 <e lm="medl." a="PT">    <i>medl.</i><par n="t.eks.__abbr"/></e>
 <e lm="medd." a="PT">    <i>medd.</i><par n="t.eks.__abbr"/></e>
 <e lm="mfl." a="PT">     <i>mfl.</i><par n="t.eks.__abbr"/></e>
 <e lm="mg" a="PT">       <i>mg</i><par n="t.eks.__abbr"/></e>
 <e lm="mht." a="PT">     <i>mht.</i><par n="t.eks.__abbr"/></e>
-<e lm="MHz" a="PT">      <i>MHz</i><par n="t.eks.__abbr"/></e>
+<e lm="mhz" a="PT">      <i>mhz</i><par n="t.eks.__abbr"/></e>
 <e lm="min" a="PT">      <i>min</i><par n="t.eks.__abbr"/></e>
 <e lm="modsv." a="PT">   <i>modsv.</i><par n="t.eks.__abbr"/></e>
 <e lm="mvh." a="PT">     <i>mvh.</i><par n="t.eks.__abbr"/></e>
