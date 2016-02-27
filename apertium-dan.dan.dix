@@ -1440,8 +1440,8 @@
 </pardef>
 
 <pardef n="/I__prn">
-  <e>       <p><l>I</l>       <r>I<s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="pl"/><s n="nom"/></r></p></e>
-  <e>       <p><l>jer</l>     <r>I<s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e>       <p><l>I</l>       <r>i<s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l>jer</l>     <r>i<s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
   <e>       <p><l>jeres</l>   <r>jeres</r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="pl"/></r></p></e>
   <e>       <p><l>jeres</l>   <r>jeres</r></p><par n="det+prn_pos"/><p><l></l><r><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>jeres</l>   <r>jeres</r></p><par n="det+prn_pos"/><p><l></l><r><s n="ut"/><s n="sg"/></r></p></e>
@@ -6554,6 +6554,7 @@
           group ij
       ****************************** -->
 <e lm="ak">              <i>ak</i><par n="ak__ij"/></e>
+<e lm="bu">              <i>bu</i><par n="ak__ij"/></e>
 <e lm="bom">             <i>bom</i><par n="ak__ij"/></e>
 <e lm="farvel">          <i>farvel</i><par n="ak__ij"/></e>
 <e lm="fy">              <i>fy</i><par n="ak__ij"/></e>
