@@ -26780,7 +26780,6 @@
 <e lm="fuldstændig">     <i>fuldstændig</i><par n="aktiv__adj"/></e>
 <e lm="tør">             <i>tør</i><par n="tør__adj"/></e>
 <e lm="styg">            <i>styg</i><par n="styg__adj"/></e>
-<e r="LR" lm="vis">             <i>vis</i><par n="vis__adj"/></e>
 <e lm="usand">           <i>usand</i><par n="aktiv__adj"/></e>
 <e lm="sand">            <i>sand</i><par n="aktiv__adj"/></e>
 <e lm="almindelig">      <i>alm</i><par n="lykkelig__adj"/></e>
@@ -28746,6 +28745,7 @@
 <e lm="virkningsfuld">             <i>virkningsfuld</i><par n="rund__adj"/></e>
 <e lm="virksom">                   <i>virksom</i><par n="grusom__adj"/></e>
 <e lm="virtuel">                  <i>virtuel</i><par n="finansiel__adj"/></e>
+<e r="LR" lm="vis">             <i>vis</i><par n="vis__adj"/></e>
 <e lm="vis">                       <i>vis</i><par n="rund__adj"/></e>
 <e lm="videnskabelig">             <i>videnskabelig</i><par n="lykkelig__adj"/></e>
 <e lm="vitterlig">                 <i>vitterlig</i><par n="lykkelig__adj"/></e>
