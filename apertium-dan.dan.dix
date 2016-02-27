@@ -4452,7 +4452,6 @@
   <e>       <p><l>evet</l>         <r>ive<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>evne</l>        <r>ive<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
   <e>       <p><l>evne</l>        <r>ive<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
-
 </pardef>
 
 
@@ -7378,6 +7377,7 @@
 <e lm="avancement">                <i>avancement</i><par n="firma__n"/></e>
 <e lm="avantgarde">                <i>avantgarde</i><par n="hygiejne__n"/></e>
 <e lm="avis">            <i>avis</i><par n="residens__n"/></e>
+<e lm="morgenavis">            <i>morgenavis</i><par n="residens__n"/></e>
 <e lm="avisartikel">               <i>avisartik</i><par n="cirk/el__n"/></e>
 <e lm="avispapir">                 <i>avispapir</i><par n="firma__n"/></e>
 <e lm="avl">             <i>avl</i><par n="bold__n"/></e>
