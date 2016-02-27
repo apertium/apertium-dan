@@ -2286,13 +2286,10 @@
 
 
 <pardef n="kr/aft__n">
-  <e>       <p><l>æfterne</l>    <r>aft<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
-  <e>       <p><l>æfter</l>     <r>aft<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R"/></e>
-  <e>       <p><l>aft</l>       <r>aft<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
-  <e>       <p><l>æfterne</l>    <r>aft<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
-  <e>       <p><l>æfter</l>     <r>aft<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R"/></e>
-  <e>       <p><l>aften</l>     <r>aft<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
-  <e>       <p><l>aft</l>       <r>aft<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+  <e>       <p><l>æfterne</l> <r>aft<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
+  <e>       <p><l>æfter</l>   <r>aft<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R"/></e>
+  <e>       <p><l>aften</l>   <r>aft<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
+  <e>       <p><l>aft</l>     <r>aft<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
 </pardef>
 
 <pardef n="vel/um__n">
@@ -2904,6 +2901,13 @@
   <e r="RL">    <p><l></l>        <r><s n="n"/><s n="ut"/><s n="sp"/></r></p><par n="s_case"/><par n="cp-R"/></e>
   <e>       <p><l>ne</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
   <e>       <p><l>e</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R"/></e>
+</pardef>
+<pardef n="personlig/_computer__n">
+  <e>       <p><l>e<b/>computerne</l> <r><b/>computer<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
+  <e>       <p><l>e<b/>computere</l>  <r><b/>computer<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R"/></e>
+  <e>       <p><l>e<b/>computer</l>   <r><b/>computer<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
+  <e>       <p><l><b/>computer</l>    <r><b/>computer<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+  <e r="RL"><p><l>e<b/>computer</l>   <r><b/>computer<s n="n"/><s n="ut"/><s n="sp"/></r></p><par n="s_case"/><par n="cp-R"/></e>
 </pardef>
 <pardef n="nar__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~en / ~e / ~ne -->
   <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
@@ -8330,6 +8334,7 @@
 <e r="LR" lm="comeback">                  <i>comeback</i><par n="hus__n"/></e>
 <e lm="comeback">        <i>comeback</i><par n="år__n"/></e>
 <e lm="computer">        <i>computer</i><par n="spiller__n"/></e>
+<e lm="personlig computer">        <i>personlig</i><par n="personlig/_computer__n"/></e>
 <e lm="computerprogram">               <i>computerprogram</i><par n="program__n"/></e>
 <e lm="computerskærm">                <i>computerskærm</i><par n="aften__n"/></e>
 <e lm="computerspil">    <i>computerspil</i><par n="spil__n"/></e>
@@ -11815,7 +11820,7 @@
 <e lm="kostskole">       <i>kostskole</i><par n="abe__n"/></e>
 <e lm="kovænge" a="PT" c="domain:lantliv"><i>kovænge</i><par n="abe__n"/></e>
 <e lm="krabbe" a="DAINF"><i>krabbe</i><par n="abe__n"/></e>
-<e r="LR" lm="kraft">           <i>kr</i><par n="kr/aft__n"/></e>
+<e lm="kraft">           <i>kr</i><par n="kr/aft__n"/></e>
 <e lm="kraftværk">       <i>kraftværk</i><par n="alibi__n"/></e>
 <e lm="kran">            <i>kran</i><par n="ateist__n"/></e>
 <e lm="krans">           <i>krans</i><par n="boks__n"/></e>
@@ -26693,6 +26698,7 @@
 <e lm="i gang med at">          <i>i<b/>gang<b/>med<b/>at</i><par n="at__cnjsub"/></e>
 <e lm="som om">          <i>som<b/>om</i><par n="at__cnjsub"/></e>
 <e lm="og at">          <i>og<b/>at</i><par n="at__cnjsub"/></e>
+<e lm="såfremt">         <i>såfremt</i><par n="at__cnjsub"/></e>
 
     <!-- ******************************
           group cnjadv
