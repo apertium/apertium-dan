@@ -13983,7 +13983,7 @@
 <e lm="luffe">          <i>luffe</i><par n="abe__n"/></e>
 <e lm="skuffelse">       <i>skuffelse</i><par n="abe__n"/></e>
 <e lm="skulde">          <i>skulde</i><par n="abe__n"/></e>
-<e lm="skulder" a="MLO"> <i>skulder</i><par n="skuld/er__n"/></e>
+<e lm="skulder" a="MLO"> <i>skuld</i><par n="skuld/er__n"/></e>
 <e lm="skulptur">        <i>skulptur</i><par n="ateist__n"/></e>
 <e lm="skulptør">        <i>skulptør</i><par n="ateist__n"/></e>
 <e lm="skum">            <i>skum</i><par n="hjem__n"/></e>
@@ -26893,8 +26893,7 @@
 <e lm="sugerør"><i>sugerør</i><par n="år__n"/></e>
 <e lm="svastika">       <i>svastika</i><par n="mad__n"/></e>
 <e lm="synsmåde"><i>synsmåde</i><par n="hygiejne__n"/></e>
-<e lm="vænge" a="PT" c="domain:lantliv"><i>vænge</i><par n="abe__n"/></e>
-<e lm="vænge"><i>vænge</i><par n="hygiejne__n"/></e>
+<e lm="vænge"><i>væng</i><par n="mød/e__n"/></e>
 <e lm="tapetser"><i>tapetser</i><par n="spiller__n"/></e>
 <e lm="timeglas"><i>timeglas</i><par n="glas__n"/></e>
 <e lm="udråbsord"><i>udråbsord</i><par n="slag__n"/></e>
