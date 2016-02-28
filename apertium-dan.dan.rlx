@@ -583,6 +583,9 @@ LIST verb-u-imp = (vblex pres) (vblex past) (vblex pp) (vblex inf) ;
 # sec 1
 CONSTRAINTS
 
+"<Hvad>" SELECT interj IF (1 <<<);
+REMOVE interj IF (0 ("<hvad>"i));
+
   "<alt>"   SELECT:3773   (det) IF
 	(1C pres/past)
 	(NOT -1 %som%)

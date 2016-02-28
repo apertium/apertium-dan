@@ -6624,6 +6624,8 @@
 <e lm="undskyld" a="PT"> <i>undskyld</i><par n="ak__ij"/></e>
 <e lm="usch" a="PT">     <i>usch</i><par n="ak__ij"/></e>
 <e lm="virkelig" a="PT"> <i>virkelig</i><par n="ak__ij"/></e>
+<e lm="mjau" a="PT"> <i>mjau</i><par n="ak__ij"/></e>
+
 
 
     <!-- Pronouns -->
@@ -27049,6 +27051,7 @@
 <e lm="humoristisk">        <i>humoristisk</i><par n="amerikansk__adj"/></e>
 <e lm="populær">        <i>populær</i><par n="aktiv__adj"/></e>
 <e lm="primær">        <i>primær</i><par n="aktiv__adj"/></e>
+<e lm="elementær">        <i>elementær</i><par n="aktiv__adj"/></e>
 <e lm="sekundær">        <i>sekundær</i><par n="aktiv__adj"/></e>
 <e lm="konstruktiv">        <i>konstruktiv</i><par n="aktiv__adj"/></e>
 <e lm="stolt">        <i>stolt</i><par n="stolt__adj"/></e>
