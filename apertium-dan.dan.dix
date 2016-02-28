@@ -6599,11 +6599,15 @@
 <e lm="for pokker" a="PT"><i>for<b/>pokker</i><par n="ak__ij"/></e>
 <e lm="forsvind" a="PT"> <i>forsvind</i><par n="ak__ij"/></e>
 <e lm="fy skam" a="PT">  <i>fy<b/>skam</i><par n="ak__ij"/></e>
-<e lm="god aften" a="PT"><i>god<b/>aften</i><par n="ak__ij"/></e>
-<e lm="god dag" a="PT">  <i>god<b/>dag</i><par n="ak__ij"/></e>
-<e lm="god morgen" a="PT"><i>god<b/>morgen</i><par n="ak__ij"/></e>
+<e lm="god aften">  <p><l>god<b/>aften</l>  <r>godaften</r></p><par n="ak__ij"/></e>
+<e lm="god dag">    <p><l>god<b/>dag</l>    <r>goddag</r></p><par n="ak__ij"/></e>
+<e lm="god morgen"> <p><l>god<b/>morgen</l> <r>godmorgen</r></p><par n="ak__ij"/></e>
+<e lm="god nat">    <p><l>god<b/>nat</l>    <r>godnat</r></p><par n="ak__ij"/></e>
+<e lm="godaften">                           <i>godaften</i><par n="ak__ij"/></e>
+<e lm="goddag">                             <i>goddag</i><par n="ak__ij"/></e>
+<e lm="godmorgen">                          <i>godmorgen</i><par n="ak__ij"/></e>
+<e lm="godnat">                             <i>godnat</i><par n="ak__ij"/></e>
 <e lm="hvad" a="PT"><i>hvad</i><par n="ak__ij"/></e>
-<e lm="god nat" a="PT">  <i>god<b/>nat</i><par n="ak__ij"/></e>
 <e lm="gratulerer" a="PT"><i>gratulerer</i><par n="ak__ij"/></e>
 <e lm="gu gør jeg ej" a="PT"><i>gu<b/>gør<b/>jeg<b/>ej</i><par n="ak__ij"/></e>
 <e lm="gud fri mig" a="PT"><i>gud<b/>fri<b/>mig</i><par n="ak__ij"/></e>
@@ -11249,6 +11253,7 @@
 <e lm="irritationsmoment">         <i>irritationsmoment</i><par n="firma__n"/></e>
 <e lm="irsk">            <i>irsk</i><par n="afghansk__n"/></e>
 <e lm="is">              <i>is</i><par n="boks__n"/></e>
+<e lm="tøris">              <i>tøris</i><par n="boks__n"/></e>
 <e lm="toris">              <i>toris</i><par n="boks__n"/></e>
 <e lm="glatis">              <i>glatis</i><par n="boks__n"/></e>
 <e lm="isbjørn">         <i>isbjørn</i><par n="bold__n"/></e>
@@ -26924,6 +26929,7 @@
 <e lm="træben"><i>træben</i><par n="år__n"/></e>
 <e lm="udtræk"><i>udtræk</i><par n="stik__n"/></e>
 <e lm="udyr"><i>udyr</i><par n="slag__n"/></e>
+<e lm="sting"><i>sting</i><par n="slag__n"/></e>
 <e lm="visir"><i>visir</i><par n="firma__n"/></e>
 
 <!-- TODO: check pardefs  -->
@@ -27931,6 +27937,7 @@
 <e lm="hemmelig">                  <i>hemmelig</i><par n="lykkelig__adj"/></e>
 <e lm="hensigtsmæssig">            <i>hensigtsmæssig</i><par n="lykkelig__adj"/></e>
 <e lm="hensynsløs">                <i>hensynsløs</i><par n="rund__adj"/></e>
+<e lm="arbejdsløs">                <i>arbejdsløs</i><par n="rund__adj"/></e>
 <e lm="herlig">                    <i>herlig</i><par n="lykkelig__adj"/></e>
 <e lm="hæs">                       <i>hæs</i><par n="rund__adj"/></e>
 <e lm="hed">                       <i>hed</i><par n="rund__adj"/></e>
