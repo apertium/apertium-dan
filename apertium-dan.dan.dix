@@ -1166,7 +1166,7 @@
   <e>       <p><l>de</l>         <r>den<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></r></p></e>
   <e>       <p><l>den</l>        <r>den<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
   <e>       <p><l>et</l>         <r>en<s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l>de</l>         <r>en<s n="det"/><s n="ind"/><s n="un"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>ene</l>        <r>en<s n="det"/><s n="ind"/><s n="un"/><s n="pl"/></r></p></e>
   <e>       <p><l>en</l>         <r>en<s n="det"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p></e>
 </pardef>
 
