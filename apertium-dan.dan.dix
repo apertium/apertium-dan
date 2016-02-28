@@ -4171,9 +4171,6 @@
   <e>       <p><l>uffet</l>         <r>æffe<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>rufne</l>        <r>æffe<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
   <e>       <p><l>rufne</l>        <r>æffe<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
-
-
-
 </pardef>
 
 <pardef n="mal/e__vblex">
@@ -4188,7 +4185,6 @@
   <e>       <p><l>et</l>         <r>e<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>ede</l>        <r>e<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
   <e>       <p><l>ede</l>        <r>e<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
-
 </pardef>
 
 <pardef n="dan/ne__vblex">
