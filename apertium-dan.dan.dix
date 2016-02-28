@@ -6580,6 +6580,7 @@
 <e lm="Gud">             <i>Gud</i><par n="ak__ij"/></e>
 <e lm="Herre Gud" a="PT"><i>Herre<b/>Gud</i><par n="ak__ij"/></e>
 <e lm="Jesus" a="PT">    <i>Jesus</i><par n="ak__ij"/></e>
+<e lm="ah">      <i>ah</i><par n="ak__ij"/></e>
 <e lm="aha" a="PT">      <i>aha</i><par n="ak__ij"/></e>
 <e lm="amen" a="PT" c="domain:religion style:sol"><i>amen</i><par n="ak__ij"/></e>
 <e lm="bingo" a="PT" c="domain:spel"><i>bingo</i><par n="ak__ij"/></e>
