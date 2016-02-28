@@ -6602,6 +6602,7 @@
 <e lm="god aften" a="PT"><i>god<b/>aften</i><par n="ak__ij"/></e>
 <e lm="god dag" a="PT">  <i>god<b/>dag</i><par n="ak__ij"/></e>
 <e lm="god morgen" a="PT"><i>god<b/>morgen</i><par n="ak__ij"/></e>
+<e lm="hvad" a="PT"><i>hvad</i><par n="ak__ij"/></e>
 <e lm="god nat" a="PT">  <i>god<b/>nat</i><par n="ak__ij"/></e>
 <e lm="gratulerer" a="PT"><i>gratulerer</i><par n="ak__ij"/></e>
 <e lm="gu gør jeg ej" a="PT"><i>gu<b/>gør<b/>jeg<b/>ej</i><par n="ak__ij"/></e>
@@ -6698,38 +6699,51 @@
 <e lm="VIII"><i>VIII</i><par n="i__num"/></e>
 <e lm="X"><i>X</i><par n="i__num"/></e>
 
-<e lm="nul">              <i>nul</i><par n="to__num"/></e>
-<e lm="en">              <i>e</i><par n="e/n__num"/></e>
-<e lm="to">              <i>to</i><par n="to__num"/></e>
-<e lm="tre">             <i>tre</i><par n="to__num"/></e>
-<e lm="fire">            <i>fire</i><par n="to__num"/></e>
-<e lm="fem">             <i>fem</i><par n="to__num"/></e>
-<e lm="seks">            <i>seks</i><par n="to__num"/></e>
-<e lm="syv">             <i>syv</i><par n="to__num"/></e>
-<e lm="otte">            <i>otte</i><par n="to__num"/></e>
-<e lm="ni">              <i>ni</i><par n="to__num"/></e>
-<e lm="ti">              <i>ti</i><par n="to__num"/></e>
-<e lm="elleve">          <i>elleve</i><par n="to__num"/></e>
-<e lm="tolv">            <i>tolv</i><par n="to__num"/></e>
-<e lm="tretten">         <i>tretten</i><par n="to__num"/></e>
-<e lm="fjorten">         <i>fjorten</i><par n="to__num"/></e>
-<e lm="femten">          <i>femten</i><par n="to__num"/></e>
-<e lm="seksten">         <i>seksten</i><par n="to__num"/></e>
-<e lm="sytten">          <i>sytten</i><par n="to__num"/></e>
-<e lm="atten">           <i>atten</i><par n="to__num"/></e>
-<e lm="nitten">          <i>nitten</i><par n="to__num"/></e>
-<e lm="tyve">            <i>tyve</i><par n="to__num"/></e>
-<e lm="tredive">          <i>tredive</i><par n="to__num"/></e>
-<e lm="fyrre">           <i>fyrre</i><par n="to__num"/></e>
-<e lm="halvtreds">           <i>halvtreds</i><par n="to__num"/></e>
-<e lm="tres">          <i>tres</i><par n="to__num"/></e>
-<e lm="halvfjerds">           <i>halvfjerds</i><par n="to__num"/></e>
-<e lm="firs">            <i>firs</i><par n="to__num"/></e>
-<e lm="halvfems">           <i>halvfems</i><par n="to__num"/></e>
-<e lm="hundrede">          <i>hundrede</i><par n="to__num"/></e>
-<e lm="tusind">          <i>tusind</i><par n="to__num"/></e>
-<e lm="million">          <i>million</i><par n="to__num"/></e>
-<e lm="milliard">          <i>milliard</i><par n="to__num"/></e>
+<e lm="nul">          <i>nul</i><par n="to__num"/></e>
+<e lm="en">           <i>e</i><par n="e/n__num"/></e>
+<e lm="to">           <i>to</i><par n="to__num"/></e>
+<e lm="tre">          <i>tre</i><par n="to__num"/></e>
+<e lm="fire">         <i>fire</i><par n="to__num"/></e>
+<e lm="fem">          <i>fem</i><par n="to__num"/></e>
+<e lm="seks">         <i>seks</i><par n="to__num"/></e>
+<e lm="syv">          <i>syv</i><par n="to__num"/></e>
+<e lm="otte">         <i>otte</i><par n="to__num"/></e>
+<e lm="ni">           <i>ni</i><par n="to__num"/></e>
+<e lm="ti">           <i>ti</i><par n="to__num"/></e>
+<e lm="elleve">       <i>elleve</i><par n="to__num"/></e>
+<e lm="tolv">         <i>tolv</i><par n="to__num"/></e>
+<e lm="tretten">      <i>tretten</i><par n="to__num"/></e>
+<e lm="fjorten">      <i>fjorten</i><par n="to__num"/></e>
+<e lm="femten">       <i>femten</i><par n="to__num"/></e>
+<e lm="seksten">      <i>seksten</i><par n="to__num"/></e>
+<e lm="sytten">       <i>sytten</i><par n="to__num"/></e>
+<e lm="atten">        <i>atten</i><par n="to__num"/></e>
+<e lm="nitten">       <i>nitten</i><par n="to__num"/></e>
+<e lm="tyve">         <i>tyve</i><par n="to__num"/></e>
+<e lm="tredive">      <i>tredive</i><par n="to__num"/></e>
+<e lm="fyrre">        <i>fyrre</i><par n="to__num"/></e>
+<e lm="halvtreds">    <i>halvtreds</i><par n="to__num"/></e>
+<e lm="tres">         <i>tres</i><par n="to__num"/></e>
+<e lm="halvfjerds">   <i>halvfjerds</i><par n="to__num"/></e>
+<e lm="firs">         <i>firs</i><par n="to__num"/></e>
+<e lm="halvfems">     <i>halvfems</i><par n="to__num"/></e>
+<e lm="hundrede">     <i>hundrede</i><par n="to__num"/></e>
+<e lm="tusind">       <i>tusind</i><par n="to__num"/></e>
+<e lm="million">      <i>million</i><par n="to__num"/></e>
+<e lm="milliard">     <i>milliard</i><par n="to__num"/></e>
+<e lm="enogtyve">     <i>enogtyve</i><par n="to__num"/></e>
+<e lm="toogtyve">     <i>toogtyve</i><par n="to__num"/></e>
+<e lm="treogtyve">    <i>treogtyve</i><par n="to__num"/></e>
+<e lm="fireogtyve">   <i>fireogtyve</i><par n="to__num"/></e>
+<e lm="femogtyve">    <i>femogtyve</i><par n="to__num"/></e>
+<e lm="seksogtyve">   <i>seksogtyve</i><par n="to__num"/></e>
+<e lm="syvogtyve">    <i>syvogtyve</i><par n="to__num"/></e>
+<e lm="åtteogtyve">   <i>åtteogtyve</i><par n="to__num"/></e>
+<e lm="niogtyve">     <i>niogtyve</i><par n="to__num"/></e>
+<e lm="enogtredive">  <i>enogtredive</i><par n="to__num"/></e>
+<e lm="toogtredive">  <i>toogtredive</i><par n="to__num"/></e>
+<e lm="treogtredive"> <i>treogtredive</i><par n="to__num"/></e>
+<e lm="ethundrede">   <i>ethundrede</i><par n="to__num"/></e>
 
 
     <!-- ******************************
