@@ -26644,7 +26644,7 @@
 <e lm="kulhydrat"><i>kulhydrat</i><par n="firma__n"/></e>
 <e lm="kursændring">         <i>kursændring</i><par n="ateist__n"/></e>
 <e lm="kælling">  <i>kælling</i><par n="ateist__n"/></e>
-<e lm="køpstad"><i>køpstad</i><par n="st/ad__n"/></e>
+<e lm="køpstad"><i>køpst</i><par n="st/ad__n"/></e>
 <e lm="laurblad"><i>laurblad</i><par n="skib__n"/></e>
 <e lm="losseplads"><i>losseplads</i><par n="aften__n"/></e>
 <e lm="luftforurening"><i>luftforurening</i><par n="aften__n"/></e>
