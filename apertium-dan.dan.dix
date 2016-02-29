@@ -6558,6 +6558,7 @@
           group ij
       ****************************** -->
 <e lm="ak">              <i>ak</i><par n="ak__ij"/></e>
+<e lm="mu">              <i>mu</i><par n="ak__ij"/></e>
 <e lm="bu">              <i>bu</i><par n="ak__ij"/></e>
 <e lm="bom">             <i>bom</i><par n="ak__ij"/></e>
 <e lm="farvel">          <i>farvel</i><par n="ak__ij"/></e>
