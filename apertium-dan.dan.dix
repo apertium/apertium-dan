@@ -13621,7 +13621,6 @@
 <e lm="runde">           <i>runde</i><par n="abe__n"/></e>
 <e lm="runesten">        <i>runesten</i><par n="bold__n"/></e>
 <e r="LR" lm="rus">             <i>rus</i><par n="residens__n"/></e>
-<e lm="russisk">         <i>russisk</i><par n="afghansk__n"/></e>
 <e lm="rust">            <i>rust</i><par n="mad__n"/></e>
 <e lm="rustning">        <i>rustning</i><par n="ateist__n"/></e>
 <e lm="rute">            <i>rute</i><par n="abe__n"/></e>
@@ -27150,7 +27149,7 @@
 <e lm="historisk">       <i>historisk</i><par n="amerikansk__adj"/></e>
 <e lm="hollandsk">       <i>hollandsk</i><par n="amerikansk__adj"/></e>
 <e lm="hvid">            <i>hvid</i><par n="aktiv__adj"/></e>
-<e r="LR" lm="interessant">     <i>interessant</i><par n="amerikansk__adj"/></e>
+<e lm="interessant">     <i>interessant</i><par n="glad__adj"/></e>
 <e lm="international">   <i>international</i><par n="aktiv__adj"/></e>
 <e lm="intim">           <i>intim</i><par n="aktiv__adj"/></e>
 <e lm="jaloux">          <i>jaloux</i><par n="bange__adj"/></e>
@@ -27262,7 +27261,6 @@
 <e lm="tyk">             <i>tyk</i><par n="smuk__adj"/></e>
 <e lm="tynd">            <i>tynd</i><par n="aktiv__adj"/></e>
 <e lm="typisk">          <i>typisk</i><par n="amerikansk__adj"/></e>
-<e r="LR" lm="tysk">            <i>tysk</i><par n="amerikansk__adj"/></e>
 <e lm="ubehagelig">      <i>ubehagelig</i><par n="lykkelig__adj"/></e>
 <e lm="udenlandsk">      <i>udenlandsk</i><par n="amerikansk__adj"/></e>
 <e r="LR" lm="enig">           <i>enig</i><par n="amerikansk__adj"/></e>
@@ -27994,7 +27992,6 @@
 <e lm="intens">                    <i>intens</i><par n="rund__adj"/></e>
 <e lm="intensiv">                  <i>intensiv</i><par n="rund__adj"/></e>
 <e lm="interaktiv">                <i>interaktiv</i><par n="rund__adj"/></e>
-<e lm="interessant">               <i>interessant</i><par n="glad__adj"/></e>
 <e lm="intern">                    <i>intern</i><par n="rund__adj"/></e>
 <e lm="international">             <i>international</i><par n="rund__adj"/></e>
 <e lm="intim">                     <i>intim</i><par n="rund__adj"/></e>
@@ -28298,7 +28295,6 @@
 <e lm="nominel">                  <i>nominel</i><par n="finansiel__adj"/></e>
 <e lm="nordirsk">                  <i>nordirsk</i><par n="lykkelig__adj"/></e>
 <e lm="nordisk">                   <i>nordisk</i><par n="glad__adj"/></e>
-<e r="LR" lm="nordlig">         <i>nordlig</i><par n="amerikansk__adj"/></e>
 <e lm="nordlig">                   <i>nordlig</i><par n="lykkelig__adj"/></e>
 <e lm="nordnorsk">                 <i>nordnorsk</i><par n="glad__adj"/></e>
 <e lm="nordre">                    <i>nordre</i><par n="OK__adj"/></e>
@@ -28521,7 +28517,6 @@
 <e lm="rund">                      <i>rund</i><par n="rund__adj"/></e>
 <e lm="rusfri">                    <i>rusfri</i><par n="rund__adj"/></e>
 <e lm="rusket">                    <i>ruske</i><par n="øve/t__adj"/></e>
-<e lm="russisk">                   <i>russisk</i><par n="glad__adj"/></e>
 <e lm="rustfri">                   <i>rustfri</i><par n="rund__adj"/></e>
 <e lm="rutinemæssig">              <i>rutinemæssig</i><par n="lykkelig__adj"/></e>
 <e lm="rwandisk">                  <i>rwandisk</i><par n="glad__adj"/></e>
