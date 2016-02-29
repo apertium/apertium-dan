@@ -1629,11 +1629,6 @@
   <e>       <p><l></l>          <r><s n="prn"/><s n="itg"/><s n="pos"/></r></p></e>
 </pardef>
 
-<pardef n="hver__prn">
-  <e>       <p><l></l>          <r><s n="prn"/><s n="def"/><s n="ut"/><s n="sg"/></r></p><par n="s_case"/></e>
-  <e r="RL"><p><l></l>          <r><s n="prn"/><s n="def"/><s n="un"/><s n="sg"/></r></p><par n="s_case"/></e>
-  <e>       <p><l>t</l>         <r><s n="prn"/><s n="def"/><s n="nt"/><s n="sg"/></r></p><par n="s_case"/></e>
-</pardef>
 
 <pardef n="hver/_eneste__prn">
   <e>       <p><l><b/>eneste</l>  <r><b/>eneste<s n="prn"/><s n="def"/><s n="ut"/><s n="sg"/></r></p><par n="s_case"/></e>
@@ -6683,7 +6678,7 @@
 <e lm="denne">           <i>d</i><par n="d/enne__prn"/></e>
 <e lm="der">             <i>der</i><par n="der__prn"/></e>
 <e lm="enhver">          <i>enhver</i><par n="enhver__prn"/></e>
-<e lm="hver">            <i>hver</i><par n="hver__prn"/></e>
+<e lm="hver">            <i>hver</i><par n="enhver__prn"/></e>
 <e lm="hver eneste">     <i>hver</i><par n="hver/_eneste__prn"/></e>
 <e lm="hver anden">      <i>hver</i><par n="hver/_anden__prn"/></e>
 <e lm="hvilken">         <i>hvil</i><par n="hvil/ken__prn"/></e>
