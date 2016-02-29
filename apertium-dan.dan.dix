@@ -5320,9 +5320,6 @@
   <e>       <p><l>året</l>         <r>ære<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>årne</l>        <r>ære<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
   <e>       <p><l>årne</l>        <r>ære<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
-
-
-
 </pardef>
 
 <pardef n="lykke/s__vblex">
@@ -6012,6 +6009,7 @@
           group pr
       ****************************** -->
 <e lm="langt fra">        <i>langt<b/>fra</i><par n="på__pr"/></e>
+<e lm="ca">        <i>ca</i><par n="på__pr"/></e>
 <e lm="afsides">                   <i>afsides</i><par n="på__pr"/></e>
 <e lm="a">            <i>a</i><par n="på__pr"/></e>
 <e lm="der">            <i>der</i><par n="på__pr"/></e>
@@ -29521,6 +29519,7 @@
 <e lm="crescendo">        <i>crescendo</i><par n="ikke__adv"/></e>
 <e lm="da capo">          <i>da<b/>capo</i><par n="ikke__adv"/></e>
 <e lm="dagevis">          <i>dagevis</i><par n="ikke__adv"/></e>
+<e lm="indtil videre">          <i>indtil<b/>videre</i><par n="ikke__adv"/></e>
 <e c="wp" lm="Yderligere læsning">          <i>Yderligere<b/>læsning</i><par n="ikke__adv"/></e>
 <e lm="dagligt">         <i>dagligt</i><par n="ikke__adv"/></e>
 <e lm="nu og da">     <i>nu<b/>og<b/>da</i><par n="ikke__adv"/></e>
@@ -29687,7 +29686,7 @@
 <e lm="ganske enkelt">    <i>ganske<b/>enkelt</i><par n="ikke__adv"/></e>
 <e lm="givetvis">         <i>givetvis</i><par n="ikke__adv"/></e>
 <e lm="gerne">           <i>gerne</i><par n="ikke__adv"/></e>
-<e lm="gladelig">         <i>gladeligt</i><par n="ikke__adv"/></e>
+<e lm="gladeligt">         <i>gladeligt</i><par n="ikke__adv"/></e>
 <e lm="glimtvis">         <i>glimtvis</i><par n="ikke__adv"/></e>
 <e lm="glissando">        <i>glissando</i><par n="ikke__adv"/></e>
 <e lm="glødende">         <i>glødende</i><par n="ikke__adv"/></e>
