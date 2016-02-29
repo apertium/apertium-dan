@@ -695,9 +695,6 @@
 </pardef>
 
 <pardef n="øv/re__adj">
-
-
-
   <e>       <p><l>re</l>        <r>re<s n="adj"/><s n="sint"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
   <e>       <p><l>re</l>    <r>re<s n="adj"/><s n="sint"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>re</l>    <r>re<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
@@ -58195,7 +58192,8 @@
 <e lm="bh" a="PT">       <i>bh</i><par n="t.eks.__abbr"/></e>
 <e lm="bibl." a="PT">    <i>bibl.</i><par n="t.eks.__abbr"/></e>
 <e lm="bidr." a="PT">    <i>bidr.</i><par n="t.eks.__abbr"/></e>
-<e lm="bl.a.">           <i>bl.a</i><par n="t.eks.__abbr"/></e>
+<e lm="bl.a.">           <i>bl.a.</i><par n="t.eks.__abbr"/></e>
+<e lm="bl.a">           <i>bl.a</i><par n="t.eks.__abbr"/></e>
 <e lm="ca." a="PT">      <i>ca.</i><par n="t.eks.__abbr"/></e>
 <e lm="cad" a="PT">      <i>cad</i><par n="t.eks.__abbr"/></e>
 <e lm="cam" a="PT">      <i>cam</i><par n="t.eks.__abbr"/></e>
