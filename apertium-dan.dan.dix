@@ -1261,7 +1261,7 @@
 
 <pardef n="s/elv__det">
   <e>    <p><l>elve</l>      <r>elv<s n="det"/><s n="emph"/><s n="def"/></r></p></e>
-  <e>       <p><l>elv</l>      <r>elv<s n="det"/><s n="emph"/></r></p></e>
+  <e>    <p><l>elv</l>       <r>elv<s n="det"/><s n="emph"/></r></p></e>
 </pardef>
 
 
@@ -1277,17 +1277,6 @@
 
 
 
-
-    <!-- Is this a determiner?! Yes it is, but it has other forms as well
-    <pardef n="selv__det">
-      <e>
-        <p>
-          <l/>
-          <r><s n="adv"/><s n="pst"/></r>
-        </p>
-      </e>
-    </pardef>
-    -->
 
 
     <!-- Proper nouns -->
@@ -1500,6 +1489,10 @@
   <e>       <p><l>et</l>  <r>en<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p><par n="s_case"/></e>
   <e>       <p><l>le</l>  <r>en<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p><par n="s_case"/></e>
   <e r="RL"><p><l>en</l>  <r>en<s n="prn"/><s n="ind"/><s n="neg"/><s n="un"/><s n="pl"/></r></p><par n="s_case"/></e>
+  <e r="RL"><p><l>en</l>  <r>en<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e r="RL"><p><l>et</l>  <r>en<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e r="RL"><p><l>le</l>  <r>en<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
+  <e r="RL"><p><l>en</l>  <r>en<s n="prn"/><s n="ind"/><s n="neg"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
 </pardef>
 
 <pardef n="sådan__prn">
@@ -1530,9 +1523,9 @@
 
 
 <pardef n="selv__prn">
-  <e>       <p><l></l>          <r><s n="prn"/><s n="ref"/><s n="ut"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>t</l>         <r><s n="prn"/><s n="ref"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>e</l>         <r><s n="prn"/><s n="ref"/><s n="un"/><s n="pl"/><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="prn"/><s n="ref"/><s n="ut"/><s n="sg"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>t</l>         <r><s n="prn"/><s n="ref"/><s n="nt"/><s n="sg"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>e</l>         <r><s n="prn"/><s n="ref"/><s n="un"/><s n="pl"/></r></p><par n="s_case"/></e>
 </pardef>
 
 <pardef n="eg/en__prn">
@@ -1590,7 +1583,7 @@
 </pardef>
 
 <pardef n="ingenting__prn">
-  <e>       <p><l></l>       <r><s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></r></p><par n="s_case"/></e>
+  <e>       <p><l></l>       <r><s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></r></p><par n="s_all_case"/></e>
 </pardef>
 
 <pardef n="in/gen__prn">
@@ -1645,16 +1638,6 @@
   <e r="RL"><p><l>nes</l>       <r>nes<s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/><s n="pl"/><s n="gen"/></r></p></e>
 </pardef>
 
-    <!-- Is this a determiner?! Yes it is, but it has other forms as well
-    <pardef n="selv__det">
-      <e>
-        <p>
-          <l/>
-          <r><s n="adv"/><s n="pst"/></r>
-        </p>
-      </e>
-    </pardef>
-    -->
 
 <pardef n="ens__det"> <!-- PT: possesivt pronomen från pers pron 'man'-->
   <e a="PT" c="mina"><p><l></l> <r></r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="sg"/></r></p></e>
@@ -3044,10 +3027,10 @@
 </pardef>
 
 <pardef n="mad__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~en / # / #; uncountable -->
-  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
-  <e>       <p><l>e</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R"/></e>
-  <e>       <p><l>en</l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
-  <e>       <p><l>ene</l>        <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
+  <e>       <p><l></l>    <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
+  <e>       <p><l>e</l>   <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R"/></e>
+  <e>       <p><l>en</l>  <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
+  <e>       <p><l>ene</l> <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
 </pardef>
 
 <pardef n="harpiks__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~en / # / #; uncountable; Like mad__n but for lemmas ending in 's' -->
@@ -3344,7 +3327,7 @@
 
 <pardef n="billed/e__n" c="autoconcord:nt,sgpl"> <!-- Neuter; ~ / ~t / ~r / ~rne -->
   <e>       <p><l>e</l>     <r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R-nosplit"/></e>
-  <e>       <p><l></l>      <r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/><s n="nom"/></r></p><par n="cp-only-L\Ø"/></e>
+  <e>       <p><l></l>      <r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-only-L\Ø"/></e>
   <e>       <p><l>et</l>         <r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
   <e>       <p><l>er</l>         <r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R"/></e>
   <e>       <p><l>erne</l>       <r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
@@ -3662,11 +3645,13 @@
 </pardef>
 
 <pardef n="/selvstændig__n" c="autoconcord:ut,sgpl"> <!-- Utrum; special! -->
-  <e>       <p><l>selvstændig</l><r>selvstændig<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/><s n="nom"/></r></p></e>
-  <e>       <p><l>selvstændiges</l><r>selvstændig<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/><s n="gen"/></r></p></e>
-  <e>       <p><l>den<b/>selvstændige</l><r>selvstændig<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="s_case"/></e>
-  <e>       <p><l>selvstændige</l><r>selvstændig<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/></e>
-  <e>       <p><l>de<b/>selvstændige</l><r>selvstændig<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>selvstændig</l>         <r>selvstændig<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/><s n="nom"/></r></p></e>
+  <e>       <p><l>selvstændig-</l>         <r>selvstændig<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/><s n="nom"/><s n="cmp-split"/></r></p></e>
+  <e>       <p><l>selvstændiges</l>       <r>selvstændig<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/><s n="gen"/></r></p></e>
+  <e>       <p><l>selvstændiges-</l>       <r>selvstændig<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/><s n="gen"/><s n="cmp-split"/></r></p></e>
+  <e>       <p><l>den<b/>selvstændige</l> <r>selvstændig<s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="no-cp\Ø\s__case"/></e>
+  <e>       <p><l>selvstændige</l>        <r>selvstændig<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="no-cp\Ø\s__case"/></e>
+  <e>       <p><l>de<b/>selvstændige</l>  <r>selvstændig<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="no-cp\Ø\s__case"/></e>
 </pardef>
 
 <pardef n="NTmid/del__n">
@@ -5916,6 +5901,7 @@
   <e>       <p><l>tte</l>                   <r>tte<s n="vaux"/><s n="inf"/></r></p><par n="S__voice"/></e>
   <e>       <p><l>tte</l>                   <r>tte<s n="vaux"/><s n="past"/><s n="actv"/></r></p></e>
   <e>       <p><l>ttet</l>                  <r>tte<s n="vaux"/><s n="pp"/></r></p></e>
+  <e r="RL"><p><l></l>                      <r>tte<s n="vaux"/><s n="imp"/></r></p></e>
   <e>       <p><l></l>                      <r>tte<s n="vaux"/><s n="pres"/><s n="actv"/></r></p></e>
   <e>       <p><l>ttes</l>                  <r>tte<s n="vaux"/><s n="pres"/><s n="pasv"/></r></p></e>
 </pardef>
@@ -5972,7 +5958,6 @@
 <e lm="nogen">           <i>nog</i><par n="nog/en__det"/></e>
 
 <e lm="hvor mange">      <i>hvor<b/>mang</i><par n="mang/e__det"/></e>
-    <!--<e lm="selv"><i>selv</i><par n="selv__det"/></e>-->
 
 <!-- TODO: used in dan-nor, should be removed in favour of adj.ord? -->
 <e lm="første">          <i>første</i><par n="første__det"/></e>
@@ -7273,6 +7258,7 @@
 <e lm="argumentation">   <i>argumentation</i><par n="ateist__n"/></e>
 <e lm="aristokrati">     <i>aristokrati</i><par n="alibi__n"/></e>
 <e lm="aritmetik">       <i>aritmetik</i><par n="paryk__n"/></e>
+<e lm="papirark"><i>papirark</i><par n="år__n"/></e>
 <e lm="ark" c="et ark papir"><i>ark</i><par n="år_no-cp__n"/></e>
 <e lm="ark" c="Noahs ark"><i>ark</i><par n="ateist_no-cp__n"/></e>
 <e lm="arkitekt">        <i>arkitekt</i><par n="ateist__n"/></e>
@@ -7976,6 +7962,7 @@
 <e lm="bort">            <i>bort</i><par n="ateist__n"/></e>
 <e lm="borte">           <i>borte</i><par n="abe__n"/></e>
 <e lm="bortfald">                  <i>bortfald</i><par n="slag__n"/></e>
+<e lm="vræl">                  <i>vræl</i><par n="slag__n"/></e>
 <e lm="bortgang">                  <i>bortgang</i><par n="aften__n"/></e>
 <e lm="bortskaffelse">   <i>bortskaffelse</i><par n="abe__n"/></e>
 <e lm="boss">            <i>boss</i><par n="residens__n"/></e>
@@ -12256,6 +12243,7 @@
 <e lm="lænke">           <i>lænke</i><par n="abe__n"/></e>
 <e lm="lærdom">          <i>lærdom</i><par n="strøm__n"/></e>
 <e lm="lære">            <i>lære</i><par n="abe__n"/></e>
+<e lm="kimære">            <i>kimære</i><par n="abe__n"/></e>
 <e lm="læreanstalt">     <i>læreanstalt</i><par n="ateist__n"/></e>
 <e lm="læreplads">       <i>læreplads</i><par n="residens__n"/></e>
 <e lm="lærer">           <i>lærer</i><par n="spiller__n"/></e>
@@ -13146,7 +13134,7 @@
 <e lm="pisk">            <i>pisk</i><par n="bold__n"/></e>
 <e lm="pisk">            <i>pisk</i><par n="hus__n"/></e>
 <e lm="pistacie" a="DAINF"><i>pistacie</i><par n="abe__n"/></e>
-<e lm="pistacienød" a="DAINF"><i>pistacienø</i><par n="nød__n"/></e>
+<e lm="pistacienød" a="DAINF"><i>pistacienød</i><par n="nød__n"/></e>
 <e lm="pistol">          <i>pistol</i><par n="ateist__n"/></e>
 <e lm="pizza">           <i>pizza</i><par n="ateist__n"/></e>
 <e lm="placering">       <i>placering</i><par n="ateist__n"/></e>
@@ -27031,6 +27019,7 @@
 <e lm="stille">          <i>stille</i><par n="stille__adj"/></e>
 <e lm="hurtig">          <i>hurtig</i><par n="lykkelig__adj"/></e>
 <e lm="omhyggelig">      <i>omhyggelig</i><par n="lykkelig__adj"/></e>
+<e lm="uundgåelig">      <i>uundgåelig</i><par n="lykkelig__adj"/></e>
 <e lm="skrøbelig">      <i>skrøbelig</i><par n="lykkelig__adj"/></e>
 <e lm="nær">             <i>nær</i><par n="nær__adj"/></e>
 <e lm="øvrig">           <i>øvrig</i><par n="øvrig__adj"/></e>
@@ -27838,8 +27827,10 @@
 <e lm="godvillig">                 <i>godvillig</i><par n="lykkelig__adj"/></e>
 <e lm="gold">                      <i>gold</i><par n="rund__adj"/></e>
 <e lm="grammatisk">                <i>grammatisk</i><par n="glad__adj"/></e>
+<e lm="ugrammatisk">                <i>ugrammatisk</i><par n="glad__adj"/></e>
 <e lm="gratis">                    <i>gratis</i><par n="OK__adj"/></e>
 <e lm="gravalvorlig">              <i>gravalvorlig</i><par n="lykkelig__adj"/></e>
+<e lm="høflig">              <i>høflig</i><par n="lykkelig__adj"/></e>
 <e lm="gravid">                    <i>gravid</i><par n="glad__adj"/></e>
 <e lm="grænsebrydende">            <i>grænsebrydende</i><par n="OK__adj"/></e>
 <e lm="græsk">                     <i>græsk</i><par n="glad__adj"/></e>
@@ -29122,6 +29113,7 @@
 <e lm="tyvende">               <i>tyvende</i><par n="første__adj_ord"/></e>
 <e lm="åttende">               <i>åttende</i><par n="første__adj_ord"/></e>
 <e lm="åttiende">              <i>åttiende</i><par n="første__adj_ord"/></e>
+<e lm="hundrede">              <i>hundrede</i><par n="første__adj_ord"/></e>
 
      <!-- /adjectives -->
 
