@@ -17,3 +17,4 @@ dev/dan-swe.prob -text
 dev/texts/Nordisk_før-kristen_begravelse.ana.cg -text
 dev/texts/Nordisk_før-kristen_begravelse.raw.txt -text
 /modes.xml -text
+texts/udhr.txt -text
