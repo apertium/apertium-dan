@@ -10786,7 +10786,7 @@
 <e lm="humanisme">                 <i>humanisme</i><par n="hygiejne__n"/></e>
 <e lm="humanist">                  <i>humanist</i><par n="aften__n"/></e>
 <e lm="humbug">          <i>humbug</i><par n="jitterbug__n"/></e>
-<e r="LR" lm="hummer" a="DAINF"><i>hummer</i><par n="alibi__n"/></e>
+<e lm="hummer" a="DAINF"><i>hummer</i><par n="alibi__n"/></e>
 <e lm="humor">                     <i>humor</i><par n="aften__n"/></e>
 <e lm="humør">           <i>humør</i><par n="år__n"/></e>
 <e lm="hun">             <i>hun</i><par n="søn__n"/></e>
@@ -16387,7 +16387,6 @@
 <e r="LR" lm="nyland">                    <i>nyland</i><par n="slag__n"/></e>
 <e lm="nylon">                     <i>nylon</i><par n="slag__n"/></e>
 <e lm="nynazist">                  <i>nynazist</i><par n="aften__n"/></e>
-<e lm="nynorsk">                   <i>nynorsk</i><par n="afghansk__n"/></e>
 <e r="LR" lm="nys">                       <i>nys</i><par n="alibi__n"/></e>
 <e lm="nysgerrighed">             <i>nysgerrighed</i><par n="art__n"/></e>
 <e lm="nysgerrigper">             <i>nysgerrigper</i><par n="aften__n"/></e>
@@ -16511,6 +16510,7 @@
 <e lm="ozonlag">                   <i>ozonlag</i><par n="slag__n"/></e>
 <e lm="pair">                      <i>pair</i><par n="aften__n"/></e>
 <e lm="pakistaner">                <i>pakistaner</i><par n="aften__n"/></e>
+<e lm="japaner">                <i>japaner</i><par n="aften__n"/></e>
 <e lm="pak">                      <i>pak</i><par n="stik__n"/></e>
 <e lm="palle">                      <i>palle</i><par n="abe__n"/></e>
 <e lm="panama">                    <i>panama</i><par n="aften__n"/></e>
