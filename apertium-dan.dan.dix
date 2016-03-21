@@ -106,7 +106,7 @@
 </pardef>
 
 <pardef n="s_case"> <!-- Case endings for nouns not ending on s (mand / mands) -->
-  <e>       <p><l></l>          <r><s n="nom"/></r></p></e>
+  <e>       <p><l></l>          <r></r></p></e>
   <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
 </pardef>
 <pardef n="'_case"> <!-- Case endings for nouns ending on s (hus / hus' ) -->
