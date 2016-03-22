@@ -33499,7 +33499,8 @@
 <e lm="Freiberg">   <i>Freiberg</i><par n="Aasen__np"/></e>
 <e lm="Freihow">   <i>Freihow</i><par n="Aasen__np"/></e>
 <e lm="Freilem">   <i>Freilem</i><par n="Aasen__np"/></e>
-<e lm="Freja">   <i>Freja</i><par n="Aasen__np"/></e>
+<e lm="Freja">   <i>Freja</i><par n="d'or__np"/></e>
+<e lm="Frøya">   <i>Frøya</i><par n="Norge__np"/></e>
 <e lm="Fremantle">   <i>Fremantle</i><par n="Aasen__np"/></e>
 <e lm="Frette">   <i>Frette</i><par n="Aasen__np"/></e>
 <e lm="Freuchen">   <i>Freuchen</i><par n="Aasen__np"/></e>
@@ -36169,7 +36170,8 @@
 <e lm="Klotshkova">   <i>Klotshkova</i><par n="Aasen__np"/></e>
 <e lm="Klouman">   <i>Klouman</i><par n="Aasen__np"/></e>
 <e lm="Kloumann">   <i>Kloumann</i><par n="Aasen__np"/></e>
-<e lm="Klubbugt">   <i>Klubbugt</i><par n="Aasen__np"/></e>
+<e lm="Klubbukt">   <i>Klubbukt</i><par n="Aasen__np"/></e>
+<e lm="Klubbukt"> <i>Klubbukt</i><par n="Norge__np"/></e>
 <e lm="Kluge">   <i>Kluge</i><par n="Aasen__np"/></e>
 <e lm="Klund">   <i>Klund</i><par n="Aasen__np"/></e>
 <e lm="Klungtveit">   <i>Klungtveit</i><par n="Aasen__np"/></e>
@@ -38585,6 +38587,7 @@
 <e lm="Nordskag">   <i>Nordskag</i><par n="Aasen__np"/></e>
 <e lm="Nordskov">   <i>Nordskov</i><par n="Aasen__np"/></e>
 <e lm="Nordsletten">   <i>Nordsletten</i><par n="Aasen__np"/></e>
+<e lm="Nordsletta">   <i>Nordsletta</i><par n="Marka__np"/></e>
 <e lm="Nordstrøm">   <i>Nordstrøm</i><par n="Aasen__np"/></e>
 <e lm="Nordsveen">   <i>Nordsveen</i><par n="Aasen__np"/></e>
 <e lm="Nordtveit">   <i>Nordtveit</i><par n="Aasen__np"/></e>
@@ -41853,7 +41856,7 @@
 <e lm="Tilus">   <i>Tilus</i><par n="Findus__np"/></e>
 <e lm="Tilvis">   <i>Tilvis</i><par n="Findus__np"/></e>
 <e lm="Tim">   <i>Tim</i><par n="Aasen__np"/></e>
-<e lm="Timbugtu">   <i>Timbugtu</i><par n="Aasen__np"/></e>
+<e lm="Timbuktu">   <i>Timbuktu</i><par n="Aasen__np"/></e>
 <e lm="Timeus">   <i>Timeus</i><par n="Findus__np"/></e>
 <e lm="Timonen">   <i>Timonen</i><par n="Aasen__np"/></e>
 <e lm="Timoskainen">   <i>Timoskainen</i><par n="Aasen__np"/></e>
@@ -46108,7 +46111,7 @@
 <e lm="Bajkalsøen">     <i>Bajkalsøen</i><par n="Osen__np"/></e>
 <e lm="Elnesvågen">      <i>Elnesvågen</i><par n="Osen__np"/></e>
 <e lm="Eriesøen">       <i>Eriesøen</i><par n="Osen__np"/></e>
-<e lm="Frøenbanken">     <i>Frøenbanken</i><par n="Osen__np"/></e>
+<e lm="Frøyabanken">     <i>Frøyabanken</i><par n="Osen__np"/></e>
 <e lm="Gardasøen">      <i>Gardasøen</i><par n="Osen__np"/></e>
 <e lm="Genesaretsøen">  <i>Genesaretsøen</i><par n="Osen__np"/></e>
 <e lm="Gennesaretsøen"> <i>Gennesaretsøen</i><par n="Osen__np"/></e>
@@ -50429,7 +50432,7 @@
 <e lm="Kvale"><i>Kvale</i><par n="Norge__np"/></e>
 <e lm="Kvalsundet"><i>Kvalsundet</i><par n="Norge__np"/></e>
 <e lm="Kvalsund"><i>Kvalsund</i><par n="Norge__np"/></e>
-<e lm="Kvaløen"><i>Kvaløen</i><par n="Norge__np"/></e>
+<e lm="Kvaløya"><i>Kvaløya</i><par n="Marka__np"/></e>
 <e lm="Kvam"><i>Kvam</i><par n="Norge__np"/></e>
 <e lm="Kvamme"><i>Kvamme</i><par n="Norge__np"/></e>
 <e lm="Kvammen"><i>Kvammen</i><par n="Norge__np"/></e>
@@ -51371,7 +51374,6 @@
 <e lm="Ruoppa"><i>Ruoppa</i><par n="Norge__np"/></e>
 <e lm="Ruoppat"><i>Ruoppat</i><par n="Norge__np"/></e>
 <e lm="Rusland"><i>Rusland</i><par n="Norge__np"/></e>
-<e lm="rusland"><i>rusland</i><par n="Norge__np"/></e>
 <e lm="Russiske Kejserrige"><i>Russiske<b/>Kejserrige</i><par n="Norge__np"/></e>
 <e lm="Russiske SFSR"><i>Russiske<b/>SFSR</i><par n="Norge__np"/></e>
 <e lm="Rustad"><i>Rustad</i><par n="Norge__np"/></e>
@@ -51875,7 +51877,9 @@
 <e lm="Syd-Norge"><i>Syd-Norge</i><par n="Norge__np"/></e>
 <e lm="Sydnorge"><i>Sydnorge</i><par n="Norge__np"/></e>
 <e lm="Syd-Odal"><i>Syd-Odal</i><par n="Norge__np"/></e>
-<e lm="Sydreisa"><i>Sydreisa</i><par n="Norge__np"/></e>
+<e lm="Sørreisa"><i>Sørreisa</i><par n="Norge__np"/></e>
+<e lm="Sørreisa"><i>Sørreisa</i><par n="Marka__np"/></e>
+<e lm="Sørøya"><i>Sørøya</i><par n="Marka__np"/></e>
 <e lm="Sydsápmi"><i>Sydsápmi</i><par n="Norge__np"/></e>
 <e lm="Syd-Spanien"><i>Syd-Spanien</i><par n="Norge__np"/></e>
 <e lm="Syd-Sudan"><i>Syd-Sudan</i><par n="Norge__np"/></e>
