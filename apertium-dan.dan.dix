@@ -34,6 +34,7 @@
     <sdef n="itg"   c="Interrogative"/>
     <sdef n="dem"   c="Demonstrative"/>
     <sdef n="ord"   c="Ordinal"/>
+    <sdef n="acr" 	c="Acronym"/>
     <sdef n="nom"   c="Nominative"/>
     <sdef n="gen"   c="Genitive"/>
     <sdef n="vblex"   c="Lexical (normal) verb"/>
@@ -1074,8 +1075,11 @@
 
 
     <!-- Conjunctions -->
-
 <pardef n="og__cnjcoo">
+  <e>       <p><l></l>          <r><s n="cnjcoo"/><s n="clb"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="cnjcoo"/></r></p></e>
+</pardef>
+<pardef n="både__cnjcoo">
   <e>       <p><l></l>          <r><s n="cnjcoo"/></r></p></e>
 </pardef>
 
@@ -2143,13 +2147,9 @@
 </pardef>
 
 <pardef n="km_no-cp__n">
-  <e>       <p><l></l>          <r><s n="n"/></r></p><par n="no-cp\Ø\'__case"/></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="acr"/></r></p><par n="no-cp\Ø\'__case"/></e>
 </pardef>
 
-<pardef n="km__n" c="TODO: compound">
-  <e>       <p><l></l>          <r><s n="n"/><s n="nom"/></r></p></e>
-  <e>       <p><l>'s</l>        <r><s n="n"/><s n="gen"/></r></p></e>
-</pardef>
 
 <pardef n="bh_no-cp__n">
   <e>       <p><l>-erne</l>      <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="no-cp\Ø\s__case"/></e>
@@ -2633,13 +2633,6 @@
 </pardef>
 
 
-<pardef n="småen__n">
-  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="s_case"/></e>
-  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="s_case"/></e>
-  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/></e>
-  <e>       <p><l>e</l>          <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/></e>
-</pardef>
-
 <pardef n="krysantem/um__n">
   <e>       <p><l>ummerne</l>     <r>um<s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
   <e>       <p><l>ummer</l>      <r>um<s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R"/></e>
@@ -2674,6 +2667,13 @@
   <e>       <p><l></l>          <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="no-cp\Ø\s__case"/></e>
   <e>       <p><l>et</l>        <r><s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="no-cp\Ø\s__case"/></e>
   <e>       <p><l>ene</l>       <r><s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="no-cp\Ø\s__case"/></e>
+</pardef>
+
+<pardef n="småen_no-cp__n">
+  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="no-cp\Ø\s__case"/></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="no-cp\Ø\s__case"/></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="no-cp\Ø\s__case"/></e>
+  <e>       <p><l>e</l>          <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="no-cp\Ø\s__case"/></e>
 </pardef>
 
 <pardef n="ribs__n" c="autoconcord:nt,sgpl"> <!-- Neuter; ~ / ~et / ~ / ~ene; Like år__n but for lemmas ending in 's' -->
@@ -7862,7 +7862,7 @@
 <e lm="bjælkeloft">      <i>bjælkeloft</i><par n="alibi__n"/></e>
 <e lm="bjørk">                     <i>bjørk</i><par n="art__n"/></e>
 <e lm="bjørn">           <i>bjørn</i><par n="bold__n"/></e>
-<e lm="bl.a">                      <i>bl.a</i><par n="km__n"/></e>
+<e lm="bl.a">                      <i>bl.a</i><par n="km_no-cp__n"/></e>
 <e lm="bla">                       <i>bla</i><par n="km_no-cp__n"/></e>
 <e lm="blad">            <i>blad</i><par n="skib__n"/></e>
 <e lm="bland">           <i>bland</i><par n="alibi__n"/></e>
@@ -8311,6 +8311,7 @@
 <e lm="cellist">         <i>cellist</i><par n="ateist__n"/></e>
 <e lm="cello">           <i>cello</i><par n="ateist__n"/></e>
 <e lm="cellulose">                 <i>cellulose</i><par n="hygiejne__n"/></e>
+<e lm="trombose">                 <i>trombose</i><par n="hygiejne__n"/></e>
 <e lm="cembalo">         <i>cembalo</i><par n="ateist__n"/></e>
 <e lm="cement">          <i>cement</i><par n="alibi__n"/></e>
 <e lm="cement">          <i>cement</i><par n="ateist__n"/></e>
@@ -8395,7 +8396,8 @@
 <e lm="cover">           <i>cover</i><par n="cover__n"/></e>
 <e lm="cowboy">                    <i>cowboy</i><par n="aften__n"/></e>
 <e lm="cox">                       <i>cox</i><par n="aften_no-cp__n"/></e>
-<e lm="CPR-nummer">             <i>CPR-num</i><par n="kam/mer__n"/></e>
+<e lm="CPR-nummer"> <i>CPR-num</i><par n="kam/mer__n"/></e>
+<e lm="CPR-nummer"> <p><l>C</l><r>c</r></p><i>PR-num</i><par n="kam/mer__n"/></e>
 <e lm="creme">           <i>creme</i><par n="abe__n"/></e>
 <e lm="cremefraiche" a="DAINF"><i>cremefraiche</i><par n="abe__n"/></e>
 <e lm="cricket">                   <i>cricket</i><par n="aften__n"/></e>
@@ -11348,7 +11350,7 @@
 <e lm="journal">         <i>journal</i><par n="ateist__n"/></e>
 <e lm="journalist">      <i>journalist</i><par n="ateist__n"/></e>
 <e lm="journalistik">             <i>journalistik</i><par n="paryk__n"/></e>
-<e lm="jpeg">                      <i>jpeg</i><par n="km__n"/></e>
+<e lm="jpeg">                      <i>jpeg</i><par n="km_no-cp__n"/></e>
 <e lm="jpg">                       <i>jpg</i><par n="km_no-cp__n"/></e>
 <e lm="jubel">                     <i>jub</i><par n="cirk/el__n"/></e>
 <e lm="jubilant">                  <i>jubilant</i><par n="aften__n"/></e>
@@ -17676,7 +17678,6 @@
 <e lm="varsel">                    <i>vars</i><par n="fængs/el__n"/></e>
 <e lm="vaskerum">                  <i>vaskerum</i><par n="lam__n"/></e>
 <e lm="vedkommende">               <i>vedkommende</i><par n="syd__n"/></e>
-<e lm="vedtagelse">                    <i>vedtagelse</i><par n="hygiejne__n"/></e>
 <e lm="styrevedtagelse">                    <i>styrevedtagelse</i><par n="hygiejne__n"/></e>
 <e lm="stortingsvedtagelse">                    <i>stortingsvedtagelse</i><par n="hygiejne__n"/></e>
 <e lm="vejdirektorat">             <i>vejdirektorat</i><par n="firma__n"/></e>
@@ -23965,7 +23966,7 @@
 <e lm="mumie"><i>mumie</i><par n="hygiejne__n"/></e>
 <e lm="mundering"><i>mundering</i><par n="aften__n"/></e>
 <e lm="munkekloster"><i>munkeklost</i><par n="cent/er__n"/></e>
-<e lm="mund-til-mund-metoden"><i>mund-til-mund-metoden</i><par n="småen__n"/></e>
+<e lm="mund-til-mund-metoden"><i>mund-til-mund-metoden</i><par n="småen_no-cp__n"/></e>
 <e lm="kæften op"><i>kæften<b/>op</i><par n="år__n"/></e>
 <e lm="mundheld"><i>mundheld</i><par n="år__n"/></e>
 <e lm="mundhuggeri"><i>mundhuggeri</i><par n="firma__n"/></e>
@@ -25838,7 +25839,7 @@
 <e lm="sildemåge"><i>sildemåge</i><par n="hygiejne__n"/></e>
 <e lm="sildeolie"><i>sildeoli</i><par n="enk/e__n"/></e>
 <e lm="sildeoliefabrik"><i>sildeoliefabrik</i><par n="paryk__n"/></e>
-<e lm="rislen"><i>rislen</i><par n="småen__n"/></e>
+<e lm="rislen"><i>rislen</i><par n="småen_no-cp__n"/></e>
 <e lm="silhouet"><i>silhouet</i><par n="salut__n"/></e>
 <e lm="silikat"><i>silikat</i><par n="firma__n"/></e>
 <e lm="silikose"><i>silikose</i><par n="hygiejne__n"/></e>
@@ -25875,7 +25876,7 @@
 <e lm="cirkushest"><i>cirkushest</i><par n="bold__n"/></e>
 <e lm="sirupssmåkage"><i>sirupssmåkage</i><par n="abe__n"/></e>
 <e lm="sidsteled"><i>sidsteled</i><par n="brud__n"/></e>
-<e lm="sidsten"><i>sidsten</i><par n="småen__n"/></e>
+<e lm="sidsten"><i>sidsten</i><par n="småen_no-cp__n"/></e>
 <e lm="slutrunde"><i>slutrunde</i><par n="hygiejne__n"/></e>
 <e lm="udholdenhed"><i>udholdenhed</i><par n="aften__n"/></e>
 <e lm="sit-ups"><i>sit-ups</i><par n="lux__n"/></e>
@@ -26737,14 +26738,16 @@
 
     <!-- Conjunctions -->
 
-<e lm="både">            <i>både</i><par n="og__cnjcoo"/></e>
-<e lm="eller">           <i>eller</i><par n="og__cnjcoo"/></e>
-<e lm="men">             <i>men</i><par n="og__cnjcoo"/></e>
 <e lm="og">              <i>og</i><par n="og__cnjcoo"/></e>
-<e lm="samt">            <i>samt</i><par n="og__cnjcoo"/></e>
-<e lm="hverken">            <i>hverken</i><par n="og__cnjcoo"/></e>
-<e lm="såvel som">       <i>såvel<b/>som</i><par n="og__cnjcoo"/></e>
-<e lm="uden">            <i>uden</i><par n="og__cnjcoo"/></e>
+<e lm="eller">           <i>eller</i><par n="og__cnjcoo"/></e>
+<e lm="og/eller">        <i>og/eller</i><par n="og__cnjcoo"/></e>
+<e lm="men">             <i>men</i><par n="og__cnjcoo"/></e>
+
+<e lm="både">            <i>både</i><par n="både__cnjcoo"/></e>
+<e lm="samt">            <i>samt</i><par n="både__cnjcoo"/></e>
+<e lm="hverken">            <i>hverken</i><par n="både__cnjcoo"/></e>
+<e lm="såvel som">       <i>såvel<b/>som</i><par n="både__cnjcoo"/></e>
+<e lm="uden">            <i>uden</i><par n="både__cnjcoo"/></e>
 
     <!-- ******************************
          infinitive participle
@@ -52785,6 +52788,7 @@
 <e lm="aksle">              <i>aksl</i><par n="mal/e__vblex"/></e>
 <e lm="aktere">             <i>akter</i><par n="mal/e__vblex"/></e>
 <e lm="aktionere">          <i>aktioner</i><par n="mal/e__vblex"/></e>
+<e lm="pronere">          <i>proner</i><par n="mal/e__vblex"/></e>
 <e lm="aktivere">           <i>aktiver</i><par n="mal/e__vblex"/></e>
 <e lm="aktivisere">         <i>aktiviser</i><par n="mal/e__vblex"/></e>
 <e lm="aktorere">           <i>aktorer</i><par n="mal/e__vblex"/></e>
@@ -57581,7 +57585,7 @@
 <e lm="trodse">             <i>trods</i><par n="mal/e__vblex"/></e>
 <e lm="trolde">             <i>trold</i><par n="mal/e__vblex"/></e>
 <e lm="troldstemme">        <i>troldstem</i><par n="stem/me__vblex"/></e>
-<e lm="trolDbinde">         <i>troldb</i><par n="f/inde__vblex"/></e>
+<e lm="troldbinde">         <i>troldb</i><par n="f/inde__vblex"/></e>
 <e lm="trolove">            <i>trolov</i><par n="mal/e__vblex"/></e>
 <e lm="trombosere">         <i>tromboser</i><par n="mal/e__vblex"/></e>
 <e lm="tromle">             <i>troml</i><par n="mal/e__vblex"/></e>
@@ -58532,7 +58536,7 @@
 <e lm="kl">              <i>kl</i><par n="km_no-cp__n"/></e>
 <e lm="kl">              <i>kl.</i><par n="km_no-cp__n"/></e>
 <e lm="jpg">             <i>jpg</i><par n="km_no-cp__n"/></e>
-<e lm="jpeg">             <i>jpeg</i><par n="km__n"/></e>
+<e lm="jpeg">             <i>jpeg</i><par n="km_no-cp__n"/></e>
 <e lm="png">             <i>png</i><par n="km_no-cp__n"/></e>
 <e lm="svg">             <i>svg</i><par n="km_no-cp__n"/></e>
 <e lm="fvt">             <i>fvt</i><par n="km_no-cp__n"/></e>
@@ -58549,7 +58553,7 @@
 <e lm="mvh">             <i>mvh.</i><par n="km_no-cp__n"/></e>
 <e lm="mht">             <i>mht</i><par n="km_no-cp__n"/></e>
 <e lm="mht">             <i>mht.</i><par n="km_no-cp__n"/></e>
-<e lm="bl.a">            <i>bl.a</i><par n="km__n"/></e>
+<e lm="bl.a">            <i>bl.a</i><par n="km_no-cp__n"/></e>
 <e lm="bla">             <i>bla</i><par n="km_no-cp__n"/></e>
 <e lm="bla">             <i>bla.</i><par n="km_no-cp__n"/></e>
 <e lm="jf">              <i>jf</i><par n="km_no-cp__n"/></e>
