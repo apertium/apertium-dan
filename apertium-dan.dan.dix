@@ -31322,6 +31322,7 @@
 <e lm="Wiktionary">       <i>Wiktionary</i><par n="Wikipedia__np"/></e>
 
 <e lm="Ben">             <i>Ben</i><par n="Jo__np"/></e>
+<e lm="Søren">             <i>Søren</i><par n="Jo__np"/></e>
 <e lm="Big">             <i>Big</i><par n="Aasen__np"/></e>
 <e lm="Bodyshop">        <i>Bodyshop</i><par n="Wikipedia__np"/></e>
 <e lm="Boeing">          <i>Boeing</i><par n="Wikipedia__np"/></e>
@@ -31363,6 +31364,7 @@
 <e lm="Inc">             <i>Inc</i><par n="d'or__np"/></e>
 <e lm="Inge">            <i>Inge</i><par n="Jo__np"/></e>
 <e lm="Inge">            <i>Inge</i><par n="Eva__np"/></e>
+<e lm="Søriidna">            <i>Søriidna</i><par n="Eva__np"/></e>
 <e lm="Ingeniørnytt">    <i>Ingeniørnytt</i><par n="Wikipedia__np"/></e>
 <e lm="International">   <i>International</i><par n="Aasen__np"/></e>
 <e lm="Interpol">        <i>Interpol</i><par n="Wikipedia__np"/></e>
@@ -47554,7 +47556,6 @@
 <e lm="László">   <i>László</i><par n="Jo__np"/></e>
 <e lm="Lávrrahaš">   <i>Lávrrahaš</i><par n="Jo__np"/></e>
 <e lm="Lávrrohaš">   <i>Lávrrohaš</i><par n="Jo__np"/></e>
-<e lm="Macbeth">   <i>Macbeth</i><par n="Jo__np"/></e>
 <e lm="Magdiel">   <i>Magdiel</i><par n="Jo__np"/></e>
 <e lm="Magoga">   <i>Magoga</i><par n="Jo__np"/></e>
 <e lm="Magyar">   <i>Magyar</i><par n="Jo__np"/></e>
@@ -50432,7 +50433,6 @@
 <e lm="Kvale"><i>Kvale</i><par n="Norge__np"/></e>
 <e lm="Kvalsundet"><i>Kvalsundet</i><par n="Norge__np"/></e>
 <e lm="Kvalsund"><i>Kvalsund</i><par n="Norge__np"/></e>
-<e lm="Kvaløya"><i>Kvaløya</i><par n="Marka__np"/></e>
 <e lm="Kvam"><i>Kvam</i><par n="Norge__np"/></e>
 <e lm="Kvamme"><i>Kvamme</i><par n="Norge__np"/></e>
 <e lm="Kvammen"><i>Kvammen</i><par n="Norge__np"/></e>
@@ -50730,7 +50730,6 @@
 <e lm="Mara"><i>Mara</i><par n="Norge__np"/></e>
 <e lm="Mareno"><i>Mareno</i><par n="Norge__np"/></e>
 <e lm="Marianene"><i>Marianene</i><par n="Norge__np"/></e>
-<e lm="Maribukt"><i>Maribukt</i><par n="Norge__np"/></e>
 <e lm="Marino"><i>Marino</i><par n="Norge__np"/></e>
 <e lm="Marjamäki"><i>Marjamäki</i><par n="Norge__np"/></e>
 <e lm="Marjaniemi"><i>Marjaniemi</i><par n="Norge__np"/></e>
@@ -50909,7 +50908,6 @@
 <e lm="Myrdal"><i>Myrdal</i><par n="Norge__np"/></e>
 <e lm="Myren"><i>Myren</i><par n="Norge__np"/></e>
 <e lm="Myrseth"><i>Myrseth</i><par n="Norge__np"/></e>
-<e lm="Myrskog"><i>Myrskog</i><par n="Norge__np"/></e>
 <e lm="Mæhlum"><i>Mæhlum</i><par n="Norge__np"/></e>
 <e lm="Mæland"><i>Mæland</i><par n="Norge__np"/></e>
 <e lm="Mäntyharju"><i>Mäntyharju</i><par n="Norge__np"/></e>
@@ -51322,7 +51320,6 @@
 <e lm="Ristiniemi"><i>Ristiniemi</i><par n="Norge__np"/></e>
 <e lm="RiSyd"><i>RiSyd</i><par n="Norge__np"/></e>
 <e lm="Ritamäki"><i>Ritamäki</i><par n="Norge__np"/></e>
-<e lm="Rivarbukt"><i>Rivarbukt</i><par n="Norge__np"/></e>
 <e lm="River"><i>River</i><par n="Norge__np"/></e>
 <e lm="Riyadh"><i>Riyadh</i><par n="Norge__np"/></e>
 <e lm="Rjukan"><i>Rjukan</i><par n="Norge__np"/></e>
@@ -51877,8 +51874,6 @@
 <e lm="Syd-Norge"><i>Syd-Norge</i><par n="Norge__np"/></e>
 <e lm="Sydnorge"><i>Sydnorge</i><par n="Norge__np"/></e>
 <e lm="Syd-Odal"><i>Syd-Odal</i><par n="Norge__np"/></e>
-<e lm="Sørreisa"><i>Sørreisa</i><par n="Norge__np"/></e>
-<e lm="Sørreisa"><i>Sørreisa</i><par n="Marka__np"/></e>
 <e lm="Sørøya"><i>Sørøya</i><par n="Marka__np"/></e>
 <e lm="Sydsápmi"><i>Sydsápmi</i><par n="Norge__np"/></e>
 <e lm="Syd-Spanien"><i>Syd-Spanien</i><par n="Norge__np"/></e>
@@ -52552,18 +52547,14 @@
 <e lm="Loppa"> <i>Loppa</i><par n="Aasen__np"/></e>
 <e lm="Lundamo"> <i>Lundamo</i><par n="Aasen__np"/></e>
 <e lm="Lundby"> <i>Lundby</i><par n="Aasen__np"/></e>
-<e lm="Maribukt"> <i>Maribukt</i><par n="Aasen__np"/></e>
 <e lm="Midtbø"> <i>Midtbø</i><par n="Aasen__np"/></e>
-<e lm="Myrskog"> <i>Myrskog</i><par n="Aasen__np"/></e>
 <e lm="Neset"> <i>Neset</i><par n="Aasen__np"/></e>
 <e lm="Nesset"> <i>Nesset</i><par n="Aasen__np"/></e>
 <e lm="Nordkinn"> <i>Nordkinn</i><par n="Aasen__np"/></e>
-<e lm="Nordsletta"> <i>Nordsletta</i><par n="Aasen__np"/></e>
 <e lm="Nova"> <i>Nova</i><par n="Aasen__np"/></e>
 <e lm="Oxford"> <i>Oxford</i><par n="Aasen__np"/></e>
 <e lm="Rennebu"> <i>Rennebu</i><par n="Aasen__np"/></e>
 <e lm="Ringebu"> <i>Ringebu</i><par n="Aasen__np"/></e>
-<e lm="Rivarbukt"> <i>Rivarbukt</i><par n="Aasen__np"/></e>
 <e lm="Rosenborg"> <i>Rosenborg</i><par n="Aasen__np"/></e>
 <e lm="Røa"> <i>Røa</i><par n="Aasen__np"/></e>
 <e lm="Rødøy"> <i>Rødøy</i><par n="Aasen__np"/></e>
@@ -52606,6 +52597,57 @@
 <e lm="Sørrollnes"> <i>Sørrollnes</i><par n="Findus__np"/></e>
 <e lm="Taunus"> <i>Taunus</i><par n="Findus__np"/></e>
 
+<e lm="Svenska Dagbladet" a="PT"><i>Svenska<b/>Dagbladet</i><par n="Lagtinget__np"/></e>
+<e lm="Dagens Nyheter" a="PT"><i>Dagens<b/>Nyheter</i><par n="Wikipedia__np"/></e>
+
+<e lm="Finnmárkkovuotna">   <i>Finnmárkkovuotna</i><par n="Norge__np"/></e>
+<e lm="Kvaløya">   <i>Kvaløya</i><par n="Marka__np"/></e>
+<e lm="Macbeth">   <i>Macbeth</i><par n="Jo__np"/></e>
+<e lm="Macbeth">   <i>Macbeth</i><par n="Aasen__np"/></e>
+<e lm="Maribukt"> <i>Maribukt</i><par n="Norge__np"/></e>
+<e lm="Maribukt">   <i>Maribukt</i><par n="Aasen__np"/></e>
+<e lm="Myrskog"> <i>Myrskog</i><par n="Norge__np"/></e>
+<e lm="Myrskog">   <i>Myrskog</i><par n="Aasen__np"/></e>
+<e lm="Nordsletta"> <i>Nordsletta</i><par n="Norge__np"/></e>
+<e lm="Nordsletta">   <i>Nordsletta</i><par n="Aasen__np"/></e>
+<e lm="Risør">           <i>Risør</i><par n="Norge__np"/></e>
+<e lm="Rivarbukt"> <i>Rivarbukt</i><par n="Norge__np"/></e>
+<e lm="Rivarbukt">   <i>Rivarbukt</i><par n="Aasen__np"/></e>
+<e lm="Sørbye">   <i>Sørbye</i><par n="Aasen__np"/></e>
+<e lm="Sørby">   <i>Sørby</i><par n="Aasen__np"/></e>
+<e lm="Søreide">         <i>Søreide</i><par n="Norge__np"/></e>
+<e lm="Søreidgrend">   <i>Søreidgrend</i><par n="Aasen__np"/></e>
+<e lm="Søreng">   <i>Søreng</i><par n="Aasen__np"/></e>
+<e lm="Sørensen">        <i>Sørensen</i><par n="Aasen__np"/></e>
+<e lm="Sørenson">        <i>Sørenson</i><par n="Aasen__np"/></e>
+<e lm="Sørenssen">       <i>Sørenssen</i><par n="Aasen__np"/></e>
+<e lm="Sørensson">       <i>Sørensson</i><par n="Aasen__np"/></e>
+<e lm="Sørfjorden"> <i>Sørfjorden</i><par n="Norge__np"/></e>
+<e lm="Sørfjorden">      <i>Sørfjorden</i><par n="Osen__np"/></e>
+<e lm="Sørfjorden"> <i>Sørfjorden</i><par n="Aasen__np"/></e>
+<e lm="Sørfold">         <i>Sørfold</i><par n="Norge__np"/></e>
+<e lm="Sør-Fron">        <i>Sør-Fron</i><par n="Norge__np"/></e>
+<e lm="Sørgård">   <i>Sørgård</i><par n="Aasen__np"/></e>
+<e lm="Sørhaug">   <i>Sørhaug</i><par n="Aasen__np"/></e>
+<e lm="Sørheim">   <i>Sørheim</i><par n="Aasen__np"/></e>
+<e lm="Sør-Hålogaland">  <i>Sør-Hålogaland</i><par n="Norge__np"/></e>
+<e lm="Søril">   <i>Søril</i><par n="Aasen__np"/></e>
+<e lm="Sørkjosen">   <i>Sørkjosen</i><par n="Aasen__np"/></e>
+<e lm="Sørlandet">       <i>Sørlandet</i><par n="Midhavet__np"/></e>
+<e lm="Sørlandsbanen">   <i>Sørlandsbanen</i><par n="Osen__np"/></e>
+<e lm="Sørlie">          <i>Sørlie</i><par n="Norge__np"/></e>
+<e lm="Sørli">   <i>Sørli</i><par n="Aasen__np"/></e>
+<e lm="Sørløkken">   <i>Sørløkken</i><par n="Aasen__np"/></e>
+<e lm="Sørmarka">        <i>Sørmarka</i><par n="Marka__np"/></e>
+<e lm="Sør-Odal">        <i>Sør-Odal</i><par n="Norge__np"/></e>
+<e lm="Sørreisa">        <i>Sørreisa</i><par n="Marka__np"/></e>
+<e lm="Sørreisa"> <i>Sørreisa</i><par n="Aasen__np"/></e>
+<e lm="Sørum">           <i>Sørum</i><par n="Norge__np"/></e>
+<e lm="Sørumsand">       <i>Sørumsand</i><par n="Norge__np"/></e>
+<e lm="Sør-Varanger">    <i>Sør-Varanger</i><par n="Norge__np"/></e>
+<e lm="Sørvik">   <i>Sørvik</i><par n="Aasen__np"/></e>
+<e lm="Sørvår">   <i>Sørvår</i><par n="Aasen__np"/></e>
+<e lm="Sørøysund">       <i>Sørøysund</i><par n="Norge__np"/></e>
 
 
 
@@ -58635,16 +58677,6 @@
 <e lm="pure" a="PT">     <i>pure</i><par n="ikke__adv"/></e>
 
 
-
-    <!-- ******************************
-          group np
-      ****************************** -->
-
-
-    <!-- Proper nouns -->
-
-<e lm="Svenska Dagbladet" a="PT"><i>Svenska<b/>Dagbladet</i><par n="Lagtinget__np"/></e>
-<e lm="Dagens Nyheter" a="PT"><i>Dagens<b/>Nyheter</i><par n="Wikipedia__np"/></e>
 
 
 
