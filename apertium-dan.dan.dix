@@ -1505,16 +1505,6 @@
 </pardef>
 <!-- /prpers with det.pos -->
 
-<pardef n="nog/en__prn">
-  <e>       <p><l>en</l>  <r>en<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p><par n="s_nom_case"/></e>
-  <e>       <p><l>et</l>  <r>en<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p><par n="s_nom_case"/></e>
-  <e>       <p><l>le</l>  <r>en<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p><par n="s_nom_case"/></e>
-  <e r="RL"><p><l>en</l>  <r>en<s n="prn"/><s n="ind"/><s n="neg"/><s n="un"/><s n="pl"/></r></p><par n="s_nom_case"/></e>
-  <e r="RL"><p><l>en</l>  <r>en<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e r="RL"><p><l>et</l>  <r>en<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e r="RL"><p><l>le</l>  <r>en<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e r="RL"><p><l>en</l>  <r>en<s n="prn"/><s n="ind"/><s n="neg"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
-</pardef>
 
 <pardef n="sådan__prn">
   <e>       <p><l></l>  <r><s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p><par n="s_nom_case"/></e>
@@ -1585,9 +1575,9 @@
 </pardef>
 
 <pardef n="d/enne__prn">
-  <e>       <p><l>enne</l>      <r>enne<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p><par n="s_nom_case"/></e>
-  <e>       <p><l>ette</l>      <r>enne<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p><par n="s_nom_case"/></e>
-  <e>       <p><l>isse</l>      <r>enne<s n="prn"/><s n="dem"/><s n="un"/><s n="pl"/></r></p><par n="s_nom_case"/></e>
+  <e>       <p><l>enne</l>      <r>enne<s n="prn"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p><par n="s_all_case"/></e>
+  <e>       <p><l>ette</l>      <r>enne<s n="prn"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p><par n="s_all_case"/></e>
+  <e>       <p><l>isse</l>      <r>enne<s n="prn"/><s n="dem"/><s n="un"/><s n="pl"/></r></p><par n="s_all_case"/></e>
 </pardef>
 
 
@@ -1603,14 +1593,21 @@
   <e>       <p><l></l>        <r><s n="prn"/><s n="def"/><s n="ut"/><s n="sg"/></r></p><par n="s_nom_case"/></e>
 </pardef>
 
+<pardef n="nog/en__prn">
+  <e>       <p><l>en</l>  <r>en<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p><par n="s_all_case"/></e>
+  <e>       <p><l>et</l>  <r>en<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p><par n="s_all_case"/></e>
+  <e>       <p><l>le</l>  <r>en<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p><par n="s_all_case"/></e>
+  <e r="RL"><p><l>en</l>  <r>en<s n="prn"/><s n="ind"/><s n="neg"/><s n="un"/><s n="pl"/></r></p><par n="s_all_case"/></e>
+</pardef>
+
 <pardef n="ingenting__prn">
   <e>       <p><l></l>       <r><s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></r></p><par n="s_all_case"/></e>
 </pardef>
 
 <pardef n="in/gen__prn">
-  <e>       <p><l>gen</l>       <r>gen<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p><par n="s_nom_case"/></e>
-  <e>       <p><l>tet</l>       <r>gen<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p><par n="s_nom_case"/></e>
-  <e>       <p><l>gen</l>       <r>gen<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p><par n="s_nom_case"/></e>
+  <e>       <p><l>gen</l>       <r>gen<s n="prn"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p><par n="s_all_case"/></e>
+  <e>       <p><l>tet</l>       <r>gen<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p><par n="s_all_case"/></e>
+  <e>       <p><l>gen</l>       <r>gen<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p><par n="s_all_case"/></e>
 </pardef>
 
 <pardef n="der__prn">
