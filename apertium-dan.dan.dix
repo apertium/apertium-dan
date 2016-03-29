@@ -1220,6 +1220,13 @@
   <e>       <p><l>e</l>         <r>e<s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="hvor_m/ange__det">
+  <e>       <p><l>angen</l>        <r>ange<s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>angt</l>         <r>ange<s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ange</l>         <r>ange<s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ye</l>         <r>ange<s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/><s n="unc"/></r></p></e>
+</pardef>
+
 <pardef n="flere__det">
   <e>       <p><l></l>          <r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
@@ -5973,7 +5980,7 @@
 <e lm="ingen">           <i>in</i><par n="in/gen__det"/></e>
 <e lm="nogen">           <i>nog</i><par n="nog/en__det"/></e>
 
-<e lm="hvor mange">      <i>hvor<b/>mang</i><par n="mang/e__det"/></e>
+<e lm="hvor mange">      <i>hvor<b/>m</i><par n="hvor_m/ange__det"/></e>
 
 <!-- TODO: used in dan-nor, should be removed in favour of adj.ord? -->
 <e lm="første">          <i>første</i><par n="første__det"/></e>
