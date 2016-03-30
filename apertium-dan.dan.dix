@@ -45013,8 +45013,7 @@
 <e lm="Sárávuopmi">   <i>Sárávuopmi</i><par n="Eva__np"/></e>
 <e lm="Säde">   <i>Säde</i><par n="Eva__np"/></e>
 <e lm="Særimne">   <i>Særimne</i><par n="Eva__np"/></e>
-<e lm="Syd-Vera">   <i>Syd-Vera</i><par n="Eva__np"/></e>
-<e lm="Sydiidna">   <i>Sydiidna</i><par n="Eva__np"/></e>
+<e lm="Sør-Vera">   <i>Sør-Vera</i><par n="Norge__np"/></e>
 <e lm="Tabita">   <i>Tabita</i><par n="Eva__np"/></e>
 <e lm="Taimi">   <i>Taimi</i><par n="Eva__np"/></e>
 <e lm="Tale">   <i>Tale</i><par n="Eva__np"/></e>
@@ -45927,7 +45926,7 @@
 <e lm="Tyssebotnen">     <i>Tyssebotnen</i><par n="Osen__np"/></e>
 <e lm="Syd-Atlanteren">  <i>Syd-Atlanteren</i><par n="Osen__np"/></e>
 <e lm="Nord-Atlanteren"> <i>Nord-Atlanteren</i><par n="Osen__np"/></e>
-<e lm="Schleswig-Holstein"><i>Schleswig-Holstein</i><par n="Osen__np"/></e>
+<e lm="Schleswig-Holstein"> <i>Schleswig-Holstein</i><par n="Norge__np"/></e>
 
 
 <e lm="Alan">            <i>Alan</i><par n="Jo__np"/></e>
