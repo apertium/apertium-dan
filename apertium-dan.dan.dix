@@ -1420,10 +1420,10 @@
 </pardef>
 
 <pardef n="de/n__prn">
-  <e>       <p><l>n</l>  <r>n<s n="prn"/><s n="p3"/><s n="ut"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>n</l>  <r>n<s n="prn"/><s n="p3"/><s n="ut"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>t</l>  <r>n<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>t</l>  <r>n<s n="prn"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>n</l>  <r>n<s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>n</l>  <r>n<s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/><s n="sg"/><s n="acc"/></r></p></e>
+  <e>       <p><l>t</l>  <r>n<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
+  <e>       <p><l>t</l>  <r>n<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>ns</l> <r>ns</r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="pl"/></r></p></e>
   <e>       <p><l>ns</l> <r>ns</r></p><par n="det+prn_pos"/><p><l></l><r><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>ns</l> <r>ns</r></p><par n="det+prn_pos"/><p><l></l><r><s n="ut"/><s n="sg"/></r></p></e>
@@ -45228,7 +45228,6 @@
 <e lm="Åsegarden">       <i>Åsegarden</i><par n="Jo__np"/></e>
 <e lm="Askeladden">      <i>Askeladden</i><par n="Jo__np"/></e>
 <e lm="Aslak">           <i>Aslak</i><par n="Jo__np"/></e>
-<e lm="Atlanterhavspakten"><i>Atlanterhavspakten</i><par n="Jo__np"/></e>
 <e lm="Atle">            <i>Atle</i><par n="Jo__np"/></e>
 <e lm="Audun">           <i>Audun</i><par n="Jo__np"/></e>
 <e lm="Augustin">        <i>Augustin</i><par n="Jo__np"/></e>
