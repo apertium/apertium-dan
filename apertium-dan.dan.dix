@@ -1170,9 +1170,9 @@
 </pardef>
 
 <pardef n="d/enne__det">
-  <e>       <p><l>enne</l>  <r>enne<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ette</l>  <r>enne<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>isse</l>  <r>enne<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l>enne</l>  <r>enne<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>ette</l>  <r>enne<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>isse</l>  <r>enne<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></r></p><par n="s_case"/></e>
 </pardef>
 
 
@@ -1190,16 +1190,12 @@
 
 <pardef n="begge__det">
   <e>       <p><l></l>          <r><s n="det"/><s n="def"/><s n="un"/><s n="pl"/></r></p></e>
-  <e r="RL"><p><l>s</l>          <r><s n="det"/><s n="def"/><s n="un"/><s n="pl"/><s n="gen"/></r></p></e>
 </pardef>
 
 <pardef n="al/__det">
   <e>       <p><l></l>         <r><s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/></r></p></e>
-   <e r="RL"><p><l>s</l>       <r><s n="det"/><s n="qnt"/><s n="ut"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>t</l>        <r><s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l>ts</l>       <r><s n="det"/><s n="qnt"/><s n="nt"/><s n="sg"/><s n="gen"/></r></p></e>
   <e>       <p><l>le</l>       <r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
-  <e r="RL"><p><l>les</l>      <r><s n="det"/><s n="qnt"/><s n="pl"/><s n="gen"/></r></p></e>
 </pardef>
 
 
@@ -12399,7 +12395,6 @@
 <e lm="men">             <i>men</i><par n="år_no-cp__n"/></e>
 <e lm="menighed">        <i>menighed</i><par n="ateist__n"/></e>
 <e lm="menighedsråd">    <i>menighedsråd</i><par n="år__n"/></e>
-<e lm="mening">          <i>mening</i><par n="ateist__n"/></e>
 <e lm="meningsmåling">   <i>meningsmåling</i><par n="ateist__n"/></e>
 <e lm="menneske">        <i>menneske</i><par n="menneske__n"/></e>
 <e lm="menneskeliv">     <i>menneskeliv</i><par n="år__n"/></e>
@@ -44541,13 +44536,13 @@
 <e lm="Laula">   <i>Laula</i><par n="Eva__np"/></e>
 <e lm="Laura">   <i>Laura</i><par n="Eva__np"/></e>
 <e lm="Lawra">   <i>Lawra</i><par n="Eva__np"/></e>
-<e lm="Leangen">   <i>Leangen</i><par n="Eva__np"/></e>
+<e lm="Leangen">   <i>Leangen</i><par n="Norge__np"/></e>
 <e lm="Leda">   <i>Leda</i><par n="Eva__np"/></e>
 <e lm="Leena">   <i>Leena</i><par n="Eva__np"/></e>
 <e lm="Leikny">   <i>Leikny</i><par n="Eva__np"/></e>
 <e lm="Leila">   <i>Leila</i><par n="Eva__np"/></e>
 <e lm="Leinná">   <i>Leinná</i><par n="Eva__np"/></e>
-<e lm="Lenaeatnu">   <i>Lenaeatnu</i><par n="Eva__np"/></e>
+<e lm="Lenaeatnu"> <i>Lenaeatnu</i><par n="Norge__np"/></e>
 <e lm="Lená">   <i>Lená</i><par n="Eva__np"/></e>
 <e lm="Leonora">   <i>Leonora</i><par n="Eva__np"/></e>
 <e lm="Leonore">   <i>Leonore</i><par n="Eva__np"/></e>
@@ -47338,7 +47333,7 @@
 <e lm="Lazarus">   <i>Lazarus</i><par n="Jens__np"/></e>
 <e lm="Lazio">   <i>Lazio</i><par n="Jo__np"/></e>
 <e lm="Leammojohka">   <i>Leammojohka</i><par n="Jo__np"/></e>
-<e lm="Leammonurki">   <i>Leammonurki</i><par n="Jo__np"/></e>
+<e lm="Leammonurki">   <i>Leammonurki</i><par n="Norge__np"/></e>
 <e lm="Leammu">   <i>Leammu</i><par n="Jo__np"/></e>
 <e lm="Leammá">   <i>Leammá</i><par n="Jo__np"/></e>
 <e lm="Leidulf">   <i>Leidulf</i><par n="Jo__np"/></e>
@@ -47346,7 +47341,7 @@
 <e lm="Lemet">   <i>Lemet</i><par n="Jo__np"/></e>
 <e lm="Lemetaš-Piera">   <i>Lemetaš-Piera</i><par n="Jo__np"/></e>
 <e lm="Lemmá">   <i>Lemmá</i><par n="Jo__np"/></e>
-<e lm="Lemmájeaggi">   <i>Lemmájeaggi</i><par n="Jo__np"/></e>
+<e lm="Lemmájeaggi">   <i>Lemmájeaggi</i><par n="Norge__np"/></e>
 <e lm="Lennart">   <i>Lennart</i><par n="Jo__np"/></e>
 <e lm="Leon">   <i>Leon</i><par n="Jo__np"/></e>
 <e lm="Leonard">   <i>Leonard</i><par n="Jo__np"/></e>
@@ -49008,7 +49003,7 @@
 <e lm="Canterbury"><i>Canterbury</i><par n="Norge__np"/></e>
 <e lm="Cantona"><i>Cantona</i><par n="Norge__np"/></e>
 <e lm="Caoxian"><i>Caoxian</i><par n="Norge__np"/></e>
-<e lm="Cape"><i>Cape</i><par n="Norge__np"/></e>
+<e lm="Cape"><i>Cape</i><par n="Store__np"/></e>
 <e lm="Capella"><i>Capella</i><par n="Norge__np"/></e>
 <e lm="Capri"><i>Capri</i><par n="Norge__np"/></e>
 <e lm="Cardiff"><i>Cardiff</i><par n="Norge__np"/></e>
@@ -49507,7 +49502,7 @@
 <e lm="Gratangen"><i>Gratangen</i><par n="Norge__np"/></e>
 <e lm="Gratangsbotn"><i>Gratangsbotn</i><par n="Norge__np"/></e>
 <e lm="Gravdal"><i>Gravdal</i><par n="Norge__np"/></e>
-<e lm="Great"><i>Great</i><par n="Norge__np"/></e>
+<e lm="Great"><i>Great</i><par n="Store__np"/></e>
 <e lm="Green"><i>Green</i><par n="Norge__np"/></e>
 <e lm="Greenock"><i>Greenock</i><par n="Norge__np"/></e>
 <e lm="Grenada"><i>Grenada</i><par n="Norge__np"/></e>
@@ -49890,7 +49885,7 @@
 <e lm="Indiens deling"><i>Indiens<b/>deling</i><par n="Norge__np"/></e>
 <e lm="Indokina"><i>Indokina</i><par n="Norge__np"/></e>
 <e lm="Indonesien"><i>Indonesien</i><par n="Norge__np"/></e>
-<e lm="Indre"><i>Indre</i><par n="Norge__np"/></e>
+<e lm="Indre"><i>Indre</i><par n="Store__np"/></e>
 <e lm="Inha"><i>Inha</i><par n="Norge__np"/></e>
 <e lm="Inkariget"><i>Inkariget</i><par n="Norge__np"/></e>
 <e lm="Inkatha"><i>Inkatha</i><par n="Norge__np"/></e>
@@ -50816,7 +50811,7 @@
 <e lm="Niinisalo"><i>Niinisalo</i><par n="Norge__np"/></e>
 <e lm="Nikkilä"><i>Nikkilä</i><par n="Norge__np"/></e>
 <e lm="Nilán"><i>Nilán</i><par n="Norge__np"/></e>
-<e lm="Nilen"><i>Nilen</i><par n="Norge__np"/></e>
+<e lm="Nilen"><i>Nilen</i><par n="Osen__np"/></e>
 <e lm="Nissan"><i>Nissan</i><par n="Wikipedia__np"/></e>
 <e lm="Nissedal"><i>Nissedal</i><par n="Norge__np"/></e>
 <e lm="Nisterud"><i>Nisterud</i><par n="Norge__np"/></e>
@@ -50879,7 +50874,7 @@
 <e lm="Norwich"><i>Norwich</i><par n="Norge__np"/></e>
 <e lm="Nottingham"><i>Nottingham</i><par n="Norge__np"/></e>
 <e lm="Nova"><i>Nova</i><par n="Norge__np"/></e>
-<e lm="Novaja"><i>Novaja</i><par n="Norge__np"/></e>
+<e lm="Novaja"><i>Novaja</i><par n="Store__np"/></e>
 <e lm="Novgorod"><i>Novgorod</i><par n="Norge__np"/></e>
 <e lm="Novi"><i>Novi</i><par n="Norge__np"/></e>
 <e lm="Novokusneck"><i>Novokusneck</i><par n="Norge__np"/></e>
@@ -51255,7 +51250,7 @@
 <e lm="Saima"><i>Saima</i><par n="Norge__np"/></e>
 <e lm="Saimaa"><i>Saimaa</i><par n="Norge__np"/></e>
 <e lm="Saint-Etienne"><i>Saint-Etienne</i><par n="Norge__np"/></e>
-<e lm="Saint"><i>Saint</i><par n="Norge__np"/></e>
+<e lm="Saint"><i>Saint</i><par n="Store__np"/></e>
 <e lm="Saint Vincent og Grenadinerne"><i>Saint<b/>Vincent<b/>og<b/>Grenadinerne</i><par n="Norge__np"/></e>
 <e lm="Sakhalin"><i>Sakhalin</i><par n="Norge__np"/></e>
 <e lm="Sakharov"><i>Sakharov</i><par n="Norge__np"/></e>
