@@ -93,6 +93,8 @@
 
 
 
+<!-- Genitive case endings -->
+<!-- Pronouns always have a case tag (except where we use det+prn_pos system): -->
 <pardef n="s_acc_case">
   <e>       <p><l></l>          <r><s n="acc"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
@@ -252,10 +254,6 @@
 <e r="RL"><re>([§\+–] ?)?[0-9]+([.,][0-9]+)*([ \-]+[0-9]+([.,][0-9]+)*)*( *%)?</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 <e>       <re>[½¹²³¼¾]</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 
-
-  <!-- ORDINALS
-
- <e lm="[0-9]+.">         <re>[0-9]+</re><i>.</i><par n="første__adj"/></e>-->
 
 </pardef>
 
@@ -43643,7 +43641,7 @@
 <e lm="Birgit">          <i>Birgit</i><par n="Eva__np"/></e>
 <e lm="Birgitte">        <i>Birgitte</i><par n="Eva__np"/></e>
 <e lm="Bjørg">           <i>Bjørg</i><par n="Eva__np"/></e>
-<e lm="Bjørnøen">        <i>Bjørnøen</i><par n="Eva__np"/></e>
+<e lm="Bjørnøya">        <i>Bjørnøya</i><par n="Eva__np"/></e>
 <e lm="Bodhild">         <i>Bodhild</i><par n="Eva__np"/></e>
 <e lm="Bodil">           <i>Bodil</i><par n="Eva__np"/></e>
 <e lm="Borghild">        <i>Borghild</i><par n="Eva__np"/></e>
@@ -45420,8 +45418,6 @@
 <e lm="René">            <i>René</i><par n="Eva__np"/></e>
 <e lm="Richard">         <i>Richard</i><par n="Jo__np"/></e>
 <e lm="Rikard">          <i>Rikard</i><par n="Jo__np"/></e>
-<e lm="Rigsdagen">       <i>Rigsdagen</i><par n="Jo__np"/></e>
-<e lm="Rigsrevisionen">  <i>Rigsrevisionen</i><par n="Jo__np"/></e>
 <e lm="Roald">           <i>Roald</i><par n="Jo__np"/></e>
 <e lm="Roar">            <i>Roar</i><par n="Jo__np"/></e>
 <e lm="Robert">          <i>Robert</i><par n="Jo__np"/></e>
@@ -45581,6 +45577,7 @@
 <e lm="Norskehavet">     <i>Norskehavet</i><par n="Midhavet__np"/></e>
 <e lm="Rødehavet">       <i>Rødehavet</i><par n="Midhavet__np"/></e>
 <e lm="Romerriget">      <i>Romerriget</i><par n="Midhavet__np"/></e>
+<e lm="Romerriget">      <i>Romerriget</i><par n="Lagtinget__np"/></e>
 <e lm="Rosshavet">       <i>Rosshavet</i><par n="Midhavet__np"/></e>
 <e lm="Sahelbæltet">     <i>Sahelbæltet</i><par n="Midhavet__np"/></e>
 <e lm="Sargassohavet">   <i>Sargassohavet</i><par n="Midhavet__np"/></e>
@@ -45689,7 +45686,6 @@
 <e lm="Beitostølen">     <i>Beitostølen</i><par n="Osen__np"/></e>
 <e lm="Berlinmuren">     <i>Berlinmuren</i><par n="Osen__np"/></e>
 <e lm="Birkelunden">     <i>Birkelunden</i><par n="Osen__np"/></e>
-<e lm="Diego">           <i>Diego</i><par n="Osen__np"/></e>
 <e lm="Evjemoen">        <i>Evjemoen</i><par n="Osen__np"/></e>
 <e lm="Finnskoven">      <i>Finnskoven</i><par n="Osen__np"/></e>
 <e lm="Gardermoen">      <i>Gardermoen</i><par n="Osen__np"/></e>
@@ -45839,8 +45835,10 @@
 <e lm="Syd-Atlanteren">  <i>Syd-Atlanteren</i><par n="Osen__np"/></e>
 <e lm="Nord-Atlanteren"> <i>Nord-Atlanteren</i><par n="Osen__np"/></e>
 <e lm="Schleswig-Holstein"> <i>Schleswig-Holstein</i><par n="Norge__np"/></e>
+<e lm="Diego">           <i>Diego</i><par n="Norge__np"/></e>
 
 
+<e lm="Diego">         <i>Diego</i><par n="Jo__np"/></e>
 <e lm="Alan">            <i>Alan</i><par n="Jo__np"/></e>
 <e lm="Alan">            <i>Alan</i><par n="Norge__np"/></e>
 <e lm="Albrecht">        <i>Albrecht</i><par n="Jo__np"/></e>
@@ -46116,6 +46114,7 @@
 <e lm="Apis">   <i>Apis</i><par n="Jens__np"/></e>
 <e lm="Apmot">   <i>Apmot</i><par n="Jo__np"/></e>
 <e lm="Apollos">   <i>Apollos</i><par n="Jens__np"/></e>
+<e lm="Apollos"> <i>Apollos</i><par n="Findus__np"/></e>
 <e lm="Appollon">   <i>Appollon</i><par n="Jo__np"/></e>
 <e lm="Aqqaluk">   <i>Aqqaluk</i><par n="Jo__np"/></e>
 <e lm="Archie">   <i>Archie</i><par n="Jo__np"/></e>
@@ -46715,7 +46714,7 @@
 <e lm="Hánnogurra">   <i>Hánnogurra</i><par n="Jo__np"/></e>
 <e lm="Hánnojohka">   <i>Hánnojohka</i><par n="Jo__np"/></e>
 <e lm="Hánnoluohkká">   <i>Hánnoluohkká</i><par n="Jo__np"/></e>
-<e lm="Hánnomaras">   <i>Hánnomaras</i><par n="Jens__np"/></e>
+<e lm="Hánnomaras">   <i>Hánnomaras</i><par n="Ås__np"/></e>
 <e lm="Hánsa">   <i>Hánsa</i><par n="Jo__np"/></e>
 <e lm="Hánsajávri">   <i>Hánsajávri</i><par n="Jo__np"/></e>
 <e lm="Hánsamaras">   <i>Hánsamaras</i><par n="Jens__np"/></e>
@@ -48016,6 +48015,7 @@
 <e lm="Boone">           <i>Boone</i><par n="Wikipedia__np"/></e>
 <e lm="Booth">           <i>Booth</i><par n="Wikipedia__np"/></e>
 <e lm="British">         <i>British</i><par n="Store__np"/></e>
+<e lm="Sire">         <i>Sire</i><par n="Store__np"/></e>
 <e lm="Burgund">         <i>Burgund</i><par n="Wikipedia__np"/></e>
 <e lm="Böhmen">          <i>Böhmen</i><par n="Wikipedia__np"/></e>
 <e lm="Campbell">        <i>Campbell</i><par n="Wikipedia__np"/></e>
@@ -52252,10 +52252,11 @@
 <e lm="Peugeot">                 <i>Peugeot</i><par n="Wikipedia__np"/></e>
 <e lm="Rut">                     <i>Rut</i><par n="Eva__np"/></e>
 <e lm="Frelsesarmeen">           <i>Frelsesarmeen</i><par n="Riksdagen__np"/></e>
+<e lm="Rigsdagen">               <i>Rigsdagen</i><par n="Riksdagen__np"/></e>
 <e lm="Riksdagen">               <i>Riksdagen</i><par n="Riksdagen__np"/></e>
 <e lm="Krimkrigen">              <i>Krimkrigen</i><par n="Riksdagen__np"/></e>
 <e lm="Eleaskolen">              <i>Eleaskolen</i><par n="Riksdagen__np"/></e>
-<e lm="Riksrevisjonen">          <i>Riksrevisjonen</i><par n="Riksdagen__np"/></e>
+<e lm="Rigsrevisionen">          <i>Rigsrevisionen</i><par n="Riksdagen__np"/></e>
 <e lm="Spellemannsprisen">       <i>Spellemannsprisen</i><par n="Riksdagen__np"/></e>
 <e lm="Adresseavisen">           <i>Adresseavisen</i><par n="Riksdagen__np"/></e>
 <e lm="Kreditkassen">            <i>Kreditkassen</i><par n="Riksdagen__np"/></e>
@@ -52281,7 +52282,6 @@
 <e lm="Arbeiderpartiet">         <i>Arbeiderpartiet</i><par n="Lagtinget__np"/></e>
 <e lm="Senterpartiet">           <i>Senterpartiet</i><par n="Lagtinget__np"/></e>
 <e lm="Universitetsbiblioteket"> <i>Universitetsbiblioteket</i><par n="Lagtinget__np"/></e>
-<e lm="Romerriket">              <i>Romerriket</i><par n="Lagtinget__np"/></e>
 <e lm="Radiumhospitalet">        <i>Radiumhospitalet</i><par n="Lagtinget__np"/></e>
 <e lm="Vinmonopolet">            <i>Vinmonopolet</i><par n="Lagtinget__np"/></e>
 <e lm="Datatilsynet">            <i>Datatilsynet</i><par n="Lagtinget__np"/></e>
