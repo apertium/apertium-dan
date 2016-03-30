@@ -108,12 +108,16 @@
   <e>       <p><l></l>          <r><s n="acc"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
 </pardef>
-
-<pardef n="s_case"> <!-- Case endings for nouns not ending on s (mand / mands) -->
+<!-- Nouns, determiners, adj's only have genitive case tag, otherwise unmarked: -->
+<pardef n="s_case" c="Case endings for nouns not ending on s (mand / mands)">
   <e>       <p><l></l>          <r></r></p></e>
   <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
 </pardef>
-<pardef n="'_case"> <!-- Case endings for nouns ending on s (hus / hus' ) -->
+<pardef n="'s_case">
+  <e>       <p><l></l>          <r></r></p></e>
+  <e>       <p><l>'s</l>        <r><s n="gen"/></r></p></e>
+</pardef>
+<pardef n="'_case" c="Case endings for nouns ending on s (hus / hus')">
   <e>       <p><l></l>          <r></r></p></e>
   <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
 </pardef>
@@ -1200,7 +1204,6 @@
 <pardef n="hver__det">
   <e>       <p><l>t</l>          <r><s n="det"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="ut"/><s n="sg"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="det"/><s n="ind"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
 
 
@@ -6768,7 +6771,6 @@
 
 
 <e lm="alphabet">               <par n="alphabet__n"/></e>
-<e lm="8-årig">          <i>8-årig</i><par n="årig__n"/></e>
 <e lm="abbed">           <i>abbed</i><par n="ateist__n"/></e>
 <e lm="pr">           <i>pr</i><par n="ateist_no-cp__n"/></e>
 <e lm="abbedisse">       <i>abbedisse</i><par n="abe__n"/></e>
@@ -27067,7 +27069,7 @@
 <e lm="snavset">         <i>snavse</i><par n="snavse/t__adj"/></e>
 <e lm="næste">         <i>næste</i><par n="næste__adj"/></e>
 <e lm="social">          <i>social</i><par n="aktiv__adj"/></e>
-<e lm="sort">            <i>sort</i><par n="amerikansk__adj"/></e>
+<e lm="sort">            <i>sort</i><par n="stolt__adj"/></e>
 <e lm="rød">             <i>rød</i><par n="rund__adj"/></e>
 <e lm="sød">             <i>sød</i><par n="rund__adj"/></e>
 <e lm="speciel">         <i>speciel</i><par n="officiel__adj"/></e>
@@ -29347,6 +29349,7 @@
 <e lm="crescendo">        <i>crescendo</i><par n="ikke__adv"/></e>
 <e lm="da capo">          <i>da<b/>capo</i><par n="ikke__adv"/></e>
 <e lm="dagevis">          <i>dagevis</i><par n="ikke__adv"/></e>
+<e lm="mht">                  <i>mht</i><par n="ikke__adv"/></e>
 <e lm="indtil videre">          <i>indtil<b/>videre</i><par n="ikke__adv"/></e>
 <e c="wp" lm="Yderligere læsning">          <i>Yderligere<b/>læsning</i><par n="ikke__adv"/></e>
 <e lm="dagligt">         <i>dagligt</i><par n="ikke__adv"/></e>
@@ -38413,6 +38416,7 @@
 <e lm="Nordskov">   <i>Nordskov</i><par n="Aasen__np"/></e>
 <e lm="Nordsletten">   <i>Nordsletten</i><par n="Aasen__np"/></e>
 <e lm="Nordsletta">   <i>Nordsletta</i><par n="Marka__np"/></e>
+<e lm="Nordsletta">   <i>Nordsletta</i><par n="Aasen__np"/></e>
 <e lm="Nordstrøm">   <i>Nordstrøm</i><par n="Aasen__np"/></e>
 <e lm="Nordsveen">   <i>Nordsveen</i><par n="Aasen__np"/></e>
 <e lm="Nordtveit">   <i>Nordtveit</i><par n="Aasen__np"/></e>
@@ -43632,8 +43636,8 @@
 <e lm="Askepott">        <i>Askepott</i><par n="Eva__np"/></e>
 <e lm="Astrid">          <i>Astrid</i><par n="Eva__np"/></e>
 <e lm="Astri">           <i>Astri</i><par n="Eva__np"/></e>
-<e lm="Atlanterhavspagten"><i>Atlanterhavspagten</i><par n="Eva__np"/></e>
-<e lm="Atlanterhavspagten"><i>Atlanterhavspagten</i><par n="Jo__np"/></e>
+<e lm="Atlanterhavspagten"><i>Atlanterhavspagten</i><par n="d'or__np"/></e>
+<e lm="Warszawapagten">   <i>Warszawapagten</i><par n="d'or__np"/></e>
 <e lm="Aud">             <i>Aud</i><par n="Eva__np"/></e>
 <e lm="Barbro">          <i>Barbro</i><par n="Eva__np"/></e>
 <e lm="Bente">           <i>Bente</i><par n="Eva__np"/></e>
@@ -43641,7 +43645,6 @@
 <e lm="Birgit">          <i>Birgit</i><par n="Eva__np"/></e>
 <e lm="Birgitte">        <i>Birgitte</i><par n="Eva__np"/></e>
 <e lm="Bjørg">           <i>Bjørg</i><par n="Eva__np"/></e>
-<e lm="Bjørnøya">        <i>Bjørnøya</i><par n="Eva__np"/></e>
 <e lm="Bodhild">         <i>Bodhild</i><par n="Eva__np"/></e>
 <e lm="Bodil">           <i>Bodil</i><par n="Eva__np"/></e>
 <e lm="Borghild">        <i>Borghild</i><par n="Eva__np"/></e>
@@ -43786,7 +43789,6 @@
 <e lm="Vivian">          <i>Vivian</i><par n="Eva__np"/></e>
 <e lm="Vivi">            <i>Vivi</i><par n="Eva__np"/></e>
 <e lm="Wanda">           <i>Wanda</i><par n="Eva__np"/></e>
-<e lm="Warszawapakta">   <i>Warszawapakta</i><par n="Eva__np"/></e>
 <e lm="Wibeche">         <i>Wibeche</i><par n="Eva__np"/></e>
 <e lm="Wibecke">         <i>Wibecke</i><par n="Eva__np"/></e>
 <e lm="Wibeke">          <i>Wibeke</i><par n="Eva__np"/></e>
@@ -50489,7 +50491,6 @@
 <e lm="Nordreisa"><i>Nordreisa</i><par n="Norge__np"/></e>
 <e lm="Nordrhein"><i>Nordrhein</i><par n="Norge__np"/></e>
 <e lm="Nordseth"><i>Nordseth</i><par n="Norge__np"/></e>
-<e lm="Nordsletta"><i>Nordsletta</i><par n="Norge__np"/></e>
 <e lm="Nordstrand"><i>Nordstrand</i><par n="Norge__np"/></e>
 <e lm="Nord-Trøndelag"><i>Nord-Trøndelag</i><par n="Norge__np"/></e>
 <e lm="Nord-Yemen"><i>Nord-Yemen</i><par n="Norge__np"/></e>
@@ -50812,7 +50813,6 @@
 <e lm="Romania"><i>Romania</i><par n="Norge__np"/></e>
 <e lm="Romedal"><i>Romedal</i><par n="Norge__np"/></e>
 <e lm="Romerike"><i>Romerike</i><par n="Norge__np"/></e>
-<e lm="Romerriget"><i>Romerriget</i><par n="Norge__np"/></e>
 <e lm="Romerske republik"><i>Romerske<b/>republik</i><par n="Norge__np"/></e>
 <e lm="Rommetveit"><i>Rommetveit</i><par n="Norge__np"/></e>
 <e lm="Romsdal"><i>Romsdal</i><par n="Norge__np"/></e>
@@ -52079,8 +52079,6 @@
 <e lm="Maribukt">   <i>Maribukt</i><par n="Aasen__np"/></e>
 <e lm="Myrskog"> <i>Myrskog</i><par n="Norge__np"/></e>
 <e lm="Myrskog">   <i>Myrskog</i><par n="Aasen__np"/></e>
-<e lm="Nordsletta"> <i>Nordsletta</i><par n="Norge__np"/></e>
-<e lm="Nordsletta">   <i>Nordsletta</i><par n="Aasen__np"/></e>
 <e lm="Risør">           <i>Risør</i><par n="Norge__np"/></e>
 <e lm="Rivarbukt"> <i>Rivarbukt</i><par n="Norge__np"/></e>
 <e lm="Rivarbukt">   <i>Rivarbukt</i><par n="Aasen__np"/></e>
@@ -52093,7 +52091,6 @@
 <e lm="Sørenson">        <i>Sørenson</i><par n="Aasen__np"/></e>
 <e lm="Sørenssen">       <i>Sørenssen</i><par n="Aasen__np"/></e>
 <e lm="Sørensson">       <i>Sørensson</i><par n="Aasen__np"/></e>
-<e lm="Sørfjorden"> <i>Sørfjorden</i><par n="Norge__np"/></e>
 <e lm="Sørfjorden">      <i>Sørfjorden</i><par n="Osen__np"/></e>
 <e lm="Sørfjorden"> <i>Sørfjorden</i><par n="Aasen__np"/></e>
 <e lm="Sørfold">         <i>Sørfold</i><par n="Norge__np"/></e>
@@ -58653,8 +58650,6 @@
 <e lm="osv">             <i>osv.</i><par n="km_no-cp__n"/></e>
 <e lm="mvh">             <i>mvh</i><par n="km_no-cp__n"/></e>
 <e lm="mvh">             <i>mvh.</i><par n="km_no-cp__n"/></e>
-<e lm="mht">             <i>mht</i><par n="km_no-cp__n"/></e>
-<e lm="mht">             <i>mht.</i><par n="km_no-cp__n"/></e>
 <e lm="bl.a">            <i>bl.a</i><par n="km_no-cp__n"/></e>
 <e lm="bla">             <i>bla</i><par n="km_no-cp__n"/></e>
 <e lm="bla">             <i>bla.</i><par n="km_no-cp__n"/></e>
