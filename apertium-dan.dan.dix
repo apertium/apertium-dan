@@ -12241,6 +12241,7 @@
 <e lm="læhegn">          <i>læhegn</i><par n="år__n"/></e>
 <e lm="lænestol" a="PT"> <i>lænestol</i><par n="bold__n"/></e>
 <e lm="længde">          <i>længde</i><par n="abe__n"/></e>
+<e lm="vejlængde">          <i>vejlængde</i><par n="abe__n"/></e>
 <e lm="længdespring">    <i>længdespring</i><par n="år__n"/></e>
 <e lm="længe">           <i>længe</i><par n="abe__n"/></e>
 <e lm="lænke">           <i>lænke</i><par n="abe__n"/></e>
@@ -28001,7 +28002,7 @@
 <e lm="livsvarig">                 <i>livsvarig</i><par n="lykkelig__adj"/></e>
 <e lm="logisk">                    <i>logisk</i><par n="glad__adj"/></e>
 <e lm="loyal">                     <i>loyal</i><par n="rund__adj"/></e>
-<e lm="lokal">                     <i>lokal</i><par n="rund__adj"/></e>
+<e lm="lokal">                     <i>lokal</i><par n="amerikansk__adj"/></e>
 <e lm="lokalhistorisk">            <i>lokalhistorisk</i><par n="lykkelig__adj"/></e>
 <e lm="los">                      <i>los</i><par n="OK__adj"/></e>
 <e lm="lovende">                   <i>lovende</i><par n="OK__adj"/></e>
@@ -29354,6 +29355,7 @@
 <e lm="crescendo">        <i>crescendo</i><par n="ikke__adv"/></e>
 <e lm="da capo">          <i>da<b/>capo</i><par n="ikke__adv"/></e>
 <e lm="dagevis">          <i>dagevis</i><par n="ikke__adv"/></e>
+<e lm="mere eller mindre">                  <i>mere<b/>eller<b/>mindre</i><par n="ikke__adv"/></e>
 <e lm="mht">                  <i>mht</i><par n="ikke__adv"/></e>
 <e lm="indtil videre">          <i>indtil<b/>videre</i><par n="ikke__adv"/></e>
 <e c="wp" lm="Yderligere læsning">          <i>Yderligere<b/>læsning</i><par n="ikke__adv"/></e>
