@@ -28954,18 +28954,18 @@
 
 
 
-<e lm="# sammen" r="RL"><p><l>sammen</l><r>#<b/>sammen</r></p></e>
-<e lm="# lide" r="RL"><p><l>lide</l><r>#<b/>lide</r></p></e>
-<e lm="# bil" r="RL"><p><l>bil</l><r>#<b/>bil</r></p></e>
-<e lm="# spirituskørsel" r="RL"><p><l>spirituskørsel</l><r>#<b/>spirituskørsel</r></p></e>
-<e lm="# brat" r="RL"><p><l>brat</l><r>#<b/>brat</r></p></e>
-<e lm="# fodfæste" r="RL"><p><l>fodfæste</l><r>#<b/>fodfæste</r></p></e>
-<e lm="# bud" r="RL"><p><l>bud</l><r>#<b/>bud</r></p></e>
-<e lm="# i bås" r="RL"><p><l>i bås</l><r>#<b/>i bås</r></p></e>
-<e lm="# fast" r="RL"><p><l>fast</l><r>#<b/>fast</r></p></e>
-<e lm="# tilbage" r="RL"><p><l>tilbage</l><r>#<b/>tilbage</r></p></e>
-<e lm="# hø" r="RL"><p><l>hø</l><r>#<b/>hø</r></p></e>
-<e lm="# op" r="RL"><p><l>op</l><r>#<b/>op</r></p></e>
+<e lm="# sammen" r="RL"><p><l><b/>sammen</l><r>#<b/>sammen</r></p></e>
+<e lm="# lide" r="RL"><p><l><b/>lide</l><r>#<b/>lide</r></p></e>
+<e lm="# bil" r="RL"><p><l><b/>bil</l><r>#<b/>bil</r></p></e>
+<e lm="# spirituskørsel" r="RL"><p><l><b/>spirituskørsel</l><r>#<b/>spirituskørsel</r></p></e>
+<e lm="# brat" r="RL"><p><l><b/>brat</l><r>#<b/>brat</r></p></e>
+<e lm="# fodfæste" r="RL"><p><l><b/>fodfæste</l><r>#<b/>fodfæste</r></p></e>
+<e lm="# bud" r="RL"><p><l><b/>bud</l><r>#<b/>bud</r></p></e>
+<e lm="# i bås" r="RL"><p><l><b/>i<b/>bås</l><r>#<b/>i<b/>bås</r></p></e>
+<e lm="# fast" r="RL"><p><l><b/>fast</l><r>#<b/>fast</r></p></e>
+<e lm="# tilbage" r="RL"><p><l><b/>tilbage</l><r>#<b/>tilbage</r></p></e>
+<e lm="# hø" r="RL"><p><l><b/>hø</l><r>#<b/>hø</r></p></e>
+<e lm="# op" r="RL"><p><l><b/>op</l><r>#<b/>op</r></p></e>
 
  <!-- /particles -->
 
