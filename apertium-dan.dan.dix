@@ -1148,9 +1148,9 @@
 </pardef>
 
 <pardef n="d/enne__det">
-  <e>       <p><l>enne</l>  <r>enne<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p><par n="s_case"/></e>
-  <e>       <p><l>ette</l>  <r>enne<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p><par n="s_case"/></e>
-  <e>       <p><l>isse</l>  <r>enne<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>enne</l>  <r>enne<s n="det"/><s n="dem"/><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ette</l>  <r>enne<s n="det"/><s n="dem"/><s n="nt"/><s n="sg"/></r></p></e>
+  <e>       <p><l>isse</l>  <r>enne<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
 
 
