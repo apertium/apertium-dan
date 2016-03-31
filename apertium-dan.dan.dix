@@ -28951,21 +28951,29 @@
          group particles
       ****************************** -->
 
-
-
-
-<e lm="# sammen" r="RL"><p><l><b/>sammen</l><r>#<b/>sammen</r></p></e>
-<e lm="# lide" r="RL"><p><l><b/>lide</l><r>#<b/>lide</r></p></e>
-<e lm="# bil" r="RL"><p><l><b/>bil</l><r>#<b/>bil</r></p></e>
-<e lm="# spirituskørsel" r="RL"><p><l><b/>spirituskørsel</l><r>#<b/>spirituskørsel</r></p></e>
-<e lm="# brat" r="RL"><p><l><b/>brat</l><r>#<b/>brat</r></p></e>
-<e lm="# fodfæste" r="RL"><p><l><b/>fodfæste</l><r>#<b/>fodfæste</r></p></e>
-<e lm="# bud" r="RL"><p><l><b/>bud</l><r>#<b/>bud</r></p></e>
-<e lm="# i bås" r="RL"><p><l><b/>i<b/>bås</l><r>#<b/>i<b/>bås</r></p></e>
-<e lm="# fast" r="RL"><p><l><b/>fast</l><r>#<b/>fast</r></p></e>
-<e lm="# tilbage" r="RL"><p><l><b/>tilbage</l><r>#<b/>tilbage</r></p></e>
-<e lm="# hø" r="RL"><p><l><b/>hø</l><r>#<b/>hø</r></p></e>
-<e lm="# op" r="RL"><p><l><b/>op</l><r>#<b/>op</r></p></e>
+    <!-- One needed for every possible verb lemq, since transfer can detach these:  -->
+<e lm="# bil" r="RL"><p>            <l><b/>bil</l>            <r><g><b/>bil</g></r></p></e>
+<e lm="# brat" r="RL"><p>           <l><b/>brat</l>           <r><g><b/>brat</g></r></p></e>
+<e lm="# bud" r="RL"><p>            <l><b/>bud</l>            <r><g><b/>bud</g></r></p></e>
+<e lm="# bås" r="RL"><p>            <l><b/>bås</l>            <r><g><b/>bås</g></r></p></e>
+<e lm="# fast" r="RL"><p>           <l><b/>fast</l>           <r><g><b/>fast</g></r></p></e>
+<e lm="# fodfæste" r="RL"><p>       <l><b/>fodfæste</l>       <r><g><b/>fodfæste</g></r></p></e>
+<e lm="# for" r="RL"><p>            <l><b/>for</l>            <r><g><b/>for</g></r></p></e>
+<e lm="# forstyrrende" r="RL"><p>   <l><b/>forstyrrende</l>   <r><g><b/>forstyrrende</g></r></p></e>
+<e lm="# hø" r="RL"><p>             <l><b/>hø</l>             <r><g><b/>hø</g></r></p></e>
+<e lm="# lide" r="RL"><p>           <l><b/>lide</l>           <r><g><b/>lide</g></r></p></e>
+<e lm="# ligeglad" r="RL"><p>       <l><b/>ligeglad</l>       <r><g><b/>ligeglad</g></r></p></e>
+<e lm="# ned" r="RL"><p>            <l><b/>ned</l>            <r><g><b/>ned</g></r></p></e>
+<e lm="# om" r="RL"><p>             <l><b/>om</l>             <r><g><b/>om</g></r></p></e>
+<e lm="# op" r="RL"><p>             <l><b/>op</l>             <r><g><b/>op</g></r></p></e>
+<e lm="# pause" r="RL"><p>          <l><b/>pause</l>          <r><g><b/>pause</g></r></p></e>
+<e lm="# på" r="RL"><p>             <l><b/>på</l>             <r><g><b/>på</g></r></p></e>
+<e lm="# rent" r="RL"><p>           <l><b/>rent</l>           <r><g><b/>rent</g></r></p></e>
+<e lm="# sammen" r="RL"><p>         <l><b/>sammen</l>         <r><g><b/>sammen</g></r></p></e>
+<e lm="# sig" r="RL"><p>            <l><b/>sig</l>            <r><g><b/>sig</g></r></p></e>
+<e lm="# spirituskørsel" r="RL"><p> <l><b/>spirituskørsel</l> <r><g><b/>spirituskørsel</g></r></p></e>
+<e lm="# tilbage" r="RL"><p>        <l><b/>tilbage</l>        <r><g><b/>tilbage</g></r></p></e>
+<e lm="# velkommen" r="RL"><p>      <l><b/>velkommen</l>      <r><g><b/>velkommen</g></r></p></e>
 
  <!-- /particles -->
 
