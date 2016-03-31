@@ -187,54 +187,38 @@
 </pardef>
 
 <pardef n="cp-both\Ø_LR_s\S__case" c="cp-L and cp-R. Analyse both -Ø- and -s- in compounds, generate -Ø- if cp-L">
-   <e>       <p><l></l>          <r></r></p><par n="cp-R"/></e>
-   <e>       <p><l>s</l>         <r><s n="gen"/></r></p><par n="cp-R"/></e>
-   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e>       <p><l></l>   <r></r></p><par n="cp-R"/></e>
+   <e r="LR"><p><l></l>   <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l>s</l>  <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e>       <p><l>s</l>  <r><s n="gen"/></r></p><par n="cp-R"/></e>
 </pardef>
 <pardef n="cp-both\Ø_LR_s\'__case" c="As above, but with ' in the genitive case.">
-   <e>       <p><l></l>          <r></r></p></e>
-   <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e>       <p><l>-</l>          <r><s n="cmp-split"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-   <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
-   <e>      <p><l>'-</l>        <r><s n="gen"/><s n="cmp-split"/></r></p></e>
-   <e r="LR"><p><l>'</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>   <r></r></p><par n="cp-R"/></e>
+   <e r="LR"><p><l></l>   <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l>s</l>  <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e>       <p><l>'</l>  <r><s n="gen"/></r></p><par n="cp-R"/></e>
 </pardef>
 <pardef n="cp-both\s_LR_Ø\S__case" c="cp-L and cp-R. Analyse both -Ø- and -s- in compounds, generate -s- if cp-L">
-   <e>       <p><l></l>          <r></r></p></e>
-   <e r="RL"><p><l>s</l>         <r><s n="cmp"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e>       <p><l>s-</l>          <r><s n="cmp-split"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-   <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
-   <e>      <p><l>s-</l>        <r><s n="gen"/><s n="cmp-split"/></r></p></e>
-   <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>   <r></r></p><par n="cp-R"/></e>
+   <e r="LR"><p><l></l>   <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l>s</l>  <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e>       <p><l>s</l>  <r><s n="gen"/></r></p><par n="cp-R"/></e>
 </pardef>
 <pardef n="cp-both\s_LR_Ø\'__case" c="As above, but with ' in the genitive case">
-   <e>       <p><l></l>          <r></r></p></e>
-   <e r="RL"><p><l>s</l>         <r><s n="cmp"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e r="LR"><p><l>s</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e>      <p><l>-</l>          <r><s n="cmp-split"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-   <e>       <p><l>'</l>         <r><s n="gen"/></r></p></e>
-   <e>      <p><l>'-</l>        <r><s n="gen"/><s n="cmp-split"/></r></p></e>
-   <e r="LR"><p><l>'</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
+   <e>       <p><l></l>   <r></r></p><par n="cp-R"/></e>
+   <e r="LR"><p><l></l>   <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l>s</l>  <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e>       <p><l>'</l>  <r><s n="gen"/></r></p><par n="cp-R"/></e>
 </pardef>
 <pardef n="cp-both\e_LR_Ø\S__case" c="cp-L and cp-R. Analyse -Ø- and -e- in compounds, generate -e- if cp-L">
-   <e>       <p><l></l>          <r></r></p></e>
-   <e r="RL"><p><l>e</l>         <r><s n="cmp"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e r="LR"><p><l>e</l>         <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
-   <e >      <p><l>e-</l>          <r><s n="cmp-split"/></r></p></e>
-   <e r="LR"><p><l></l>          <r><s n="compound-R"/></r></p></e>
-   <e>       <p><l>s</l>         <r><s n="gen"/></r></p></e>
-   <e>      <p><l>s-</l>        <r><s n="gen"/><s n="cmp-split"/></r></p></e>
-   <e r="LR"><p><l>s</l>         <r><s n="gen"/><s n="compound-R"/></r></p></e>
+  <!-- can't use cp-R on the nom/acc here since cmp has e while unmarked as Ø -->
+   <e>       <p><l></l>   <r></r></p></e>
+   <e r="RL"><p><l>e</l>  <r><s n="cmp"/></r></p></e>
+   <e r="LR"><p><l></l>   <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e r="LR"><p><l>e</l>  <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
+   <e >      <p><l>e-</l> <r><s n="cmp-split"/></r></p></e>
+   <e r="LR"><p><l></l>   <r><s n="compound-R"/></r></p></e>
+   <e>       <p><l>s</l>  <r><s n="gen"/></r></p><par n="cp-R"/></e>
 </pardef>
 
 
@@ -3074,13 +3058,12 @@
   <e>       <p><l>kene</l>            <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
 </pardef>
 
-<pardef n="el__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~len / # / #; uncountable -->
-  <e>       <p><l></l>                <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="cp-both\Ø_LR_s\S__case"/></e>
-  <e>       <p><l>len</l>             <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
-</pardef>
 
 <pardef n="el_no-cp__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~len / # / #; uncountable -->
+  <!-- http://ordnet.dk/ods/ordbog?query=el -->
   <e>       <p><l></l>                <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="no-cp\Ø\s__case"/></e>
+  <e>       <p><l>le</l>                <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="no-cp\Ø\s__case"/></e>
+  <e>       <p><l>lene</l>                <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="no-cp\Ø\s__case"/></e>
   <e>       <p><l>len</l>             <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="no-cp\Ø\s__case"/></e>
 </pardef>
 
@@ -4276,7 +4259,6 @@
   <e>       <p><l>set</l>     <r>se<s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>sede</l>    <r>se<s n="adj"/><s n="pp"/><s n="pl"/></r></p></e>
   <e>       <p><l>sede</l>    <r>se<s n="adj"/><s n="pp"/><s n="sg"/><s n="def"/></r></p></e>
-
 </pardef>
 
 
