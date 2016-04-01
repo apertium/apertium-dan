@@ -11867,6 +11867,7 @@
 <e lm="kredskort">       <i>kredskort</i><par n="år__n"/></e>
 <e lm="kredsløb">        <i>kredsløb</i><par n="år__n"/></e>
 <e lm="krig">            <i>krig</i><par n="bold__n"/></e>
+<e lm="arvefølgekrig">            <i>arvefølgekrig</i><par n="bold__n"/></e>
 <e lm="kriger">          <i>kriger</i><par n="bold__n"/></e>
 <e lm="krigserklæring">  <i>krigserklæring</i><par n="ateist__n"/></e>
 <e lm="krigsfange">      <i>krigsfange</i><par n="abe__n"/></e>
@@ -26861,6 +26862,7 @@
 <e lm="mangeårig">        <i>mangeårig</i><par n="øvrig__adj"/></e>
 <e lm="elendig">        <i>elendig</i><par n="øvrig__adj"/></e>
 <e lm="humoristisk">        <i>humoristisk</i><par n="amerikansk__adj"/></e>
+<e lm="germansk">        <i>germansk</i><par n="amerikansk__adj"/></e>
 
 <e lm="alfabetisk">        <i>alfabetisk</i><par n="amerikansk__adj"/></e>
 <e lm="algebraisk">        <i>algebraisk</i><par n="amerikansk__adj"/></e>
@@ -29537,6 +29539,7 @@
 <e lm="crescendo">        <i>crescendo</i><par n="ikke__adv"/></e>
 <e lm="da capo">          <i>da<b/>capo</i><par n="ikke__adv"/></e>
 <e lm="dagevis">          <i>dagevis</i><par n="ikke__adv"/></e>
+<e lm="til stede">          <i>til<b/>stede</i><par n="ikke__adv"/></e>
 <e lm="mere eller mindre">                  <i>mere<b/>eller<b/>mindre</i><par n="ikke__adv"/></e>
 <e lm="mht">                  <i>mht</i><par n="ikke__adv"/></e>
 <e lm="indtil videre">          <i>indtil<b/>videre</i><par n="ikke__adv"/></e>
