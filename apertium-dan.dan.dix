@@ -3375,7 +3375,7 @@
 
 <pardef n="billed/e__n" c="autoconcord:nt,sgpl"> <!-- Neuter; ~ / ~t / ~r / ~rne -->
   <e>       <p><l>e</l>      <r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R-nosplit"/></e>
-  <e>       <p><l></l>       <r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-only-L\Ø"/></e>
+  <e>       <p><l></l>       <r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="cp-only-L\Ø"/></e>
   <e>       <p><l>et</l>     <r>e<s n="n"/><s n="nt"/><s n="sg"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
   <e>       <p><l>er</l>     <r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R"/></e>
   <e>       <p><l>erne</l>   <r>e<s n="n"/><s n="nt"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
@@ -10073,6 +10073,7 @@
 <e lm="færdighed">       <i>færdighed</i><par n="ateist__n"/></e>
 <e lm="færdigmat">                 <i>færdigmat</i><par n="aften__n"/></e>
 <e lm="færdsel">                   <i>færds</i><par n="aks/el__n"/></e>
+<e lm="samfærdsel">                   <i>samfærds</i><par n="aks/el__n"/></e>
 <e lm="færdselsåre">     <i>færdselsåre</i><par n="abe__n"/></e>
 <e lm="færge">           <i>færge</i><par n="abe__n"/></e>
 <e lm="færgeforbindelse"><i>færgeforbindelse</i><par n="hygiejne_\s__n"/></e>
