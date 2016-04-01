@@ -989,7 +989,7 @@
 
 <pardef n="fremme/re__adj">
   <e>       <p><l>re</l>    <r>re<s n="adj"/><s n="sint"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
-  <e>       <p><l>re</l>    <r>re<s n="adj"/><s n="sint"/><s n="pst"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
+  <e>       <p><l>re</l>    <r>re<s n="adj"/><s n="sint"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>re</l>    <r>re<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l>re</l>    <r>re<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
   <e>       <p><l>re</l>    <r>re<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
@@ -1342,11 +1342,11 @@
 
 <!-- Odd ones: -->
 <pardef n="Jesu/s__np">
-  <e>       <p><l>s</l>         <r>s<s n="np"/><s n="m"/><s n="nom"/></r></p></e>
+  <e>       <p><l>s</l>         <r>s<s n="np"/><s n="m"/></r></p></e>
   <e>       <p><l></l>          <r>s<s n="np"/><s n="m"/><s n="gen"/></r></p></e>
 </pardef>
 <pardef n="Krist/us__np">
-  <e>       <p><l>us</l>         <r>us<s n="np"/><s n="m"/><s n="nom"/></r></p></e>
+  <e>       <p><l>us</l>         <r>us<s n="np"/><s n="m"/></r></p></e>
   <e>       <p><l>i</l>          <r>us<s n="np"/><s n="m"/><s n="gen"/></r></p></e>
 </pardef>
 
@@ -7017,6 +7017,8 @@
 <e lm="alkoholbrug">               <i>alkoholbrug</i><par n="skab__n"/></e>
 <e lm="alkoholforbrug">            <i>alkoholforbrug</i><par n="slag__n"/></e>
 <e lm="alkoholiker">     <i>alkoholiker</i><par n="spiller__n"/></e>
+<e lm="fysiker">     <i>fysiker</i><par n="spiller__n"/></e>
+<e lm="matematiker">     <i>matematiker</i><par n="spiller__n"/></e>
 <e lm="starter">     <i>starter</i><par n="spiller__n"/></e>
 <e lm="bunker">     <i>bunker</i><par n="spiller__n"/></e>
 <e lm="kutter">     <i>kutter</i><par n="spiller__n"/></e>
@@ -8418,6 +8420,7 @@
 <e lm="cøliaki">                   <i>cøliaki</i><par n="aften__n"/></e>
 <e lm="cølibat">         <i>cølibat</i><par n="alibi__n"/></e>
 <e lm="dag">             <i>dag</i><par n="bold__n"/></e>
+<e lm="navnedag">             <i>navnedag</i><par n="bold__n"/></e>
 <e lm="nytårsdag">             <i>nytårsdag</i><par n="bold__n"/></e>
 <e lm="dagblad">         <i>dagblad</i><par n="skib__n"/></e>
 <e lm="lastskib">         <i>lastskib</i><par n="skib__n"/></e>
@@ -29011,6 +29014,7 @@
 <e lm="væsentlig">                 <i>væsentlig</i><par n="lykkelig__adj"/></e>
 <e lm="voksenklog">               <i>voksenklog</i><par n="rund__adj"/></e>
 <e lm="vestlig">                   <i>vestlig</i><par n="lykkelig__adj"/></e>
+<e lm="sydvestlig">                   <i>sydvestlig</i><par n="lykkelig__adj"/></e>
 <e lm="vestnorsk">                 <i>vestnorsk</i><par n="glad__adj"/></e>
 <e lm="vestre">                    <i>vestre</i><par n="OK__adj"/></e>
 <e lm="forstandig">                <i>forstandig</i><par n="lykkelig__adj"/></e>
