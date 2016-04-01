@@ -6186,6 +6186,7 @@
 <e lm="på trods af">     <i>på<b/>trods<b/>af</i><par n="på__pr"/></e>
 <e lm="siden">           <i>siden</i><par n="på__pr"/></e>
 <e lm="til">             <i>til</i><par n="på__pr"/></e>
+<e lm="som">             <i>som</i><par n="på__pr"/></e>
 <e lm="ud">              <i>ud</i><par n="på__pr"/></e>
 <e lm="ud af">           <i>ud<b/>af</i><par n="på__pr"/></e>
 <e lm="ude">             <i>ude</i><par n="på__pr"/></e>
@@ -29541,6 +29542,7 @@
 <e lm="crescendo">        <i>crescendo</i><par n="ikke__adv"/></e>
 <e lm="da capo">          <i>da<b/>capo</i><par n="ikke__adv"/></e>
 <e lm="dagevis">          <i>dagevis</i><par n="ikke__adv"/></e>
+<e lm="som følge af">          <i>som<b/>følge<b/>af</i><par n="ikke__adv"/></e>
 <e lm="til stede">          <i>til<b/>stede</i><par n="ikke__adv"/></e>
 <e lm="mere eller mindre">                  <i>mere<b/>eller<b/>mindre</i><par n="ikke__adv"/></e>
 <e lm="mht">                  <i>mht</i><par n="ikke__adv"/></e>
