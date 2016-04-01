@@ -177,13 +177,13 @@
    <e r="RL"><p><l></l>          <r><s n="cmp"/></r></p></e>
    <e r="LR"><p><l></l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
    <e>       <p><l>-</l>         <r><s n="cmp-split"/></r></p></e>
-   <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
+   <e>       <p><l>s-</l>         <r><s n="gen"/><s n="cmp-split"/></r></p></e>
 </pardef>
 <pardef n="cp-only-L\s" c="cp-only-L, for forms that can only start compounds">
    <e r="RL"><p><l>s</l>          <r><s n="cmp"/></r></p></e>
    <e r="LR"><p><l>s</l>          <r><s n="cmp"/><s n="compound-only-L"/></r></p></e>
    <e>       <p><l>s-</l>         <r><s n="cmp-split"/></r></p></e>
-   <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
+   <e>       <p><l>s-</l>         <r><s n="gen"/><s n="cmp-split"/></r></p></e>
 </pardef>
 
 <pardef n="cp-both\Ø_LR_s\S__case" c="cp-L and cp-R. Analyse both -Ø- and -s- in compounds, generate -Ø- if cp-L">
@@ -8100,6 +8100,7 @@
 <e lm="brug" c="brugen af IT"><i>brug</i><par n="bold__n"/></e>
 <e lm="brug" c="et (ager)brug"><i>brug</i><par n="år__n"/></e>
 <e lm="bruger">          <i>bruger</i><par n="spiller__n"/></e>
+<e lm="gårdbruger">          <i>gårdbruger</i><par n="spiller__n"/></e>
 <e lm="brugernavn">      <i>brugernavn</i><par n="skib__n"/></e>
 <e lm="brugs">           <i>brugs</i><par n="residens__n"/></e>
 <e lm="brugsforening">   <i>brugsforening</i><par n="ateist__n"/></e>
