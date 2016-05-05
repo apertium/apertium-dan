@@ -228,13 +228,11 @@
 <!-- separate out the number 1 as singular (fortunately "1.00" is usually plural!) -->
 <e>       <re>1</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="sg"/></r></p></e>
 <e>       <re>[02-9]</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
-<e>       <re>[0-9][0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
-<e>       <re>[0-9][.,][0-9]+</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e>       <re>[0-9][0-9]+([., ][0-9]+)?</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+<e>       <re>[0-9][., ][0-9]+</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 
 <e r="RL"><re>([§\+–] ?)?[0-9]+([.,][0-9]+)*([ \-]+[0-9]+([.,][0-9]+)*)*( *%)?</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
 <e>       <re>[½¹²³¼¾]</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
-
-
 </pardef>
 
 
@@ -6712,7 +6710,7 @@
     <!-- Numbers -->
 
 <e lm="1"><re>1</re><par n="1__num"/></e>
-<e lm="0-9,0-9"><re>[0-9]+([.,][0-9]+)?(%)?</re><par n="i__num"/></e>
+<e lm="0-9,0-9"><re>[0-9]+([., ][0-9]+)?(%)?</re><par n="i__num"/></e>
 
 <e lm="C"><i>C</i><par n="i__num"/></e>
 <e lm="I"><i>I</i><par n="i__num"/></e>
