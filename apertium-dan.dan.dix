@@ -1456,7 +1456,6 @@
 </pardef>
 
 <pardef n="/man__prn">
-  <e c="TODO: check" r="RL"><p><l>en</l><r>man<s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>man</l> <r>man<s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>ens</l> <r>ens</r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="pl"/></r></p></e>
   <e>       <p><l>ens</l> <r>ens</r></p><par n="det+prn_pos"/><p><l></l><r><s n="nt"/><s n="sg"/></r></p></e>
@@ -1487,7 +1486,7 @@
   <e>       <p><l>ts</l> <r>s</r></p><par n="det+prn_pos"/><p><l></l><r><s n="nt"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l> <r>s</r></p><par n="det+prn_pos"/><p><l></l><r><s n="ut"/><s n="sg"/></r></p></e>
 </pardef>
-<!-- /prpers with det.pos -->
+<!-- /prns with det.pos -->
 
 
 <pardef n="sådan__prn">
@@ -6673,10 +6672,10 @@
 <e lm="de">              <i>de</i><par n="de__prn"/></e>
 
 <e lm="al">              <i>al</i><par n="al/__prn"/></e>
+<e lm="anden">           <i>and</i><par n="and/en__prn"/></e>
 <e lm="allesammen">      <i>allesammen</i><par n="begge__prn"/></e>
 <e lm="alting">          <i>alting</i><par n="begge__prn"/></e>
 <e lm="altsammen">       <i>altsammen</i><par n="begge__prn"/></e>
-<e lm="anden">           <i>and</i><par n="and/en__prn"/></e>
 <e lm="begge">           <i>begge</i><par n="begge__prn"/></e>
 <e lm="denne">           <i>d</i><par n="d/enne__prn"/></e>
 <e lm="der">             <i>der</i><par n="der__prn"/></e>
