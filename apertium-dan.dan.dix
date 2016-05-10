@@ -29320,8 +29320,6 @@
 <e lm="hvori">           <i>hvori</i><par n="ikke__adv"/></e>
 <e lm="hvormed">         <i>hvormed</i><par n="ikke__adv"/></e>
 <e lm="højst">           <i>højst</i><par n="ikke__adv"/></e>
-<e lm="i dag">           <i>i<b/>dag</i><par n="ikke__adv"/></e>
-<e lm="i går">           <i>i<b/>går</i><par n="ikke__adv"/></e>
 <e lm="i hænde">         <i>i<b/>hænde</i><par n="ikke__adv"/></e>
 <e lm="af hænde">        <i>af<b/>hænde</i><par n="ikke__adv"/></e>
 <e lm="igen">            <i>igen</i><par n="ikke__adv"/></e>
@@ -29346,6 +29344,13 @@
 <e lm="ligesom">         <i>ligesom</i><par n="ikke__adv"/></e>
 <e lm="live">            <i>live</i><par n="ikke__adv"/></e>
 <e lm="selvfølgelig">    <i>selvfølgelig</i><par n="ikke__adv"/></e>
+
+<e r="LR" c="typo" lm="igår"><p><l>igår</l><r>i<b/>går</r></p><par n="ikke__adv"/></e>
+<e r="LR" c="typo" lm="idag"><p><l>idag</l><r>i<b/>dag</r></p><par n="ikke__adv"/></e>
+<e r="LR" c="typo" lm="imorgen"><p><l>imorgen</l><r>i<b/>morgen</r></p><par n="ikke__adv"/></e>
+<e lm="i dag">            <i>i<b/>dag</i><par n="ikke__adv"/></e>
+<e lm="i går">            <i>i<b/>går</i><par n="ikke__adv"/></e>
+<e lm="i morgen">         <i>i<b/>morgen</i><par n="ikke__adv"/></e>
 
     <!-- TODO: CHECK THESE: -->
 <e lm="mere">            <i>mere</i><par n="mere__preadv"/></e>
@@ -29776,11 +29781,9 @@
 <e lm="i hvert fald">        <i>i<b/>hvert<b/>fald</i><par n="ikke__adv"/></e>
 <e lm="ibidem">           <i>ibidem</i><par n="ikke__adv"/></e>
 <e lm="id est">           <i>id<b/>est</i><par n="ikke__adv"/></e>
-<e lm="idag">             <i>idag</i><par n="ikke__adv"/></e>
 <e lm="ifjor">            <i>ifjor</i><par n="ikke__adv"/></e>
 <e lm="igang">            <i>igang</i><par n="ikke__adv"/></e>
 <e lm="igangværende">            <i>igangværende</i><par n="ikke__adv"/></e>
-<e lm="igår">        <i>igår</i><par n="ikke__adv"/></e>
 <e lm="ihjel">            <i>ihjel</i><par n="ikke__adv"/></e>
 <e lm="i aften">           <i>i<b/>aften</i><par n="ikke__adv"/></e>
 <e lm="iland">            <i>iland</i><par n="ikke__adv"/></e>
@@ -29788,7 +29791,6 @@
 <e lm="ilde">             <i>ilde</i><par n="ikke__adv"/></e>
 <e lm="voldsomt">         <i>voldsomt</i><par n="ikke__adv"/></e>
 <e lm="imens">            <i>imens</i><par n="ikke__adv"/></e>
-<e lm="imorgen">          <i>imorgen</i><par n="ikke__adv"/></e>
 <e lm="imøde">            <i>imøde</i><par n="ikke__adv"/></e>
 <e lm="in absentia">      <i>in<b/>absentia</i><par n="ikke__adv"/></e>
 <e lm="in absurdum">      <i>in<b/>absurdum</i><par n="ikke__adv"/></e>
