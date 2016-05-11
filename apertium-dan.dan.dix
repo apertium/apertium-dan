@@ -1368,6 +1368,11 @@
 <e>         <p><l></l>  <r><s n="prn"/><s n="pos"/></r></p></e>
 <e>         <p><l></l>  <r><s n="det"/><s n="pos"/></r></p></e>
   </pardef>
+  <pardef n="dets__det+prn_pos">
+<e>       <p><l></l> <r></r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="pl"/></r></p></e>
+<e>       <p><l></l> <r></r></p><par n="det+prn_pos"/><p><l></l><r><s n="nt"/><s n="sg"/></r></p></e>
+<e>       <p><l></l> <r></r></p><par n="det+prn_pos"/><p><l></l><r><s n="ut"/><s n="sg"/></r></p></e>
+  </pardef>
 
 <pardef n="/jeg__prn">
   <e>       <p><l>mig</l>  <r>jeg<s n="prn"/><s n="pers"/><s n="p1"/><s n="ut"/><s n="sg"/><s n="acc"/></r></p></e>
@@ -1388,17 +1393,13 @@
 <pardef n="h/an__prn">
   <e>       <p><l>am</l>  <r>an<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>an</l>  <r>an<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/><s n="sg"/><s n="nom"/></r></p></e>
-  <e>       <p><l>ans</l> <r>ans</r></p><par n="det+prn_pos"/><p><l></l><r><s n="ut"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ans</l> <r>ans</r></p><par n="det+prn_pos"/><p><l></l><r><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ans</l> <r>ans</r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ans</l>   <r>ans</r></p><par n="dets__det+prn_pos"/></e>
 </pardef>
 
 <pardef n="h/un__prn">
   <e>       <p><l>un</l>        <r>un<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>ende</l>      <r>un<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>endes</l>     <r>endes</r></p><par n="det+prn_pos"/><p><l></l><r><s n="ut"/><s n="sg"/></r></p></e>
-  <e>       <p><l>endes</l>     <r>endes</r></p><par n="det+prn_pos"/><p><l></l><r><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>endes</l>     <r>endes</r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="pl"/></r></p></e>
+  <e>       <p><l>endes</l>   <r>endes</r></p><par n="dets__det+prn_pos"/></e>
 </pardef>
 
 <pardef n="de/n__prn">
@@ -1406,44 +1407,32 @@
   <e>       <p><l>n</l>  <r>n<s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/><s n="sg"/><s n="acc"/></r></p></e>
   <e>       <p><l>t</l>  <r>n<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="nom"/></r></p></e>
   <e>       <p><l>t</l>  <r>n<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
-  <e>       <p><l>ns</l> <r>ns</r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="pl"/></r></p></e>
-  <e>       <p><l>ns</l> <r>ns</r></p><par n="det+prn_pos"/><p><l></l><r><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ns</l> <r>ns</r></p><par n="det+prn_pos"/><p><l></l><r><s n="ut"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ts</l> <r>ts</r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="pl"/></r></p></e>
-  <e>       <p><l>ts</l> <r>ts</r></p><par n="det+prn_pos"/><p><l></l><r><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ts</l> <r>ts</r></p><par n="det+prn_pos"/><p><l></l><r><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ns</l>   <r>ns</r></p><par n="dets__det+prn_pos"/></e>
+  <e>       <p><l>ts</l>   <r>ts</r></p><par n="dets__det+prn_pos"/></e>
 </pardef>
 
 <pardef n="/vi__prn">
   <e>       <p><l>vi</l>      <r>vi<s n="prn"/><s n="pers"/><s n="p1"/><s n="un"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>os</l>      <r>vi<s n="prn"/><s n="pers"/><s n="p1"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>vores</l>   <r>vores</r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="pl"/></r></p></e>
-  <e>       <p><l>vores</l>   <r>vores</r></p><par n="det+prn_pos"/><p><l></l><r><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>vores</l>   <r>vores</r></p><par n="det+prn_pos"/><p><l></l><r><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>vores</l>   <r>vores</r></p><par n="dets__det+prn_pos"/></e>
 </pardef>
 
 <pardef n="/I__prn">
   <e>       <p><l>I</l>       <r>i<s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>jer</l>     <r>i<s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>jeres</l>   <r>jeres</r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="pl"/></r></p></e>
-  <e>       <p><l>jeres</l>   <r>jeres</r></p><par n="det+prn_pos"/><p><l></l><r><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>jeres</l>   <r>jeres</r></p><par n="det+prn_pos"/><p><l></l><r><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>jeres</l>   <r>jeres</r></p><par n="dets__det+prn_pos"/></e>
 </pardef>
 
 <pardef n="de__prn">
   <e>       <p><l></l>      <r><s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>m</l>     <r><s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>res</l>   <r>res</r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="pl"/></r></p></e>
-  <e>       <p><l>res</l>   <r>res</r></p><par n="det+prn_pos"/><p><l></l><r><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>res</l>   <r>res</r></p><par n="det+prn_pos"/><p><l></l><r><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>res</l>   <r>res</r></p><par n="dets__det+prn_pos"/></e>
 </pardef>
 
 <pardef n="De__prn" c="TODO: upper/lower-case lemma won't distinguish this">
   <e>       <p><l></l>      <r><s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l>m</l>     <r><s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>res</l>   <r>res</r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="pl"/></r></p></e>
-  <e>       <p><l>res</l>   <r>res</r></p><par n="det+prn_pos"/><p><l></l><r><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>res</l>   <r>res</r></p><par n="det+prn_pos"/><p><l></l><r><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>res</l>   <r>res</r></p><par n="dets__det+prn_pos"/></e>
 </pardef>
 
 <pardef n="/sig__prn">
@@ -1461,17 +1450,13 @@
 
 <pardef n="hinanden__prn">
   <e>       <p><l></l>  <r><s n="prn"/><s n="res"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>s</l> <r>s</r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="pl"/></r></p></e>
-  <e>       <p><l>s</l> <r>s</r></p><par n="det+prn_pos"/><p><l></l><r><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>s</l> <r>s</r></p><par n="det+prn_pos"/><p><l></l><r><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l> <r>s</r></p><par n="dets__det+prn_pos"/></e>
 </pardef>
 
 <pardef n="begge__prn">
   <e>       <p><l></l>  <r><s n="prn"/><s n="def"/><s n="un"/><s n="pl"/><s n="nom"/></r></p></e>
   <e>       <p><l></l>  <r><s n="prn"/><s n="def"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
-  <e>       <p><l>s</l> <r>s</r></p><par n="det+prn_pos"/><p><l></l><r><s n="un"/><s n="pl"/></r></p></e>
-  <e>       <p><l>s</l> <r>s</r></p><par n="det+prn_pos"/><p><l></l><r><s n="nt"/><s n="sg"/></r></p></e>
-  <e>       <p><l>s</l> <r>s</r></p><par n="det+prn_pos"/><p><l></l><r><s n="ut"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l> <r>s</r></p><par n="dets__det+prn_pos"/></e>
 </pardef>
 <pardef n="enhver__prn">
   <e>       <p><l>t</l>         <r><s n="prn"/><s n="def"/><s n="nt"/><s n="sg"/><s n="acc"/></r></p></e>
