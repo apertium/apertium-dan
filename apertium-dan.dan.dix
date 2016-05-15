@@ -162,7 +162,6 @@
      able to generate the sg.ind.cmp form too -->
 <pardef n="cp-R" c="cp-R, for forms that can only end compounds">
   <e>       <p><l></l>             <r></r></p></e>
-  <e r="RL"><p><l></l>             <r><s n="cmp"/></r></p></e>
   <e>       <p><l>-</l>            <r><s n="cmp-split"/></r></p></e>
   <e r="LR"><p><l></l>             <r><s n="compound-R"/></r></p></e>
 </pardef>
