@@ -224,13 +224,15 @@
 
 <pardef n="numeros">
 <!-- separate out the number 1 as singular (fortunately "1.00" is usually plural!) -->
-<e>       <re>1</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="un"/><s n="sg"/></r></p></e>
-<e>       <re>[02-9]</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
-<e>       <re>[0-9][0-9]+([., ][0-9]+)?</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
-<e>       <re>[0-9][., ][0-9]+</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
+<e>       <re>1( ?%)?</re><p><l></l>                   <r><s n="det"/><s n="qnt"/><s n="un"/><s n="sg"/></r></p></e>
+<e>       <re>[02-9]+( ?%)?</re><p><l></l>             <r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
+<e>       <re>[0-9][0-9]+( ?%)?</re><p><l></l>         <r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
+<e>       <re>[0-9]+([., ][0-9]+)+( ?%)?</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
+
+<e>       <re>[½¹²³¼¾]</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
+<e>       <re>[IVXLCDM\-]+</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
 
 <e r="RL"><re>([§\+–] ?)?[0-9]+([.,][0-9]+)*([ \-]+[0-9]+([.,][0-9]+)*)*( *%)?</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
-<e>       <re>[½¹²³¼¾]</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
 
 
@@ -6688,23 +6690,6 @@
           group num
       ****************************** -->
     <!-- Numbers -->
-
-<e lm="1"><re>1</re><par n="1__num"/></e>
-<e lm="0-9,0-9"><re>[0-9]+([., ][0-9]+)?(%)?</re><par n="i__num"/></e>
-
-<e lm="C"><i>C</i><par n="i__num"/></e>
-<e lm="I"><i>I</i><par n="i__num"/></e>
-<e lm="II"><i>II</i><par n="i__num"/></e>
-<e lm="III"><i>III</i><par n="i__num"/></e>
-<e lm="IV"><i>IV</i><par n="i__num"/></e>
-<e lm="IX"><i>IX</i><par n="i__num"/></e>
-<e lm="L"><i>L</i><par n="i__num"/></e>
-<e lm="M"><i>M</i><par n="i__num"/></e>
-<e lm="V"><i>V</i><par n="i__num"/></e>
-<e lm="VI"><i>VI</i><par n="i__num"/></e>
-<e lm="VII"><i>VII</i><par n="i__num"/></e>
-<e lm="VIII"><i>VIII</i><par n="i__num"/></e>
-<e lm="X"><i>X</i><par n="i__num"/></e>
 
 <e lm="nul">          <i>nul</i><par n="to__num"/></e>
 <e lm="en">           <i>e</i><par n="e/n__num"/></e>
