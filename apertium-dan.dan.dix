@@ -230,7 +230,6 @@
 <e>       <re>[0-9]+([., ][0-9]+)+( ?%)?</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
 
 <e>       <re>[½¹²³¼¾]</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
-<e>       <re>[IVXLCDM\-]+</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
 
 <e r="RL"><re>([§\+–] ?)?[0-9]+([.,][0-9]+)*([ \-]+[0-9]+([.,][0-9]+)*)*( *%)?</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
@@ -6685,12 +6684,7 @@
 
 
     <!-- Numbers -->
-
-    <!-- ******************************
-          group num
-      ****************************** -->
-    <!-- Numbers -->
-
+<e>       <re>[IVXLCDM\-]+</re><p><l></l><r><s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
 <e lm="nul">          <i>nul</i><par n="to__num"/></e>
 <e lm="en">           <i>e</i><par n="e/n__num"/></e>
 <e lm="to">           <i>to</i><par n="to__num"/></e>
