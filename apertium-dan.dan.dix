@@ -17,6 +17,12 @@
     You should have received a copy of the GNU General Public License
     along with apertium-nno-nob.  If not, see <http://www.gnu.org/licenses/>.
 -->
+<!--
+
+TODO:
+* Should dan allow genitives on all adj's?
+
+-->
 <dictionary>
   <alphabet>ÀÁÂÄÅÆÇÈÉÊËÌÍÎÏÑÒÓÔÖØÙÚÛÜàáâäåæçèéêëìíîïñòóôöøùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz</alphabet>
   <sdefs>
@@ -521,6 +527,16 @@
   <e>       <p><l>este</l>      <r><s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
 
+<pardef n="ond__adj">
+  <e>       <p><l></l>          <r><s n="adj"/><s n="sint"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="s_case"/></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>e</l>         <r><s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>ere</l>       <r><s n="adj"/><s n="sint"/><s n="comp"/><s n="un"/><s n="sp"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>est</l>       <r><s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>este</l>      <r><s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p><par n="s_case"/></e>
+</pardef>
+
 <pardef n="træt__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="sint"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
   <e>       <p><l></l>          <r><s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
@@ -769,6 +785,16 @@
   <e>       <p><l>ne</l>        <r>men<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
   <e>       <p><l>neste</l>     <r>men<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
   <e>       <p><l>nest</l>      <r>men<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
+</pardef>
+
+<pardef n="død__adj">
+  <e>       <p><l>ere</l>  <r><s n="adj"/><s n="sint"/><s n="comp"/><s n="un"/><s n="sp"/></r></p><par n="s_case"/></e>
+  <e>       <p><l></l>     <r><s n="adj"/><s n="sint"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>t</l>    <r><s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>e</l>    <r><s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>e</l>    <r><s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>este</l> <r><s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>est</l>  <r><s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p><par n="s_case"/></e>
 </pardef>
 
 <pardef n="aktiv__adj">
@@ -27331,7 +27357,7 @@
 <e lm="neutral">         <i>neutral</i><par n="aktiv__adj"/></e>
 <e lm="kolossal">        <i>kolossal</i><par n="aktiv__adj"/></e>
 <e lm="værdifuld">       <i>værdifuld</i><par n="aktiv__adj"/></e>
-<e lm="død">             <i>død</i><par n="aktiv__adj"/></e>
+<e lm="død">             <i>død</i><par n="død__adj"/></e>
 <e lm="loyal">           <i>loyal</i><par n="aktiv__adj"/></e>
 <e lm="gul">             <i>gul</i><par n="rund__adj"/></e>
 <e lm="syg">             <i>syg</i><par n="rund__adj"/></e>
@@ -28343,7 +28369,7 @@
 <e lm="omsværmet">                 <i>omsværme</i><par n="øve/t__adj"/></e>
 <e lm="omsvøbsfri">                <i>omsvøbsfri</i><par n="rund__adj"/></e>
 <e lm="betænksom">                 <i>betænksom</i><par n="grusom__adj"/></e>
-<e lm="ond">                       <i>ond</i><par n="glad__adj"/></e>
+<e lm="ond">                       <i>ond</i><par n="ond__adj"/></e>
 <e lm="ondsindet">                 <i>ondsinde</i><par n="øve/t__adj"/></e>
 <e lm="operationel">              <i>operationel</i><par n="finansiel__adj"/></e>
 <e lm="operativ">                  <i>operativ</i><par n="rund__adj"/></e>
