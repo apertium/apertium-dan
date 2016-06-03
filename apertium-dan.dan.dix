@@ -1307,6 +1307,9 @@
 <pardef n="Jens__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="ant"/><s n="m"/></r></p><par n="'_case"/></e>
 </pardef>
+<pardef n="jr__np">
+  <e>       <p><l></l>          <r><s n="np"/><s n="ant"/></r></p><par n="'s_case"/></e>
+</pardef>
 <pardef n="Aasen__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="cog"/></r></p><par n="s_case"/></e>
 </pardef>
@@ -28368,6 +28371,7 @@
 <e lm="ovennævnt">                 <i>ovennævnt</i><par n="stolt__adj"/></e>
 <e lm="overdreven">                <i>overdrev</i><par n="erfar/en__adj"/></e>
 <e lm="overdådig">                 <i>overdådig</i><par n="lykkelig__adj"/></e>
+<e lm="middelmådig">                 <i>middelmådig</i><par n="lykkelig__adj"/></e>
 <e lm="overfyldt">                  <i>overfyldt</i><par n="glad__adj"/></e>
 <e lm="overhængende">              <i>overhængende</i><par n="OK__adj"/></e>
 <e lm="overlegen">                 <i>overleg</i><par n="erfar/en__adj"/></e>
@@ -48236,7 +48240,7 @@
 <e lm="Intel">           <i>Intel</i><par n="Wikipedia__np"/></e>
 <e lm="Internet">        <i>Internet</i><par n="d'or__np"/></e>
 <e lm="Irish">           <i>Irish</i><par n="d'or__np"/></e>
-<e lm="Jr">              <i>Jr</i><par n="d'or__np"/></e>
+<e lm="Jr">              <i>Jr</i><par n="jr__np"/></e>
 <e lm="Koirala">         <i>Koirala</i><par n="Wikipedia__np"/></e>
 <e lm="KrF">             <i>KrF</i><par n="Wikipedia__np"/></e>
 <e lm="Life">            <i>Life</i><par n="Wikipedia__np"/></e>
@@ -58498,3 +58502,10 @@
 <e>                      <par n="pardret"/></e>
   </section>
 </dictionary>
+<!--
+Local Variables:
+dix-rb-align-column: 55
+dix-pp-align-column: 10
+dimwiki-wikidomains: ("da.wiktionary.org")
+End:
+-->
