@@ -1176,7 +1176,7 @@ TODO:
     <!-- TODO: how's this in dan? -->
 <!-- <e>       <p><l>:a</l>  <r>:es<s n="adj"/><s n="ord"/><s n="pst"/><s n="fn"/><s n="sg"/><s n="ind"/></r></p><par n="s_case"/></e> -->
 <!-- <e>       <p><l>:es</l> <r>:es<s n="adj"/><s n="ord"/><s n="pst"/><s n="m"/><s n="sg"/><s n="ind"/><s n="gen"/></r></p></e> -->
-<!-- <e>       <p><l>:es</l> <r>:es<s n="adj"/><s n="ord"/><s n="pst"/><s n="m"/><s n="sg"/><s n="ind"/><s n="nom"/></r></p></e> -->
+<!-- <e>       <p><l>:es</l> <r>:es<s n="adj"/><s n="ord"/><s n="pst"/><s n="m"/><s n="sg"/><s n="ind"/></r></p></e> -->
 <!-- <e>       <p><l>:es</l>  <r>:es<s n="adj"/><s n="ord"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/></e> -->
 <!-- <e>       <p><l>:es</l>  <r>:es<s n="adj"/><s n="ord"/><s n="pst"/><s n="un"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/></e> -->
 <e>       <p><l></l>    <r><s n="det"/><s n="qnt"/><s n="un"/><s n="sg"/></r></p></e>
