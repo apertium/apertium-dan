@@ -27036,6 +27036,7 @@ TODO:
 <e lm="kommerciel">        <i>kommerciel</i><par n="finansiel__adj"/></e>
 <e lm="kriminel">        <i>kriminel</i><par n="finansiel__adj"/></e>
 <e lm="villig">         <i>villig</i><par n="øvrig__adj"/></e>
+<e lm="sproglig">         <i>sproglig</i><par n="øvrig__adj"/></e>
 <e lm="frivillig">         <i>frivillig</i><par n="øvrig__adj"/></e>
 <e lm="nødvendig">         <i>nødvendig</i><par n="øvrig__adj"/></e>
 <e lm="sidst">           <i>sidst</i><par n="sidst__adj"/></e>
@@ -46095,6 +46096,7 @@ TODO:
 <e lm="Frederick">       <i>Frederick</i><par n="Jo__np"/></e>
 <e lm="Frederik">        <i>Frederik</i><par n="Jo__np"/></e>
 <e lm="Friedrich">       <i>Friedrich</i><par n="Jo__np"/></e>
+<e lm="Friedrich">       <i>Friedrich</i><par n="Aasen__np"/></e>
 <e lm="Gary">            <i>Gary</i><par n="Jo__np"/></e>
 <e lm="Geoffrey">        <i>Geoffrey</i><par n="Jo__np"/></e>
 <e lm="Gerhard">         <i>Gerhard</i><par n="Jo__np"/></e>
@@ -46150,6 +46152,7 @@ TODO:
 <e lm="Miguel">          <i>Miguel</i><par n="Jo__np"/></e>
 <e lm="Mike">            <i>Mike</i><par n="Jo__np"/></e>
 <e lm="Morgan">          <i>Morgan</i><par n="Jo__np"/></e>
+<e lm="Morgan">          <i>Morgan</i><par n="Aasen__np"/></e>
 <e lm="Mr">              <i>Mr</i><par n="Jo__np"/></e>
 <e lm="Napoleon">        <i>Napoleon</i><par n="Jo__np"/></e>
 <e lm="Neil">            <i>Neil</i><par n="Jo__np"/></e>
@@ -52477,6 +52480,7 @@ TODO:
 <e lm="Væren">                   <i>Væren</i><par n="Jo__np"/></e>
 <e lm="Løven">                   <i>Løven</i><par n="Jo__np"/></e>
 <e lm="Hugo">                    <i>Hugo</i><par n="Jo__np"/></e>
+<e lm="Hugo">                    <i>Hugo</i><par n="Aasen__np"/></e>
 <e lm="Koranen">                 <i>Koranen</i><par n="d'or__np"/></e>
 <e lm="Dagbladet">               <i>Dagbladet</i><par n="Lagtinget__np"/></e>
 <e lm="Europarådet">             <i>Europarådet</i><par n="Lagtinget__np"/></e>
