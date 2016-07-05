@@ -3222,6 +3222,13 @@ TODO:
   <e>       <p><l>kerne</l>   <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
 </pardef>
 
+<pardef n="paryk_no-cp__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~ken / ~ker / ~kerne -->
+  <e>       <p><l></l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="s_case\Ø_no-cp"/></e>
+  <e>       <p><l>ken</l>     <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="s_case\Ø_no-cp"/></e>
+  <e>       <p><l>ker</l>     <r><s n="n"/><s n="ut"/><s n="pl"/><s n="ind"/></r></p><par n="s_case\Ø_no-cp"/></e>
+  <e>       <p><l>kerne</l>   <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case\Ø_no-cp"/></e>
+</pardef>
+
 <pardef n="drik__n" c="autoconcord:ut,sgpl"> <!-- Common; ~ / ~ken / ~ke / ~kene -->
   <e>       <p><l></l>        <r><s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="s_case\Ø_LR_s_cp-both"/></e>
   <e>       <p><l>ken</l>     <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
@@ -14691,7 +14698,7 @@ TODO:
 <e lm="cruiseskib">             <i>cruiseskib</i><par n="skib__n"/></e>
 <e lm="tagning">         <i>tagning</i><par n="ateist__n"/></e>
 <e lm="tagrør" a="PT">   <i>tagrør</i><par n="alibi__n"/></e>
-<e lm="tak">             <i>tak</i><par n="paryk__n"/></e>
+<e lm="tak">             <i>tak</i><par n="paryk_no-cp__n"/></e>
 <e lm="takke">           <i>takke</i><par n="abe__n"/></e>
 <e lm="taksonomi">       <i>taksonomi</i><par n="ateist__n"/></e>
 <e lm="takt">            <i>takt</i><par n="ateist__n"/></e>
