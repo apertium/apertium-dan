@@ -32785,6 +32785,7 @@ TODO:
 <e lm="Cueto">   <i>Cueto</i><par n="Aasen__np"/></e>
 <e lm="Culiacán">   <i>Culiacán</i><par n="Aasen__np"/></e>
 <e lm="Cumbernauld">   <i>Cumbernauld</i><par n="Aasen__np"/></e>
+<e lm="Cuzco">   <i>Cuzco</i><par n="Noreg__np"/></e>
 <e lm="Cuzco">   <i>Cuzco</i><par n="Aasen__np"/></e>
 <e lm="Cypriansen">   <i>Cypriansen</i><par n="Aasen__np"/></e>
 <e lm="Cæcilius">   <i>Cæcilius</i><par n="Findus__np"/></e>
@@ -32937,6 +32938,7 @@ TODO:
 <e lm="Drewsen">   <i>Drewsen</i><par n="Aasen__np"/></e>
 <e lm="Dreyer">   <i>Dreyer</i><par n="Aasen__np"/></e>
 <e lm="Driller">   <i>Driller</i><par n="Aasen__np"/></e>
+<e lm="Drin">   <i>Drin</i><par n="Noreg__np"/></e>
 <e lm="Drin">   <i>Drin</i><par n="Aasen__np"/></e>
 <e lm="Drina">   <i>Drina</i><par n="Aasen__np"/></e>
 <e lm="Driveklepp">   <i>Driveklepp</i><par n="Aasen__np"/></e>
@@ -35949,6 +35951,7 @@ TODO:
 <e lm="Keronen">   <i>Keronen</i><par n="Aasen__np"/></e>
 <e lm="Kert">   <i>Kert</i><par n="Aasen__np"/></e>
 <e lm="Kertsj">   <i>Kertsj</i><par n="Aasen__np"/></e>
+<e lm="Kertsj">   <i>Kertsj</i><par n="Noreg__np"/></e>
 <e lm="Kerttula">   <i>Kerttula</i><par n="Aasen__np"/></e>
 <e lm="Kervinen">   <i>Kervinen</i><par n="Aasen__np"/></e>
 <e lm="Keränen">   <i>Keränen</i><par n="Aasen__np"/></e>
@@ -37753,6 +37756,7 @@ TODO:
 <e lm="Mantela">   <i>Mantela</i><par n="Aasen__np"/></e>
 <e lm="Mantere">   <i>Mantere</i><par n="Aasen__np"/></e>
 <e lm="Mantila">   <i>Mantila</i><par n="Aasen__np"/></e>
+<e lm="Mantova">   <i>Mantova</i><par n="Noreg__np"/></e>
 <e lm="Mantova">   <i>Mantova</i><par n="Aasen__np"/></e>
 <e lm="Mantsinen">   <i>Mantsinen</i><par n="Aasen__np"/></e>
 <e lm="Manueles">   <i>Manueles</i><par n="Findus__np"/></e>
@@ -38766,7 +38770,7 @@ TODO:
 <e lm="Nørregaard">   <i>Nørregaard</i><par n="Aasen__np"/></e>
 <e lm="Nøss">   <i>Nøss</i><par n="Findus__np"/></e>
 <e lm="Nøttveit">   <i>Nøttveit</i><par n="Aasen__np"/></e>
-<e lm="Nürnbergprosessen">   <i>Nürnbergprosessen</i><par n="Aasen__np"/></e>
+<e lm="Nürnbergprosessen">   <i>Nürnbergprosessen</i><par n="Riksdagen__np"/></e>
 <e lm="O'Hare">   <i>O'Hare</i><par n="Aasen__np"/></e>
 <e lm="Oak">   <i>Oak</i><par n="Aasen__np"/></e>
 <e lm="Oanes">   <i>Oanes</i><par n="Findus__np"/></e>
@@ -39125,6 +39129,7 @@ TODO:
 <e lm="Peine">   <i>Peine</i><par n="Aasen__np"/></e>
 <e lm="Peiponen">   <i>Peiponen</i><par n="Aasen__np"/></e>
 <e lm="Peippo">   <i>Peippo</i><par n="Aasen__np"/></e>
+<e lm="Peisen">   <i>Peisen</i><par n="Noreg__np"/></e>
 <e lm="Peisen">   <i>Peisen</i><par n="Aasen__np"/></e>
 <e lm="Peitersen">   <i>Peitersen</i><par n="Aasen__np"/></e>
 <e lm="Pekkala">   <i>Pekkala</i><par n="Aasen__np"/></e>
@@ -40483,6 +40488,7 @@ TODO:
 <e lm="Saraste">   <i>Saraste</i><par n="Aasen__np"/></e>
 <e lm="Saratoga">   <i>Saratoga</i><par n="Aasen__np"/></e>
 <e lm="Saratov">   <i>Saratov</i><par n="Aasen__np"/></e>
+<e lm="Saratov">   <i>Saratov</i><par n="Noreg__np"/></e>
 <e lm="Sario">   <i>Sario</i><par n="Aasen__np"/></e>
 <e lm="Sariola">   <i>Sariola</i><par n="Aasen__np"/></e>
 <e lm="Sarja">   <i>Sarja</i><par n="Aasen__np"/></e>
@@ -40822,6 +40828,7 @@ TODO:
 <e lm="Simpura">   <i>Simpura</i><par n="Aasen__np"/></e>
 <e lm="Simsen">   <i>Simsen</i><par n="Aasen__np"/></e>
 <e lm="Simson">   <i>Simson</i><par n="Aasen__np"/></e>
+<e lm="Sind">   <i>Sind</i><par n="Noreg__np"/></e>
 <e lm="Sind">   <i>Sind</i><par n="Aasen__np"/></e>
 <e lm="Sinding">   <i>Sinding</i><par n="Aasen__np"/></e>
 <e lm="Singsaas">   <i>Singsaas</i><par n="Findus__np"/></e>
@@ -42110,6 +42117,7 @@ TODO:
 <e lm="Tsjekhov">   <i>Tsjekhov</i><par n="Aasen__np"/></e>
 <e lm="Tsjeljuskin">   <i>Tsjeljuskin</i><par n="Aasen__np"/></e>
 <e lm="Tsjernigov">   <i>Tsjernigov</i><par n="Aasen__np"/></e>
+<e lm="Tsjimkent">   <i>Tsjimkent</i><par n="Noreg__np"/></e>
 <e lm="Tsjimkent">   <i>Tsjimkent</i><par n="Aasen__np"/></e>
 <e lm="Tsutsunen">   <i>Tsutsunen</i><par n="Aasen__np"/></e>
 <e lm="Tsybulsky">   <i>Tsybulsky</i><par n="Aasen__np"/></e>
@@ -42774,6 +42782,7 @@ TODO:
 <e lm="Vold">   <i>Vold</i><par n="Aasen__np"/></e>
 <e lm="Volden">   <i>Volden</i><par n="Aasen__np"/></e>
 <e lm="Volhov">   <i>Volhov</i><par n="Aasen__np"/></e>
+<e lm="Volkhov">   <i>Volkhov</i><par n="Noreg__np"/></e>
 <e lm="Volkhov">   <i>Volkhov</i><par n="Aasen__np"/></e>
 <e lm="Volkov">   <i>Volkov</i><par n="Aasen__np"/></e>
 <e lm="Volkova">   <i>Volkova</i><par n="Aasen__np"/></e>
@@ -45509,12 +45518,12 @@ TODO:
 <e lm="Esau">            <i>Esau</i><par n="Jo__np"/></e>
 <e lm="Espen">           <i>Espen</i><par n="Jo__np"/></e>
 <e lm="Eugene">          <i>Eugene</i><par n="Jo__np"/></e>
-<e lm="Europakommissionen"><i>Europakommissionen</i><par n="Jo__np"/></e>
-<e lm="Eurovisjonen">    <i>Eurovisjonen</i><par n="Jo__np"/></e>
+<e lm="Europakommissionen"><i>Europakommissionen</i><par n="Riksdagen__np"/></e>
+<e lm="Eurovisjonen">    <i>Eurovisjonen</i><par n="Riksdagen__np"/></e>
 <e lm="Even">            <i>Even</i><par n="Jo__np"/></e>
-<e lm="Fædrelandsvennen"><i>Fædrelandsvennen</i><par n="Jo__np"/></e>
+<e lm="Fædrelandsvennen"><i>Fædrelandsvennen</i><par n="Riksdagen__np"/></e>
 <e lm="Finn">            <i>Finn</i><par n="Jo__np"/></e>
-<e lm="Forbundsdagen">   <i>Forbundsdagen</i><par n="Jo__np"/></e>
+<e lm="Forbundsdagen">   <i>Forbundsdagen</i><par n="Riksdagen__np"/></e>
 <e lm="Frank">           <i>Frank</i><par n="Jo__np"/></e>
 <e lm="Frans">           <i>Frans</i><par n="Jens__np"/></e>
 <e lm="Franz">           <i>Franz</i><par n="Jens__np"/></e>
@@ -45522,14 +45531,14 @@ TODO:
 <e lm="Fredrik">         <i>Fredrik</i><par n="Jo__np"/></e>
 <e lm="Frode">           <i>Frode</i><par n="Jo__np"/></e>
 <e lm="Gabriel">         <i>Gabriel</i><par n="Jo__np"/></e>
-<e lm="Gardemusikken">   <i>Gardemusikken</i><par n="Jo__np"/></e>
+<e lm="Gardemusikken">   <i>Gardemusikken</i><par n="Riksdagen__np"/></e>
 <e lm="Geir">            <i>Geir</i><par n="Jo__np"/></e>
 <e lm="George">          <i>George</i><par n="Jo__np"/></e>
 <e lm="Georg">           <i>Georg</i><par n="Jo__np"/></e>
 <e lm="Gisle">           <i>Gisle</i><par n="Jo__np"/></e>
 <e lm="Gjert">           <i>Gjert</i><par n="Jo__np"/></e>
 <e lm="Glenn">           <i>Glenn</i><par n="Jo__np"/></e>
-<e lm="Golf-krigen">     <i>Golf-krigen</i><par n="Jo__np"/></e>
+<e lm="Golf-krigen">     <i>Golf-krigen</i><par n="Riksdagen__np"/></e>
 <e lm="Gøran">           <i>Gøran</i><par n="Jo__np"/></e>
 <e lm="Gøsta">           <i>Gøsta</i><par n="Jo__np"/></e>
 <e lm="Gøran">           <i>Gøran</i><par n="Jo__np"/></e>
@@ -45544,7 +45553,7 @@ TODO:
 <e lm="Gustaf">          <i>Gustaf</i><par n="Jo__np"/></e>
 <e lm="Gustav">          <i>Gustav</i><par n="Jo__np"/></e>
 <e lm="Guttorm">         <i>Guttorm</i><par n="Jo__np"/></e>
-<e lm="Haagdomstolen">   <i>Haagdomstolen</i><par n="Jo__np"/></e>
+<e lm="Haagdomstolen">   <i>Haagdomstolen</i><par n="Riksdagen__np"/></e>
 <e lm="Haagen">          <i>Haagen</i><par n="Jo__np"/></e>
 <e lm="Haakon">          <i>Haakon</i><par n="Jo__np"/></e>
 <e lm="Haavard">         <i>Haavard</i><par n="Jo__np"/></e>
@@ -45564,18 +45573,18 @@ TODO:
 <e lm="Håvard">          <i>Håvard</i><par n="Jo__np"/></e>
 <e lm="Helge">           <i>Helge</i><par n="Jo__np"/></e>
 <e lm="Helmer">          <i>Helmer</i><par n="Jo__np"/></e>
-<e lm="Helsingforsaftalen"><i>Helsingforsaftalen</i><par n="Jo__np"/></e>
-<e lm="Helsingforskomiteen"><i>Helsingforskomiteen</i><par n="Jo__np"/></e>
+<e lm="Helsingforsaftalen"><i>Helsingforsaftalen</i><par n="Riksdagen__np"/></e>
+<e lm="Helsingforskomiteen"><i>Helsingforskomiteen</i><par n="Riksdagen__np"/></e>
 <e lm="Henning">         <i>Henning</i><par n="Jo__np"/></e>
 <e lm="Henrik">          <i>Henrik</i><par n="Jo__np"/></e>
 <e lm="Henry">           <i>Henry</i><par n="Jo__np"/></e>
 <e lm="Herman">          <i>Herman</i><par n="Jo__np"/></e>
 <e lm="Herodes">         <i>Herodes</i><par n="Jens__np"/></e>
 <e lm="Hitrasyken">      <i>Hitrasyken</i><par n="Jo__np"/></e>
-<e lm="Holmenkolldagen"> <i>Holmenkolldagen</i><par n="Jo__np"/></e>
-<e lm="Holmenkollstafetten"><i>Holmenkollstafetten</i><par n="Jo__np"/></e>
+<e lm="Holmenkolldagen"> <i>Holmenkolldagen</i><par n="Riksdagen__np"/></e>
+<e lm="Holmenkollstafetten"><i>Holmenkollstafetten</i><par n="Riksdagen__np"/></e>
 <e lm="Hyde">            <i>Hyde</i><par n="Jo__np"/></e>
-<e lm="Ibsen-ringen">    <i>Ibsen-ringen</i><par n="Jo__np"/></e>
+<e lm="Ibsen-ringen">    <i>Ibsen-ringen</i><par n="Riksdagen__np"/></e>
 <e lm="Ingar">           <i>Ingar</i><par n="Jo__np"/></e>
 <e lm="Ingebret">        <i>Ingebret</i><par n="Jo__np"/></e>
 <e lm="Ingebrigt">       <i>Ingebrigt</i><par n="Jo__np"/></e>
@@ -45590,7 +45599,7 @@ TODO:
 <e lm="Jahn">            <i>Jahn</i><par n="Jo__np"/></e>
 <e lm="Jakob">           <i>Jakob</i><par n="Jo__np"/></e>
 <e lm="Jan">             <i>Jan</i><par n="Jo__np"/></e>
-<e lm="Janteloven">      <i>Janteloven</i><par n="Jo__np"/></e>
+<e lm="Janteloven">      <i>Janteloven</i><par n="Riksdagen__np"/></e>
 <e lm="Jarle">           <i>Jarle</i><par n="Jo__np"/></e>
 <e lm="Jekyll">          <i>Jekyll</i><par n="Jo__np"/></e>
 <e lm="Jens">            <i>Jens</i><par n="Jens__np"/></e>
@@ -45641,14 +45650,14 @@ TODO:
 <e lm="Robert">          <i>Robert</i><par n="Jo__np"/></e>
 <e lm="Roger">           <i>Roger</i><par n="Jo__np"/></e>
 <e lm="Rolf">            <i>Rolf</i><par n="Jo__np"/></e>
-<e lm="Romatraktaten">   <i>Romatraktaten</i><par n="Jo__np"/></e>
+<e lm="Romatraktaten">   <i>Romatraktaten</i><par n="Riksdagen__np"/></e>
 <e lm="Romeo">           <i>Romeo</i><par n="Jo__np"/></e>
 <e lm="Ronald">          <i>Ronald</i><par n="Jo__np"/></e>
 <e lm="Roy">             <i>Roy</i><par n="Jo__np"/></e>
 <e lm="Rubens">          <i>Rubens</i><par n="Jens__np"/></e>
 <e lm="Rune">            <i>Rune</i><par n="Jo__np"/></e>
 <e lm="Samuel">          <i>Samuel</i><par n="Jo__np"/></e>
-<e lm="Saugbrugsforeningen"><i>Saugbrugsforeningen</i><par n="Jo__np"/></e>
+<e lm="Saugbrugsforeningen"><i>Saugbrugsforeningen</i><par n="Riksdagen__np"/></e>
 <e lm="Saul">            <i>Saul</i><par n="Jo__np"/></e>
 <e lm="Sebastian">       <i>Sebastian</i><par n="Jo__np"/></e>
 <e lm="Severin">         <i>Severin</i><par n="Jo__np"/></e>
