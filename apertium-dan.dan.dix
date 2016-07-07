@@ -4992,6 +4992,7 @@ TODO:
 </pardef>
 
 <pardef n="sl/ås__vblex">
+  <e>       <p><l>ås</l>        <r>ås<s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l>ås</l>        <r>ås<s n="vblex"/><s n="inf"/><s n="actv"/></r></p></e>
   <e>       <p><l>ås</l>        <r>ås<s n="vblex"/><s n="pres"/><s n="actv"/></r></p></e>
   <e>       <p><l>oges</l>       <r>ås<s n="vblex"/><s n="past"/><s n="actv"/></r></p></e>
@@ -13643,7 +13644,6 @@ TODO:
 <e lm="romani">          <i>romani</i><par n="afghansk__n"/></e>
 <e lm="romani">          <i>romani</i><par n="afghansk__n"/></e>
 <e lm="indisk">          <i>indisk</i><par n="afghansk__n"/></e>
-<e lm="latin">          <i>latin</i><par n="afghansk__n"/></e>
 <e lm="roning">          <i>roning</i><par n="ateist__n"/></e>
 <e lm="ror">             <i>ror</i><par n="år_no-cp__n"/></e>
 <e lm="ros">             <i>ros</i><par n="residens__n"/></e>
@@ -19833,6 +19833,7 @@ TODO:
 <e lm="ensilage"><i>ensilage</i><par n="hygiejne__n"/></e>
 <e lm="ental"><i>ental</i><par n="spil__n"/></e>
 <e lm="entertainer"><i>entertainer</i><par n="spiller__n"/></e>
+<e lm="latiner"><i>latiner</i><par n="spiller__n"/></e>
 <e lm="entomologi"><i>entomologi</i><par n="aften__n"/></e>
 <e lm="entreprenørfirma"><i>entreprenørfirma</i><par n="vita__n"/></e>
 <e lm="entreprise"><i>entreprise</i><par n="hygiejne__n"/></e>
