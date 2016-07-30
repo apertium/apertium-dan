@@ -11870,6 +11870,7 @@ TODO:
 <e lm="koordinator">     <i>koordinator</i><par n="aften__n"/></e>
 <e lm="koordinatsystem"> <i>koordinatsystem</i><par n="alibi__n"/></e>
 <e lm="koordinering">    <i>koordinering</i><par n="aften__n"/></e>
+<e lm="krydspollinering">    <i>krydspollinering</i><par n="aften__n"/></e>
 <e lm="kop">             <i>kop</i><par n="kop__n"/></e>
 <e lm="kopi">            <i>kopi</i><par n="aften__n"/></e>
 <e lm="kopiering">       <i>kopiering</i><par n="aften__n"/></e>
