@@ -13997,6 +13997,7 @@ TODO:
 <e lm="skridt">          <i>skridt</i><par n="år__n"/></e>
 <e lm="ridt">          <i>ridt</i><par n="år__n"/></e>
 <e lm="skrift">          <i>skrift</i><par n="aften__n"/></e>
+<e lm="forskrift">          <i>forskrift</i><par n="aften__n"/></e>
 <e lm="skrift">          <i>skrift</i><par n="alibi__n"/></e>
 <e lm="skrifte" a="DAINF"><i>skrifte</i><par n="abe__n"/></e>
 <e lm="skriftsprog">     <i>skriftsprog</i><par n="år__n"/></e>
