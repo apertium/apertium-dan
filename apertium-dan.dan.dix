@@ -8715,6 +8715,7 @@ TODO:
 <e lm="distrikt">        <i>distrikt</i><par n="alibi__n"/></e>
 <e lm="distriktspolitik">         <i>distriktspolitik</i><par n="paryk__n"/></e>
 <e lm="indenrigspolitik">         <i>indenrigspolitik</i><par n="paryk__n"/></e>
+<e lm="udenrigspolitik">         <i>udenrigspolitik</i><par n="paryk__n"/></e>
 <e lm="finanspolitik">         <i>finanspolitik</i><par n="paryk__n"/></e>
 <e lm="division">        <i>division</i><par n="aften_\s__n"/></e>
 <e lm="divisionschef">   <i>divisionschef</i><par n="aften__n"/></e>
@@ -9281,7 +9282,7 @@ TODO:
 <e lm="evne">                      <i>evn</i><par n="enk/e__n"/></e>
 <e lm="evne">            <i>evne</i><par n="abe__n"/></e>
 <e lm="evolutionsteori">           <i>evolutionsteori</i><par n="aften__n"/></e>
-<e lm="f">           <i>forum</i><par n="alibi__n"/></e>
+<e lm="forum">           <i>forum</i><par n="alibi__n"/></e>
 <e lm="fa">                        <i>fa</i><par n="aften_no-cp__n"/></e>
 <e lm="fabel">                     <i>fab</i><par n="cirk/el__n"/></e>
 <e lm="fabeldyr">        <i>fabeldyr</i><par n="år__n"/></e>
@@ -17408,7 +17409,7 @@ TODO:
 <e lm="swing">                     <i>swing</i><par n="aften__n"/></e>
 <e lm="syfilis">                   <i>syfilis</i><par n="aften__n"/></e>
 <e lm="plejehjem">                  <i>plejehjem</i><par n="lam__n"/></e>
-<e lm="sygeplejeruddanelse">       <i>sygeplejeruddannelse</i><par n="hygiejne__n"/></e>
+<e lm="sygeplejeruddannelse">       <i>sygeplejeruddannelse</i><par n="hygiejne__n"/></e>
 <e lm="cykelvej">                 <i>cykelvej</i><par n="vals__n"/></e>
 <e lm="cyklus">                    <i>cykl</i><par n="papyr/us__n"/></e>
 <e lm="symbiose">                  <i>symbiose</i><par n="hygiejne__n"/></e>
@@ -20416,6 +20417,7 @@ TODO:
 <e lm="forretningsbyggeri"><i>forretningsbyggeri</i><par n="slag__n"/></e>
 <e lm="forretningsliv"><i>forretningsliv</i><par n="slag__n"/></e>
 <e lm="forretningsministerium"><i>forretningsministeri</i><par n="podi/um__n"/></e>
+<e lm="udenrigsministerium"><i>udenrigsministeri</i><par n="podi/um__n"/></e>
 <e lm="forretningsmoral"><i>forretningsmoral</i><par n="aften__n"/></e>
 <e lm="forretningsorden"><i>forretningsorden</i><par n="aften__n"/></e>
 <e lm="forretningscenter"><i>forretningscent</i><par n="cent/er__n"/></e>
@@ -28958,7 +28960,7 @@ TODO:
 <e lm="udsendt">                   <i>udsendt</i><par n="glad__adj"/></e>
 <e lm="udslidt">                   <i>udslidt</i><par n="glad__adj"/></e>
 <e lm="udslået">                   <i>udslåe</i><par n="øve/t__adj"/></e>
-<e lm="utsolgt">                   <i>udsolgt</i><par n="glad__adj"/></e>
+<e lm="udsolgt">                   <i>udsolgt</i><par n="glad__adj"/></e>
 <e lm="udstrakt">                  <i>udstrakt</i><par n="glad__adj"/></e>
 <e lm="udtrykkelig">               <i>udtrykkelig</i><par n="lykkelig__adj"/></e>
 <e lm="udtryksfuld">              <i>udtryksfuld</i><par n="rund__adj"/></e>
@@ -44131,7 +44133,7 @@ TODO:
 <e lm="Athene">   <i>Athene</i><par n="Eva__np"/></e>
 <e lm="Audhild">   <i>Audhild</i><par n="Eva__np"/></e>
 <e lm="Audny">   <i>Audny</i><par n="Eva__np"/></e>
-<e lm="Augusta">   <i>Augusta</i><par n="Eva__np"/></e>
+<e lm="Augusta">   <i>Augusta</i><par n="Eva__np"/></e>s
 <e lm="Auli">   <i>Auli</i><par n="Eva__np"/></e>
 <e lm="Aurora">   <i>Aurora</i><par n="Eva__np"/></e>
 <e lm="Ašen-nieida">   <i>Ašen-nieida</i><par n="Eva__np"/></e>
@@ -52923,7 +52925,7 @@ TODO:
 <e lm="afhænde">            <i>afhænd</i><par n="mal/e__vblex"/></e>
 <e lm="afhænge">            <i>afh</i><par n="h/ænge__vblex"/></e>
 <e lm="afhærde">            <i>afhærd</i><par n="mal/e__vblex"/></e>
-<e lm="afhøre">             <i>afhør</i><par n="tal/e__vblex"/></e>
+<e lm="affhøre">             <i>afhør</i><par n="tal/e__vblex"/></e>
 <e lm="afideologisere">     <i>afideologiser</i><par n="mal/e__vblex"/></e>
 <e lm="afise">              <i>afis</i><par n="mal/e__vblex"/></e>
 <e lm="afkalke">            <i>afkalk</i><par n="mal/e__vblex"/></e>
