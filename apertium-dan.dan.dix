@@ -3972,7 +3972,6 @@ TODO:
   <e>       <p><l>terne</l> <r><s n="n"/><s n="ut"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/><par n="cp-R"/></e>
 </pardef>
 
-
 <pardef n="hit__n" c="autoconcord:nt,sgpl"> <!-- Neuter; ~ / ~tet / ~ / ~tene -->
   <e>       <p><l></l>      <r><s n="n"/><s n="nt"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/><par n="cp-R"/></e>
   <e>       <p><l></l>      <r><s n="n"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="s_case\Ø_LR_s_cp-both"/></e>
@@ -4069,6 +4068,10 @@ TODO:
 
 <pardef n="antikken__n" c="autoconcord:ut,sgpl"> <!-- Common; # / ~ / # / #; only definite, no plural -->
   <e>       <p><l></l>      <r><s n="n"/><s n="ut"/><s n="sg"/><s n="def"/></r></p><par n="s_case"/></e>
+</pardef>
+
+<pardef n="1960'erne__n" c="autoconcord:ut,sgpl"> <!-- common or neuter;  plural -->
+  <e>       <p><l></l>      <r><s n="n"/><s n="un"/><s n="pl"/><s n="def"/></r></p><par n="s_case"/></e>
 </pardef>
 
 
@@ -26609,6 +26612,8 @@ TODO:
 <e lm="gulsot"><i>gulsot</i><par n="aften__n"/></e>
 <e lm="bildør"><i>bildør</i><par n="aften__n"/></e>
 <e lm="kafé"><i>kaf</i><par n="id/é__n"/></e>
+<e lm="1960'erne"><i>1960'erne</i><par n="1960'erne__n"/></e>
+
 
 <!-- ut-nouns that need adding: -->
 <!-- <e a="Wiki"><p><l>gelatin<s n="n"/><s n="un"/></l>         <r>husblas<s n="n"/><s n="ut"/></r></p><par n="@sg"/></e> -->
