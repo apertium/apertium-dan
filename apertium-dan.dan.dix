@@ -7956,6 +7956,7 @@ TODO:
 <e lm="bjørk">                     <i>bjørk</i><par n="art__n"/></e>
 <e lm="bjørn">           <i>bjørn</i><par n="bold__n"/></e>
 <e lm="bl.a">                      <i>bl.a</i><par n="km_no-cp__n"/></e>
+<e lm="bl.a.">                      <i>bl.a.</i><par n="km_no-cp__n"/></e>
 <e lm="bla">                       <i>bla</i><par n="km_no-cp__n"/></e>
 <e lm="blad">            <i>blad</i><par n="skib__n"/></e>
 <e lm="bland">           <i>bland</i><par n="alibi__n"/></e>
