@@ -512,13 +512,13 @@ TODO:
 
 
 <pardef n="/dårlig__adj">
-  <e>       <p><l>dårlig</l>          <r>dårlig<s n="adj"/><s n="sint"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>dårligt</l>         <r>dårlig<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
-  <e>       <p><l>dårlige</l>         <r>dårlig<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
-  <e>       <p><l>dårlige</l>         <r>dårlig<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
-  <e>       <p><l>værre</l>       <r>dårlig<s n="adj"/><s n="sint"/><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
-  <e>       <p><l>værst</l>        <r>dårlig<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
-  <e>       <p><l>værste</l>       <r>dårlig<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+  <e>       <p><l>dårlig</l> <r>dårlig<s n="adj"/><s n="sint"/><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>dårligt</l><r>dårlig<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>dårlige</l><r>dårlig<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>dårlige</l><r>dårlig<s n="adj"/><s n="sint"/><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>værre</l>  <r>dårlig<s n="adj"/><s n="sint"/><s n="comp"/><s n="un"/><s n="sp"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>værst</l>  <r>dårlig<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p><par n="s_case"/></e>
+  <e>       <p><l>værste</l> <r>dårlig<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p><par n="s_case"/></e>
 </pardef>
 
 <pardef n="glad__adj"> <!-- Model #3 -->
@@ -1530,11 +1530,11 @@ TODO:
 </pardef>
 
 <pardef n="/sig__refl" c="TODO: better at the moment, we just discard this anyway">
-  <e>       <p><l><b/>mig</l>   <r><g><b/>sig</g></r></p></e>
-  <e>       <p><l><b/>dig</l>   <r><g><b/>sig</g></r></p></e>
+  <e r="LR"><p><l><b/>mig</l>   <r><g><b/>sig</g></r></p></e>
+  <e r="LR"><p><l><b/>dig</l>   <r><g><b/>sig</g></r></p></e>
   <e>       <p><l><b/>sig</l>   <r><g><b/>sig</g></r></p></e>
-  <e>       <p><l><b/>os</l>   <r><g><b/>sig</g></r></p></e>
-  <e>       <p><l><b/>jer</l>  <r><g><b/>sig</g></r></p></e>
+  <e r="LR"><p><l><b/>os</l>   <r><g><b/>sig</g></r></p></e>
+  <e r="LR"><p><l><b/>jer</l>  <r><g><b/>sig</g></r></p></e>
 </pardef>
 
 <pardef n="/sig_selv__prn">
@@ -29197,6 +29197,10 @@ TODO:
 <e lm="til vands">    <i>til<b/>vands</i><par n="dagevis__adv"/></e>
 <e lm="til lands">    <i>til<b/>lands</i><par n="dagevis__adv"/></e>
 
+<e lm="bl.a.">    <i>bl.a.</i><par n="dagevis__adv"/></e>
+<e lm="bl.a">    <i>bl.a</i><par n="dagevis__adv"/></e>
+
+<e lm="endvidere">        <i>endvidere</i><par n="dagevis__adv"/></e>
 <e lm="bagom">        <i>bagom</i><par n="dagevis__adv"/></e>
 <e lm="langt">        <i>langt</i><par n="dagevis__adv"/></e>
 <e lm="at">        <i>at</i><par n="dagevis__adv"/></e>
@@ -32774,6 +32778,7 @@ TODO:
 <e lm="Crosse">   <i>Crosse</i><par n="Aasen__np"/></e>
 <e lm="Crossland">   <i>Crossland</i><par n="Aasen__np"/></e>
 <e lm="Crowley">   <i>Crowley</i><par n="Aasen__np"/></e>
+<e lm="Croydon">   <i>Croydon</i><par n="Noreg__np"/></e>
 <e lm="Croydon">   <i>Croydon</i><par n="Aasen__np"/></e>
 <e lm="Cruz">   <i>Cruz</i><par n="Findus__np"/></e>
 <e lm="Cueto">   <i>Cueto</i><par n="Aasen__np"/></e>
@@ -55523,7 +55528,7 @@ TODO:
 <e lm="knuselske">         <i>knuselsk</i><par n="mal/e__vblex"/></e>
 <e lm="kny">               <i>kny</i><par n="nå__vblex"/></e>
 <e lm="knytte">            <i>knyt</i><par n="byt/te__vblex"/></e>
-<e lm="knytte">            <i>knyt</i><par n="byt/te__vblex"/></e>
+<e lm="tilknytte">         <i>tilknyt</i><par n="byt/te__vblex"/></e>
 <e lm="knægte">            <i>knægt</i><par n="mal/e__vblex"/></e>
 <e lm="knække">            <i>kn</i><par n="tr/ække__vblex"/></e>
 <e lm="knæle">             <i>knæl</i><par n="mal/e__vblex"/></e>
