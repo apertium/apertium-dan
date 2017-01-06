@@ -1538,15 +1538,15 @@ TODO:
 </pardef>
 
 <pardef n="/sig_selv__prn">
-<e>       <p><l>mig<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p1"/><s n="sg"/></r></p></e>
-<e>       <p><l>dig<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p2"/><s n="sg"/></r></p></e>
-<e>       <p><l>sig<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
-<e>       <p><l>os<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p1"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>os<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p1"/><s n="du"/></r></p></e>
-<e>       <p><l>jer<b/>selv</l>  <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p2"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>jer<b/>selv</l>  <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p2"/><s n="du"/></r></p></e>
-<e>       <p><l>sig<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p3"/><s n="pl"/></r></p></e>
-<e r="RL"><p><l>sig<b/>selv</l>   <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p3"/><s n="du"/></r></p></e>
+<e>       <p><l>mig<b/>selv</l> <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+<e>       <p><l>dig<b/>selv</l> <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+<e>       <p><l>sig<b/>selv</l> <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sg"/><s n="acc"/></r></p></e>
+<e>       <p><l>os<b/>selv</l>  <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p1"/><s n="mf"/><s n="du"/><s n="acc"/></r></p></e>
+<e r="RL"><p><l>os<b/>selv</l>  <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p2"/><s n="mf"/><s n="du"/><s n="acc"/></r></p></e>
+<e>       <p><l>jer<b/>selv</l> <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="du"/><s n="acc"/></r></p></e>
+<e r="RL"><p><l>jer<b/>selv</l> <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p1"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
+<e>       <p><l>sig<b/>selv</l> <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p2"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
+<e r="RL"><p><l>sig<b/>selv</l> <r>sig<b/>selv<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="pl"/><s n="acc"/></r></p></e>
 </pardef>
 
 
