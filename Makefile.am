@@ -93,7 +93,8 @@ clean-local:
 
 test: all
 	echo "kage" | apertium -d . dan-morph | tee .test-mt
-	@echo "^kage/kage<vblex><inf><actv>/kage<n><ut><sg><ind><nom>/kage<n><ut><sg><ind><nom>$$^./.<sent>$$" > .test-ref
+	@echo "^kage/kage<vblex><inf><actv>/kage<n><ut><sg><ind>/kage<n><ut><sg><ind>$$^./.<sent>$$" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
 
+check: test
