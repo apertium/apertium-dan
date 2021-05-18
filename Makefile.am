@@ -93,6 +93,9 @@ test: all
 	echo "kage" | apertium -d . dan-morph | tee .test-mt
 	@echo "^kage/kage<vblex><inf><actv>/kage<n><ut><sg><ind>/kage<n><ut><sg><ind>$$^./.<sent>$$" > .test-ref
 	@diff .test-ref .test-mt
+	echo "Mit luftpudefartøj er fyldt med ål" | apertium -d . dan-disam | tee .test-mt
+	@echo "^Mit/Min<det><pos><nt><sg>$$ ^luftpudefartøj/luft<n><ut><sg><ind><cmp>+pude<n><ut><sg><ind><cmp>+fartøj<n><nt><sg><ind>$$ ^er/være<vbser><pres><actv>$$ ^fyldt/fylde<vblex><pp>$$ ^med/med<pr>$$ ^ål/ål<n><ut><sg><ind>$$^./.<sent>$$" > .test-ref
+	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
 
 check: test
