@@ -62,24 +62,18 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 apertium_dandir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_dan_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_dan_DATA=$(TARGETS_COMMON) $(LANG1).prob
+apertium_dan_DATA=$(TARGETS_COMMON) $(LANG1).prob \
+				  $(BASENAME).$(LANG1).dix \
+				  $(BASENAME).$(LANG1).rlx \
+				  $(BASENAME).post-$(LANG1).dix
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
 
-# Modes are not installed since they're all just "debug modes". All
-# modes are created by this goal.
-modes/$(LANG1)-morph.mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
-	test -d $(DESTDIR)$(apertium_dan_srcdir) || mkdir -p $(DESTDIR)$(apertium_dan_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).dix $(DESTDIR)$(apertium_dan_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_dan_srcdir)
-	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_dan_srcdir)
+uninstall-local: uninstall-modes
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
@@ -90,12 +84,6 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "kage" | apertium -d . dan-morph | tee .test-mt
-	@echo "^kage/kage<vblex><inf><actv>/kage<n><ut><sg><ind>/kage<n><ut><sg><ind>$$^./.<sent>$$" > .test-ref
-	@diff .test-ref .test-mt
-	echo "Mit luftpudefartøj er fyldt med ål" | apertium -d . dan-disam | tee .test-mt
-	@echo "^Mit/Min<det><pos><nt><sg>$$ ^luftpudefartøj/luft<n><ut><sg><ind><cmp>+pude<n><ut><sg><ind><cmp>+fartøj<n><nt><sg><ind>$$ ^er/være<vbser><pres><actv>$$ ^fyldt/fylde<vblex><pp>$$ ^med/med<pr>$$ ^ål/ål<n><ut><sg><ind>$$^./.<sent>$$" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
+	apertium-regtest test
 
 check: test

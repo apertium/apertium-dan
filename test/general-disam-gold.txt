@@ -1,0 +1,2 @@
+[ZacaWaAfGYqY] ^Mit/Min<det><pos><nt><sg>$ ^luftpudefartøj/luft<n><ut><sg><ind><cmp>+pude<n><ut><sg><ind><cmp>+fartøj<n><nt><sg><ind>$ ^er/være<vbser><pres><actv>$ ^fyldt/fylde<vblex><pp>$ ^med/med<pr>$ ^ål/ål<n><ut><sg><ind>$
+[/ZacaWaAfGYqY]

@@ -1,0 +1,4 @@
+[ZacaWaAfGYqY#0] ^Mit/min<det><pos><nt><sg>/min<prn><pos><nt><sg>$ ^luftpudefartøj/luft<n><ut><sg><ind><cmp>+pude<n><ut><sg><ind><cmp>+fartøj<n><nt><sg><ind>$ ^er/være<vbser><pres><actv>$ ^fyldt/fylde<vblex><pp>/fylde<adj><pp><ut><sg><ind>/fylde<adj><pp><nt><sg><ind>$ ^med/med<adv>/med<pr>$ ^ål/åle<vblex><imp>/ål<n><ut><sg><ind>/ål<n><ut><sg><ind>$
+[/ZacaWaAfGYqY]
+[sMyXVLvnxZdQ#0] ^kage/kage<vblex><inf><actv>/kage<n><ut><sg><ind>/kage<n><ut><sg><ind>$
+[/sMyXVLvnxZdQ]
