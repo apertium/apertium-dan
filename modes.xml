@@ -9,6 +9,17 @@
     </pipeline>
   </mode>
 
+  <mode name="dan-segment" install="yes">
+    <pipeline>
+      <program name="lt-proc -w -e">
+        <file name="dan.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="dan.seg.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
   <mode name="dan-gener" install="yes">
     <pipeline>
       <program name="lt-proc -g">
@@ -22,16 +33,22 @@
       <program name="lt-proc -w -e">
         <file name="dan.automorf.bin"/>
       </program>
+      <program name="cg-proc">
+        <file name="nob.seg.rlx.bin"/>
+      </program>
       <program name="cg-proc -w">
         <file name="dan.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="dan-disam-debug">
+  <mode name="dan-disam-trace">
     <pipeline>
       <program name="lt-proc -w -e">
         <file name="dan.automorf.bin"/>
+      </program>
+      <program name="cg-proc">
+        <file name="nob.seg.rlx.bin"/>
       </program>
       <program name="cg-conv -a -l" />
       <program name="vislcg3 --trace -g">

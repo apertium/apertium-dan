@@ -5,9 +5,10 @@
 LANG1=dan
 BASENAME=apertium-$(LANG1)
 
-TARGETS_COMMON = $(LANG1).automorf.bin \
-	$(LANG1).autogen.bin $(LANG1).autopgen.bin \
+TARGETS_COMMON = $(LANG1).automorf.bin                   \
+	$(LANG1).autogen.bin $(LANG1).autopgen.bin       \
 	$(LANG1).automorf.att.gz $(LANG1).autogen.att.gz \
+        $(LANG1).seg.rlx.bin                             \
 	$(LANG1).rlx.bin
 
 # Use this goal for creating .deps, otherwise make -j2 will give problems:
@@ -39,7 +40,7 @@ $(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 ## Disambiguation rules
 ###############################################################################
 
-$(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
+%.rlx.bin: %.rlx
 	cg-comp $< $@
 
 ###############################################################################
