@@ -36,18 +36,12 @@ $(LANG1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
 	lt-comp lr $< $@
 
 ###############################################################################
-## Disambiguation rules
-###############################################################################
-
-%.rlx.bin: %.rlx
-	cg-comp $< $@
-
-###############################################################################
 ## Distribution
 ###############################################################################
 EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 		$(BASENAME).$(LANG1).acx \
 		$(BASENAME).$(LANG1).rlx \
+		$(BASENAME).$(LANG1).seg.rlx \
 		$(BASENAME).post-$(LANG1).dix \
 		$(LANG1).prob \
 		modes.xml
@@ -65,6 +59,7 @@ apertium_dan_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_dan_DATA=$(TARGETS_COMMON) $(LANG1).prob \
 				  $(BASENAME).$(LANG1).dix \
 				  $(BASENAME).$(LANG1).rlx \
+				  $(BASENAME).$(LANG1).seg.rlx \
 				  $(BASENAME).post-$(LANG1).dix
 
 pkgconfigdir = $(prefix)/share/pkgconfig
