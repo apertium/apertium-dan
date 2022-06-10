@@ -1,0 +1,35 @@
+#!/bin/bash
+
+grep 'lm=.*__n"' apertium-dan.dan.dix |grep -Eo 'lm="([^"]){4,}"' >/tmp/nouns.dan
+
+grep 'lm=.*__n"' apertium-dan.dan.dix | grep -v  '_\\s_' |grep -Eo 'lm="([^"]){4,}"' | sed 's/"$/s/' |grep -v 'ss$' |sed 's/$/[^"]{4,}/' >/tmp/addeds.dan.grep
+
+echo "/tmp/nouns-starting-with-addeds.dan"
+grep -E -f /tmp/addeds.dan.grep /tmp/nouns.dan  >/tmp/nouns-starting-with-addeds.dan
+
+
+grep 'lm=.*__n"' apertium-dan.dan.dix | grep -v  '_\\s_' |grep -Eo 'lm="([^"]){4,}"' | sed 's/"$/s/' |grep -v 'ss$'|grep -v '/' |awk '{print length($0),$0}'|sort -nr|sed 's/^[0-9]* //' | sed 's,^,s/^,;s,$,/X\&+/,' >/tmp/addeds.dan.sed
+
+wc -l /tmp/addeds.dan.sed
+echo "This'll take a while …" >&2
+
+sed -f /tmp/addeds.dan.sed /tmp/nouns-starting-with-addeds.dan | pv -ls 6000  >/tmp/are-these-nouns
+
+sed 's,^.*+,<apertium-notrans>&</apertium-notrans>,' /tmp/are-these-nouns |sed 's,"$,.,' | apertium-deshtml | lt-proc -we dan.automorf.bin |grep -E '\^([^/]*)/(.*/)?\1<n>'|grep -v '<cmp>' | apertium-rehtml | sed 's,</*apertium-notrans>,,g; s,Xlm=",,; s,/.*,,'| tr -d ^ | \
+    awk -v nf=/tmp/nouns.dan -F'+' '
+BEGIN{while(getline<nf){gsub(/lm="|"$/,"");dn[$0]++}}
+("s"$2 in dn) {if(!wr[$2]++)print "skipping R "$2"\tbecause \ts"$2" is a noun" >"/dev/stderr"; next}
+($1 in dn) {lhs=$1;sub(/s$/,"",lhs); if(!wl[$1]++)print "skipping L "lhs"\tbecause \t"$1" is a noun" >"/dev/stderr"; next}
+{w[$1][$2]++; f[$1]++}
+END {
+    PROCINFO["sorted_in"]="@val_num_desc"
+    for(l in f){
+        rs="";
+        for(r in w[l])rs=rs" "r;
+        ls=l;sub(/s$/,"|s",ls)
+        print f[l],ls,rs;
+    }
+}
+' >/tmp/fugefiks
+
+# TODO should also make counts of L used without s for comparison
