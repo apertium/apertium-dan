@@ -259,6 +259,7 @@ LIST clb-comma/konj = (clb cm) (clb cnjcoo) ;
 LIST clb-konj = (clb cnjcoo) ;
 LIST clb/konj-konj = ("og"  cnjcoo) ("eller"  cnjcoo) ("men"  cnjcoo) ;
 LIST dato = <dato> ;
+LIST qnt = qnt ;
 LIST dem = dem ;
 LIST dem/poss/gen = dem pos gen ;
 LIST det = det ;

@@ -1,4 +1,4 @@
-# -*- cg-pre-pipe: "apertium -d . dan-morph-cg" -*-
+# -*- cg-pre-pipe: "apertium -d . dan-morph| cg-conv -*-
 # GPL-2
 
 SOFT-DELIMITERS = "<,>" cm ;
