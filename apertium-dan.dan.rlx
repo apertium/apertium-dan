@@ -8794,3 +8794,6 @@ SELECT:at-stoppe part
         (2 inf)
 ;
 REMOVE:at-det part;
+
+
+"<anden>" REMOVE:default ("and");
