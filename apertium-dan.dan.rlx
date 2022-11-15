@@ -501,6 +501,7 @@ LIST very-ambiguous-verb = ("penne"  pres) ("stede"  pres) ("dy"  pres) ("grade"
 LIST verb = vblex vbmod vaux vbser vbhaver ;
 LIST verb-u-imp = (vblex pres) (vblex past) (vblex pp) (vblex inf) ;
 
+LIST w_farmanimal = "hest" "svin" "fjerkræ" "ko" "kvæg" "okse"  ;
 
 
 ################################
@@ -653,6 +654,12 @@ REMOVE interj IF (0 ("<hvad>"i));
 #  "trærne er bare"
 
 
+"<Danske>" SELECT adj + def IF
+        (-2 ("<Den>"))
+        (-1 ("<Store>"))
+        ;
+
+
   "<eksklusive>"   SELECT:3701   (pr) IF
 	(1 noun/adj/pron/det)
 	(-1 noun)
@@ -701,21 +708,21 @@ REMOVE interj IF (0 ("<hvad>"i));
 
 "<findes>" SELECT ("findes");
 
-  "<for>"   SELECT:3652   (adv) IF
-    (NOT 1 not-adj)
-	(NOT 1 %fuldt/mange%)
-	(NOT 1 sentence-border)
-	(NOT 1 komp)
-	(NOT 2 noun/adj/pron/det/konj)
-;
+"<for>"   SELECT:3652   (adv) IF
+        (NOT 1 not-adj)
+        (NOT 1 %fuldt/mange%)
+        (NOT 1 sentence-border)
+        (NOT 1 komp)
+        (NOT 2 noun/adj/pron/det/konj)
+        ;
 
 #  "det var for lidt.
 # 6.8.2001: not 1 sentence-border"
 # NOT 1 komp
 
 
-  "<for>"   SELECT:3634   (pr) IF
-	(**1CO sentence-border LINK *-1 %siden% LINK NOT 0 noun)
+"<for>"   SELECT:3634   (pr) IF
+        (**1CO sentence-border LINK *-1 %siden% LINK NOT 0 noun)
 
 ;
 
@@ -7873,7 +7880,6 @@ CONSTRAINTS
 
 #I et marked med et efterspørselspotentiale som markedet for havbrugsprodukter er
 
-
   "<dels>"   REMOVE:3725   (n gen) IF
 	(0 adv)
 ;
@@ -7903,6 +7909,11 @@ CONSTRAINTS
 	(NOT -1 det)
 ;
 # Much too common as a verb
+
+
+"<køer>" REMOVE ("kø") OR ("køe") IF
+        (0* w_farmanimal LINK NOT 0 ("<køer>"i))
+        ;
 
 
 # sec 4
@@ -8785,3 +8796,4 @@ SELECT:den_slags_HUS &&ADJ_N_AGR IF
 
 "<anden>" REMOVE:default ("and");
 "<læger>" REMOVE:default ("læg");
+"<for>" REMOVE:default ("fare");
