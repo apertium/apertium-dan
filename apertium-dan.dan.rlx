@@ -5,14 +5,14 @@ DELIMITERS = "<.>" "<:>" "<!>" "<?>" "<|>" "<$.>" "<$:>" "<$!>" "<$?>" "<$|>" ss
 
 #PARENTHESES = ("<$(>" "$<)>") ("<$[>" "<$]>") ("<${>" "<$}>") ;
 
-LIST GENDER = m f nt mf ;
+LIST GENDER = m f nt mf ut ;
 LIST NUMBER = sg pl sp ;
 LIST DEFNES = def ind ;
 LIST TEMPUS = inf pres pasv pret pp imp ;
 
 # For use with http://beta.visl.sdu.dk/cg3/single/#set-unification-set
 # as &&ADJ_N_AGR (also works for demonstratives):
-LIST AGR_MF = f mf m ;
+LIST AGR_MF = ut mf f m ;
 LIST AGR_SP = (sp un) ;
 SET AGR_MF_SG = (sg) + AGR_MF OR AGR_SP ;
 SET AGR_NT_SG = (sg) + (nt) OR AGR_SP ;
@@ -40,7 +40,11 @@ LIST expl = expl ;
 LIST ord = ord ;
 LIST adj = adj ;
 LIST def = def ;
+LIST ind = ind ;
 LIST ref = ref ;
+LIST pers = pers ;
+LIST pres = pres ;
+LIST pret = pret ;
 
 LIST fv = pres pret vblex ;
 
@@ -412,7 +416,6 @@ LIST preposition-intransitive = "udefra"  "undervejs"  "inde"  "imod"  "blandt" 
 LIST preposition-number = "siden"  pr (det qnt) ;
 LIST preposition/adv = "siden"  pr adv (adj <adv>) (adj nt ind sg) ;
 LIST preposition/comma = pr ("$," cm) ("," cm) ;
-LIST pres = (vblex pres) ;
 LIST pres-part = (adj pprs) ;
 LIST pres/past = (vblex pres) (vblex past) (vbmod pres) (vbmod past) (vaux pres) (vaux past) (vbhaver pres) (vbhaver past) (vbser pres) (vbser past) ;
 LIST past = past ;
@@ -479,7 +482,6 @@ LIST sup = sup ;
 LIST number-qnt = "1" (det qnt pl) ("en"  det qnt) ("én" det qnt) "pi" ;
 LIST punctuation = cm <ellipsis> <kolon> lpar rpar <semi> <hyphen> ;
 LIST trans2 = tr2 tr18 ;
-LIST indefinite = ind ;
 LIST indefinite-adj = (adj ind) (adj pprs) ;
 LIST indefinite-det = ("en"  det) ("nogen"  det) ("ingen"  det) ;
 LIST indefinite-singular = (sg ind) ;
@@ -697,6 +699,7 @@ REMOVE interj IF (0 ("<hvad>"i));
 ;
 #  "et stort et"
 
+"<findes>" SELECT ("findes");
 
   "<for>"   SELECT:3652   (adv) IF
     (NOT 1 not-adj)
@@ -1419,7 +1422,7 @@ REMOVE interj IF (0 ("<hvad>"i));
 
 
   "<alt>"   REMOVE:3769   (n nt) IF
-	(0 indefinite)
+	(0 ind)
 ;
 #  "Iflg ordbogen mest som \"altet\""
 
@@ -6509,7 +6512,7 @@ CONSTRAINTS
 	(NOT 1 quantifier)
 	(NOT 1 adj-komp)
 	(NOT 1 anf)
-	(NOT 1 indefinite)
+	(NOT 1 ind)
 	(NOT 1 np)
 ;
 #  "Det findes (ikke noun gen) flere ...
@@ -8762,6 +8765,22 @@ SELECT:at-stoppe part
         (2 inf)
 ;
 REMOVE:at-det part;
+
+SELECT:som-den-fanger nominativ IF
+        (-1 %som%)
+        (0C dem OR pers)
+        (1 pres OR pret)
+        ;
+
+SELECT:DEN_SLAGS_hus &&ADJ_N_AGR IF
+        (0 det OR adj)
+        (1 n + ind + &&ADJ_N_AGR)
+        ;
+SELECT:den_slags_HUS &&ADJ_N_AGR IF
+        (-1 det OR adj)
+        (-1 &&ADJ_N_AGR)
+        (0 n)
+        ;
 
 
 "<anden>" REMOVE:default ("and");
