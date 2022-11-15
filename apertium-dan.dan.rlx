@@ -6683,7 +6683,7 @@ CONSTRAINTS
 	(-1 iv)
 	(NOT 1 verb)
 	(NOT 1 %som%)
-	(NOT 1 preposition)
+	(NOT 1 pr)
 	(NOT -1 pres/past)
 	(*-2 not-adv LINK 0 infinitive-marker)
 ;
@@ -6694,7 +6694,7 @@ CONSTRAINTS
 	(-1 iv)
 	(NOT 1 verb)
 	(NOT 1 %som%)
-	(NOT 1 preposition)
+	(NOT 1 pr)
 	(NOT 1 adverb)
 	(NOT -1 pres/past)
 ;
@@ -6705,7 +6705,7 @@ CONSTRAINTS
 	(-1 pres/past)
 	(NOT 1 verb)
 	(NOT 1 %som%)
-	(NOT 1 preposition)
+	(NOT 1 pr)
 	(*-2 not-adv LINK 0 %som%)
 ;
 #  "som skræmmer jer"
@@ -6713,7 +6713,7 @@ CONSTRAINTS
 
  REMOVE:2075 (prn nom) IF
 	(1 comma)
-	(-1 preposition)
+	(-1 pr)
 	(*2 comma LINK *1 not-adv LINK NOT 0 pres/past)
 ;
 #  "vi er helt enige med jer (akk), jer kloke, søde folk
