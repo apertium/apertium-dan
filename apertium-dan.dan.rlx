@@ -45,8 +45,9 @@ LIST ref = ref ;
 LIST pers = pers ;
 LIST pres = pres ;
 LIST pret = pret ;
+LIST cm = cm ;
 
-LIST fv = pres pret vblex ;
+LIST fv = pres pret ;
 
 SET pre-np-head = (*) - (gen) - (adj);
 
@@ -3356,6 +3357,12 @@ SELECT:2963 (adj nt ind sg) IF
 
 ;
 #  "de medlemslande der ikke blev ramt"
+
+SELECT:cm-der cnjsub IF
+        (-1 cm)
+        (1 fv)
+        ;
+# «Katolske kirker er de kristne kirker, der anerkender pavens primat.»
 
  SELECT:2846 (adv) IF
 	(0 utfyll-sbu)
