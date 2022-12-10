@@ -656,9 +656,15 @@ REMOVE interj IF (0 ("<hvad>"i));
 
 
 "<Danske>" SELECT adj + def IF
-        (-2 ("<Den>"))
-        (-1 ("<Store>"))
+        (-2 ("<Den>"i))
+        (-1 ("<Store>"i))
         ;
+
+
+"<der>" SELECT:blev-der adv IF
+        (-1 ("blive"))
+        ;
+# «Den 18. maj blev der ringmærket tre unger på Stevns Klint»
 
 
   "<eksklusive>"   SELECT:3701   (pr) IF
