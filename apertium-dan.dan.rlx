@@ -46,6 +46,7 @@ LIST pers = pers ;
 LIST pres = pres ;
 LIST pret = pret ;
 LIST cm = cm ;
+LIST cnjadv = cnjadv ;
 
 LIST fv = pres pret ;
 
@@ -515,6 +516,8 @@ LIST w_farmanimal = "hest" "svin" "fjerkræ" "ko" "kvæg" "okse"  ;
 # sec 1
 CONSTRAINTS
 
+REMOVE:cmp-splitpoint ("stilstand") IF (0 ("tilstand")) ;
+
 "<Hvad>" SELECT interj IF (1 <<<);
 REMOVE interj IF (0 ("<hvad>"i));
 
@@ -665,6 +668,12 @@ REMOVE interj IF (0 ("<hvad>"i));
         (-1 ("blive"))
         ;
 # «Den 18. maj blev der ringmærket tre unger på Stevns Klint»
+
+"<der>" SELECT:ligesom-der expl IF
+        (-1 cnjadv OR adv)
+        (*1 fv BARRIER (*) - adv)
+        ;
+# «Virussen overføres aldrig ved social kontakt, berøring eller kys, ligesom der heller ikke er holdepunkt for overførsel via insektstik, mad eller drikke.»
 
 
   "<eksklusive>"   SELECT:3701   (pr) IF
