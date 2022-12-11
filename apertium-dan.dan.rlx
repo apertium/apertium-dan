@@ -7892,7 +7892,7 @@ CONSTRAINTS
 ;
 
 
-
+"<i>" SELECT:i pr;
 
  "<rette>"   SELECT:4063   (n) IF
 	  (-1 %til%)
