@@ -7925,6 +7925,7 @@ CONSTRAINTS
 ;
 #  "kh feb 2004: Bare i samme/næste nu."
 
+"<noget>"i REMOVE adv;
 
 
 "<have>"   REMOVE (n) IF
