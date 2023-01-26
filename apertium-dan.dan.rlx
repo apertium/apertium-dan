@@ -505,6 +505,7 @@ LIST verb-u-imp = (vblex pres) (vblex past) (vblex pp) (vblex inf) ;
 
 LIST w_farmanimal = "hest" "svin" "fjerkræ" "ko" "kvæg" "okse"  ;
 
+LIST w_month = "januar" "jan" "februar" "feb" "mars" "mar" "april" "apr" "mai" "juni" "jun" "juli" "jul" "august" "aug" "september" "sep" "oktober" "okt" "november" "nov" "desember" "des" "maj" ;
 
 ################################
 ################################
@@ -1934,6 +1935,7 @@ REMOVE:hans noun-ut IF
 # sec 2
 CONSTRAINTS
 ## select ndomain
+
 
 SELECT:hvilken-fin-del &&ADJ_N_AGR + sg + adj IF
         (-1C &&ADJ_N_AGR + sg + %hvilken%)
@@ -5886,6 +5888,9 @@ CONSTRAINTS
 #CONSTRAINTS
 ## remove ndomain
 
+REMOVE def + w_month IF
+        (0 ind + w_month)
+        ;
 
  REMOVE:2322 (adj sg) IF
 	(1 plural-noun)
