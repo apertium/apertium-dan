@@ -76769,6 +76769,7 @@ TODO:
 <e lm="Aasen">           <i>Aasen</i><par n="Aasen__np"/></e>
 <e lm="Aas">             <i>Aas</i><par n="Aasen__np"/></e>
 <e lm="Kavanaugh">       <i>Kavanaugh</i><par n="Aasen__np"/></e>
+<e lm="Knut">       <i>Knut</i><par n="Aasen__np"/></e>
        
 <!-- Proper acronyms -->
 <e lm="AF">              <i>AF</i><par n="Wikipedia__np"/></e>
@@ -79919,6 +79920,29 @@ TODO:
 <e lm="Margrete">        <i>Margrete</i><par n="Eva__np"/></e>
 <e lm="Margrethe">       <i>Margrethe</i><par n="Eva__np"/></e>
 <e lm="Maria">           <i>Maria</i><par n="Eva__np"/></e>
+<e lm="Maria"><i>Maria</i><par n="d'or__np"/></e>
+<e lm="Georg"><i>Georg</i><par n="Aasen__np"/></e>
+<e lm="Kristus"><i>Kristus</i><par n="Kjos__np"/></e>
+<e lm="Fjell"><i>Fjell</i><par n="Aasen__np"/></e>
+<e lm="Austevoll"><i>Austevoll</i><par n="Aasen__np"/></e>
+<e lm="Anna"><i>Anna</i><par n="d'or__np"/></e>
+<e lm="Vågan"><i>Vågan</i><par n="Aasen__np"/></e>
+<e lm="Vega"><i>Vega</i><par n="Aasen__np"/></e>
+<e lm="Vaksdal"><i>Vaksdal</i><par n="Aasen__np"/></e>
+<e lm="Tjøme"><i>Tjøme</i><par n="Aasen__np"/></e>
+<e lm="Steinkjer"><i>Steinkjer</i><par n="Aasen__np"/></e>
+<e lm="Rio"><i>Rio</i><par n="Aasen__np"/></e>
+<e lm="Max"><i>Max</i><par n="Jens__np"/></e>
+<e lm="Mao"><i>Mao</i><par n="Eva__np"/></e>
+<e lm="Lille"><i>Lille</i><par n="Eva__np"/></e>
+<e lm="Lewis"><i>Lewis</i><par n="Jens__np"/></e>
+<e lm="Harald"><i>Harald</i><par n="d'or__np"/></e>
+<e lm="Edward"><i>Edward</i><par n="Aasen__np"/></e>
+<e lm="Douglas"><i>Douglas</i><par n="Kjos__np"/></e>
+<e lm="Christian"><i>Christian</i><par n="Aasen__np"/></e>
+<e lm="Asia"><i>Asia</i><par n="Eva__np"/></e>
+<e lm="Alistair"><i>Alistair</i><par n="Jo__np"/></e>
+<e lm="Ali"><i>Ali</i><par n="Aasen__np"/></e>
 <e lm="Marianne">        <i>Marianne</i><par n="Eva__np"/></e>
 <e lm="Mariann">         <i>Mariann</i><par n="Eva__np"/></e>
 <e lm="Marie">           <i>Marie</i><par n="Eva__np"/></e>
